@@ -19,7 +19,7 @@ New Release
 {: .warning }
 > It's an `Early release` so there might be some bugs and issues, please report them in our [discord server]
 
-Previous Versions
+# Previous Versions
 
 - [v1.0.8]()
 - [v1.0.7.1]()
