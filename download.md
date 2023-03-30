@@ -27,10 +27,9 @@ New Release
 Major Update
 {: .label .label-blue }
 - [v1.0.7.1]()
-
-Bug Fix
 {: .d-inline-block }
 
+Bug Fix
 {: .label .label-yellow }
 - [v1.0.7]()
 
