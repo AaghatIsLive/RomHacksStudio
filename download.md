@@ -10,7 +10,8 @@ Thank you for choosing Pokemon Emerald Crest! You can download the latest versio
 
 ## Download Link
 
-[Download Pokemon Emerald Crest v1.0.8.1](https://example.com/Pokemon-Emerald-Crest-v1.0.8.1.zip)
+[v1.0.8.1 UPS Patch]([http://example.com/](https://www.mediafire.com/file/tgxpvmgwhhyj8c4/PokemonEmeraldCrestv1.0.8.1.zip/file)){: .btn }
+
 
 ## Installation Instructions
 
