@@ -6,3 +6,11 @@ url: https://AaghatIsLive.github.io/RomHacksStudio
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+  new:
+    title: New
+    color: green
