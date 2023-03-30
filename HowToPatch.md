@@ -1,6 +1,6 @@
 ---
 title: How To Patch
-layout: how to patch
+layout: page
 nav_order: 3
 ---
 
