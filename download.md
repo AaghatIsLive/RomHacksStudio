@@ -25,7 +25,12 @@ New Release
 {: .d-inline-block }
 
 Major Update
-{: .label .label-blue }
+{: .label .label-purple }
+
+{: .d-inline-block }
+
+Bug Fix
+{: .label .label-yellow }
 - [v1.0.7.1]()
 {: .d-inline-block }
 
@@ -35,7 +40,7 @@ Bug Fix
 {: .d-inline-block }
 
 Major Update
-{: .label .label-blue }
+{: .label .label-purple }
 
 ## Installation Instructions
 
