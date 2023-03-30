@@ -2,8 +2,8 @@
 title: Home
 layout: home
 ---
-Pokemon Emerald Crest
-{: .fs-9 }
+
+# Pokemon Emerald Crest
 
 [Download v1.0.8.1](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View Docs](#getting-started){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -12,44 +12,42 @@ Welcome to Pokemon Emerald Crest, the ultimate fan-made hack of the classic Poke
 
 In Pokemon Emerald Crest, you'll embark on a brand new journey through the Hoenn region, encountering new Pokemon, characters, and challenges along the way. With updated graphics, music, and gameplay mechanics, this ROM hack brings a fresh take on the beloved original.
 
-{: .note }
-Features of Pokemon Emerald Crest include
+## Features
 
-New Open World Mode 
-Teleport Service
-Mega Evolutions
-Gen 1- 8
-Dexnav
-Pokedex Plus
-Auto Run
-Primal Forms
-Gen 6 Style Exp Share
-Gender-based Textboxes
-Reusable TM's
-Item Description Header
-Alolan Pokemon
-Galarian Pokemon
-Hisuian Pokemon
-Chain Fishing
-PSS Split
-All Moves
-Running Indoors
-All Types
-Improved Battle Engine
-Item Expansion
-Quest Menu
-Improved graphics
-New soaring feature
-Wild bosses
-and much more
+- New Open World Mode 
+- Teleport Service
+- Mega Evolutions
+- Gen 1-8
+- Dexnav
+- Pokedex Plus
+- Auto Run
+- Primal Forms
+- Gen 6 Style Exp Share
+- Gender-based Textboxes
+- Reusable TM's
+- Item Description Header
+- Alolan Pokemon
+- Galarian Pokemon
+- Hisuian Pokemon
+- Chain Fishing
+- PSS Split
+- All Moves
+- Running Indoors
+- All Types
+- Improved Battle Engine
+- Item Expansion
+- Quest Menu
+- Improved graphics
+- New soaring feature
+- Wild bosses
+- and much more
 
 Download Pokemon Emerald Crest today and start your adventure! Our team is also constantly updating the hack with bug fixes and new features, so be sure to check back for updates.
 
-if you have any feedback or suggestions, we'd love to hear from you - just use the contact form on our website.
+If you have any feedback or suggestions, we'd love to hear from you - just use the contact form on our website.
 
 Thank you for choosing Pokemon Emerald Crest, and happy gaming!
 
-----
+---
 
 &copy; 2022 ~ 2023 Pokemon Emerald Crest - Rom Hacks Studio. All rights reserved.
-
