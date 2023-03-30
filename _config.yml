@@ -23,3 +23,5 @@ callouts:
     title: Warning
     color: red
     
+color_scheme: dark
+
