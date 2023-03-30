@@ -44,3 +44,7 @@ nav_order: 3
 
 {: .note }
 > The patch file should end with `.bps` or `.ups` after extraction. If it doesn't, you may have missed a step. Also, after patching the game should end with `.gba`, if it ends with `.txt`, then just remove `.txt` by renaming the file.
+
+---
+
+&copy; 2022 ~ 2023 Pokemon Emerald Crest - Rom Hacks Studio. All rights reserved.
