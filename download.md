@@ -8,11 +8,13 @@ nav_order: 2
 
 Thank you for choosing Pokemon Emerald Crest! You can download the latest version of the game below.
 
-## Download
+## Download 
+New Release {: .label .label-green }
 
+[Pokemon Emerald Crest v1.0.8.1 UPS Patch](https://www.mediafire.com/file/tgxpvmgwhhyj8c4/PokemonEmeraldCrestv1.0.8.1.zip/file){: .btn }
 
-[Pokemon Emerald Crest v1.0.8.1 UPS Patch]([http://example.com/](https://www.mediafire.com/file/tgxpvmgwhhyj8c4/PokemonEmeraldCrestv1.0.8.1.zip/file)){: .btn }
-
+{: .warning }
+> It's an Early release so there might be some bugs and issues, please report them in our [discord server] 
 
 ## Installation Instructions
 
@@ -30,3 +32,8 @@ Once you have downloaded the emulator, follow these steps to play Pokemon Emeral
 If you encounter any issues or have questions about Pokemon Emerald Crest, please contact us at support@example.com.
 
 Happy gaming!
+---
+
+&copy; 2022 ~ 2023 Pokemon Emerald Crest - Rom Hacks Studio. All rights reserved.
+
+[discord server]: https://discord.gg/aaghat-s-server-965900074532081674 
