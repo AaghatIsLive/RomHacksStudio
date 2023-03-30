@@ -22,19 +22,4 @@ callouts:
   warning:
     title: Warning
     color: red
-plugins:
-  - jekyll-seo-tag
-  - jekyll-github-metadata
-
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
-
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: []
-  blanklines: false
-  profile: false
+    
