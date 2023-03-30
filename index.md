@@ -5,14 +5,23 @@ layout: home
 
 # Pokemon Emerald Crest
 
-<img src="https://storage.ko-fi.com/cdn/useruploads/display/4721ddc0-b711-42e3-b6a7-ed395c7442bf_pokeemerald-4.png" alt="Pokemon Emerald Crest" class="mx-auto d-block my-4">
-
 [Download v1.0.8.1](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View Docs](#getting-started){: .btn .fs-5 .mb-4 .mb-md-0 }
+
+<img src="https://storage.ko-fi.com/cdn/useruploads/display/4721ddc0-b711-42e3-b6a7-ed395c7442bf_pokeemerald-4.png" alt="Pokemon Emerald Crest" class="mx-auto d-block my-4">
 
 Welcome to Pokemon Emerald Crest, the ultimate fan-made hack of the classic Pokemon Emerald game! Our team has spent countless hours creating a new, exciting world for you to explore and conquer.
 
 In Pokemon Emerald Crest, you'll embark on a brand new journey through the Hoenn region, encountering new Pokemon, characters, and challenges along the way. With updated graphics, music, and gameplay mechanics, this ROM hack brings a fresh take on the beloved original.
+
+Game Info 🗒️
+
+Name: Pokemon Emerald Crest
+Version: 1.0.8.1
+Hack Of: Emerald
+Creator: Aaghat
+Release: 16/10/2022
+Updated: 30/03/2023
 
 ## Features
 
