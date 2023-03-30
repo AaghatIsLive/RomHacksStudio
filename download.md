@@ -31,7 +31,11 @@ Major Update
 
 Bug Fix
 {: .label .label-yellow }
-- [v1.0.7]()
+- [v1.0.7
+{: .d-inline-block }
+
+Major Update
+{: .label .label-blue }
 
 ## Installation Instructions
 
