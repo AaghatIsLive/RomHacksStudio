@@ -10,9 +10,6 @@ To play Pokemon Emerald Crest, you will need to have a Game Boy Advance emulator
 
 Once you have downloaded the emulator, follow these steps to play Pokemon Emerald Crest:
 
-- [PC](#pc)
-- [Android/IOS](#androidios)
-
 ## PC
 
 - Download the Pokemon Emerald Crest patch file from [our releases page](https://aaghatislive.github.io/RomHacksStudio/download.html).
