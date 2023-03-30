@@ -24,4 +24,4 @@ Thank you for choosing Pokemon Emerald Crest, and happy gaming!
 
 &copy; 2022 ~ 2023 Pokemon Emerald Crest - Rom Hacks Studio. All rights reserved.
 
-[discord server}: https://discord.gg/aaghat-s-server-965900074532081674 
+[discord server]: https://discord.gg/aaghat-s-server-965900074532081674 
