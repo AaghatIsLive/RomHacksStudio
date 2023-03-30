@@ -20,7 +20,7 @@ nav_order: 3
 
 6. In the `Patch` section, select the extracted Emerald Crest patch file.
 
-7. Click on `Apply Patch` and the process is complete. Enjoy the game! 😀
+7. Click on `Apply Patch` and the process is complete ✅ Enjoy the game! 😀
 
 {: .note }
 > The patch file should end with `.bps` or `.ups` after extraction. If it doesn't, you may have missed a step. Also, after patching the game should end with `.gba`, if it ends with `.txt`, then just remove `.txt` by renaming the file.
@@ -40,7 +40,7 @@ nav_order: 3
 
 5. Choose the original emerald rom in the `Rom` section and choose the extracted Emerald Crest file in the `Patch` section.
 
-6. Click on `Apply Patch` and you're done :white_check_mark: enjoy the game :slight_smile:
+6. Click on `Apply Patch` and you're done ✅ enjoy the game 😀
 
 {: .note }
 > The patch file should end with `.bps` or `.ups` after extraction. If it doesn't, you may have missed a step. Also, after patching the game should end with `.gba`, if it ends with `.txt`, then just remove `.txt` by renaming the file.
