@@ -5,7 +5,7 @@ layout: home
 
 # Pokemon Emerald Crest
 
-[Download v1.0.8.1](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Download v1.0.8.1](#getting-started){: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View Docs](#getting-started){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 > {: .warning }
