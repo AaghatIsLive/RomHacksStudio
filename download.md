@@ -19,7 +19,7 @@ New Release
 {: .warning }
 > It's an `Early release` so there might be some bugs and issues, please report them in our [discord server]
 
-# Previous Versions
+### Previous Versions
 
 - [v1.0.8]()
 - [v1.0.7.1]()
@@ -40,7 +40,6 @@ Once you have downloaded the emulator, follow these steps to play Pokemon Emeral
 
 If you encounter any issues or have questions about Pokemon Emerald Crest, please contact us at support@example.com.
 
-Happy gaming!
 ---
 
 &copy; 2022 ~ 2023 Pokemon Emerald Crest - Rom Hacks Studio. All rights reserved.
