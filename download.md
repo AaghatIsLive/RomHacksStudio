@@ -14,6 +14,11 @@ Thank you for choosing Pokemon Emerald Crest! You can download the latest versio
 New Release 
 {: .label .label-green }
 
+{: .d-inline-block }
+
+Bug Fix
+{: .label .label-yellow }
+
 [Pokemon Emerald Crest v1.0.8.1 UPS Patch](https://www.mediafire.com/file/tgxpvmgwhhyj8c4/PokemonEmeraldCrestv1.0.8.1.zip/file){: .btn }
 
 {: .warning }
@@ -27,10 +32,6 @@ New Release
 Major Update
 {: .label .label-purple }
 
-{: .d-inline-block }
-
-Bug Fix
-{: .label .label-yellow }
 - [v1.0.7.1]()
 {: .d-inline-block }
 
