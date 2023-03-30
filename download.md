@@ -9,6 +9,8 @@ nav_order: 2
 Thank you for choosing Pokemon Emerald Crest! You can download the latest version of the game below.
 
 ## Download 
+{: .d-inline-block }
+
 New Release 
 {: .label .label-green }
 
