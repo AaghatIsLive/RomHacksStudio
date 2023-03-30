@@ -3,28 +3,47 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+Welcome to Pokemon Emerald Crest, the ultimate fan-made hack of the classic Pokemon Emerald game! Our team has spent countless hours creating a new, exciting world for you to explore and conquer.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+In Pokemon Emerald Crest, you'll embark on a brand new journey through the Hoenn region, encountering new Pokemon, characters, and challenges along the way. With updated graphics, music, and gameplay mechanics, this ROM hack brings a fresh take on the beloved original.
 
-More specifically, the created site:
+Features of Pokemon Emerald Crest include:
+```
+New Open World Mode
+Teleport Service
+Mega Evolutions
+Gen 1- 8
+Dexnav
+Pokedex Plus
+Auto Run
+Primal Forms
+Gen 6 Style Exp Share
+Gender-based Textboxes
+Reusable TM's
+Item Description Header
+Alolan Pokemon
+Galarian Pokemon
+Hisuian Pokemon
+Chain Fishing
+PSS Split
+All Moves
+Running Indoors
+All Types
+Improved Battle Engine
+Item Expansion
+Quest Menu
+Improved graphics
+New soaring feature
+Wild bosses
+and much more
+```
+Download Pokemon Emerald Crest today and start your adventure! Our team is also constantly updating the hack with bug fixes and new features, so be sure to check back for updates.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+if you have any feedback or suggestions, we'd love to hear from you - just use the contact form on our website.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, just click "[use this template]"!
+Thank you for choosing Pokemon Emerald Crest, and happy gaming!
 
 ----
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+&copy; 2022 ~ 2023 Pokemon Emerald Crest - Rom Hacks Studio. All rights reserved.
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
