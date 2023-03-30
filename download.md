@@ -9,7 +9,8 @@ nav_order: 2
 Thank you for choosing Pokemon Emerald Crest! You can download the latest version of the game below.
 
 ## Download 
-New Release {: .label .label-green }
+New Release 
+{: .label .label-green }
 
 [Pokemon Emerald Crest v1.0.8.1 UPS Patch](https://www.mediafire.com/file/tgxpvmgwhhyj8c4/PokemonEmeraldCrestv1.0.8.1.zip/file){: .btn }
 
