@@ -21,6 +21,6 @@ If you have any feedback or suggestions, we'd love to hear from you - join our [
 
 Thank you for choosing Pokemon Emerald Crest, and happy gaming!
 
----
+
 [discord server]: https://discord.gg/aaghat-s-server-965900074532081674 
 [download]: https://aaghatislive.github.io/RomHacksStudio/download.html
