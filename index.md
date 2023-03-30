@@ -2,7 +2,7 @@
 title: Home
 layout: home
 ---
-#Pokemon Emerald Crest
+Pokemon Emerald Crest
 {: .fs-9 }
 
 [Download v1.0.8.1](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
@@ -14,6 +14,7 @@ In Pokemon Emerald Crest, you'll embark on a brand new journey through the Hoenn
 
 {: .note }
 Features of Pokemon Emerald Crest include
+
 New Open World Mode 
 Teleport Service
 Mega Evolutions
