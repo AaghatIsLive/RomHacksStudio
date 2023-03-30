@@ -8,7 +8,7 @@ permalink: /
 # Pokemon Emerald Crest
 {: .fs-9 }
 
-[Download v1.0.8.1][download]{: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Download {COLOR RED}v1.0.8.1][download]{: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View Docs](#getting-started){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 Welcome to Pokemon Emerald Crest, the ultimate fan-made hack of the classic Pokemon Emerald game! Our team has spent countless hours creating a new, exciting world for you to explore and conquer.
