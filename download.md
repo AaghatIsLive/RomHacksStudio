@@ -15,7 +15,13 @@ New Release
 [Pokemon Emerald Crest v1.0.8.1 UPS Patch](https://www.mediafire.com/file/tgxpvmgwhhyj8c4/PokemonEmeraldCrestv1.0.8.1.zip/file){: .btn }
 
 {: .warning }
-> It's an Early release so there might be some bugs and issues, please report them in our [discord server] 
+> It's an `Early release` so there might be some bugs and issues, please report them in our [discord server]
+
+Previous Versions
+
+- [v1.0.8]()
+- [v1.0.7.1]()
+- [v1.0.7]()
 
 ## Installation Instructions
 
