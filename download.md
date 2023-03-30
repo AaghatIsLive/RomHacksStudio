@@ -24,24 +24,24 @@ Bug Fix
 {: .warning }
 > It's an `Early release` so there might be some bugs and issues, please report them in our [discord server]
 
-### Previous Versions
+### Previous Releases
 
 - [v1.0.8]()
 {: .d-inline-block }
 
 Major Update
-{: .label .label-purple }
+{: .label .label-blue }
 
 - [v1.0.7.1]()
 {: .d-inline-block }
 
 Bug Fix
 {: .label .label-yellow }
-- [v1.0.7]/()
+- [v1.0.7]()
 {: .d-inline-block }
 
 Major Update
-{: .label .label-purple }
+{: .label .label-blue }
 
 ## Installation Instructions
 
