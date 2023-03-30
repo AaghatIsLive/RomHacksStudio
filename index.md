@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 [Download v1.0.8.1](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View Docs][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
+[View Docs]{: .btn .fs-5 .mb-4 .mb-md-0 }
 
 Welcome to Pokemon Emerald Crest, the ultimate fan-made hack of the classic Pokemon Emerald game! Our team has spent countless hours creating a new, exciting world for you to explore and conquer.
 
@@ -34,7 +34,7 @@ Improved graphics
 New soaring feature
 Wild bosses
 and much more
-```
+
 Download Pokemon Emerald Crest today and start your adventure! Our team is also constantly updating the hack with bug fixes and new features, so be sure to check back for updates.
 
 if you have any feedback or suggestions, we'd love to hear from you - just use the contact form on our website.
