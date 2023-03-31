@@ -14,12 +14,10 @@ Thank you for choosing Pokemon Emerald Crest! You can download the latest versio
 New Release 
 {: .label .label-green }
 
-{: .d-inline-block }
+[Pokemon Emerald Crest v1.0.8.1 UPS Patch](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320){: .btn }
 
 Bug Fix
 {: .label .label-yellow }
-
-[Pokemon Emerald Crest v1.0.8.1 UPS Patch](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320){: .btn }
 
 {: .warning }
 > It's an `Early release` so there might be some bugs and issues, please report them in our [discord server]
