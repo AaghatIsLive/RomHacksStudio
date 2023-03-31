@@ -49,4 +49,8 @@ Once you have downloaded the emulator, follow these steps to play Pokemon Emeral
 {: .note }
 > The patch file should end with `.bps` or `.ups` after extraction. If it doesn't, you may have missed a step. Also, after patching the game should end with `.gba`, if it ends with `.txt`, then just remove `.txt` by renaming the file.
 
+## Support
 
+If you encounter any issues or have questions about Pokemon Emerald Crest, please contact us through our [discord server].
+
+[discord server]: https://discord.gg/aaghat-s-server-965900074532081674
