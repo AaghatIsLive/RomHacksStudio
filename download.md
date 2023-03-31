@@ -24,6 +24,41 @@ Bug Fix
 {: .warning }
 > It's an `Early release` so there might be some bugs and issues, please report them in our [discord server]
 
+{: .new-title }
+> What's new
+>
+>🔸Open World Mode
+>🔸Randomize Start location [OPW Mode]
+>🔸Dynamic Trainer leveling system [OPW Mode]
+>🔸Dynamic wild Encounters [OPW Mode]
+>🔸Dynamic Evolution [OPW Mode]
+>🔸27 Starters [GEN 1-8]
+>🔸Randomize wild encounters, trainer pokemon, and static encounters by GEN [GEN 1-8]
+>🔸Removed the limits from the randomizer
+>🔸Made the Dexnav support randomized encounters.
+>🔸Ultra Beasts
+>🔸Day & Night System
+>🔸Wild Bosses Changes Depending on DNS [only a few]
+>🔸PokeVial from Inclement Emerald
+>🔸Hyper Training
+>🔸Trainers No EVs mode
+>🔸Perfect IVs mode [all encounters will have 3 Perfect IVs]
+>🔸New Follower system [Thanks to pokemerrp]
+>🔸Updated start menu [Thanks to Iceman]
+>🔸Updated Type Effectiveness System [Thanks to Iceman]
+>🔸Added all Hisuian Pokemon
+>🔸Updated Level Up Learnsets to GEN 9
+>🔸Updated Egg Moves to GEN 9
+>🔸Updated TM Learnsets to GEN 9
+>🔸Added TMs [up to TM61]
+>🔸Updated UI Graphics 
+>🔸Updated Gym Leaders, E4 and Champions Parties
+>🔸Gym limit [Gives Gym Leaders a full party(6)]
+>🔸Updated Acro Bike [press R button to switch modes]
+>🔸Moved AutoRun to the options menu
+>🔸Lots of Bug fixes
+>🔸Much more minor improvements and updates
+
 ### Previous Releases
 
 - [v1.0.8](https://ko-fi.com/api/file-upload/3d2db367-d8da-447b-a225-409d7e801697/download?transactionId=a802d6a5-1a04-483c-a2bd-7f72ee6f2daf)
