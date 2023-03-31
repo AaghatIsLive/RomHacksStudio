@@ -13,7 +13,9 @@ Route 101 is a route in southwestern Hoenn, connecting Littleroot Town and Oldal
 
 ## Wild Encounters
 
-<img src="https://img.pokemondb.net/sprites/sword-shield/icon/skiddo.png"> Grass
+### Grass <img src="https://archives.bulbagarden.net/media/upload/3/33/RSE_Grass.png">
+
+<details open markdown="block">
 
 | Image                                                                                      | Pokemon             | Levels | Rate|
 |:-------------------------------------------------------------------------------------------|:--------------------|:-------|:----|
@@ -30,6 +32,7 @@ Route 101 is a route in southwestern Hoenn, connecting Littleroot Town and Oldal
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/grookey.png">                | Grookey             | 3-3    | 1%  |
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/zigzagoon-galarian.png">     | Zigzagoon-Galarian  | 3-3    | 1%  |  
 
+</details>
 ---
 ## Support
 
