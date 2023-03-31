@@ -5,6 +5,8 @@ nav_order: 4
 ---
 TABLE OF CONTENTS
 {: .no_toc .text-delta }
+TOC
+{:toc}
 
 ## Settlements
 - Littleroot Town
@@ -110,5 +112,4 @@ TABLE OF CONTENTS
 - Battle Maison
 - Battle Tower
 - Battle Tent
-{:toc}
 
