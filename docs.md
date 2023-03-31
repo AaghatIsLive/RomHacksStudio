@@ -60,6 +60,7 @@ nav_order: 4
 - Route 133
 - Route 134
 - Underwater
+{:toc}
 
 ## Landmarks
 - Petalburg Woods
