@@ -8,63 +8,58 @@ nav_order: 2
 
 Thank you for choosing Pokemon Emerald Crest! You can download the latest version of the game below.
 
+{% assign defaultVersion = "v1.0.8.1" %}
+
 ## Download 
 {: .d-inline-block }
 
-New Release 
+{% if defaultVersion == "v1.0.8.1" %}
+Recommended
 {: .label .label-green }
+{% endif %}
 
-{: .d-inline-block }
+{% if defaultVersion == "v1.0.8" %}
+Major Update
+{: .label .label-blue }
+{% endif %}
 
+{% if defaultVersion == "v1.0.7.1" %}
 Bug Fix
 {: .label .label-yellow }
-
-{% assign default_version = "v1.0.8.1" %}
-
-{% assign versions = site.data.versions | sort: 'date' | reverse %}
-
-{% assign selected_version = default_version %}
-
-{% if page.version %}
-  {% assign selected_version = page.version %}
 {% endif %}
 
-{% for version in versions %}
-  {% if version.version == selected_version %}
-    {% assign download_url = version.download_url %}
-    {% assign version_label = version.label %}
-    {% break %}
-  {% endif %}
-{% endfor %}
-
-{% if selected_version == default_version %}
-  {% assign version_label = "Recommended" %}
+{% if defaultVersion == "v1.0.7" %}
+Major Update
+{: .label .label-blue }
 {% endif %}
 
-{% assign download_button = "[Pokemon Emerald Crest " | append: selected_version | append: " UPS Patch](" | append: download_url | append: "){: .btn }" %}
+<a id="download-button" href="https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320" class="btn">Pokemon Emerald Crest {{ defaultVersion }} UPS Patch</a>
 
-{{ download_button }}
-
-## Previous Releases
+{% assign versions = "v1.0.8.1, v1.0.8, v1.0.7.1, v1.0.7" | split: ", " %}
 
 {% for version in versions %}
-  {% if version.version != default_version %}
-    {% assign label_color = "blue" %}
-    {% if version.bug_fix %}
-      {% assign label_color = "yellow" %}
-    {% endif %}
-    {% if version.version == selected_version %}
-      {% assign label_color = "green" %}
-    {% endif %}
-    {% assign version_label = version.label %}
-    {% assign download_button = "[Pokemon Emerald Crest " | append: version.version | append: " UPS Patch](" | append: version.download_url | append: "){: .btn }" %}
-    {% if version.version == selected_version %}
-      {% assign version_label = version_label | append: " (Selected)" %}
-    {% endif %}
-    {% assign version_label = version_label | prepend: "- " | append: " {: .label .label-" | append: label_color | append: " }\n" %}
-    {{ version_label }}
-    {{ download_button }}
-  {% endif %}
+{% assign versionName = version %}
+
+{% if version == defaultVersion %}
+{% assign versionName = versionName | append: " (Recommended)" %}
+{% endif %}
+
+{% case version %}
+{% when "v1.0.8.1" %}
+{% assign label = "label-green" %}
+{% assign type = "Recommended" %}
+{% when "v1.0.8" %}
+{% assign label = "label-blue" %}
+{% assign type = "Major Update" %}
+{% when "v1.0.7.1" %}
+{% assign label = "label-yellow" %}
+{% assign type = "Bug Fix" %}
+{% when "v1.0.7" %}
+{% assign label = "label-blue" %}
+{% assign type = "Major Update" %}
+{% endcase %}
+
+- [{{ versionName }}]({{ "https://ko-fi.com/api/file-upload/" | append: version | append: "/download?transactionId=" | append: version }}){: .btn .btn-small }<span class="label {{ label }}">{{ type }}</span>
 {% endfor %}
 
 ## Installation Instructions
