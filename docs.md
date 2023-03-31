@@ -3,6 +3,14 @@ title: Docs
 layout: page
 nav_order: 4
 ---
+# Docs
+
+TABLE OF CONTENTS
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
+
 ## Hoenn
 
 Hoenn was created after Primal Groudon and Primal Kyogre were formed. Primal Groudon raised the landmasses and Primal Kyogre filled the seas that would later become Hoenn. A meeting between these two caused a great battle for supremacy until it was quelled by Mega Rayquaza, sending Primal Groudon and Primal Kyogre into caverns where they rested until they were awakened many years later during the course of events in Generation III or Generation VI. The moving of the continents by Regigigas created Hoenn, and when Regigigas was sent to sleep in the Snowpoint Temple in Sinnoh, Regirock, Registeel, and Regice, the keys to awakening it, were sealed away in Hoenn.
@@ -17,12 +25,6 @@ Hoenn was created after Primal Groudon and Primal Kyogre were formed. Primal Gro
 </style>
 
 <img src="https://archives.bulbagarden.net/media/upload/thumb/8/85/Hoenn_ORAS.png/600px-Hoenn_ORAS.png" class="center">
-
-TABLE OF CONTENTS
-{: .no_toc .text-delta }
-
-- TOC
-{:toc}
 
 ## Notable locations
 
