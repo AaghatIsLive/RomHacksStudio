@@ -9,6 +9,9 @@ TABLE OF CONTENTS
 - TOC
 {:toc}
 
+---
+
+<details open markdown="block">
 ## Settlements
 - Littleroot Town
 - Oldale Town
@@ -28,6 +31,9 @@ TABLE OF CONTENTS
 - Ever Grande City
 - Battle Frontier
 - Battle Resort
+</details>
+
+---
 
 ## Routes
 - Route 101
