@@ -110,6 +110,3 @@ nav_order: 4
 - Battle Maison
 - Battle Tower
 - Battle Tent
-- Secret Islet
-- Secret Meadow
-- Secret Shore
