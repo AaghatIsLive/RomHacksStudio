@@ -3,6 +3,8 @@ title: Docs
 layout: page
 nav_order: 4
 ---
+TABLE OF CONTENTS
+{:toc}
 
 ## Settlements
 - Littleroot Town
@@ -60,7 +62,6 @@ nav_order: 4
 - Route 133
 - Route 134
 - Underwater
-{:toc}
 
 ## Landmarks
 - Petalburg Woods
