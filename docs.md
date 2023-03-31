@@ -16,7 +16,7 @@ Hoenn was created after Primal Groudon and Primal Kyogre were formed. Primal Gro
   }
 </style>
 
-<img src="https://archives.bulbagarden.net/media/upload/thumb/8/85/Hoenn_ORAS.png/600px-Hoenn_ORAS.png" class="center"></img>
+<img src="https://archives.bulbagarden.net/media/upload/thumb/8/85/Hoenn_ORAS.png/600px-Hoenn_ORAS.png" class="center">
 ## Notable locations
 
 Hoenn has sixteen cities and towns, including a Pokémon League. Since the majority of the cities and towns of Hoenn are immersed into nature, there aren't many large cities comparable to Unova's Castelia City or Kalos's Lumiose City, with the largest city being Lilycove City/Mauville City.
