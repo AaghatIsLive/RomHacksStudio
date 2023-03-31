@@ -5,6 +5,11 @@ nav_order: 4
 ---
 # Docs
 
+Welcome to the documentation page for Pokemon Emerald Crest, a ROM hack of the classic game Pokemon Emerald.
+
+This documentation page is designed to provide you with all the information you need to get started with Pokemon Emerald Crest. Whether you're a seasoned Pokemon player or new to the series, you'll find everything you need to know about the game mechanics, and features here.
+
+So grab your Pokeballs, pack your bags, and get ready to embark on an epic journey through the Hoenn region in Pokemon Emerald Crest!
 ---
 
 TABLE OF CONTENTS
