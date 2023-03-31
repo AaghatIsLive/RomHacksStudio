@@ -5,6 +5,8 @@ nav_order: 4
 ---
 # Docs
 
+---
+
 TABLE OF CONTENTS
 {: .no_toc .text-delta }
 
@@ -36,7 +38,7 @@ The Hoenn region is unique and famous for its tropical-like environments. The re
 
 ---
 
-## Settlements 
+### Settlements 
 <details open markdown="block">
 - Littleroot Town
 - Oldale Town
@@ -60,7 +62,7 @@ The Hoenn region is unique and famous for its tropical-like environments. The re
 
 ---
 
-## Routes 
+### Routes 
 
 Routes in Hoenn number are numbered as 101-134, breaking the former pattern set up by Kanto and Johto. This is presumably to discourage the idea of being able to travel back to either region after completion of the game, as was done in Generation II and as a mirror of the fact that Japan's road system possesses a similar gap. Some of the routes have differing weather depending on the day they are traveled on.
 
@@ -104,7 +106,7 @@ Routes in Hoenn number are numbered as 101-134, breaking the former pattern set 
 
 ---
 
-## Landmarks 
+### Landmarks 
 <details close markdown="block">
 - Petalburg Woods
 - Rusturf Tunnel
@@ -150,7 +152,7 @@ Routes in Hoenn number are numbered as 101-134, breaking the former pattern set 
 
 ---
   
-## Facilities 
+### Facilities 
 <details close markdown="block">
 - Contest Hall
 - Battle Maison
