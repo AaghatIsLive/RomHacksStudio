@@ -66,7 +66,7 @@ The Hoenn region is unique and famous for its tropical-like environments. The re
 Routes in Hoenn number are numbered as 101-134, breaking the former pattern set up by Kanto and Johto. This is presumably to discourage the idea of being able to travel back to either region after completion of the game, as was done in Generation II and as a mirror of the fact that Japan's road system possesses a similar gap. Some of the routes have differing weather depending on the day they are traveled on.
 
 <details close markdown="block">
-- Route 101
+- [Route 101](https://aaghatislive.github.io/RomHacksStudio/Data/Routes/route101.html)
 - Route 102
 - Route 103
 - Route 104
