@@ -30,12 +30,11 @@ TABLE OF CONTENTS
 - Ever Grande City
 - Battle Frontier
 - Battle Resort
-</details>
+</collapse>
 
 ---
 
-## Routes
-<details close markdown="block">
+## Routes <collapse close markdown="block">
 - Route 101
 - Route 102
 - Route 103
@@ -71,12 +70,11 @@ TABLE OF CONTENTS
 - Route 133
 - Route 134
 - Underwater
-</details>
+</collapse>
 
 ---
 
-## Landmarks
-<details close markdown="block">
+## Landmarks <collapse close markdown="block">
 - Petalburg Woods
 - Rusturf Tunnel
 - Island Cave
@@ -117,13 +115,13 @@ TABLE OF CONTENTS
 - Southern Island
 - Marine Cave
 - Terra Cave
-</details>
+</collapse>
 
 ---
   
-## Facilities
-<details close markdown="block">
+## Facilities <collapse close markdown="block">
 - Contest Hall
 - Battle Maison
 - Battle Tower
 - Battle Tent
+</collapse>
