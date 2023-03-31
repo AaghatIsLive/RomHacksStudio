@@ -22,4 +22,7 @@ callouts:
   warning:
     title: Warning
     color: red
+  what's new:
+    title: What's new
+    color: green
     
