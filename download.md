@@ -33,16 +33,16 @@ Major Update
 {: .label .label-blue }
 
 - [v1.0.7.1](https://ko-fi.com/api/file-upload/cbf173cb-3653-4d8d-a54a-32ac4119bc75/download?transactionId=0cf84642-cd5d-43e0-8330-a197d986be27)
-  {: .d-inline-block }
+{: .d-inline-block }
   
-  Bug Fix
-  {: .label .label-yellow }
+Bug Fix
+{: .label .label-yellow }
 
 - [v1.0.7](https://ko-fi.com/api/file-upload/efb7ebe6-c4d3-4d10-9e97-9940b6ca2d23/download?transactionId=0bfa4228-d4a2-4598-b3e7-6c3ec6d3c9b5)
 {: .d-inline-block }
 
- Major Update
- {: .label .label-blue }
+Major Update
+{: .label .label-blue }
 
 ## Installation Instructions
 
