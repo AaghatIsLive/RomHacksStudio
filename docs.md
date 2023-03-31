@@ -157,3 +157,11 @@ Routes in Hoenn number are numbered as 101-134, breaking the former pattern set 
 - Battle Tower
 - Battle Tent
 </details>
+
+---
+
+## Support
+
+If you encounter any issues or have questions about Pokemon Emerald Crest, please contact us through our [discord server].
+
+[discord server]: https://discord.gg/aaghat-s-server-965900074532081674
