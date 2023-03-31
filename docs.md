@@ -11,8 +11,7 @@ TABLE OF CONTENTS
 
 ---
 
-## Settlements
-<details open markdown="block">
+## Settlements < open markdown="block">
 - Littleroot Town
 - Oldale Town
 - Petalburg City
