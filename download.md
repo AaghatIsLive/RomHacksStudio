@@ -26,17 +26,20 @@ Bug Fix
 
 ### Previous Releases
 
-- [v1.0.8](#){: .version-link data-version="v1.0.8" }
+- [v1.0.8](#)
+{: .version-link data-version="v1.0.8" }
 
     Major Update
     {: .label .label-blue }
 
-- [v1.0.7.1](#){: .version-link data-version="v1.0.7.1" }
+- [v1.0.7.1](#)
+{: .version-link data-version="v1.0.7.1" }
 
     Bug Fix
     {: .label .label-yellow }
 
-- [v1.0.7](#){: .version-link data-version="v1.0.7" }
+- [v1.0.7](#)
+{: .version-link data-version="v1.0.7" }
 
     Major Update
     {: .label .label-blue }
