@@ -8,59 +8,53 @@ nav_order: 2
 
 Thank you for choosing Pokemon Emerald Crest! You can download the latest version of the game below.
 
-{% assign default_version = "v1.0.8.1" %}
-
 ## Download 
 {: .d-inline-block }
 
-{% if page.version == default_version %}
-Recommended
-{: .label .label-blue }
-{% else %}
-{% assign version_number = page.version | remove: 'v' %}
-Version {{ version_number }}
-{: .label .label-blue }
-{% endif %}
-
-{% assign download_link = "https://ko-fi.com/api/file-upload/" %}
-{% assign download_transaction = "?transactionId=" %}
-
-{% case page.version %}
-{% when "v1.0.8.1" %}
 New Release 
 {: .label .label-green }
 
-{% when "v1.0.7.1" %}
+{: .d-inline-block }
+
 Bug Fix
 {: .label .label-yellow }
 
-{% when "v1.0.7" %}
-Major Update
-{: .label .label-blue }
-{% endcase %}
-
-<a id="download-button" href="{{ download_link }}{{ page[page.version] }}{{ download_transaction }}{{ page[page.version+"_transaction"] }}" class="btn">{{ page[page.version+"_name"] }}</a>
-
-{% if page.version != default_version %}
-<a href="#download-button">Back to download</a>
-{% endif %}
+<a href="#" class="btn download-btn" data-url="https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320">Pokemon Emerald Crest v1.0.8.1 UPS Patch</a>
+{: .btn }
 
 {: .warning }
 > It's an `Early release` so there might be some bugs and issues, please report them in our [discord server]
 
 ### Previous Releases
 
-- [v1.0.8](https://example.com/download?version=v1.0.8)
+- [v1.0.8](#){: data-url="https://ko-fi.com/api/file-upload/3d2db367-d8da-447b-a225-409d7e801697/download?transactionId=a802d6a5-1a04-483c-a2bd-7f72ee6f2daf" }
     Major Update
     {: .label .label-blue }
 
-- [v1.0.7.1](https://example.com/download?version=v1.0.7.1)
+- [v1.0.7.1](#){: data-url="https://ko-fi.com/api/file-upload/cbf173cb-3653-4d8d-a54a-32ac4119bc75/download?transactionId=0cf84642-cd5d-43e0-8330-a197d986be27" }
     Bug Fix
     {: .label .label-yellow }
 
-- [v1.0.7](https://example.com/download?version=v1.0.7)
+- [v1.0.7](#){: data-url="https://ko-fi.com/api/file-upload/efb7ebe6-c4d3-4d10-9e97-9940b6ca2d23/download?transactionId=0bfa4228-d4a2-4598-b3e7-6c3ec6d3c9b5" }
     Major Update
     {: .label .label-blue }
+
+<script>
+  // Get the download button element and the previous release links
+  const downloadBtn = document.querySelector('.download-btn');
+  const prevReleaseLinks = document.querySelectorAll('[data-url]');
+
+  // Add a click event listener to each previous release link
+  prevReleaseLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent the link from navigating to a new page
+      const url = this.getAttribute('data-url'); // Get the URL of the selected version
+      downloadBtn.setAttribute('href', url); // Update the download button's link
+      downloadBtn.innerHTML = this.textContent; // Update the download button's text
+      downloadBtn.scrollIntoView(); // Scroll to the download button
+    });
+  });
+</script>
 
 ## Installation Instructions
 
