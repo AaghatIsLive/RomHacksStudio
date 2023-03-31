@@ -19,29 +19,27 @@ New Release
 Bug Fix
 {: .label .label-yellow }
 
-<a href="https://www.mediafire.com/file/tgxpvmgwhhyj8c4/PokemonEmeraldCrestv1.0.8.1.zip/file" class="btn" id="download-button">Pokemon Emerald Crest v1.0.8.1 UPS Patch</a>
+<a href="#" class="download-btn btn">{% assign default_version = 'v1.0.8.1' %}Download Pokemon Emerald Crest {{ default_version }} UPS Patch</a>
 
 {: .warning }
 > It's an `Early release` so there might be some bugs and issues, please report them in our [discord server]
 
 ### Previous Releases
 
-- [v1.0.8](javascript:void(0);){: .release-link }
-{: .d-inline-block }
+- [v1.0.8](#){: .version-link data-version="v1.0.8" }
 
-Major Update
-{: .label .label-blue }
+    Major Update
+    {: .label .label-blue }
 
-- [v1.0.7.1](javascript:void(0);){: .release-link }
-{: .d-inline-block }
+- [v1.0.7.1](#){: .version-link data-version="v1.0.7.1" }
 
-Bug Fix
-{: .label .label-yellow }
-- [v1.0.7](javascript:void(0);){: .release-link }
-{: .d-inline-block }
+    Bug Fix
+    {: .label .label-yellow }
 
-Major Update
-{: .label .label-blue }
+- [v1.0.7](#){: .version-link data-version="v1.0.7" }
+
+    Major Update
+    {: .label .label-blue }
 
 ## Installation Instructions
 
@@ -54,18 +52,21 @@ Once you have downloaded the emulator, follow these steps in [How To Patch](http
 If you encounter any issues or have questions about Pokemon Emerald Crest, please contact us through our [discord server].
 
 <script>
-  var downloadButton = document.getElementById('download-button');
-  var releaseLinks = document.querySelectorAll('.release-link');
-  var defaultVersion = 'v1.0.8.1'; // Change this to the version you want to set as default
-  for (var i = 0; i < releaseLinks.length; i++) {
-    releaseLinks[i].addEventListener('click', function(event) {
-      event.preventDefault();
-      downloadButton.href = event.target.href;
-      downloadButton.innerText = event.target.innerText + ' UPS Patch'; // Change the text of the download button to match the selected version
-      window.location.href = '#download-button'; // Take the user back to the download button
+  const downloadBtn = document.querySelector('.download-btn');
+  const versionLinks = document.querySelectorAll('.version-link');
+  const defaultVersion = '{{ default_version }}';
+  
+  versionLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      const version = link.getAttribute('data-version');
+      const url = `https://www.mediafire.com/file/tgxpvmgwhhyj8c4/PokemonEmeraldCrest${version}.zip/file`;
+      const text = `Download Pokemon Emerald Crest ${version} UPS Patch`;
+      downloadBtn.setAttribute('href', url);
+      downloadBtn.textContent = text;
     });
-  }
-  downloadButton.innerText = 'Pokemon Emerald Crest ' + defaultVersion + ' UPS Patch'; // Set the initial text of the download button to the default version
+  });
+
+  downloadBtn.setAttribute('href', `https://www.mediafire.com/file/tgxpvmgwhhyj8c4/PokemonEmeraldCrest${defaultVersion}.zip/file`);
 </script>
 
 [discord server]: https://discord.gg/aaghat-s-server-965900074532081674 
