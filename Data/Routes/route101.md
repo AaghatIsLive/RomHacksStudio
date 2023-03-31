@@ -3,8 +3,9 @@ layout: page
 title: Route 101
 nav_exclude: true
 ---
+## Wild Encounters
 
-### Wild Encounters [Grass <img src= https://archives.bulbagarden.net/media/upload/3/33/RSE_Grass.png>]
+### Grass <img src= https://archives.bulbagarden.net/media/upload/3/33/RSE_Grass.png>
 
 | Image                                                                        | Pokemon       | Levels | Rate|
 |:-----------------------------------------------------------------------------|:--------------|:-------|:----|
@@ -19,3 +20,5 @@ nav_exclude: true
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/name.png">     | name          | 3-3    | 5%  |  
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/name.png">     | name          | 3-3    | 5%  |  
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/name.png">     | name          | 3-3    | 5%  |  
+
+---
