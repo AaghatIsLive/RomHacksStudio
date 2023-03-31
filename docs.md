@@ -5,7 +5,8 @@ nav_order: 4
 ---
 TABLE OF CONTENTS
 {: .no_toc .text-delta }
-TOC
+
+- TOC
 {:toc}
 
 ## Settlements
