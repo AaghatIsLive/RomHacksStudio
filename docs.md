@@ -3,7 +3,16 @@ title: Docs
 layout: page
 nav_order: 4
 ---
+<style>
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+</style>
 
+<img src="https://archives.bulbagarden.net/media/upload/thumb/8/85/Hoenn_ORAS.png/600px-Hoenn_ORAS.png" class="center"> </img>
 ## Notable locations
 
 Hoenn has sixteen cities and towns, including a Pokémon League. Since the majority of the cities and towns of Hoenn are immersed into nature, there aren't many large cities comparable to Unova's Castelia City or Kalos's Lumiose City, with the largest city being Lilycove City/Mauville City.
