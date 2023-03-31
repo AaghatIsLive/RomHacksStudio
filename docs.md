@@ -11,7 +11,8 @@ TABLE OF CONTENTS
 
 ---
 
-## Settlements <collapse open markdown="block">
+## Settlements 
+<collapse open markdown="block">
 - Littleroot Town
 - Oldale Town
 - Petalburg City
@@ -34,7 +35,8 @@ TABLE OF CONTENTS
 
 ---
 
-## Routes <collapse close markdown="block">
+## Routes 
+<collapse close markdown="block">
 - Route 101
 - Route 102
 - Route 103
@@ -74,7 +76,8 @@ TABLE OF CONTENTS
 
 ---
 
-## Landmarks <collapse close markdown="block">
+## Landmarks 
+<collapse close markdown="block">
 - Petalburg Woods
 - Rusturf Tunnel
 - Island Cave
@@ -119,7 +122,8 @@ TABLE OF CONTENTS
 
 ---
   
-## Facilities <collapse close markdown="block">
+## Facilities 
+<collapse close markdown="block">
 - Contest Hall
 - Battle Maison
 - Battle Tower
