@@ -23,7 +23,6 @@ Bug Fix
 
 ```
 What's New!
-
  PokeVial (can now be claimed from Devon Corp)
  Fixed obedience Level in Story Mode
  Updated wonder trade species
