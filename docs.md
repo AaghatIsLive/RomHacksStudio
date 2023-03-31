@@ -12,7 +12,7 @@ TABLE OF CONTENTS
 ---
 
 ## Settlements 
-<collapse open markdown="block">
+<details open markdown="block">
 - Littleroot Town
 - Oldale Town
 - Petalburg City
@@ -31,12 +31,12 @@ TABLE OF CONTENTS
 - Ever Grande City
 - Battle Frontier
 - Battle Resort
-</collapse>
+</details>
 
 ---
 
 ## Routes 
-<collapse close markdown="block">
+<details close markdown="block">
 - Route 101
 - Route 102
 - Route 103
@@ -72,12 +72,12 @@ TABLE OF CONTENTS
 - Route 133
 - Route 134
 - Underwater
-</collapse>
+</details>
 
 ---
 
 ## Landmarks 
-<collapse close markdown="block">
+<details close markdown="block">
 - Petalburg Woods
 - Rusturf Tunnel
 - Island Cave
@@ -118,14 +118,14 @@ TABLE OF CONTENTS
 - Southern Island
 - Marine Cave
 - Terra Cave
-</collapse>
+</details>
 
 ---
   
 ## Facilities 
-<collapse close markdown="block">
+<details close markdown="block">
 - Contest Hall
 - Battle Maison
 - Battle Tower
 - Battle Tent
-</collapse>
+</details>
