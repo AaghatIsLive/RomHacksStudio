@@ -3,6 +3,14 @@ layout: page
 title: Route 101
 nav_exclude: true
 ---
+# Route 101
+
+**This grassy path running between Littleroot Town and Oldale Town is perfect for doing fieldwork.**
+
+Route 101 is a route in southwestern Hoenn, connecting Littleroot Town and Oldale Town.
+
+---
+
 ## Wild Encounters
 
 ### Grass <img src= https://archives.bulbagarden.net/media/upload/3/33/RSE_Grass.png>
