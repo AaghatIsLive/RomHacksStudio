@@ -34,7 +34,7 @@ Major Update
 
 - [v1.0.7.1](https://ko-fi.com/api/file-upload/cbf173cb-3653-4d8d-a54a-32ac4119bc75/download?transactionId=0cf84642-cd5d-43e0-8330-a197d986be27)
 {: .d-inline-block }
-  
+
 Bug Fix
 {: .label .label-yellow }
 
