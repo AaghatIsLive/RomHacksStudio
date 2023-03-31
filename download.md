@@ -19,39 +19,39 @@ New Release
 Bug Fix
 {: .label .label-yellow }
 
-<a href="#" class="btn download-btn" data-url="https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320">Pokemon Emerald Crest v1.0.8.1 UPS Patch</a>
-{: .btn }
+<a href="#" id="download-btn" class="btn">Pokemon Emerald Crest v1.0.8.1 UPS Patch</a>
 
 {: .warning }
 > It's an `Early release` so there might be some bugs and issues, please report them in our [discord server]
 
 ### Previous Releases
 
-- [v1.0.8](#){: data-url="https://ko-fi.com/api/file-upload/3d2db367-d8da-447b-a225-409d7e801697/download?transactionId=a802d6a5-1a04-483c-a2bd-7f72ee6f2daf" }
-    Major Update
-    {: .label .label-blue }
-
-- [v1.0.7.1](#){: data-url="https://ko-fi.com/api/file-upload/cbf173cb-3653-4d8d-a54a-32ac4119bc75/download?transactionId=0cf84642-cd5d-43e0-8330-a197d986be27" }
-    Bug Fix
-    {: .label .label-yellow }
-
-- [v1.0.7](#){: data-url="https://ko-fi.com/api/file-upload/efb7ebe6-c4d3-4d10-9e97-9940b6ca2d23/download?transactionId=0bfa4228-d4a2-4598-b3e7-6c3ec6d3c9b5" }
-    Major Update
-    {: .label .label-blue }
+- [v1.0.8](#) Major Update {: .label .label-blue .version-link }
+- [v1.0.7.1](#) Bug Fix {: .label .label-yellow .version-link }
+- [v1.0.7](#) Major Update {: .label .label-blue .version-link }
 
 <script>
-  // Get the download button element and the previous release links
-  const downloadBtn = document.querySelector('.download-btn');
-  const prevReleaseLinks = document.querySelectorAll('[data-url]');
+  const downloadBtn = document.querySelector("#download-btn");
+  const versionLinks = document.querySelectorAll(".version-link");
+  const downloadLinks = [
+    "https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320",
+    "https://ko-fi.com/api/file-upload/cbf173cb-3653-4d8d-a54a-32ac4119bc75/download?transactionId=0cf84642-cd5d-43e0-8330-a197d986be27",
+    "https://ko-fi.com/api/file-upload/efb7ebe6-c4d3-4d10-9e97-9940b6ca2d23/download?transactionId=0bfa4228-d4a2-4598-b3e7-6c3ec6d3c9b5",
+    "https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320"
+  ];
+  const versionTexts = [
+    "Pokemon Emerald Crest v1.0.8.1 UPS Patch",
+    "Pokemon Emerald Crest v1.0.7.1 Bug Fix",
+    "Pokemon Emerald Crest v1.0.7 Major Update",
+    "Pokemon Emerald Crest v1.0.6 Initial Release"
+  ];
 
-  // Add a click event listener to each previous release link
-  prevReleaseLinks.forEach(link => {
-    link.addEventListener('click', function(event) {
-      event.preventDefault(); // Prevent the link from navigating to a new page
-      const url = this.getAttribute('data-url'); // Get the URL of the selected version
-      downloadBtn.setAttribute('href', url); // Update the download button's link
-      downloadBtn.innerHTML = this.textContent; // Update the download button's text
-      downloadBtn.scrollIntoView(); // Scroll to the download button
+  versionLinks.forEach((link, index) => {
+    link.addEventListener("click", event => {
+      event.preventDefault();
+      downloadBtn.href = downloadLinks[index];
+      downloadBtn.innerText = versionTexts[index];
+      window.location.hash = "download-btn";
     });
   });
 </script>
