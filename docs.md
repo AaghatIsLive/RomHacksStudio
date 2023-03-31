@@ -3,6 +3,15 @@ title: Docs
 layout: page
 nav_order: 4
 ---
+
+## Notable locations
+
+Hoenn has sixteen cities and towns, including a Pokémon League. Since the majority of the cities and towns of Hoenn are immersed into nature, there aren't many large cities comparable to Unova's Castelia City or Kalos's Lumiose City, with the largest city being Lilycove City/Mauville City.
+
+The Hoenn region has 34 different routes, which are passages permitting Trainers to travel from one location to the next with relative ease. Much like Sinnoh after it, Hoenn's routes are numbered so that they don't follow sequence directly from previously-known regions' routes. Routes in Hoenn are numbered from 101 to 134. Compared to other regions, Hoenn features an abundance of sea routes. This gives the impression that the Hoenn region is half-water and half-land, which references the battle of Groudon and Kyogre.
+
+The Hoenn region is unique and famous for its tropical-like environments. The region does not feature a true mountain range like in Sinnoh and other regions. Hoenn introduced many new natural environments including a volcano, a jungle, a beach, a desert, and many more. The Hoenn region also introduced the idea of routes with differing weather, including constant rainfall, thunderstorms, falling ash, and rays of sunlight.
+
 TABLE OF CONTENTS
 {: .no_toc .text-delta }
 
@@ -36,6 +45,9 @@ TABLE OF CONTENTS
 ---
 
 ## Routes 
+
+Routes in Hoenn number are numbered as 101-134, breaking the former pattern set up by Kanto and Johto. This is presumably to discourage the idea of being able to travel back to either region after completion of the game, as was done in Generation II and as a mirror of the fact that Japan's road system possesses a similar gap. Some of the routes have differing weather depending on the day they are traveled on.
+
 <details close markdown="block">
 - Route 101
 - Route 102
