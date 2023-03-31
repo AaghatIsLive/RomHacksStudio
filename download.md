@@ -27,17 +27,22 @@ Bug Fix
 ### Previous Releases
 
 - [v1.0.8](https://ko-fi.com/api/file-upload/3d2db367-d8da-447b-a225-409d7e801697/download?transactionId=a802d6a5-1a04-483c-a2bd-7f72ee6f2daf)
-    Major Update
-    {: .label .label-blue }
+{: .d-inline-block }
+
+Major Update
+{: .label .label-blue }
 
 - [v1.0.7.1](https://ko-fi.com/api/file-upload/cbf173cb-3653-4d8d-a54a-32ac4119bc75/download?transactionId=0cf84642-cd5d-43e0-8330-a197d986be27)
-    Bug Fix
-    {: .label .label-yellow }
+  {: .d-inline-block }
+  
+  Bug Fix
+  {: .label .label-yellow }
 
 - [v1.0.7](https://ko-fi.com/api/file-upload/efb7ebe6-c4d3-4d10-9e97-9940b6ca2d23/download?transactionId=0bfa4228-d4a2-4598-b3e7-6c3ec6d3c9b5)
+{: .d-inline-block }
 
-    Major Update
-    {: .label .label-blue }
+ Major Update
+ {: .label .label-blue }
 
 ## Installation Instructions
 
