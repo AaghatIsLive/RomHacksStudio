@@ -2,6 +2,25 @@
 layout: page
 title: Route 101
 ---
+require 'csv'
+
+# Open the file and read its contents
+file_contents = File.read('/path/to/your/file.txt')
+
+# Convert the file contents into a hash
+data = {}
+file_contents.split(/\n/).each do |line|
+  key, value = line.split(':')
+  data[key.strip.to_sym] = value.strip if key && value
+end
+
+# Load the data into the table
+species = []
+CSV.parse(data[:Species], headers: true, col_sep: ':') do |row|
+  species << row.to_h
+end
+
+# Render the table using the loaded data
 
 # Route 101
 
@@ -19,19 +38,13 @@ Route 101 is a route in southwestern Hoenn, connecting Littleroot Town and Oldal
 
 | Image                                                                                      | Pokemon             | Levels | Rate|
 |:-------------------------------------------------------------------------------------------|:--------------------|:-------|:----|
-
-<% File.foreach("encounters.txt") do |line| %>
-  <% key, value = line.chomp.split(': ') %>
-  <% case key %>
-  <% when "Encounter rate" %>
-  <%   @encounter_rate = value.to_i %>
-  <% when "Species" %>
-  <%   @species = [] %>
-  <% when "Species".."Max level" %>
-  <%   @species << value %>
-  <% when "Max level" %>
-  <%   puts @species %>
-  <% end %>
+<% species.each do |s| %>
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/<%= s['Species'] %>.png"> | <%= s['Species'].sub('SPECIES_', '') %> | <%= s['Min level'] %>-<%= s['Max level'] %> | <%= data['Encounter rate'] %> |
 <% end %>
-
 </details>
+---
+## Support
+
+If you encounter any issues or have questions about Pokemon Emerald Crest, please contact us through our [discord server].
+
+[discord server]: https://discord.gg/aaghat-s-server-965900074532081674
