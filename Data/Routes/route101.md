@@ -9,6 +9,8 @@ nav_exclude: true
 
 Route 101 is a route in southwestern Hoenn, connecting Littleroot Town and Oldale Town.
 
+<img src=https://archives.bulbagarden.net/media/upload/b/ba/Hoenn_Route_101_Map.png>
+
 ---
 
 ## Wild Encounters
