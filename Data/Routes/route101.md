@@ -51,7 +51,7 @@ Hidden pokemon are on the bottom of the Dexnav and will only appear once you hav
 </details>
 
 {: .note}
-> They also have a chance to appear through a special detection feature after making 100 steps and not encountering any pokemon.
+> They also have a chance to appear through a special detection feature after making `100` steps and not encountering any pokemon.
 
 ---
 
