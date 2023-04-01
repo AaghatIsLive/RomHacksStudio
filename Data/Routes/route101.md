@@ -53,6 +53,18 @@ Hidden pokemon are on the bottom of the Dexnav and will only appear once you hav
 {: .note}
 > They also have a chance to appear through a special detection feature after making `100` steps and not encountering any pokemon.
 
+### Gift 🎁
+
+<details close markdown="block">
+
+| Image                                                                                      | Pokemon             | Levels |
+|:-------------------------------------------------------------------------------------------|:--------------------|:-------|
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/bagon.png">                  | Bagon               |  5     |
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/jangmo-o.png">                | JangmoO             |  5     |
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/goomy.png">                  | Goomy               |  5     |
+
+</details>
+
 ---
 
 ## Support
