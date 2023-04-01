@@ -1,81 +1,150 @@
----
-layout: page                  
-title: Route [Route Number]
-`Title of the page with a variable for the Route Number`
-nav_exclude: true
----
 
-# Route [Route Number]         
-```Heading of the page with a variable for the Route Number```
+# Route 101
 
-**[Route Description]**       
-```Brief description of the route```
+**This grassy path running between Littleroot Town and Oldale Town is perfect for doing fieldwork.**
 
-![]([Route Image Link])        ```Image of the route```
+![](https://user-images.githubusercontent.com/109757010/229271074-6cb834c9-918a-47f1-9005-b549d7982d9f.png)
 
-Route [Route Number] is a route in Hoenn, connecting [Location 1] and [Location 2]. ```Description of the route with locations.```
+Route 101 is a route in southwestern Hoenn, connecting Littleroot Town and Oldale Town.!
 
 ---
 
 ## Wild Encounters
 
-### Grass <img src="https://cdn.discordapp.com/attachments/1069560427312332843/1091325360534212618/RSE_Grass.png"> 
-```Type of encounter and a grass icon```
+### Grass <img src="https://cdn.discordapp.com/attachments/1069560427312332843/1091325360534212618/RSE_Grass.png">
 
-<details open markdown="block"> 
+<details open markdown="block">
 
-| Image                                                                   | Pokemon          | Levels          | Rate     |
-|:------------------------------------------------------------------------|:-----------------|:----------------|:---------|
-|https://img.pokemondb.net/sprites/sword-shield/icon/[Pokemon Name 1].png | [Pokemon Name 1] | [Level Range 1] | [Rate 1] | 
-|https://img.pokemondb.net/sprites/sword-shield/icon/[Pokemon Name 2].png | [Pokemon Name 2] | [Level Range 2] | [Rate 2] | 
-|https://img.pokemondb.net/sprites/sword-shield/icon/[Pokemon Name 3].png | [Pokemon Name 3] | [Level Range 3] | [Rate 3] | 
+| Image                                                                                      | Pokemon             | Levels | Rate|
+|:-------------------------------------------------------------------------------------------|:--------------------|:-------|:----|
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/skiddo.png">                 | Skiddo              | 2-2    | 20% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/blipbug.png">                | Blipbug             | 2-2    | 20% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/caterpie.png">               | Caterpie            | 3-3    | 10% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/grubbin.png">                | Grubbin             | 3-3    | 10% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/skiddo.png">                 | Skiddo              | 3-3    | 10% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/nickit.png">                 | Nickit              | 3-3    | 10% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/wooloo.png">                 | Wooloo              | 3-3    | 5%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/hoothoot.png">               | Hoothoot            | 3-3    | 5%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/zigzagoon.png">              | Zigzagoon           | 3-3    | 4%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/absol.png">                  | Absol               | 3-3    | 4%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/grookey.png">                | Grookey             | 3-3    | 1%  |
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/zigzagoon-galarian.png">     | Zigzagoon-Galarian  | 3-3    | 1%  |  
 
 </details>
 
-```Details section of the Grass encounters```
+### Hidden <img src="https://cdn.discordapp.com/attachments/1069560427312332843/1091325360534212618/RSE_Grass.png">
 
-### Hidden <img src="https://cdn.discordapp.com/attachments/1069560427312332843/1091325360534212618/RSE_Grass.png"> 
-```Type of encounter and a grass icon```
-
-Hidden pokemon are on the bottom of the Dexnav and will only appear once you have activated the function by talking to a scientist in Devoncorp. After that, you can encounter extra pokemon after having already seen them before. 
-
-```Description of the hidden encounters```
+Hidden pokemon are on the bottom of the Dexnav and will only appear once you have activated the fuction by talking to a scientist in Devoncorp. After that you can encounter extra pokemon after having already seen them before.
 
 <details close markdown="block">
 
-| Image                                                                   | Pokemon          | Levels          |
-|:------------------------------------------------------------------------|:-----------------|:----------------|
-|https://img.pokemondb.net/sprites/sword-shield/icon/[Pokemon Name 1].png | [Pokemon Name 1] | [Level Range 1] | 
-|https://img.pokemondb.net/sprites/sword-shield/icon/[Pokemon Name 2].png | [Pokemon Name 2] | [Level Range 2] | 
+| Image                                                                                      | Pokemon             | Levels |
+|:-------------------------------------------------------------------------------------------|:--------------------|:-------|
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/pichu.png">                  | Pichu SE            | 3-5    |
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/weedle.png">                 | Weedle              | 3-5    |
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/diglett.png">                | Diglett             | 3-5    |
 
 </details>
 
-```Details section of the Hidden encounters```
+{: .note}
+> They also have a chance to appear through a special detection feature after making `100` steps and not encountering any pokemon.
 
-{: .note}    # Adds a note styling to the following quote
-> They also have a chance to appear through a special detection feature after making `100` steps and not encountering any pokemon. 
+### Gift 🎁
 
-```Note about the Hidden encounters.```
+<details close markdown="block">
 
-### Gift 🎁     
-```Type of the Gift encounters with a gift box image```
-
-<details close markdown="block">     # Details section of the Gift encounters
-
-| Image                                                                   | Pokemon          | Levels          | Details     |
-|:------------------------------------------------------------------------|:-----------------|:----------------|:------------|
-|https://img.pokemondb.net/sprites/sword-shield/icon/[Pokemon Name 1].png | [Pokemon Name 1] | [Level Range 1] | [Details 1] |
-|https://img.pokemondb.net/sprites/sword-shield/icon/[Pokemon Name 2].png | [Pokemon Name 2] | [Level Range 2] | [Details 2] |
-|https://img.pokemondb.net/sprites/sword-shield/icon/[Pokemon Name 3].png | [Pokemon Name 3] | [Level Range 3] | [Details 3] |  
+| Image                                                                                      | Pokemon             | Levels | Details         |
+|:-------------------------------------------------------------------------------------------|:--------------------|:-------|:----------------|
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/bagon.png">                  | Bagon               |  5     | Starter Pokémon |
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/jangmo-o.png">               | JangmoO             |  5     | Starter Pokémon |
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/goomy.png">                  | Goomy               |  5     | Starter Pokémon |
 
 </details>
-
-```Details section of the Gift encounters```
 
 ---
 
 ## Support
 
-If you encounter any issues or have questions about [Game Name], please contact us through our [discord server].
+If you encounter any issues or have questions about Pokemon Emerald Crest, please contact us through our [discord server].
 
 [discord server]: https://discord.gg/aaghat-s-server-965900074532081674
+
+
+```
+---
+layout: page                  
+title: Route 101
+nav_exclude: true
+----
+
+
+# Route 101
+
+**This grassy path running between Littleroot Town and Oldale Town is perfect for doing fieldwork.**
+
+![](https://user-images.githubusercontent.com/109757010/229271074-6cb834c9-918a-47f1-9005-b549d7982d9f.png)
+
+Route 101 is a route in southwestern Hoenn, connecting Littleroot Town and Oldale Town.!
+
+---
+
+## Wild Encounters
+
+### Grass <img src="https://cdn.discordapp.com/attachments/1069560427312332843/1091325360534212618/RSE_Grass.png">
+
+<details open markdown="block">
+
+| Image                                                                                      | Pokemon             | Levels | Rate|
+|:-------------------------------------------------------------------------------------------|:--------------------|:-------|:----|
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/skiddo.png">                 | Skiddo              | 2-2    | 20% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/blipbug.png">                | Blipbug             | 2-2    | 20% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/caterpie.png">               | Caterpie            | 3-3    | 10% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/grubbin.png">                | Grubbin             | 3-3    | 10% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/skiddo.png">                 | Skiddo              | 3-3    | 10% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/nickit.png">                 | Nickit              | 3-3    | 10% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/wooloo.png">                 | Wooloo              | 3-3    | 5%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/hoothoot.png">               | Hoothoot            | 3-3    | 5%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/zigzagoon.png">              | Zigzagoon           | 3-3    | 4%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/absol.png">                  | Absol               | 3-3    | 4%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/grookey.png">                | Grookey             | 3-3    | 1%  |
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/zigzagoon-galarian.png">     | Zigzagoon-Galarian  | 3-3    | 1%  |  
+
+</details>
+
+### Hidden <img src="https://cdn.discordapp.com/attachments/1069560427312332843/1091325360534212618/RSE_Grass.png">
+
+Hidden pokemon are on the bottom of the Dexnav and will only appear once you have activated the fuction by talking to a scientist in Devoncorp. After that you can encounter extra pokemon after having already seen them before.
+
+<details close markdown="block">
+
+| Image                                                                                      | Pokemon             | Levels |
+|:-------------------------------------------------------------------------------------------|:--------------------|:-------|
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/pichu.png">                  | Pichu SE            | 3-5    |
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/weedle.png">                 | Weedle              | 3-5    |
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/diglett.png">                | Diglett             | 3-5    |
+
+</details>
+
+{: .note}
+> They also have a chance to appear through a special detection feature after making `100` steps and not encountering any pokemon.
+
+### Gift 🎁
+
+<details close markdown="block">
+
+| Image                                                                                      | Pokemon             | Levels | Details         |
+|:-------------------------------------------------------------------------------------------|:--------------------|:-------|:----------------|
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/bagon.png">                  | Bagon               |  5     | Starter Pokémon |
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/jangmo-o.png">               | JangmoO             |  5     | Starter Pokémon |
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/goomy.png">                  | Goomy               |  5     | Starter Pokémon |
+
+</details>
+
+---
+
+## Support
+
+If you encounter any issues or have questions about Pokemon Emerald Crest, please contact us through our [discord server].
+
+[discord server]: https://discord.gg/aaghat-s-server-965900074532081674
+```
