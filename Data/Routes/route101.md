@@ -38,6 +38,8 @@ Route 101 is a route in southwestern Hoenn, connecting Littleroot Town and Oldal
 
 ### Hidden <img src="https://cdn.discordapp.com/attachments/1069560427312332843/1091325360534212618/RSE_Grass.png">
 
+Hidden pokemon are on the bottom of the Dexnav and will only appear once you have activated the fuction by talking to a scientist in Devoncorp. After that you can encounter extra pokemon after having already seen them before. They also have a chance to appear through a special detection feature after making 100 steps and not encountering any pokemon.
+
 <details close markdown="block">
 
 | Image                                                                                      | Pokemon             | Levels |
