@@ -38,11 +38,11 @@ Route 101 is a route in southwestern Hoenn, connecting Littleroot Town and Oldal
 
 <details close markdown="block">
 
-| Image                                                                                      | Pokemon             | Levels | Rate|
-|:-------------------------------------------------------------------------------------------|:--------------------|:-------|:----|
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/pichu.png">                  | Pichu SE            | 2-2    | 20% |  
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/weedle.png">                 | Weedle              | 2-2    | 20% |  
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/diglett.png">                | Diglett             | 3-3    | 10% |  
+| Image                                                                                      | Pokemon             | Levels |
+|:-------------------------------------------------------------------------------------------|:--------------------|:-------|
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/pichu.png">                  | Pichu SE            | 3-5    |
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/weedle.png">                 | Weedle              | 3-5    |
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/diglett.png">                | Diglett             | 3-5    |
 
 </details>
 
