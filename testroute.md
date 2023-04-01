@@ -24,8 +24,8 @@ Route 101 is a route in southwestern Hoenn, connecting Littleroot Town and Oldal
 
 <details open markdown="block">
 
-| Image | Pokemon | Levels | Rate |
-| ----- | ------- | ------ | ---- |
+| Image  | Pokemon | Levels | Rate |
+|:-------|:------- |:-------|:-----|
 {% for row in rows %}
 | {% for cell in row %}{{ cell }} | {% endfor %}
 {% endfor %}
