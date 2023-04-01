@@ -1,0 +1,37 @@
+Map: MAP_ROUTE101
+Base label: gRoute101
+Environment: land_mons
+Encounter rate: 20
+Species: SPECIES_SKIDDO
+Min level: 2
+Max level: 2
+Species: SPECIES_BLIPBUG
+Min level: 2
+Max level: 2
+Species: SPECIES_CATERPIE
+Min level: 3
+Max level: 3
+Species: SPECIES_GRUBBIN
+Min level: 3
+Max level: 3
+Species: SPECIES_SKIDDO
+Min level: 3
+Max level: 3
+Species: SPECIES_NICKIT
+Min level: 3
+Max level: 3
+Species: SPECIES_WOOLOO
+Min level: 3
+Max level: 3
+Species: SPECIES_HOOTHOOT
+Min level: 2
+Max level: 2
+Species: SPECIES_ZIGZAGOON
+Min level: 2
+Max level: 2
+Species: SPECIES_ABSOL
+Min level: 3
+Max level: 3
+Species: SPECIES_GROOKEY
+Min level: 3
+Max level: 3
