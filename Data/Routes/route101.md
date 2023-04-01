@@ -33,7 +33,21 @@ Route 101 is a route in southwestern Hoenn, connecting Littleroot Town and Oldal
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/zigzagoon-galarian.png">     | Zigzagoon-Galarian  | 3-3    | 1%  |  
 
 </details>
+
+### Hidden <img src="https://cdn.discordapp.com/attachments/1069560427312332843/1091325360534212618/RSE_Grass.png">
+
+<details close markdown="block">
+
+| Image                                                                                      | Pokemon             | Levels | Rate|
+|:-------------------------------------------------------------------------------------------|:--------------------|:-------|:----|
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/pichu.png">                  | Pichu SE            | 2-2    | 20% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/weedle.png">                 | Weedle              | 2-2    | 20% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/diglett.png">                | Diglett             | 3-3    | 10% |  
+
+</details>
+
 ---
+
 ## Support
 
 If you encounter any issues or have questions about Pokemon Emerald Crest, please contact us through our [discord server].
