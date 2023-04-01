@@ -13,7 +13,7 @@ Route 101 is a route in southwestern Hoenn, connecting Littleroot Town and Oldal
 ---
 
 {% capture file_content %}
-{% include_relative your_file_name.txt %}
+{% include_relative encounters.txt %}
 {% endcapture %}
 
 {% assign rows = file_content | strip | newline_to_br | remove: '<br />' | split: '<br>' %}
