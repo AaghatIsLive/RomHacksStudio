@@ -1,11 +1,26 @@
-SPECIES_SKIDDO Min level: 2 Max level: 2
-SPECIES_BLIPBUG Min level: 2 Max level: 2
-SPECIES_CATERPIE Min level: 3 Max level: 3
-SPECIES_GRUBBIN Min level: 3 Max level: 3
-SPECIES_SKIDDO Min level: 3 Max level: 3
-SPECIES_NICKIT Min level: 3 Max level: 3
-SPECIES_WOOLOO Min level: 3 Max level: 3
-SPECIES_HOOTHOOT Min level: 2 Max level: 2
-SPECIES_ZIGZAGOON Min level: 2 Max level: 2
-SPECIES_ABSOL Min level: 3 Max level: 3
-SPECIES_GROOKEY Min level: 3 Max level: 3
+Map            Encounter Type      Mons           
+gRoute101      land_mons           SPECIES_SKIDDO 
+gRoute101      land_mons           SPECIES_BLIPBUG
+gRoute101      land_mons           SPECIES_CATERPIE
+gRoute101      land_mons           SPECIES_GRUBBIN
+gRoute101      land_mons           SPECIES_SKIDDO 
+gRoute101      land_mons           SPECIES_NICKIT 
+gRoute101      land_mons           SPECIES_WOOLOO 
+gRoute101      land_mons           SPECIES_HOOTHOOT
+gRoute101      land_mons           SPECIES_ZIGZAGOON
+gRoute101      land_mons           SPECIES_ABSOL  
+gRoute101      land_mons           SPECIES_GROOKEY
+gRoute101      land_mons           SPECIES_ZIGZAGOON_GALARIAN
+gRoute101      hidden_mons         SPECIES_PICHU_SPIKY_EARED
+gRoute101      hidden_mons         SPECIES_WEEDLE 
+gRoute101      hidden_mons         SPECIES_DIGLETT
+gRoute102      land_mons           SPECIES_SKWOVET
+gRoute102      land_mons           SPECIES_ROOKIDEE
+gRoute102      land_mons           SPECIES_CHEWTLE
+gRoute102      land_mons           SPECIES_YAMPER 
+gRoute102      land_mons           SPECIES_PURRLOIN
+gRoute102      land_mons           SPECIES_WOOLOO 
+gRoute102      land_mons           SPECIES_RALTS  
+gRoute102      land_mons           SPECIES_NICKIT 
+gRoute102      land_mons           SPECIES_SKIDDO 
+gRoute102      land_mons           SPECIES_ZIGZAGOON_GALARIAN
