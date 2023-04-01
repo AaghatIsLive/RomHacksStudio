@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Route 101
-nav_exclude: true
 ---
 # Route 101
 
@@ -19,22 +18,20 @@ Route 101 is a route in southwestern Hoenn, connecting Littleroot Town and Oldal
 
 | Image                                                                                      | Pokemon             | Levels | Rate|
 |:-------------------------------------------------------------------------------------------|:--------------------|:-------|:----|
-| <% csv_data.each do |row| %>
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/<%= row['Mons'].downcase %>.png"> | <%= row['Mons'].split('_').map(&:capitalize).join(' ') %> | <%= row['Levels'] %> | <%= row['Rate'] %> |
-| <% end %>
+
+<% File.readlines("encounters.txt").each do |line| %>
+  <% data = line.split(/\s+/) %>
+  <% if data[0] == "gRoute101" && data[1] == "land_mons" %>
+    | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/<%= data[3].downcase %>.png"> | <%= data[2].sub(/^SPECIES_/, '') %> | <%= data[4] %> | <%= data[5] %> |
+  <% end %>
+<% end %>
+
 </details>
 
 ---
+
 ## Support
 
 If you encounter any issues or have questions about Pokemon Emerald Crest, please contact us through our [discord server].
 
 [discord server]: https://discord.gg/aaghat-s-server-965900074532081674
-  
-require 'csv'
-
-csv_data = []
-CSV.foreach('encounters.txt', headers: true, col_sep: "\t") do |row|
-  csv_data << row.to_h
-end
-
