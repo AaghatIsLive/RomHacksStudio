@@ -5,7 +5,7 @@ title: Route 101
 require 'csv'
 
 # Open the file and read its contents
-file_contents = File.read('/path/to/your/file.txt')
+file_contents = File.read('/encounters.txt')
 
 # Convert the file contents into a hash
 data = {}
