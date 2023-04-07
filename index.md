@@ -11,6 +11,9 @@ permalink: /
 [Download v1.0.8.1][download]{: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View Docs](https://aaghatislive.github.io/RomHacksStudio/docs.html){: .btn .fs-5 .mb-4 .mb-md-0 }
 
+---
+![](https://user-images.githubusercontent.com/109757010/230626725-8054e350-8924-400e-8e36-389df0bfb227.png)
+---
 Welcome to Pokemon Emerald Crest, the ultimate fan-made hack of the classic Pokemon Emerald game! Our team has spent countless hours creating a new, exciting world for you to explore and conquer.
 
 In Pokemon Emerald Crest, you'll embark on a brand new journey through the Hoenn region, encountering new Pokemon, characters, and challenges along the way. With updated graphics, and gameplay mechanics, this ROM hack brings a fresh take on the beloved original.
@@ -21,13 +24,15 @@ If you have any feedback or suggestions, we'd love to hear from you - join our [
 
 Thank you for choosing Pokemon Emerald Crest, and happy gaming!
 
-**Story**
+# Pokemon Emerald Crest
+
+## Story
 
 Pokemon Emerald Crest is an enhanced version of the original Pokemon Emerald game with new features and quests. The game follows the same story as Vanilla Emerald, but with added content from later generations.
 
-**Features**
+## Features
 
-- Open World Mode: Explore the vast and open world of Pokemon Emerald Crest.
+- Open World: Explore the vast and open world of Pokemon Emerald Crest, filled with new areas and challenges.
 - Teleport Service: Quickly and easily teleport to different locations throughout the game.
 - Mega Evolutions: Mega Evolve your Pokemon to unlock their full potential in battles.
 - Gen 1-8: Catch and collect Pokemon from all eight generations of the Pokemon series.
@@ -43,9 +48,9 @@ Pokemon Emerald Crest is an enhanced version of the original Pokemon Emerald gam
 - Galarian Pokemon: Catch and collect Pokemon from the Galar region.
 - Hisuian Pokemon: Catch and collect Pokemon from the Hisui region.
 - Chain Fishing: Chain fish to increase your chances of catching rare and powerful Pokemon.
-- PSS Split
+- PSS Split: Access the Player Search System (PSS) from anywhere in the game.
 - All Moves: Learn every move in the game, including exclusive moves from past generations.
-- Running Indoors
+- Running Indoors: Run indoors to save time and get to your destination faster.
 - All Types: Experience all 18 types of Pokemon and their unique strengths and weaknesses.
 - Improved Battle Engine: Enjoy a smoother and more dynamic battle system.
 - Item Expansion: More items and expanded inventory space for your convenience.
@@ -55,7 +60,6 @@ Pokemon Emerald Crest is an enhanced version of the original Pokemon Emerald gam
 - Wild bosses: Encounter powerful wild Pokemon that are stronger than usual and offer a greater challenge.
 
 And much more! Enjoy a more immersive and enhanced Pokemon experience with Pokemon Emerald Crest.
-
 
 [discord server]: https://discord.gg/aaghat-s-server-965900074532081674 
 [download]: https://aaghatislive.github.io/RomHacksStudio/download.html
