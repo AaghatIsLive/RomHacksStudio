@@ -13,7 +13,7 @@ permalink: /
 
 ---
 ![](https://user-images.githubusercontent.com/109757010/230626725-8054e350-8924-400e-8e36-389df0bfb227.png)
----
+
 Welcome to Pokemon Emerald Crest, the ultimate fan-made hack of the classic Pokemon Emerald game! Our team has spent countless hours creating a new, exciting world for you to explore and conquer.
 
 In Pokemon Emerald Crest, you'll embark on a brand new journey through the Hoenn region, encountering new Pokemon, characters, and challenges along the way. With updated graphics, and gameplay mechanics, this ROM hack brings a fresh take on the beloved original.
