@@ -5,16 +5,16 @@ nav_order: 1
 permalink: /
 ---
 
-# Pokemon Emerald Crest
 {: .fs-9 }
 
 [Download v1.0.8.1][download]{: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View Docs](https://aaghatislive.github.io/RomHacksStudio/docs.html){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
-![](https://user-images.githubusercontent.com/109757010/230626725-8054e350-8924-400e-8e36-389df0bfb227.png)
 
 # Pokemon Emerald Crest
+
+![](https://user-images.githubusercontent.com/109757010/230626725-8054e350-8924-400e-8e36-389df0bfb227.png)
 
 ## Story
 
