@@ -62,6 +62,25 @@ Route 102 is a route connecting Oldale Town and Petalburg City.
 
 </details>
 
+### Fishing <img src="https://user-images.githubusercontent.com/109757010/230921100-6454ad86-77a4-4e3e-92f7-464cc6daf48a.png">
+
+<details close markdown="block">
+
+| Image                                                                                  |  Fishing Rod     | Pokemon             | Levels | Rate|
+|:---------------------------------------------------------------------------------------|:-----------------|:--------------------|:-------|:----|
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/magikarp.png">           | Old Rod          | Magikarp            | 5-10   | 70% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/feebas.png">             | Old Rod          | Feebas              | 5-10   | 30% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/chewtle.png">            | Good Rod         | Chewtle             | 10-15  | 60% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/arrokuda.png">           | Good Rod         | Arrokuda            | 10-14  | 20% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/corphish.png">           | Good Rod         | Corphish            | 10-14  | 20% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/wishiwashi.png">         | Super Rod        | Wishiwashi          | 11-13  | 40% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/octillery.png">          | Super Rod        | Octillery           | 9-13   | 40% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/seaking.png">            | Super Rod        | Seaking             | 10-15  | 15% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/magikarp.png">           | Super Rod        | Magikarp            | 4-13   | 4%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/zigzagoon-galarian.png"> | Super Rod        | Qwilfish-Hisuian    | 12-18  | 1%  |  
+
+</details>
+
 
 ### Hidden <img src="https://cdn.discordapp.com/attachments/1069560427312332843/1091325360534212618/RSE_Grass.png">
 
