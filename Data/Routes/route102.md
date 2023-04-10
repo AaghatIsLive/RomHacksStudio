@@ -67,7 +67,7 @@ Hidden pokemon are on the bottom of the Dexnav and will only appear once you hav
 |:------------------------------------------------------------------------------------|:--------------------|:------------------------------------------------------|
 | <img src="https://play.pokemonshowdown.com/sprites/trainers/youngster-gen3rs.png">  | Youngster Calvin    | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/skwovet.png"> Skwovet Lv. 6                                         
 | <img src="https://play.pokemonshowdown.com/sprites/trainers/bugcatcher-gen3rs.png"> | Bug Catcher Rick    | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/blipbug.png"> Blipbug Lv. 5 <img src="https://img.pokemondb.net/sprites/sword-shield/icon/scatterbug.png"> Scatterbug Lv. 7 |
-| <img src="https://play.pokemonshowdown.com/sprites/trainers/youngster-gen3rs.png">  | Youngster Allen     | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/chewtle.png"> Chewtle Lv. 5 <img src="https://img.pokemondb.net/sprites/scarlet-violet/normal/1x/growlithe-hisuian.png"> Growlithe Hisuian Lv. 7                   |
+| <img src="https://play.pokemonshowdown.com/sprites/trainers/youngster-gen3rs.png">  | Youngster Allen     | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/chewtle.png"> Chewtle Lv. 5 <img src="https://img.pokemondb.net/sprites/scarlet-violet/normal/1x/growlithe-hisuian.png"> Growlithe Hisui Lv. 7                   |
 
 ---
 
