@@ -20,7 +20,7 @@ What's New!
 ```
 > I am not sure if this update fixes the issue with the camera alignment since I wasn't able to recreate it. But I did fix a related bug, so let me know if it's still happening.
 
-## [Pokemon Emerald Crest v1.0.8 UPS Patch](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320)
+## [Pokemon Emerald Crest v1.0.8 UPS Patch](https://ko-fi.com/api/file-upload/3d2db367-d8da-447b-a225-409d7e801697/download?transactionId=a802d6a5-1a04-483c-a2bd-7f72ee6f2daf)
  
 ```
 What's New!
@@ -60,13 +60,13 @@ What's New!
 
 **your old savefile won't work, since there are tons of huge changes in the current version.**
 
-## [Pokemon Emerald Crest v1.0.7.1 UPS Patch](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320)
+## [Pokemon Emerald Crest v1.0.7.1 UPS Patch]((https://ko-fi.com/api/file-upload/cbf173cb-3653-4d8d-a54a-32ac4119bc75/download?transactionId=0cf84642-cd5d-43e0-8330-a197d986be27)
 
 ```
 Fixes some nuzlocke bugs + some other minor bugs
 ```
 
-## [Pokemon Emerald Crest v1.0.7 UPS Patch](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320)
+## [Pokemon Emerald Crest v1.0.7 UPS Patch](https://ko-fi.com/api/file-upload/efb7ebe6-c4d3-4d10-9e97-9940b6ca2d23/download?transactionId=0bfa4228-d4a2-4598-b3e7-6c3ec6d3c9b5)
 
 ```
 what's New!
@@ -74,6 +74,7 @@ what's New!
 🔸Minor Bug fixes
 ```
 **your old savefile should work but If you want to use the randomizer/nuzlocke features you will have to start a new save.**
+
 ---
 ## Support
 
