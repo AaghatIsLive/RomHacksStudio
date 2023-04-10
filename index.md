@@ -30,14 +30,13 @@ Pokemon Emerald Crest is an enhanced version of the original Pokemon Emerald gam
 - Auto Run: Automatically run instead of walking to save time.
 - Primal Forms: Awaken the primal powers of certain legendary Pokemon.
 - Gen 6 Style Exp Share: Share experience points with all of your Pokemon, just like in Pokemon X and Y.
-- Gender-based Textboxes: Dialogue boxes will appear differently depending on the gender of your character.
 - Reusable TM's: Use TM's multiple times, making it easier to teach your Pokemon new moves.
 - Item Description Header: Get more information about items with an expanded item description header.
 - Alolan Pokemon: Catch and collect Pokemon from the Alola region.
 - Galarian Pokemon: Catch and collect Pokemon from the Galar region.
 - Hisuian Pokemon: Catch and collect Pokemon from the Hisui region.
 - Chain Fishing: Chain fish to increase your chances of catching rare and powerful Pokemon.
-- PSS Split: Access the Player Search System (PSS) from anywhere in the game.
+- PSS Split
 - All Moves: Learn every move in the game, including exclusive moves from past generations.
 - Running Indoors: Run indoors to save time and get to your destination faster.
 - All Types: Experience all 18 types of Pokemon and their unique strengths and weaknesses.
