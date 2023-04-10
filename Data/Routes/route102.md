@@ -50,7 +50,7 @@ Route 102 is a route connecting Oldale Town and Petalburg City.
 
 ### Surfing <img src="https://user-images.githubusercontent.com/109757010/230918174-7d1747ae-88cb-4276-bc9a-1682ac25830c.png">
 
-<details open markdown="block">
+<details close markdown="block">
 
 | Image                                                                                      | Pokemon             | Levels  | Rate|
 |:-------------------------------------------------------------------------------------------|:--------------------|:--------|:----|
