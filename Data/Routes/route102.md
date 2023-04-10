@@ -8,11 +8,18 @@ nav_exclude: true
 
 **Many Trainers gather on this route in the hope of encountering Pokémon in the wild.**
 
-![](https://user-images.githubusercontent.com/109757010/229271074-6cb834c9-918a-47f1-9005-b549d7982d9f.png)
+![Hoenn_Route_102_Map](https://user-images.githubusercontent.com/109757010/230900892-71976b2d-dcab-4108-be7d-2bcba9489d8f.png)
 
 Route 102 is a route connecting Oldale Town and Petalburg City.
 
 ---
+## Items
+
+| Image                                                                      | Item                | Location                                              |
+|:---------------------------------------------------------------------------|:--------------------|:------------------------------------------------------|
+| <img src="https://img.pokemondb.net/sprites/items/oran-berry.png">         | Oran Berry ×2       | In the soft soil bed north of the center of the route |
+| <img src="https://img.pokemondb.net/sprites/items/pecha-berry.png">        | Pecha Berry ×2      | In the soft soil bed north of the center of the route |
+| <img src="https://img.pokemondb.net/sprites/items/kings-rock.png">         | King's Rock         | South of the southwesternmost ledge                   |
 
 ## Wild Encounters
 
