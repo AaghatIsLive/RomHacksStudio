@@ -8,27 +8,26 @@ nav_exclude: true
 
 ```
 What's New!
-
-   Disabled auto run while using Dexnav 
-   Fixed some broken followers
-   Updated party menu graphics 
-   Reduced wild encounter levels
-   Made battle color effectiveness optional
-   Updated Pokedex
-   Updated Options menu
-   Added auto Exp Share
-   Fixed some move descriptions
-   Fixed broken front pics of later gen mons
-   Updated wonder trade 
-   Fixed Beat Up soft locking the game (Temp Fix)
-   Fixed Shell Smash crashing the game 
-   Fixed a bug on route 119 with WH
-   Updated mart graphics
-   Fixed safari zone bug
-   Updated the randomizer
-   Fixed the bad egg issue
-   Fixed several other bugs 
-   And a lot of minor improvements
+🔸Disabled auto run while using Dexnav 
+🔸Fixed some broken followers
+🔸Updated party menu graphics 
+🔸Reduced wild encounter levels
+🔸Made battle color effectiveness optional
+🔸Updated Pokedex
+🔸Updated Options menu
+🔸Added auto Exp Share
+🔸Fixed some move descriptions
+🔸Fixed broken front pics of later gen mons
+🔸Updated wonder trade 
+🔸Fixed Beat Up soft locking the game (Temp Fix)
+🔸Fixed Shell Smash crashing the game 
+🔸Fixed a bug on route 119 with WH
+🔸Updated mart graphics
+🔸Fixed safari zone bug
+🔸Updated the randomizer
+🔸Fixed the bad egg issue
+🔸Fixed several other bugs 
+🔸And a lot of minor improvements
 ```
 
 ## [Pokemon Emerald Crest v1.0.8.1 UPS Patch](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320)
