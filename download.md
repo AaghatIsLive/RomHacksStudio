@@ -23,15 +23,26 @@ Bug Fix
 
 ```
 What's New!
- PokeVial (can now be claimed from Devon Corp)
- Fixed obedience Level in Story Mode
- Updated wonder trade species
- Added some PLA Moves 
- Fixed Perfect IVs (3) In Story Mode 
- Fixed Hone Claw & Compound Eyes (also some others)
- Fixed camera alignment issue
- Fixed some Z moves not working properly
- And lots of minor fixes...
+🔸Disabled auto run while using Dexnav 
+🔸Fixed some broken followers
+🔸Updated party menu graphics 
+🔸Reduced wild encounter levels
+🔸Made battle color effectiveness optional
+🔸Updated Pokedex
+🔸Updated Options menu
+🔸Added auto Exp Share
+🔸Fixed some move descriptions
+🔸Fixed broken front pics of later gen mons
+🔸Updated wonder trade 
+🔸Fixed Beat Up soft locking the game (Temp Fix)
+🔸Fixed Shell Smash crashing the game 
+🔸Fixed a bug on route 119 with WH
+🔸Updated mart graphics
+🔸Fixed safari zone bug
+🔸Updated the randomizer
+🔸Fixed the bad egg issue
+🔸Fixed several other bugs 
+🔸And a lot of minor improvements
 ```
 
 {: .warning }
