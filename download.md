@@ -19,7 +19,7 @@ New Release
 Bug Fix
 {: .label .label-yellow }
 
-[Pokemon Emerald Crest v1.0.8.2 UPS Patch](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320){: .btn }
+[Pokemon Emerald Crest v1.0.8.2 UPS Patch](https://ko-fi.com/api/file-upload/7c9e4da2-2241-4812-9a68-dda4ceb117a7/download?transactionId=7e42e4f7-9b5f-4b43-b7fc-3eade90af831){: .btn }
 
 ```
 What's New!
