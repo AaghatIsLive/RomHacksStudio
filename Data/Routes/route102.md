@@ -48,6 +48,21 @@ Route 102 is a route connecting Oldale Town and Petalburg City.
 
 </details>
 
+### Surfing <img src="https://user-images.githubusercontent.com/109757010/230918174-7d1747ae-88cb-4276-bc9a-1682ac25830c.png">
+
+<details open markdown="block">
+
+| Image                                                                                      | Pokemon             | Levels  | Rate|
+|:-------------------------------------------------------------------------------------------|:--------------------|:--------|:----|
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/magikarp.png">               | Magikarp            | 20-30   | 60% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/corphish.png">               | Corphish            | 10-20   | 30% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/seaking.png">                | Seaking             | 30-35   | 5%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/arrokuda.png">               | Arrokuda            | 5-10    | 4%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/goldeen.png">                | Goldeen             | 20-30   | 1%  |  
+
+</details>
+
+
 ### Hidden <img src="https://cdn.discordapp.com/attachments/1069560427312332843/1091325360534212618/RSE_Grass.png">
 
 Hidden pokemon are on the bottom of the Dexnav and will only appear once you have activated the fuction by talking to a scientist in Devoncorp. After that you can encounter extra pokemon after having already seen them before.
