@@ -58,12 +58,10 @@ What's New!
 ``` 
 > Currently, only followers up to Gen 3 are available the rest of the followers will be added in the next major update (It won't take that long!)
 
-**__your old savefile won't work, since there are tons of huge changes in the current version.__**
+**your old savefile won't work, since there are tons of huge changes in the current version.**
 
 ## [Pokemon Emerald Crest v1.0.7.1 UPS Patch](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320)
 
-**Download**
-https://ko-fi.com/s/ae33a52e9a
 ```
 Fixes some nuzlocke bugs + some other minor bugs
 ```
@@ -75,7 +73,7 @@ what's New!
 🔸Randomizer + Nuzlocke mode is back!
 🔸Minor Bug fixes
 ```
-**__your old savefile should work but If you want to use the randomizer/nuzlocke features you will have to start a new save.__**
+**your old savefile should work but If you want to use the randomizer/nuzlocke features you will have to start a new save.**
 ---
 ## Support
 
