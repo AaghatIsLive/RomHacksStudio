@@ -15,12 +15,16 @@ Route 102 is a route connecting Oldale Town and Petalburg City.
 ---
 ## Items
 
+<details close markdown="block">
+
 | Image                                                                      | Item                | Location                                              |
 |:---------------------------------------------------------------------------|:--------------------|:------------------------------------------------------|
 | <img src="https://img.pokemondb.net/sprites/items/oran-berry.png">         | Oran Berry ×2       | In the soft soil bed north of the center of the route |
 | <img src="https://img.pokemondb.net/sprites/items/pecha-berry.png">        | Pecha Berry ×2      | In the soft soil bed north of the center of the route |
 | <img src="https://img.pokemondb.net/sprites/items/kings-rock.png">         | King's Rock         | South of the southwesternmost ledge                   |
 
+</details>
+  
 ## Wild Encounters
 
 ### Grass <img src="https://cdn.discordapp.com/attachments/1069560427312332843/1091325360534212618/RSE_Grass.png">
@@ -63,6 +67,8 @@ Hidden pokemon are on the bottom of the Dexnav and will only appear once you hav
 
 ## Trainers
 
+<details close markdown="block">
+
 | Image                                                                               | Trainer             | Pokemon                                 |
 |:------------------------------------------------------------------------------------|:--------------------|:----------------------------------------|
 | <img src="https://play.pokemonshowdown.com/sprites/trainers/youngster-gen3rs.png">  | Youngster Calvin    | Skwovet Lv. 6                           | 
@@ -70,6 +76,7 @@ Hidden pokemon are on the bottom of the Dexnav and will only appear once you hav
 | <img src="https://play.pokemonshowdown.com/sprites/trainers/youngster-gen3rs.png">  | Youngster Allen     | Chewtle Lv. 5,  Growlithe Hisuian Lv. 7 |
 | <img src="https://play.pokemonshowdown.com/sprites/trainers/lass-gen3rs.png">       | Lass Tiana          | Wooloo Lv. 6,   Turtwig Lv. 5           |
 
+</details>
 ---
 
 ## Support
