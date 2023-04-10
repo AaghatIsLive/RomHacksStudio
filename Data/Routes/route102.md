@@ -77,7 +77,7 @@ Route 102 is a route connecting Oldale Town and Petalburg City.
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/octillery.png">          | Super Rod        | Octillery           | 9-13   | 40% |  
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/seaking.png">            | Super Rod        | Seaking             | 10-15  | 15% |  
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/magikarp.png">           | Super Rod        | Magikarp            | 4-13   | 4%  |  
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/zigzagoon-galarian.png"> | Super Rod        | Qwilfish-Hisuian    | 12-18  | 1%  |  
+| <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/qwilfish-hisuian.png"> | Super Rod        | Qwilfish-Hisuian    | 12-18  | 1%  |  
 
 </details>
 
