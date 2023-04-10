@@ -15,7 +15,7 @@ Route 102 is a route connecting Oldale Town and Petalburg City.
 ---
 ## Items
 
-<details close markdown="block">
+<details open markdown="block">
 
 | Image                                                                      | Item                | Location                                              |
 |:---------------------------------------------------------------------------|:--------------------|:------------------------------------------------------|
