@@ -63,7 +63,8 @@ What's New!
 ## [Pokemon Emerald Crest v1.0.7.1 UPS Patch](https://ko-fi.com/api/file-upload/cbf173cb-3653-4d8d-a54a-32ac4119bc75/download?transactionId=0cf84642-cd5d-43e0-8330-a197d986be27)
 
 ```
-Fixes some nuzlocke bugs + some other minor bugs
+What's New!
+🔸Fixes some nuzlocke bugs + some other minor bugs
 ```
 
 ## [Pokemon Emerald Crest v1.0.7 UPS Patch](https://ko-fi.com/api/file-upload/efb7ebe6-c4d3-4d10-9e97-9940b6ca2d23/download?transactionId=0bfa4228-d4a2-4598-b3e7-6c3ec6d3c9b5)
