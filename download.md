@@ -19,7 +19,7 @@ New Release
 Bug Fix
 {: .label .label-yellow }
 
-[Pokemon Emerald Crest v1.0.8.1 UPS Patch](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320){: .btn }
+[Pokemon Emerald Crest v1.0.8.2 UPS Patch](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320){: .btn }
 
 ```
 What's New!
@@ -39,6 +39,13 @@ What's New!
 
 ### Previous Releases
 
+
+- [v1.0.8.1](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320)
+{: .d-inline-block }
+
+Bug Fix
+{: .label .label-yellow }
+
 - [v1.0.8](https://ko-fi.com/api/file-upload/3d2db367-d8da-447b-a225-409d7e801697/download?transactionId=a802d6a5-1a04-483c-a2bd-7f72ee6f2daf)
 {: .d-inline-block }
 
@@ -51,11 +58,7 @@ Major Update
 Bug Fix
 {: .label .label-yellow }
 
-- [v1.0.7](https://ko-fi.com/api/file-upload/efb7ebe6-c4d3-4d10-9e97-9940b6ca2d23/download?transactionId=0bfa4228-d4a2-4598-b3e7-6c3ec6d3c9b5)
-{: .d-inline-block }
-
-Major Update
-{: .label .label-blue }
+[see full changelog](https://aaghatislive.github.io/RomHacksStudio/changelog.html)
 
 ## Installation Instructions
 
