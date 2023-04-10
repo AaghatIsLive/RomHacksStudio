@@ -63,12 +63,12 @@ Hidden pokemon are on the bottom of the Dexnav and will only appear once you hav
 
 ## Trainers
 
-| Image                                                                               | Trainer             | Pokemon                                                      |
-|:------------------------------------------------------------------------------------|:--------------------|:-------------------------------------------------------------|
-| <img src="https://play.pokemonshowdown.com/sprites/trainers/youngster-gen3rs.png">  | Youngster Calvin    | <li> Skwovet Lv. 6 </li>                                     | 
-| <img src="https://play.pokemonshowdown.com/sprites/trainers/bugcatcher-gen3rs.png"> | Bug Catcher Rick    | <li> Blipbug Lv. 5 </li>   <li> Scatterbug Lv. 7 </li>       | 
-| <img src="https://play.pokemonshowdown.com/sprites/trainers/youngster-gen3rs.png">  | Youngster Allen     | <li> Chewtle Lv. 5 </li>  <li> Growlithe Hisuian Lv. 7 </li> |
-| <img src="https://play.pokemonshowdown.com/sprites/trainers/lass-gen3rs.png">       | Lass Tiana          | <li> Wooloo Lv. 6 </li>   <li> Turtwig Lv. 5 </li>           |
+| Image                                                                               | Trainer             | Pokemon                                 |
+|:------------------------------------------------------------------------------------|:--------------------|:----------------------------------------|
+| <img src="https://play.pokemonshowdown.com/sprites/trainers/youngster-gen3rs.png">  | Youngster Calvin    | Skwovet Lv. 6                           | 
+| <img src="https://play.pokemonshowdown.com/sprites/trainers/bugcatcher-gen3rs.png"> | Bug Catcher Rick    | Blipbug Lv. 5   Scatterbug Lv. 7        | 
+| <img src="https://play.pokemonshowdown.com/sprites/trainers/youngster-gen3rs.png">  | Youngster Allen     | Chewtle Lv. 5   Growlithe Hisuian Lv. 7 |
+| <img src="https://play.pokemonshowdown.com/sprites/trainers/lass-gen3rs.png">       | Lass Tiana          | Wooloo Lv. 6   Turtwig Lv. 5            |
 
 ---
 
