@@ -6,7 +6,8 @@ nav_exclude: true
 
 ## [Pokemon Emerald Crest v1.0.8.1 UPS Patch](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320)
 
-```What's New!
+```
+What's New!
 🔸PokeVial (can now be claimed from Devon Corp)
 🔸Fixed obedience Level in Story Mode
 🔸Updated wonder trade species
@@ -21,7 +22,8 @@ nav_exclude: true
 
 ## [Pokemon Emerald Crest v1.0.8 UPS Patch](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320)
  
-```What's New!
+```
+What's New!
 🔸Open World Mode
 🔸Randomize Start location [OPW Mode]
 🔸Dynamic Trainer leveling system [OPW Mode]
@@ -68,7 +70,8 @@ Fixes some nuzlocke bugs + some other minor bugs
 
 ## [Pokemon Emerald Crest v1.0.7 UPS Patch](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320)
 
-```what's New!
+```
+what's New!
 🔸Randomizer + Nuzlocke mode is back!
 🔸Minor Bug fixes
 ```
