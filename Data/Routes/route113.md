@@ -8,7 +8,7 @@ nav_exclude: true
 
 **The tall grass on this route is painted a dusty gray by the volcanic ash that pours from Mt. Chimney.**
 
-![Hoenn_Route_102_Map](https://user-images.githubusercontent.com/109757010/230900892-71976b2d-dcab-4108-be7d-2bcba9489d8f.png)
+![Hoenn_Route_113_Map](https://user-images.githubusercontent.com/109757010/233029497-e66b0775-0c5f-4db3-8f7e-f38ec3e7506b.png)
 
 Route 113 is a route connecting Route 111 and Fallarbor Town.
 
