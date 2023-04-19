@@ -6,9 +6,6 @@ If you don't already have a GitHub account, please create one at https://github.
 Step 2: Fork the Repository
 Visit the Emerald Crest GitHub repository at [RomHacksStudio](https://github.com/AaghatIsLive/RomHacksStudio) and click on the Fork button in the upper-right corner of the page. This will create a copy of the repository on your own GitHub account.
 
-```
-
-```
 ---
 layout: page                  
 title: Route 102
