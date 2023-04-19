@@ -43,20 +43,20 @@ TABLE OF CONTENTS
 
 <details open markdown="block">
 
-| Image                                                                                      | Pokemon             | Levels | Rate|
-|:-------------------------------------------------------------------------------------------|:--------------------|:-------|:----|
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/ponyta.png">                | Ponyta               | 15-15  | 20% |  
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/honedge.png">               | Hodedge              | 15-15  | 20% |  
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/spinda.png">                | Spinda               | 14-14  | 10% | 
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/spinda.png">                | Sunkern              | 15-15  | 10% |  
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/durant.png">                | Durant               | 14-14  | 10% |  
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/fletchinder.png">           | Fletchinder          | 15-15  | 10% |  
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/litleo.png">                | Litleo               | 16-16  | 5%  |  
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/bunnelby.png">              | Bunnelby             | 16-16  | 5%  |  
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/carkoal.png">               | Carkoal              | 16-16  | 4%  |  
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/skarmory.png">              | Skarmory             | 16-16  | 4%  |  
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/cufant.png">                | Cufant               | 16-16  | 1%  |  
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/grimer.png">                | Grimer               | 16-16  | 1%  |  
+| Image                                                                                      | Pokemon              | Levels | Rate|
+|:-------------------------------------------------------------------------------------------|:---------------------|:-------|:----|
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/ponyta.png">                 | Ponyta               | 15-15  | 20% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/honedge.png">                | Hodedge              | 15-15  | 20% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/spinda.png">                 | Spinda               | 14-14  | 10% | 
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/spinda.png">                 | Sunkern              | 15-15  | 10% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/durant.png">                 | Durant               | 14-14  | 10% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/fletchinder.png">            | Fletchinder          | 15-15  | 10% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/litleo.png">                 | Litleo               | 16-16  | 5%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/bunnelby.png">               | Bunnelby             | 16-16  | 5%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/carkol.png">                 | Carkol               | 16-16  | 4%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/skarmory.png">               | Skarmory             | 16-16  | 4%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/cufant.png">                 | Cufant               | 16-16  | 1%  |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/grimer.png">                 | Grimer               | 16-16  | 1%  |  
  
 
 </details>
