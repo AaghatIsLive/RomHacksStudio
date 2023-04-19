@@ -48,7 +48,7 @@ TABLE OF CONTENTS
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/ponyta.png">                 | Ponyta               | 15-15  | 20% |  
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/honedge.png">                | Hodedge              | 15-15  | 20% |  
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/spinda.png">                 | Spinda               | 14-14  | 10% | 
-| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/sunkern.png">                | Sunkern              | 15-15  | 10% |  
+| <img src="https://img.pokemondb.net/sprites/sword-shield/icon/spinda.png">                 | Spinda               | 15-15  | 10% |  
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/durant.png">                 | Durant               | 14-14  | 10% |  
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/fletchinder.png">            | Fletchinder          | 15-15  | 10% |  
 | <img src="https://img.pokemondb.net/sprites/sword-shield/icon/litleo.png">                 | Litleo               | 16-16  | 5%  |  
