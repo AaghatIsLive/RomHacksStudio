@@ -78,7 +78,7 @@ Routes in Hoenn number are numbered as 101-134, breaking the former pattern set 
 - Route 110
 - Route 111
 - Route 112
-- Route 113
+- [Route 113](https://aaghatislive.github.io/RomHacksStudio/Data/Routes/route113.html)
 - Route 114
 - Route 115
 - Route 116
