@@ -12,24 +12,6 @@ Clone the repository onto your local machine using the following command in your
 git clone https://github.com/AaghatIsLive/RomHacksStudio.git
 ```
 
-If you're not familiar with the terminal, here are the steps to open it on different operating systems:
-
-Mac:
-- Open the "Terminal" app from the Applications/Utilities folder.
-- Alternatively, you can use the keyboard shortcut "Command + Space" to open Spotlight search, type in "Terminal", and hit enter.
-
-Windows:
-- Click on the Start menu.
-- Type "cmd" in the search bar.
-- Click on the "Command Prompt" app that appears.
-
-Linux:
-- Press "Ctrl + Alt + T" to open the terminal in most distributions.
-- Alternatively, you can search for the terminal app in the applications menu.
-
-
-see it in action [here](https://aaghatislive.github.io/RomHacksStudio/Data/Routes/route101.html)
-
 ```
 ---
 layout: page                  
