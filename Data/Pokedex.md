@@ -4,10 +4,7 @@ title: Route 102
 nav_exclude: true
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Pokédex</title>
+# Pokedex
 	<style>
 		body {
 			background-color: #f2f2f2;
@@ -43,8 +40,6 @@ nav_exclude: true
 			display: block;
 		}
 	</style>
-</head>
-<body>
 	<table>
 <h1>Pokédex</h1>
 <table>
@@ -61,7 +56,8 @@ nav_exclude: true
 <th>Speed</th>
 </tr>
 </thead>
-<tbody>
+<t
+   >
 <tr>
 <td><img alt="Abomasnow" src="https://img.pokemondb.net/sprites/sword-shield/icon/abomasnow.png" /></td>
 <td>Abomasnow</td>
@@ -9514,5 +9510,3 @@ nav_exclude: true
 </tbody>
 </table>
 	</table>
-</body>
-</html>
