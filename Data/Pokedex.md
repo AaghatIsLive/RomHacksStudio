@@ -5,43 +5,7 @@ nav_exclude: true
 ---
 
 # Pokedex
-	<style>
-		body {
-			background-color: #f2f2f2;
-			font-family: Arial, sans-serif;
-		}
 
-		table {
-			border-collapse: collapse;
-			margin: 50px auto;
-			background-color: #fff;
-			box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-		}
-
-		th, td {
-			padding: 10px;
-			border: 1px solid #ddd;
-		}
-
-		th {
-			background-color: #f2f2f2;
-			text-align: center;
-			font-weight: bold;
-		}
-
-		td:first-child {
-			text-align: center;
-		}
-
-		td:first-child img {
-			height: 50px;
-			width: 50px;
-			margin: 0 auto;
-			display: block;
-		}
-	</style>
-	<table>
-<h1>Pokédex</h1>
 <table>
 <thead>
 <tr>
