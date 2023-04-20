@@ -1,6 +1,6 @@
 ---
 layout: page                  
-title: Route 102
+title: Pokedex
 nav_exclude: true
 ---
 
