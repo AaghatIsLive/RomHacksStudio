@@ -9471,6 +9471,4 @@ nav_exclude: true
 <td>70</td>
 <td>58</td>
 </tr>
-</tbody>
-</table>
-	</table>
+
