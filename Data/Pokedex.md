@@ -1,869 +1,9518 @@
 ---
 layout: page                  
-title: Pokédex
+title: Route 102
 nav_exclude: true
 ---
 
-# Pokédex
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pokédex</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
 
-Image | Name | Total | HP | Attack | Defense | SpAtk | SpDef | Speed
---- | --- | --- | --- | --- | --- | --- | --- | ---
-![Abomasnow](https://img.pokemondb.net/sprites/sword-shield/icon/abomasnow.png) | Abomasnow | 494 | 90 | 92 | 75 | 92 | 85 | 60
-![Abra](https://img.pokemondb.net/sprites/sword-shield/icon/abra.png) | Abra | 310 | 25 | 20 | 15 | 105 | 55 | 90
-![Absol](https://img.pokemondb.net/sprites/sword-shield/icon/absol.png) | Absol | 465 | 65 | 130 | 60 | 75 | 60 | 75
-![Accelgor](https://img.pokemondb.net/sprites/sword-shield/icon/accelgor.png) | Accelgor | 495 | 80 | 70 | 40 | 100 | 60 | 145
-![Aegislash](https://img.pokemondb.net/sprites/sword-shield/icon/aegislash.png) | Aegislash | 520 | 60 | 50 | 150 | 50 | 150 | 60
-![Aerodactyl](https://img.pokemondb.net/sprites/sword-shield/icon/aerodactyl.png) | Aerodactyl | 515 | 80 | 105 | 65 | 60 | 75 | 130
-![Aggron](https://img.pokemondb.net/sprites/sword-shield/icon/aggron.png) | Aggron | 530 | 70 | 110 | 180 | 60 | 60 | 50
-![Aipom](https://img.pokemondb.net/sprites/sword-shield/icon/aipom.png) | Aipom | 360 | 55 | 70 | 55 | 40 | 55 | 85
-![Alakazam](https://img.pokemondb.net/sprites/sword-shield/icon/alakazam.png) | Alakazam | 490 | 55 | 50 | 45 | 135 | 85 | 120
-![Alomomola](https://img.pokemondb.net/sprites/sword-shield/icon/alomomola.png) | Alomomola | 470 | 165 | 75 | 80 | 40 | 45 | 65
-![Altaria](https://img.pokemondb.net/sprites/sword-shield/icon/altaria.png) | Altaria | 490 | 75 | 70 | 90 | 70 | 105 | 80
-![Amaura](https://img.pokemondb.net/sprites/sword-shield/icon/amaura.png) | Amaura | 362 | 77 | 59 | 50 | 67 | 63 | 46
-![Ambipom](https://img.pokemondb.net/sprites/sword-shield/icon/ambipom.png) | Ambipom | 482 | 75 | 100 | 66 | 60 | 66 | 115
-![Amoonguss](https://img.pokemondb.net/sprites/sword-shield/icon/amoonguss.png) | Amoonguss | 464 | 114 | 85 | 70 | 85 | 80 | 30
-![Ampharos](https://img.pokemondb.net/sprites/sword-shield/icon/ampharos.png) | Ampharos | 500 | 90 | 75 | 75 | 115 | 90 | 55
-![Anorith](https://img.pokemondb.net/sprites/sword-shield/icon/anorith.png) | Anorith | 355 | 45 | 95 | 50 | 40 | 50 | 75
-![Appletun](https://img.pokemondb.net/sprites/sword-shield/icon/appletun.png) | Appletun | 485 | 110 | 85 | 80 | 100 | 80 | 30
-![Applin](https://img.pokemondb.net/sprites/sword-shield/icon/applin.png) | Applin | 260 | 40 | 40 | 80 | 40 | 40 | 20
-![Araquanid](https://img.pokemondb.net/sprites/sword-shield/icon/araquanid.png) | Araquanid | 454 | 68 | 70 | 92 | 50 | 132 | 42
-![Arbok](https://img.pokemondb.net/sprites/sword-shield/icon/arbok.png) | Arbok | 438 | 60 | 85 | 69 | 65 | 79 | 80
-![Arcanine](https://img.pokemondb.net/sprites/sword-shield/icon/arcanine.png) | Arcanine | 555 | 90 | 110 | 80 | 100 | 80 | 95
-![Arceus](https://img.pokemondb.net/sprites/sword-shield/icon/arceus.png) | Arceus | 720 | 120 | 120 | 120 | 120 | 120 | 120
-![Archen](https://img.pokemondb.net/sprites/sword-shield/icon/archen.png) | Archen | 401 | 55 | 112 | 45 | 74 | 45 | 70
-![Archeops](https://img.pokemondb.net/sprites/sword-shield/icon/archeops.png) | Archeops | 567 | 75 | 140 | 65 | 112 | 65 | 110
-![Arctovish](https://img.pokemondb.net/sprites/sword-shield/icon/arctovish.png) | Arctovish | 505 | 90 | 90 | 100 | 80 | 90 | 55
-![Arctozolt](https://img.pokemondb.net/sprites/sword-shield/icon/arctozolt.png) | Arctozolt | 505 | 90 | 100 | 90 | 90 | 80 | 55
-![Ariados](https://img.pokemondb.net/sprites/sword-shield/icon/ariados.png) | Ariados | 390 | 70 | 90 | 70 | 60 | 60 | 40
-![Armaldo](https://img.pokemondb.net/sprites/sword-shield/icon/armaldo.png) | Armaldo | 495 | 75 | 125 | 100 | 70 | 80 | 45
-![Aromatisse](https://img.pokemondb.net/sprites/sword-shield/icon/aromatisse.png) | Aromatisse | 462 | 101 | 72 | 72 | 99 | 89 | 29
-![Aron](https://img.pokemondb.net/sprites/sword-shield/icon/aron.png) | Aron | 330 | 50 | 70 | 100 | 40 | 40 | 30
-![Arrokuda](https://img.pokemondb.net/sprites/sword-shield/icon/arrokuda.png) | Arrokuda | 280 | 41 | 63 | 40 | 40 | 30 | 66
-![Articuno](https://img.pokemondb.net/sprites/sword-shield/icon/articuno.png) | Articuno | 580 | 90 | 85 | 100 | 95 | 125 | 85
-![Audino](https://img.pokemondb.net/sprites/sword-shield/icon/audino.png) | Audino | 445 | 103 | 60 | 86 | 60 | 86 | 50
-![Aurorus](https://img.pokemondb.net/sprites/sword-shield/icon/aurorus.png) | Aurorus | 521 | 123 | 77 | 72 | 99 | 92 | 58
-![Avalugg](https://img.pokemondb.net/sprites/sword-shield/icon/avalugg.png) | Avalugg | 514 | 95 | 117 | 184 | 44 | 46 | 28
-![Axew](https://img.pokemondb.net/sprites/sword-shield/icon/axew.png) | Axew | 320 | 46 | 87 | 60 | 30 | 40 | 57
-![Azelf](https://img.pokemondb.net/sprites/sword-shield/icon/azelf.png) | Azelf | 580 | 75 | 125 | 70 | 125 | 70 | 115
-![Azumarill](https://img.pokemondb.net/sprites/sword-shield/icon/azumarill.png) | Azumarill | 410 | 100 | 50 | 80 | 50 | 80 | 50
-![Azurill](https://img.pokemondb.net/sprites/sword-shield/icon/azurill.png) | Azurill | 190 | 50 | 20 | 40 | 20 | 40 | 20
-![Bagon](https://img.pokemondb.net/sprites/sword-shield/icon/bagon.png) | Bagon | 300 | 45 | 75 | 60 | 40 | 30 | 50
-![Baltoy](https://img.pokemondb.net/sprites/sword-shield/icon/baltoy.png) | Baltoy | 300 | 40 | 40 | 55 | 40 | 70 | 55
-![Banette](https://img.pokemondb.net/sprites/sword-shield/icon/banette.png) | Banette | 455 | 64 | 115 | 65 | 83 | 63 | 65
-![Barbaracle](https://img.pokemondb.net/sprites/sword-shield/icon/barbaracle.png) | Barbaracle | 500 | 72 | 105 | 115 | 54 | 86 | 68
-![Barboach](https://img.pokemondb.net/sprites/sword-shield/icon/barboach.png) | Barboach | 288 | 50 | 48 | 43 | 46 | 41 | 60
-![Barraskewda](https://img.pokemondb.net/sprites/sword-shield/icon/barraskewda.png) | Barraskewda | 490 | 61 | 123 | 60 | 60 | 50 | 136
-![Basculegion](https://img.pokemondb.net/sprites/sword-shield/icon/basculegion.png) | Basculegion | 530 | 120 | 112 | 65 | 80 | 75 | 78
-![Basculin](https://img.pokemondb.net/sprites/sword-shield/icon/basculin.png) | Basculin | 460 | 70 | 92 | 65 | 80 | 55 | 98
-![Bastiodon](https://img.pokemondb.net/sprites/sword-shield/icon/bastiodon.png) | Bastiodon | 495 | 60 | 52 | 168 | 47 | 138 | 30
-![Bayleef](https://img.pokemondb.net/sprites/sword-shield/icon/bayleef.png) | Bayleef | 405 | 60 | 62 | 80 | 63 | 80 | 60
-![Beartic](https://img.pokemondb.net/sprites/sword-shield/icon/beartic.png) | Beartic | 485 | 95 | 110 | 80 | 70 | 80 | 50
-![Beautifly](https://img.pokemondb.net/sprites/sword-shield/icon/beautifly.png) | Beautifly | 385 | 60 | 70 | 50 | 90 | 50 | 65
-![Beedrill](https://img.pokemondb.net/sprites/sword-shield/icon/beedrill.png) | Beedrill | 385 | 65 | 80 | 40 | 45 | 80 | 75
-![Beheeyem](https://img.pokemondb.net/sprites/sword-shield/icon/beheeyem.png) | Beheeyem | 485 | 75 | 75 | 75 | 125 | 95 | 40
-![Beldum](https://img.pokemondb.net/sprites/sword-shield/icon/beldum.png) | Beldum | 300 | 40 | 55 | 80 | 35 | 60 | 30
-![Bellossom](https://img.pokemondb.net/sprites/sword-shield/icon/bellossom.png) | Bellossom | 480 | 75 | 80 | 85 | 90 | 100 | 50
-![Bellsprout](https://img.pokemondb.net/sprites/sword-shield/icon/bellsprout.png) | Bellsprout | 300 | 50 | 75 | 35 | 70 | 30 | 40
-![Bergmite](https://img.pokemondb.net/sprites/sword-shield/icon/bergmite.png) | Bergmite | 304 | 55 | 69 | 85 | 32 | 35 | 28
-![Bewear](https://img.pokemondb.net/sprites/sword-shield/icon/bewear.png) | Bewear | 500 | 120 | 125 | 80 | 55 | 60 | 60
-![Bibarel](https://img.pokemondb.net/sprites/sword-shield/icon/bibarel.png) | Bibarel | 410 | 79 | 85 | 60 | 55 | 60 | 71
-![Bidoof](https://img.pokemondb.net/sprites/sword-shield/icon/bidoof.png) | Bidoof | 250 | 59 | 45 | 40 | 35 | 40 | 31
-![Binacle](https://img.pokemondb.net/sprites/sword-shield/icon/binacle.png) | Binacle | 306 | 42 | 52 | 67 | 39 | 56 | 50
-![Bisharp](https://img.pokemondb.net/sprites/sword-shield/icon/bisharp.png) | Bisharp | 490 | 65 | 125 | 100 | 60 | 70 | 70
-![Blacephalon](https://img.pokemondb.net/sprites/sword-shield/icon/blacephalon.png) | Blacephalon | 570 | 53 | 127 | 53 | 151 | 79 | 107
-![Blastoise](https://img.pokemondb.net/sprites/sword-shield/icon/blastoise.png) | Blastoise | 530 | 79 | 83 | 100 | 85 | 105 | 78
-![Blaziken](https://img.pokemondb.net/sprites/sword-shield/icon/blaziken.png) | Blaziken | 530 | 80 | 120 | 70 | 110 | 70 | 80
-![Blipbug](https://img.pokemondb.net/sprites/sword-shield/icon/blipbug.png) | Blipbug | 180 | 25 | 20 | 20 | 25 | 45 | 45
-![Blissey](https://img.pokemondb.net/sprites/sword-shield/icon/blissey.png) | Blissey | 540 | 255 | 10 | 10 | 75 | 135 | 55
-![Blitzle](https://img.pokemondb.net/sprites/sword-shield/icon/blitzle.png) | Blitzle | 295 | 45 | 60 | 32 | 50 | 32 | 76
-![Boldore](https://img.pokemondb.net/sprites/sword-shield/icon/boldore.png) | Boldore | 390 | 70 | 105 | 105 | 50 | 40 | 20
-![Boltund](https://img.pokemondb.net/sprites/sword-shield/icon/boltund.png) | Boltund | 490 | 69 | 90 | 60 | 90 | 60 | 121
-![Bonsly](https://img.pokemondb.net/sprites/sword-shield/icon/bonsly.png) | Bonsly | 290 | 50 | 80 | 95 | 10 | 45 | 10
-![Bouffalant](https://img.pokemondb.net/sprites/sword-shield/icon/bouffalant.png) | Bouffalant | 490 | 95 | 110 | 95 | 40 | 95 | 55
-![Bounsweet](https://img.pokemondb.net/sprites/sword-shield/icon/bounsweet.png) | Bounsweet | 210 | 42 | 30 | 38 | 30 | 38 | 32
-![Braixen](https://img.pokemondb.net/sprites/sword-shield/icon/braixen.png) | Braixen | 409 | 59 | 59 | 58 | 90 | 70 | 73
-![Braviary](https://img.pokemondb.net/sprites/sword-shield/icon/braviary.png) | Braviary | 510 | 100 | 123 | 75 | 57 | 75 | 80
-![Breloom](https://img.pokemondb.net/sprites/sword-shield/icon/breloom.png) | Breloom | 460 | 60 | 130 | 80 | 60 | 60 | 70
-![Brionne](https://img.pokemondb.net/sprites/sword-shield/icon/brionne.png) | Brionne | 420 | 60 | 69 | 69 | 91 | 81 | 50
-![Bronzong](https://img.pokemondb.net/sprites/sword-shield/icon/bronzong.png) | Bronzong | 500 | 67 | 89 | 116 | 79 | 116 | 33
-![Bronzor](https://img.pokemondb.net/sprites/sword-shield/icon/bronzor.png) | Bronzor | 300 | 57 | 24 | 86 | 24 | 86 | 23
-![Bruxish](https://img.pokemondb.net/sprites/sword-shield/icon/bruxish.png) | Bruxish | 475 | 68 | 105 | 70 | 70 | 70 | 92
-![Budew](https://img.pokemondb.net/sprites/sword-shield/icon/budew.png) | Budew | 280 | 40 | 30 | 35 | 50 | 70 | 55
-![Buizel](https://img.pokemondb.net/sprites/sword-shield/icon/buizel.png) | Buizel | 330 | 55 | 65 | 35 | 60 | 30 | 85
-![Bulbasaur](https://img.pokemondb.net/sprites/sword-shield/icon/bulbasaur.png) | Bulbasaur | 318 | 45 | 49 | 49 | 65 | 65 | 45
-![Buneary](https://img.pokemondb.net/sprites/sword-shield/icon/buneary.png) | Buneary | 350 | 55 | 66 | 44 | 44 | 56 | 85
-![Bunnelby](https://img.pokemondb.net/sprites/sword-shield/icon/bunnelby.png) | Bunnelby | 237 | 38 | 36 | 38 | 32 | 36 | 57
-![Butterfree](https://img.pokemondb.net/sprites/sword-shield/icon/butterfree.png) | Butterfree | 385 | 60 | 45 | 50 | 80 | 80 | 70
-![Buzzwole](https://img.pokemondb.net/sprites/sword-shield/icon/buzzwole.png) | Buzzwole | 570 | 107 | 139 | 139 | 53 | 53 | 79
-![Cacnea](https://img.pokemondb.net/sprites/sword-shield/icon/cacnea.png) | Cacnea | 335 | 50 | 85 | 40 | 85 | 40 | 35
-![Cacturne](https://img.pokemondb.net/sprites/sword-shield/icon/cacturne.png) | Cacturne | 475 | 70 | 115 | 60 | 115 | 60 | 55
-![Calyrex](https://img.pokemondb.net/sprites/sword-shield/icon/calyrex.png) | Calyrex | 500 | 100 | 80 | 80 | 80 | 80 | 80
-![Camerupt](https://img.pokemondb.net/sprites/sword-shield/icon/camerupt.png) | Camerupt | 460 | 70 | 100 | 70 | 105 | 75 | 40
-![Carbink](https://img.pokemondb.net/sprites/sword-shield/icon/carbink.png) | Carbink | 500 | 50 | 50 | 150 | 50 | 150 | 50
-![Carkol](https://img.pokemondb.net/sprites/sword-shield/icon/carkol.png) | Carkol | 410 | 80 | 60 | 90 | 60 | 70 | 50
-![Carnivine](https://img.pokemondb.net/sprites/sword-shield/icon/carnivine.png) | Carnivine | 454 | 74 | 100 | 72 | 90 | 72 | 46
-![Carracosta](https://img.pokemondb.net/sprites/sword-shield/icon/carracosta.png) | Carracosta | 495 | 74 | 108 | 133 | 83 | 65 | 32
-![Carvanha](https://img.pokemondb.net/sprites/sword-shield/icon/carvanha.png) | Carvanha | 305 | 45 | 90 | 20 | 65 | 20 | 65
-![Cascoon](https://img.pokemondb.net/sprites/sword-shield/icon/cascoon.png) | Cascoon | 205 | 50 | 35 | 55 | 25 | 25 | 15
-![Caterpie](https://img.pokemondb.net/sprites/sword-shield/icon/caterpie.png) | Caterpie | 195 | 45 | 30 | 35 | 20 | 20 | 45
-![Celebi](https://img.pokemondb.net/sprites/sword-shield/icon/celebi.png) | Celebi | 600 | 100 | 100 | 100 | 100 | 100 | 100
-![Celesteela](https://img.pokemondb.net/sprites/sword-shield/icon/celesteela.png) | Celesteela | 570 | 97 | 101 | 103 | 107 | 101 | 61
-![Centiskorch](https://img.pokemondb.net/sprites/sword-shield/icon/centiskorch.png) | Centiskorch | 525 | 100 | 115 | 65 | 90 | 90 | 65
-![Chandelure](https://img.pokemondb.net/sprites/sword-shield/icon/chandelure.png) | Chandelure | 520 | 60 | 55 | 90 | 145 | 90 | 80
-![Chansey](https://img.pokemondb.net/sprites/sword-shield/icon/chansey.png) | Chansey | 450 | 250 | 5 | 5 | 35 | 105 | 50
-![Charizard](https://img.pokemondb.net/sprites/sword-shield/icon/charizard.png) | Charizard | 534 | 78 | 84 | 78 | 109 | 85 | 100
-![Charjabug](https://img.pokemondb.net/sprites/sword-shield/icon/charjabug.png) | Charjabug | 400 | 57 | 82 | 95 | 55 | 75 | 36
-![Charmander](https://img.pokemondb.net/sprites/sword-shield/icon/charmander.png) | Charmander | 309 | 39 | 52 | 43 | 60 | 50 | 65
-![Charmeleon](https://img.pokemondb.net/sprites/sword-shield/icon/charmeleon.png) | Charmeleon | 405 | 58 | 64 | 58 | 80 | 65 | 80
-![Chatot](https://img.pokemondb.net/sprites/sword-shield/icon/chatot.png) | Chatot | 411 | 76 | 65 | 45 | 92 | 42 | 91
-![Cherubi](https://img.pokemondb.net/sprites/sword-shield/icon/cherubi.png) | Cherubi | 275 | 45 | 35 | 45 | 62 | 53 | 35
-![Chesnaught](https://img.pokemondb.net/sprites/sword-shield/icon/chesnaught.png) | Chesnaught | 530 | 88 | 107 | 122 | 74 | 75 | 64
-![Chespin](https://img.pokemondb.net/sprites/sword-shield/icon/chespin.png) | Chespin | 313 | 56 | 61 | 65 | 48 | 45 | 38
-![Chewtle](https://img.pokemondb.net/sprites/sword-shield/icon/chewtle.png) | Chewtle | 284 | 50 | 64 | 50 | 38 | 38 | 44
-![Chikorita](https://img.pokemondb.net/sprites/sword-shield/icon/chikorita.png) | Chikorita | 318 | 45 | 49 | 65 | 49 | 65 | 45
-![Chimchar](https://img.pokemondb.net/sprites/sword-shield/icon/chimchar.png) | Chimchar | 309 | 44 | 58 | 44 | 58 | 44 | 61
-![Chimecho](https://img.pokemondb.net/sprites/sword-shield/icon/chimecho.png) | Chimecho | 425 | 65 | 50 | 70 | 95 | 80 | 65
-![Chinchou](https://img.pokemondb.net/sprites/sword-shield/icon/chinchou.png) | Chinchou | 330 | 75 | 38 | 38 | 56 | 56 | 67
-![Chingling](https://img.pokemondb.net/sprites/sword-shield/icon/chingling.png) | Chingling | 285 | 45 | 30 | 50 | 65 | 50 | 45
-![Cinccino](https://img.pokemondb.net/sprites/sword-shield/icon/cinccino.png) | Cinccino | 470 | 75 | 95 | 60 | 65 | 60 | 115
-![Cinderace](https://img.pokemondb.net/sprites/sword-shield/icon/cinderace.png) | Cinderace | 530 | 80 | 116 | 75 | 65 | 75 | 119
-![Clamperl](https://img.pokemondb.net/sprites/sword-shield/icon/clamperl.png) | Clamperl | 345 | 35 | 64 | 85 | 74 | 55 | 32
-![Clauncher](https://img.pokemondb.net/sprites/sword-shield/icon/clauncher.png) | Clauncher | 330 | 50 | 53 | 62 | 58 | 63 | 44
-![Clawitzer](https://img.pokemondb.net/sprites/sword-shield/icon/clawitzer.png) | Clawitzer | 500 | 71 | 73 | 88 | 120 | 89 | 59
-![Claydol](https://img.pokemondb.net/sprites/sword-shield/icon/claydol.png) | Claydol | 500 | 60 | 70 | 105 | 70 | 120 | 75
-![Clefable](https://img.pokemondb.net/sprites/sword-shield/icon/clefable.png) | Clefable | 473 | 95 | 70 | 73 | 85 | 90 | 60
-![Clefairy](https://img.pokemondb.net/sprites/sword-shield/icon/clefairy.png) | Clefairy | 323 | 70 | 45 | 48 | 60 | 65 | 35
-![Cleffa](https://img.pokemondb.net/sprites/sword-shield/icon/cleffa.png) | Cleffa | 218 | 50 | 25 | 28 | 45 | 55 | 15
-![Clobbopus](https://img.pokemondb.net/sprites/sword-shield/icon/clobbopus.png) | Clobbopus | 310 | 50 | 68 | 60 | 50 | 50 | 32
-![Cloyster](https://img.pokemondb.net/sprites/sword-shield/icon/cloyster.png) | Cloyster | 525 | 50 | 95 | 180 | 85 | 45 | 70
-![Coalossal](https://img.pokemondb.net/sprites/sword-shield/icon/coalossal.png) | Coalossal | 510 | 110 | 80 | 120 | 80 | 90 | 30
-![Cobalion](https://img.pokemondb.net/sprites/sword-shield/icon/cobalion.png) | Cobalion | 580 | 91 | 90 | 129 | 90 | 72 | 108
-![Cofagrigus](https://img.pokemondb.net/sprites/sword-shield/icon/cofagrigus.png) | Cofagrigus | 483 | 58 | 50 | 145 | 95 | 105 | 30
-![Combee](https://img.pokemondb.net/sprites/sword-shield/icon/combee.png) | Combee | 244 | 30 | 30 | 42 | 30 | 42 | 70
-![Combusken](https://img.pokemondb.net/sprites/sword-shield/icon/combusken.png) | Combusken | 405 | 60 | 85 | 60 | 85 | 60 | 55
-![Comfey](https://img.pokemondb.net/sprites/sword-shield/icon/comfey.png) | Comfey | 485 | 51 | 52 | 90 | 82 | 110 | 100
-![Conkeldurr](https://img.pokemondb.net/sprites/sword-shield/icon/conkeldurr.png) | Conkeldurr | 505 | 105 | 140 | 95 | 55 | 65 | 45
-![Copperajah](https://img.pokemondb.net/sprites/sword-shield/icon/copperajah.png) | Copperajah | 500 | 122 | 130 | 69 | 80 | 69 | 30
-![Corphish](https://img.pokemondb.net/sprites/sword-shield/icon/corphish.png) | Corphish | 308 | 43 | 80 | 65 | 50 | 35 | 35
-![Corsola](https://img.pokemondb.net/sprites/sword-shield/icon/corsola.png) | Corsola | 380 | 55 | 55 | 85 | 65 | 85 | 35
-![Corviknight](https://img.pokemondb.net/sprites/sword-shield/icon/corviknight.png) | Corviknight | 495 | 98 | 87 | 105 | 53 | 85 | 67
-![Corvisquire](https://img.pokemondb.net/sprites/sword-shield/icon/corvisquire.png) | Corvisquire | 365 | 68 | 67 | 55 | 43 | 55 | 77
-![Cosmoem](https://img.pokemondb.net/sprites/sword-shield/icon/cosmoem.png) | Cosmoem | 400 | 43 | 29 | 131 | 29 | 131 | 37
-![Cosmog](https://img.pokemondb.net/sprites/sword-shield/icon/cosmog.png) | Cosmog | 200 | 43 | 29 | 31 | 29 | 31 | 37
-![Cottonee](https://img.pokemondb.net/sprites/sword-shield/icon/cottonee.png) | Cottonee | 280 | 40 | 27 | 60 | 37 | 50 | 66
-![Crabominable](https://img.pokemondb.net/sprites/sword-shield/icon/crabominable.png) | Crabominable | 478 | 97 | 132 | 77 | 62 | 67 | 43
-![Crabrawler](https://img.pokemondb.net/sprites/sword-shield/icon/crabrawler.png) | Crabrawler | 338 | 47 | 82 | 57 | 42 | 47 | 63
-![Cradily](https://img.pokemondb.net/sprites/sword-shield/icon/cradily.png) | Cradily | 495 | 86 | 81 | 97 | 81 | 107 | 43
-![Cranidos](https://img.pokemondb.net/sprites/sword-shield/icon/cranidos.png) | Cranidos | 350 | 67 | 125 | 40 | 30 | 30 | 58
-![Crawdaunt](https://img.pokemondb.net/sprites/sword-shield/icon/crawdaunt.png) | Crawdaunt | 468 | 63 | 120 | 85 | 90 | 55 | 55
-![Cresselia](https://img.pokemondb.net/sprites/sword-shield/icon/cresselia.png) | Cresselia | 600 | 120 | 70 | 120 | 75 | 130 | 85
-![Croagunk](https://img.pokemondb.net/sprites/sword-shield/icon/croagunk.png) | Croagunk | 300 | 48 | 61 | 40 | 61 | 40 | 50
-![Crobat](https://img.pokemondb.net/sprites/sword-shield/icon/crobat.png) | Crobat | 535 | 85 | 90 | 80 | 70 | 80 | 130
-![Croconaw](https://img.pokemondb.net/sprites/sword-shield/icon/croconaw.png) | Croconaw | 405 | 65 | 80 | 80 | 59 | 63 | 58
-![Crustle](https://img.pokemondb.net/sprites/sword-shield/icon/crustle.png) | Crustle | 475 | 70 | 95 | 125 | 65 | 75 | 45
-![Cryogonal](https://img.pokemondb.net/sprites/sword-shield/icon/cryogonal.png) | Cryogonal | 485 | 70 | 50 | 30 | 95 | 135 | 105
-![Cubchoo](https://img.pokemondb.net/sprites/sword-shield/icon/cubchoo.png) | Cubchoo | 305 | 55 | 70 | 40 | 60 | 40 | 40
-![Cubone](https://img.pokemondb.net/sprites/sword-shield/icon/cubone.png) | Cubone | 320 | 50 | 50 | 95 | 40 | 50 | 35
-![Cufant](https://img.pokemondb.net/sprites/sword-shield/icon/cufant.png) | Cufant | 330 | 72 | 80 | 49 | 40 | 49 | 40
-![Cursola](https://img.pokemondb.net/sprites/sword-shield/icon/cursola.png) | Cursola | 510 | 60 | 95 | 50 | 145 | 130 | 30
-![Cutiefly](https://img.pokemondb.net/sprites/sword-shield/icon/cutiefly.png) | Cutiefly | 304 | 40 | 45 | 40 | 55 | 40 | 84
-![Cyndaquil](https://img.pokemondb.net/sprites/sword-shield/icon/cyndaquil.png) | Cyndaquil | 309 | 39 | 52 | 43 | 60 | 50 | 65
-![Darkrai](https://img.pokemondb.net/sprites/sword-shield/icon/darkrai.png) | Darkrai | 600 | 70 | 90 | 90 | 135 | 90 | 125
-![Darmanitan](https://img.pokemondb.net/sprites/sword-shield/icon/darmanitan.png) | Darmanitan | 480 | 105 | 140 | 55 | 30 | 55 | 95
-![Dartrix](https://img.pokemondb.net/sprites/sword-shield/icon/dartrix.png) | Dartrix | 420 | 78 | 75 | 75 | 70 | 70 | 52
-![Darumaka](https://img.pokemondb.net/sprites/sword-shield/icon/darumaka.png) | Darumaka | 315 | 70 | 90 | 45 | 15 | 45 | 50
-![Decidueye](https://img.pokemondb.net/sprites/sword-shield/icon/decidueye.png) | Decidueye | 530 | 78 | 107 | 75 | 100 | 100 | 70
-![Dedenne](https://img.pokemondb.net/sprites/sword-shield/icon/dedenne.png) | Dedenne | 431 | 67 | 58 | 57 | 81 | 67 | 101
-![Deino](https://img.pokemondb.net/sprites/sword-shield/icon/deino.png) | Deino | 300 | 52 | 65 | 50 | 45 | 50 | 38
-![Delcatty](https://img.pokemondb.net/sprites/sword-shield/icon/delcatty.png) | Delcatty | 380 | 70 | 65 | 65 | 55 | 55 | 70
-![Delibird](https://img.pokemondb.net/sprites/sword-shield/icon/delibird.png) | Delibird | 330 | 45 | 55 | 45 | 65 | 45 | 75
-![Delphox](https://img.pokemondb.net/sprites/sword-shield/icon/delphox.png) | Delphox | 534 | 75 | 69 | 72 | 114 | 100 | 104
-![Deoxys](https://img.pokemondb.net/sprites/sword-shield/icon/deoxys.png) | Deoxys | 600 | 50 | 150 | 50 | 150 | 50 | 150
-![Dewgong](https://img.pokemondb.net/sprites/sword-shield/icon/dewgong.png) | Dewgong | 475 | 90 | 70 | 80 | 70 | 95 | 70
-![Dewott](https://img.pokemondb.net/sprites/sword-shield/icon/dewott.png) | Dewott | 413 | 75 | 75 | 60 | 83 | 60 | 60
-![Dewpider](https://img.pokemondb.net/sprites/sword-shield/icon/dewpider.png) | Dewpider | 269 | 38 | 40 | 52 | 40 | 72 | 27
-![Dhelmise](https://img.pokemondb.net/sprites/sword-shield/icon/dhelmise.png) | Dhelmise | 517 | 70 | 131 | 100 | 86 | 90 | 40
-![Dialga](https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png) | Dialga | 680 | 100 | 120 | 120 | 150 | 100 | 90
-![Diancie](https://img.pokemondb.net/sprites/sword-shield/icon/diancie.png) | Diancie | 600 | 50 | 100 | 150 | 100 | 150 | 50
-![Diggersby](https://img.pokemondb.net/sprites/sword-shield/icon/diggersby.png) | Diggersby | 423 | 85 | 56 | 77 | 50 | 77 | 78
-![Diglett](https://img.pokemondb.net/sprites/sword-shield/icon/diglett.png) | Diglett | 265 | 10 | 55 | 25 | 35 | 45 | 95
-![Ditto](https://img.pokemondb.net/sprites/sword-shield/icon/ditto.png) | Ditto | 288 | 48 | 48 | 48 | 48 | 48 | 48
-![Dodrio](https://img.pokemondb.net/sprites/sword-shield/icon/dodrio.png) | Dodrio | 460 | 60 | 110 | 70 | 60 | 60 | 100
-![Doduo](https://img.pokemondb.net/sprites/sword-shield/icon/doduo.png) | Doduo | 310 | 35 | 85 | 45 | 35 | 35 | 75
-![Donphan](https://img.pokemondb.net/sprites/sword-shield/icon/donphan.png) | Donphan | 500 | 90 | 120 | 120 | 60 | 60 | 50
-![Dottler](https://img.pokemondb.net/sprites/sword-shield/icon/dottler.png) | Dottler | 335 | 50 | 35 | 80 | 50 | 90 | 30
-![Doublade](https://img.pokemondb.net/sprites/sword-shield/icon/doublade.png) | Doublade | 448 | 59 | 110 | 150 | 45 | 49 | 35
-![Dracovish](https://img.pokemondb.net/sprites/sword-shield/icon/dracovish.png) | Dracovish | 505 | 90 | 90 | 100 | 70 | 80 | 75
-![Dracozolt](https://img.pokemondb.net/sprites/sword-shield/icon/dracozolt.png) | Dracozolt | 505 | 90 | 100 | 90 | 80 | 70 | 75
-![Dragalge](https://img.pokemondb.net/sprites/sword-shield/icon/dragalge.png) | Dragalge | 494 | 65 | 75 | 90 | 97 | 123 | 44
-![Dragapult](https://img.pokemondb.net/sprites/sword-shield/icon/dragapult.png) | Dragapult | 600 | 88 | 120 | 75 | 100 | 75 | 142
-![Dragonair](https://img.pokemondb.net/sprites/sword-shield/icon/dragonair.png) | Dragonair | 420 | 61 | 84 | 65 | 70 | 70 | 70
-![Dragonite](https://img.pokemondb.net/sprites/sword-shield/icon/dragonite.png) | Dragonite | 600 | 91 | 134 | 95 | 100 | 100 | 80
-![Drakloak](https://img.pokemondb.net/sprites/sword-shield/icon/drakloak.png) | Drakloak | 410 | 68 | 80 | 50 | 60 | 50 | 102
-![Drampa](https://img.pokemondb.net/sprites/sword-shield/icon/drampa.png) | Drampa | 485 | 78 | 60 | 85 | 135 | 91 | 36
-![Drapion](https://img.pokemondb.net/sprites/sword-shield/icon/drapion.png) | Drapion | 500 | 70 | 90 | 110 | 60 | 75 | 95
-![Dratini](https://img.pokemondb.net/sprites/sword-shield/icon/dratini.png) | Dratini | 300 | 41 | 64 | 45 | 50 | 50 | 50
-![Drednaw](https://img.pokemondb.net/sprites/sword-shield/icon/drednaw.png) | Drednaw | 485 | 90 | 115 | 90 | 48 | 68 | 74
-![Dreepy](https://img.pokemondb.net/sprites/sword-shield/icon/dreepy.png) | Dreepy | 270 | 28 | 60 | 30 | 40 | 30 | 82
-![Drifblim](https://img.pokemondb.net/sprites/sword-shield/icon/drifblim.png) | Drifblim | 498 | 150 | 80 | 44 | 90 | 54 | 80
-![Drifloon](https://img.pokemondb.net/sprites/sword-shield/icon/drifloon.png) | Drifloon | 348 | 90 | 50 | 34 | 60 | 44 | 70
-![Drilbur](https://img.pokemondb.net/sprites/sword-shield/icon/drilbur.png) | Drilbur | 328 | 60 | 85 | 40 | 30 | 45 | 68
-![Drizzile](https://img.pokemondb.net/sprites/sword-shield/icon/drizzile.png) | Drizzile | 420 | 65 | 60 | 55 | 95 | 55 | 90
-![Drowzee](https://img.pokemondb.net/sprites/sword-shield/icon/drowzee.png) | Drowzee | 328 | 60 | 48 | 45 | 43 | 90 | 42
-![Druddigon](https://img.pokemondb.net/sprites/sword-shield/icon/druddigon.png) | Druddigon | 485 | 77 | 120 | 90 | 60 | 90 | 48
-![Dubwool](https://img.pokemondb.net/sprites/sword-shield/icon/dubwool.png) | Dubwool | 490 | 72 | 80 | 100 | 60 | 90 | 88
-![Ducklett](https://img.pokemondb.net/sprites/sword-shield/icon/ducklett.png) | Ducklett | 305 | 62 | 44 | 50 | 44 | 50 | 55
-![Dugtrio](https://img.pokemondb.net/sprites/sword-shield/icon/dugtrio.png) | Dugtrio | 405 | 35 | 80 | 50 | 50 | 70 | 120
-![Dunsparce](https://img.pokemondb.net/sprites/sword-shield/icon/dunsparce.png) | Dunsparce | 415 | 100 | 70 | 70 | 65 | 65 | 45
-![Duosion](https://img.pokemondb.net/sprites/sword-shield/icon/duosion.png) | Duosion | 370 | 65 | 40 | 50 | 125 | 60 | 30
-![Duraludon](https://img.pokemondb.net/sprites/sword-shield/icon/duraludon.png) | Duraludon | 535 | 70 | 95 | 115 | 120 | 50 | 85
-![Durant](https://img.pokemondb.net/sprites/sword-shield/icon/durant.png) | Durant | 484 | 58 | 109 | 112 | 48 | 48 | 109
-![Dusclops](https://img.pokemondb.net/sprites/sword-shield/icon/dusclops.png) | Dusclops | 455 | 40 | 70 | 130 | 60 | 130 | 25
-![Dusknoir](https://img.pokemondb.net/sprites/sword-shield/icon/dusknoir.png) | Dusknoir | 525 | 45 | 100 | 135 | 65 | 135 | 45
-![Duskull](https://img.pokemondb.net/sprites/sword-shield/icon/duskull.png) | Duskull | 295 | 20 | 40 | 90 | 30 | 90 | 25
-![Dustox](https://img.pokemondb.net/sprites/sword-shield/icon/dustox.png) | Dustox | 385 | 60 | 50 | 70 | 50 | 90 | 65
-![Dwebble](https://img.pokemondb.net/sprites/sword-shield/icon/dwebble.png) | Dwebble | 325 | 50 | 65 | 85 | 35 | 35 | 55
-![Eelektrik](https://img.pokemondb.net/sprites/sword-shield/icon/eelektrik.png) | Eelektrik | 405 | 65 | 85 | 70 | 75 | 70 | 40
-![Eelektross](https://img.pokemondb.net/sprites/sword-shield/icon/eelektross.png) | Eelektross | 515 | 85 | 115 | 80 | 105 | 80 | 50
-![Eevee](https://img.pokemondb.net/sprites/sword-shield/icon/eevee.png) | Eevee | 325 | 55 | 55 | 50 | 45 | 65 | 55
-![Eiscue](https://img.pokemondb.net/sprites/sword-shield/icon/eiscue.png) | Eiscue | 470 | 75 | 80 | 110 | 65 | 90 | 50
-![Ekans](https://img.pokemondb.net/sprites/sword-shield/icon/ekans.png) | Ekans | 288 | 35 | 60 | 44 | 40 | 54 | 55
-![Eldegoss](https://img.pokemondb.net/sprites/sword-shield/icon/eldegoss.png) | Eldegoss | 460 | 60 | 50 | 90 | 80 | 120 | 60
-![Electabuzz](https://img.pokemondb.net/sprites/sword-shield/icon/electabuzz.png) | Electabuzz | 490 | 65 | 83 | 57 | 95 | 85 | 105
-![Electivire](https://img.pokemondb.net/sprites/sword-shield/icon/electivire.png) | Electivire | 540 | 75 | 123 | 67 | 95 | 85 | 95
-![Electrike](https://img.pokemondb.net/sprites/sword-shield/icon/electrike.png) | Electrike | 295 | 40 | 45 | 40 | 65 | 40 | 65
-![Electrode](https://img.pokemondb.net/sprites/sword-shield/icon/electrode.png) | Electrode | 480 | 60 | 50 | 70 | 80 | 80 | 140
-![Elekid](https://img.pokemondb.net/sprites/sword-shield/icon/elekid.png) | Elekid | 360 | 45 | 63 | 37 | 65 | 55 | 95
-![Elgyem](https://img.pokemondb.net/sprites/sword-shield/icon/elgyem.png) | Elgyem | 335 | 55 | 55 | 55 | 85 | 55 | 30
-![Emboar](https://img.pokemondb.net/sprites/sword-shield/icon/emboar.png) | Emboar | 528 | 110 | 123 | 65 | 100 | 65 | 65
-![Emolga](https://img.pokemondb.net/sprites/sword-shield/icon/emolga.png) | Emolga | 428 | 55 | 75 | 60 | 75 | 60 | 103
-![Empoleon](https://img.pokemondb.net/sprites/sword-shield/icon/empoleon.png) | Empoleon | 530 | 84 | 86 | 88 | 111 | 101 | 60
-![Enamorus](https://img.pokemondb.net/sprites/sword-shield/icon/enamorus.png) | Enamorus | 580 | 74 | 115 | 70 | 135 | 80 | 106
-![Entei](https://img.pokemondb.net/sprites/sword-shield/icon/entei.png) | Entei | 580 | 115 | 115 | 85 | 90 | 75 | 100
-![Escavalier](https://img.pokemondb.net/sprites/sword-shield/icon/escavalier.png) | Escavalier | 495 | 70 | 135 | 105 | 60 | 105 | 20
-![Espeon](https://img.pokemondb.net/sprites/sword-shield/icon/espeon.png) | Espeon | 525 | 65 | 65 | 60 | 130 | 95 | 110
-![Espurr](https://img.pokemondb.net/sprites/sword-shield/icon/espurr.png) | Espurr | 355 | 62 | 48 | 54 | 63 | 60 | 68
-![Eternatus](https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png) | Eternatus | 690 | 140 | 85 | 95 | 145 | 95 | 130
-![Excadrill](https://img.pokemondb.net/sprites/sword-shield/icon/excadrill.png) | Excadrill | 508 | 110 | 135 | 60 | 50 | 65 | 88
-![Exeggcute](https://img.pokemondb.net/sprites/sword-shield/icon/exeggcute.png) | Exeggcute | 325 | 60 | 40 | 80 | 60 | 45 | 40
-![Exeggutor](https://img.pokemondb.net/sprites/sword-shield/icon/exeggutor.png) | Exeggutor | 520 | 95 | 95 | 85 | 125 | 65 | 55
-![Exploud](https://img.pokemondb.net/sprites/sword-shield/icon/exploud.png) | Exploud | 480 | 104 | 91 | 63 | 91 | 63 | 68
-![Falinks](https://img.pokemondb.net/sprites/sword-shield/icon/falinks.png) | Falinks | 470 | 65 | 100 | 100 | 70 | 60 | 75
-![Farfetchd](https://img.pokemondb.net/sprites/sword-shield/icon/farfetchd.png) | Farfetchd | 352 | 52 | 65 | 55 | 58 | 62 | 60
-![Fearow](https://img.pokemondb.net/sprites/sword-shield/icon/fearow.png) | Fearow | 442 | 65 | 90 | 65 | 61 | 61 | 100
-![Feebas](https://img.pokemondb.net/sprites/sword-shield/icon/feebas.png) | Feebas | 200 | 20 | 15 | 20 | 10 | 55 | 80
-![Fennekin](https://img.pokemondb.net/sprites/sword-shield/icon/fennekin.png) | Fennekin | 307 | 40 | 45 | 40 | 62 | 60 | 60
-![Feraligatr](https://img.pokemondb.net/sprites/sword-shield/icon/feraligatr.png) | Feraligatr | 530 | 85 | 105 | 100 | 79 | 83 | 78
-![Ferroseed](https://img.pokemondb.net/sprites/sword-shield/icon/ferroseed.png) | Ferroseed | 305 | 44 | 50 | 91 | 24 | 86 | 10
-![Ferrothorn](https://img.pokemondb.net/sprites/sword-shield/icon/ferrothorn.png) | Ferrothorn | 489 | 74 | 94 | 131 | 54 | 116 | 20
-![Finneon](https://img.pokemondb.net/sprites/sword-shield/icon/finneon.png) | Finneon | 330 | 49 | 49 | 56 | 49 | 61 | 66
-![Flaaffy](https://img.pokemondb.net/sprites/sword-shield/icon/flaaffy.png) | Flaaffy | 365 | 70 | 55 | 55 | 80 | 60 | 45
-![Flapple](https://img.pokemondb.net/sprites/sword-shield/icon/flapple.png) | Flapple | 485 | 70 | 110 | 80 | 95 | 60 | 70
-![Flareon](https://img.pokemondb.net/sprites/sword-shield/icon/flareon.png) | Flareon | 525 | 65 | 130 | 60 | 95 | 110 | 65
-![Fletchinder](https://img.pokemondb.net/sprites/sword-shield/icon/fletchinder.png) | Fletchinder | 382 | 62 | 73 | 55 | 56 | 52 | 84
-![Fletchling](https://img.pokemondb.net/sprites/sword-shield/icon/fletchling.png) | Fletchling | 278 | 45 | 50 | 43 | 40 | 38 | 62
-![Floatzel](https://img.pokemondb.net/sprites/sword-shield/icon/floatzel.png) | Floatzel | 495 | 85 | 105 | 55 | 85 | 50 | 115
-![Flygon](https://img.pokemondb.net/sprites/sword-shield/icon/flygon.png) | Flygon | 520 | 80 | 100 | 80 | 80 | 80 | 100
-![Fomantis](https://img.pokemondb.net/sprites/sword-shield/icon/fomantis.png) | Fomantis | 250 | 40 | 55 | 35 | 50 | 35 | 35
-![Foongus](https://img.pokemondb.net/sprites/sword-shield/icon/foongus.png) | Foongus | 294 | 69 | 55 | 45 | 55 | 55 | 15
-![Forretress](https://img.pokemondb.net/sprites/sword-shield/icon/forretress.png) | Forretress | 465 | 75 | 90 | 140 | 60 | 60 | 40
-![Fraxure](https://img.pokemondb.net/sprites/sword-shield/icon/fraxure.png) | Fraxure | 410 | 66 | 117 | 70 | 40 | 50 | 67
-![Frillish](https://img.pokemondb.net/sprites/sword-shield/icon/frillish.png) | Frillish | 335 | 55 | 40 | 50 | 65 | 85 | 40
-![Froakie](https://img.pokemondb.net/sprites/sword-shield/icon/froakie.png) | Froakie | 314 | 41 | 56 | 40 | 62 | 44 | 71
-![Frogadier](https://img.pokemondb.net/sprites/sword-shield/icon/frogadier.png) | Frogadier | 405 | 54 | 63 | 52 | 83 | 56 | 97
-![Froslass](https://img.pokemondb.net/sprites/sword-shield/icon/froslass.png) | Froslass | 480 | 70 | 80 | 70 | 80 | 70 | 110
-![Frosmoth](https://img.pokemondb.net/sprites/sword-shield/icon/frosmoth.png) | Frosmoth | 475 | 70 | 65 | 60 | 125 | 90 | 65
-![Furret](https://img.pokemondb.net/sprites/sword-shield/icon/furret.png) | Furret | 415 | 85 | 76 | 64 | 45 | 55 | 90
-![Gabite](https://img.pokemondb.net/sprites/sword-shield/icon/gabite.png) | Gabite | 410 | 68 | 90 | 65 | 50 | 55 | 82
-![Gallade](https://img.pokemondb.net/sprites/sword-shield/icon/gallade.png) | Gallade | 518 | 68 | 125 | 65 | 65 | 115 | 80
-![Galvantula](https://img.pokemondb.net/sprites/sword-shield/icon/galvantula.png) | Galvantula | 472 | 70 | 77 | 60 | 97 | 60 | 108
-![Garbodor](https://img.pokemondb.net/sprites/sword-shield/icon/garbodor.png) | Garbodor | 474 | 80 | 95 | 82 | 60 | 82 | 75
-![Garchomp](https://img.pokemondb.net/sprites/sword-shield/icon/garchomp.png) | Garchomp | 600 | 108 | 130 | 95 | 80 | 85 | 102
-![Gardevoir](https://img.pokemondb.net/sprites/sword-shield/icon/gardevoir.png) | Gardevoir | 518 | 68 | 65 | 65 | 125 | 115 | 80
-![Gastly](https://img.pokemondb.net/sprites/sword-shield/icon/gastly.png) | Gastly | 310 | 30 | 35 | 30 | 100 | 35 | 80
-![Gengar](https://img.pokemondb.net/sprites/sword-shield/icon/gengar.png) | Gengar | 500 | 60 | 65 | 60 | 130 | 75 | 110
-![Geodude](https://img.pokemondb.net/sprites/sword-shield/icon/geodude.png) | Geodude | 300 | 40 | 80 | 100 | 30 | 30 | 20
-![Gible](https://img.pokemondb.net/sprites/sword-shield/icon/gible.png) | Gible | 300 | 58 | 70 | 45 | 40 | 45 | 42
-![Gigalith](https://img.pokemondb.net/sprites/sword-shield/icon/gigalith.png) | Gigalith | 505 | 85 | 135 | 130 | 60 | 70 | 25
-![Girafarig](https://img.pokemondb.net/sprites/sword-shield/icon/girafarig.png) | Girafarig | 455 | 70 | 80 | 65 | 90 | 65 | 85
-![Giratina](https://img.pokemondb.net/sprites/sword-shield/icon/giratina.png) | Giratina | 680 | 150 | 100 | 120 | 100 | 120 | 90
-![Glaceon](https://img.pokemondb.net/sprites/sword-shield/icon/glaceon.png) | Glaceon | 525 | 65 | 60 | 110 | 130 | 95 | 65
-![Glalie](https://img.pokemondb.net/sprites/sword-shield/icon/glalie.png) | Glalie | 480 | 80 | 80 | 80 | 80 | 80 | 80
-![Glameow](https://img.pokemondb.net/sprites/sword-shield/icon/glameow.png) | Glameow | 310 | 49 | 55 | 42 | 42 | 37 | 85
-![Glastrier](https://img.pokemondb.net/sprites/sword-shield/icon/glastrier.png) | Glastrier | 580 | 100 | 145 | 130 | 65 | 110 | 30
-![Gligar](https://img.pokemondb.net/sprites/sword-shield/icon/gligar.png) | Gligar | 430 | 65 | 75 | 105 | 35 | 65 | 85
-![Gliscor](https://img.pokemondb.net/sprites/sword-shield/icon/gliscor.png) | Gliscor | 510 | 75 | 95 | 125 | 45 | 75 | 95
-![Gloom](https://img.pokemondb.net/sprites/sword-shield/icon/gloom.png) | Gloom | 395 | 60 | 65 | 70 | 85 | 75 | 40
-![Gogoat](https://img.pokemondb.net/sprites/sword-shield/icon/gogoat.png) | Gogoat | 531 | 123 | 100 | 62 | 97 | 81 | 68
-![Golbat](https://img.pokemondb.net/sprites/sword-shield/icon/golbat.png) | Golbat | 455 | 75 | 80 | 70 | 65 | 75 | 90
-![Goldeen](https://img.pokemondb.net/sprites/sword-shield/icon/goldeen.png) | Goldeen | 320 | 45 | 67 | 60 | 35 | 50 | 63
-![Golduck](https://img.pokemondb.net/sprites/sword-shield/icon/golduck.png) | Golduck | 500 | 80 | 82 | 78 | 95 | 80 | 85
-![Golem](https://img.pokemondb.net/sprites/sword-shield/icon/golem.png) | Golem | 485 | 80 | 110 | 130 | 55 | 65 | 45
-![Golett](https://img.pokemondb.net/sprites/sword-shield/icon/golett.png) | Golett | 303 | 59 | 74 | 50 | 35 | 50 | 35
-![Golisopod](https://img.pokemondb.net/sprites/sword-shield/icon/golisopod.png) | Golisopod | 530 | 75 | 125 | 140 | 60 | 90 | 40
-![Golurk](https://img.pokemondb.net/sprites/sword-shield/icon/golurk.png) | Golurk | 483 | 89 | 124 | 80 | 55 | 80 | 55
-![Goodra](https://img.pokemondb.net/sprites/sword-shield/icon/goodra.png) | Goodra | 600 | 90 | 100 | 70 | 110 | 150 | 80
-![Goomy](https://img.pokemondb.net/sprites/sword-shield/icon/goomy.png) | Goomy | 300 | 45 | 50 | 35 | 55 | 75 | 40
-![Gorebyss](https://img.pokemondb.net/sprites/sword-shield/icon/gorebyss.png) | Gorebyss | 485 | 55 | 84 | 105 | 114 | 75 | 52
-![Gossifleur](https://img.pokemondb.net/sprites/sword-shield/icon/gossifleur.png) | Gossifleur | 250 | 40 | 40 | 60 | 40 | 60 | 10
-![Gothita](https://img.pokemondb.net/sprites/sword-shield/icon/gothita.png) | Gothita | 290 | 45 | 30 | 50 | 55 | 65 | 45
-![Gothitelle](https://img.pokemondb.net/sprites/sword-shield/icon/gothitelle.png) | Gothitelle | 490 | 70 | 55 | 95 | 95 | 110 | 65
-![Gothorita](https://img.pokemondb.net/sprites/sword-shield/icon/gothorita.png) | Gothorita | 390 | 60 | 45 | 70 | 75 | 85 | 55
-![Gourgeist](https://img.pokemondb.net/sprites/sword-shield/icon/gourgeist.png) | Gourgeist | 494 | 65 | 90 | 122 | 58 | 75 | 84
-![Granbull](https://img.pokemondb.net/sprites/sword-shield/icon/granbull.png) | Granbull | 450 | 90 | 120 | 75 | 60 | 60 | 45
-![Grapploct](https://img.pokemondb.net/sprites/sword-shield/icon/grapploct.png) | Grapploct | 480 | 80 | 118 | 90 | 70 | 80 | 42
-![Graveler](https://img.pokemondb.net/sprites/sword-shield/icon/graveler.png) | Graveler | 390 | 55 | 95 | 115 | 45 | 45 | 35
-![Greedent](https://img.pokemondb.net/sprites/sword-shield/icon/greedent.png) | Greedent | 460 | 120 | 95 | 95 | 55 | 75 | 20
-![Greninja](https://img.pokemondb.net/sprites/sword-shield/icon/greninja.png) | Greninja | 530 | 72 | 95 | 67 | 103 | 71 | 122
-![Grimer](https://img.pokemondb.net/sprites/sword-shield/icon/grimer.png) | Grimer | 325 | 80 | 80 | 50 | 40 | 50 | 25
-![Grimmsnarl](https://img.pokemondb.net/sprites/sword-shield/icon/grimmsnarl.png) | Grimmsnarl | 510 | 95 | 120 | 65 | 95 | 75 | 60
-![Grookey](https://img.pokemondb.net/sprites/sword-shield/icon/grookey.png) | Grookey | 310 | 50 | 65 | 50 | 40 | 40 | 65
-![Grotle](https://img.pokemondb.net/sprites/sword-shield/icon/grotle.png) | Grotle | 405 | 75 | 89 | 85 | 55 | 65 | 36
-![Groudon](https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png) | Groudon | 670 | 100 | 150 | 140 | 100 | 90 | 90
-![Grovyle](https://img.pokemondb.net/sprites/sword-shield/icon/grovyle.png) | Grovyle | 405 | 50 | 65 | 45 | 85 | 65 | 95
-![Growlithe](https://img.pokemondb.net/sprites/sword-shield/icon/growlithe.png) | Growlithe | 350 | 55 | 70 | 45 | 70 | 50 | 60
-![Grubbin](https://img.pokemondb.net/sprites/sword-shield/icon/grubbin.png) | Grubbin | 300 | 47 | 62 | 45 | 55 | 45 | 46
-![Grumpig](https://img.pokemondb.net/sprites/sword-shield/icon/grumpig.png) | Grumpig | 470 | 80 | 45 | 65 | 90 | 110 | 80
-![Gulpin](https://img.pokemondb.net/sprites/sword-shield/icon/gulpin.png) | Gulpin | 302 | 70 | 43 | 53 | 43 | 53 | 40
-![Gumshoos](https://img.pokemondb.net/sprites/sword-shield/icon/gumshoos.png) | Gumshoos | 418 | 88 | 110 | 60 | 55 | 60 | 45
-![Gurdurr](https://img.pokemondb.net/sprites/sword-shield/icon/gurdurr.png) | Gurdurr | 405 | 85 | 105 | 85 | 40 | 50 | 40
-![Guzzlord](https://img.pokemondb.net/sprites/sword-shield/icon/guzzlord.png) | Guzzlord | 570 | 223 | 101 | 53 | 97 | 53 | 43
-![Gyarados](https://img.pokemondb.net/sprites/sword-shield/icon/gyarados.png) | Gyarados | 540 | 95 | 125 | 79 | 60 | 100 | 81
-![Happiny](https://img.pokemondb.net/sprites/sword-shield/icon/happiny.png) | Happiny | 220 | 100 | 5 | 5 | 15 | 65 | 30
-![Hariyama](https://img.pokemondb.net/sprites/sword-shield/icon/hariyama.png) | Hariyama | 474 | 144 | 120 | 60 | 40 | 60 | 50
-![Hatenna](https://img.pokemondb.net/sprites/sword-shield/icon/hatenna.png) | Hatenna | 265 | 42 | 30 | 45 | 56 | 53 | 39
-![Hatterene](https://img.pokemondb.net/sprites/sword-shield/icon/hatterene.png) | Hatterene | 510 | 57 | 90 | 95 | 136 | 103 | 29
-![Hattrem](https://img.pokemondb.net/sprites/sword-shield/icon/hattrem.png) | Hattrem | 370 | 57 | 40 | 65 | 86 | 73 | 49
-![Haunter](https://img.pokemondb.net/sprites/sword-shield/icon/haunter.png) | Haunter | 405 | 45 | 50 | 45 | 115 | 55 | 95
-![Hawlucha](https://img.pokemondb.net/sprites/sword-shield/icon/hawlucha.png) | Hawlucha | 500 | 78 | 92 | 75 | 74 | 63 | 118
-![Haxorus](https://img.pokemondb.net/sprites/sword-shield/icon/haxorus.png) | Haxorus | 540 | 76 | 147 | 90 | 60 | 70 | 97
-![Heatmor](https://img.pokemondb.net/sprites/sword-shield/icon/heatmor.png) | Heatmor | 484 | 85 | 97 | 66 | 105 | 66 | 65
-![Heatran](https://img.pokemondb.net/sprites/sword-shield/icon/heatran.png) | Heatran | 600 | 91 | 90 | 106 | 130 | 106 | 77
-![Heliolisk](https://img.pokemondb.net/sprites/sword-shield/icon/heliolisk.png) | Heliolisk | 481 | 62 | 55 | 52 | 109 | 94 | 109
-![Helioptile](https://img.pokemondb.net/sprites/sword-shield/icon/helioptile.png) | Helioptile | 289 | 44 | 38 | 33 | 61 | 43 | 70
-![Heracross](https://img.pokemondb.net/sprites/sword-shield/icon/heracross.png) | Heracross | 500 | 80 | 125 | 75 | 40 | 95 | 85
-![Herdier](https://img.pokemondb.net/sprites/sword-shield/icon/herdier.png) | Herdier | 370 | 65 | 80 | 65 | 35 | 65 | 60
-![Hippopotas](https://img.pokemondb.net/sprites/sword-shield/icon/hippopotas.png) | Hippopotas | 330 | 68 | 72 | 78 | 38 | 42 | 32
-![Hippowdon](https://img.pokemondb.net/sprites/sword-shield/icon/hippowdon.png) | Hippowdon | 525 | 108 | 112 | 118 | 68 | 72 | 47
-![Hitmonchan](https://img.pokemondb.net/sprites/sword-shield/icon/hitmonchan.png) | Hitmonchan | 455 | 50 | 105 | 79 | 35 | 110 | 76
-![Hitmonlee](https://img.pokemondb.net/sprites/sword-shield/icon/hitmonlee.png) | Hitmonlee | 455 | 50 | 120 | 53 | 35 | 110 | 87
-![Hitmontop](https://img.pokemondb.net/sprites/sword-shield/icon/hitmontop.png) | Hitmontop | 455 | 50 | 95 | 95 | 35 | 110 | 70
-![Honchkrow](https://img.pokemondb.net/sprites/sword-shield/icon/honchkrow.png) | Honchkrow | 505 | 100 | 125 | 52 | 105 | 52 | 71
-![Honedge](https://img.pokemondb.net/sprites/sword-shield/icon/honedge.png) | Honedge | 325 | 45 | 80 | 100 | 35 | 37 | 28
-![Hoopa](https://img.pokemondb.net/sprites/sword-shield/icon/hoopa.png) | Hoopa | 600 | 80 | 110 | 60 | 150 | 130 | 70
-![Hoothoot](https://img.pokemondb.net/sprites/sword-shield/icon/hoothoot.png) | Hoothoot | 262 | 60 | 30 | 30 | 36 | 56 | 50
-![Hoppip](https://img.pokemondb.net/sprites/sword-shield/icon/hoppip.png) | Hoppip | 250 | 35 | 35 | 40 | 35 | 55 | 50
-![Horsea](https://img.pokemondb.net/sprites/sword-shield/icon/horsea.png) | Horsea | 295 | 30 | 40 | 70 | 70 | 25 | 60
-![Houndoom](https://img.pokemondb.net/sprites/sword-shield/icon/houndoom.png) | Houndoom | 500 | 75 | 90 | 50 | 110 | 80 | 95
-![Houndour](https://img.pokemondb.net/sprites/sword-shield/icon/houndour.png) | Houndour | 330 | 45 | 60 | 30 | 80 | 50 | 65
-![Huntail](https://img.pokemondb.net/sprites/sword-shield/icon/huntail.png) | Huntail | 485 | 55 | 104 | 105 | 94 | 75 | 52
-![Hydreigon](https://img.pokemondb.net/sprites/sword-shield/icon/hydreigon.png) | Hydreigon | 600 | 92 | 105 | 90 | 125 | 90 | 98
-![Hypno](https://img.pokemondb.net/sprites/sword-shield/icon/hypno.png) | Hypno | 483 | 85 | 73 | 70 | 73 | 115 | 67
-![Igglybuff](https://img.pokemondb.net/sprites/sword-shield/icon/igglybuff.png) | Igglybuff | 210 | 90 | 30 | 15 | 40 | 20 | 15
-![Illumise](https://img.pokemondb.net/sprites/sword-shield/icon/illumise.png) | Illumise | 400 | 65 | 47 | 55 | 73 | 75 | 85
-![Impidimp](https://img.pokemondb.net/sprites/sword-shield/icon/impidimp.png) | Impidimp | 265 | 45 | 45 | 30 | 55 | 40 | 50
-![Incineroar](https://img.pokemondb.net/sprites/sword-shield/icon/incineroar.png) | Incineroar | 530 | 95 | 115 | 90 | 80 | 90 | 60
-![Indeedee](https://img.pokemondb.net/sprites/sword-shield/icon/indeedee.png) | Indeedee | 475 | 60 | 65 | 55 | 105 | 95 | 95
-![Infernape](https://img.pokemondb.net/sprites/sword-shield/icon/infernape.png) | Infernape | 534 | 76 | 104 | 71 | 104 | 71 | 108
-![Inkay](https://img.pokemondb.net/sprites/sword-shield/icon/inkay.png) | Inkay | 288 | 53 | 54 | 53 | 37 | 46 | 45
-![Inteleon](https://img.pokemondb.net/sprites/sword-shield/icon/inteleon.png) | Inteleon | 530 | 70 | 85 | 65 | 125 | 65 | 120
-![Ivysaur](https://img.pokemondb.net/sprites/sword-shield/icon/ivysaur.png) | Ivysaur | 405 | 60 | 62 | 63 | 80 | 80 | 60
-![Jellicent](https://img.pokemondb.net/sprites/sword-shield/icon/jellicent.png) | Jellicent | 480 | 100 | 60 | 70 | 85 | 105 | 60
-![Jigglypuff](https://img.pokemondb.net/sprites/sword-shield/icon/jigglypuff.png) | Jigglypuff | 270 | 115 | 45 | 20 | 45 | 25 | 20
-![Jirachi](https://img.pokemondb.net/sprites/sword-shield/icon/jirachi.png) | Jirachi | 600 | 100 | 100 | 100 | 100 | 100 | 100
-![Jolteon](https://img.pokemondb.net/sprites/sword-shield/icon/jolteon.png) | Jolteon | 525 | 65 | 65 | 60 | 110 | 95 | 130
-![Joltik](https://img.pokemondb.net/sprites/sword-shield/icon/joltik.png) | Joltik | 319 | 50 | 47 | 50 | 57 | 50 | 65
-![Jumpluff](https://img.pokemondb.net/sprites/sword-shield/icon/jumpluff.png) | Jumpluff | 450 | 75 | 55 | 70 | 55 | 85 | 110
-![Jynx](https://img.pokemondb.net/sprites/sword-shield/icon/jynx.png) | Jynx | 455 | 65 | 50 | 35 | 115 | 95 | 95
-![Kabuto](https://img.pokemondb.net/sprites/sword-shield/icon/kabuto.png) | Kabuto | 355 | 30 | 80 | 90 | 55 | 45 | 55
-![Kabutops](https://img.pokemondb.net/sprites/sword-shield/icon/kabutops.png) | Kabutops | 495 | 60 | 115 | 105 | 65 | 70 | 80
-![Kadabra](https://img.pokemondb.net/sprites/sword-shield/icon/kadabra.png) | Kadabra | 400 | 40 | 35 | 30 | 120 | 70 | 105
-![Kakuna](https://img.pokemondb.net/sprites/sword-shield/icon/kakuna.png) | Kakuna | 205 | 45 | 25 | 50 | 25 | 25 | 35
-![Kangaskhan](https://img.pokemondb.net/sprites/sword-shield/icon/kangaskhan.png) | Kangaskhan | 490 | 105 | 95 | 80 | 40 | 80 | 90
-![Karrablast](https://img.pokemondb.net/sprites/sword-shield/icon/karrablast.png) | Karrablast | 315 | 50 | 75 | 45 | 40 | 45 | 60
-![Kartana](https://img.pokemondb.net/sprites/sword-shield/icon/kartana.png) | Kartana | 570 | 59 | 181 | 131 | 59 | 31 | 109
-![Kecleon](https://img.pokemondb.net/sprites/sword-shield/icon/kecleon.png) | Kecleon | 440 | 60 | 90 | 70 | 60 | 120 | 40
-![Keldeo](https://img.pokemondb.net/sprites/sword-shield/icon/keldeo.png) | Keldeo | 580 | 91 | 72 | 90 | 129 | 90 | 108
-![Kingdra](https://img.pokemondb.net/sprites/sword-shield/icon/kingdra.png) | Kingdra | 540 | 75 | 95 | 95 | 95 | 95 | 85
-![Kingler](https://img.pokemondb.net/sprites/sword-shield/icon/kingler.png) | Kingler | 475 | 55 | 130 | 115 | 50 | 50 | 75
-![Kirlia](https://img.pokemondb.net/sprites/sword-shield/icon/kirlia.png) | Kirlia | 278 | 38 | 35 | 35 | 65 | 55 | 50
-![Klang](https://img.pokemondb.net/sprites/sword-shield/icon/klang.png) | Klang | 440 | 60 | 80 | 95 | 70 | 85 | 50
-![Kleavor](https://img.pokemondb.net/sprites/sword-shield/icon/kleavor.png) | Kleavor | 500 | 70 | 135 | 95 | 45 | 70 | 85
-![Klefki](https://img.pokemondb.net/sprites/sword-shield/icon/klefki.png) | Klefki | 470 | 57 | 80 | 91 | 80 | 87 | 75
-![Klink](https://img.pokemondb.net/sprites/sword-shield/icon/klink.png) | Klink | 300 | 40 | 55 | 70 | 45 | 60 | 30
-![Klinklang](https://img.pokemondb.net/sprites/sword-shield/icon/klinklang.png) | Klinklang | 520 | 60 | 100 | 115 | 70 | 85 | 90
-![Koffing](https://img.pokemondb.net/sprites/sword-shield/icon/koffing.png) | Koffing | 340 | 40 | 65 | 95 | 60 | 45 | 35
-![Komala](https://img.pokemondb.net/sprites/sword-shield/icon/komala.png) | Komala | 480 | 65 | 115 | 65 | 75 | 95 | 65
-![Krabby](https://img.pokemondb.net/sprites/sword-shield/icon/krabby.png) | Krabby | 325 | 30 | 105 | 90 | 25 | 25 | 50
-![Kricketot](https://img.pokemondb.net/sprites/sword-shield/icon/kricketot.png) | Kricketot | 194 | 37 | 25 | 41 | 25 | 41 | 25
-![Kricketune](https://img.pokemondb.net/sprites/sword-shield/icon/kricketune.png) | Kricketune | 384 | 77 | 85 | 51 | 55 | 51 | 65
-![Krokorok](https://img.pokemondb.net/sprites/sword-shield/icon/krokorok.png) | Krokorok | 351 | 60 | 82 | 45 | 45 | 45 | 74
-![Krookodile](https://img.pokemondb.net/sprites/sword-shield/icon/krookodile.png) | Krookodile | 509 | 95 | 117 | 70 | 65 | 70 | 92
-![Kubfu](https://img.pokemondb.net/sprites/sword-shield/icon/kubfu.png) | Kubfu | 385 | 60 | 90 | 60 | 53 | 50 | 72
-![Kyogre](https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png) | Kyogre | 670 | 100 | 100 | 90 | 150 | 140 | 90
-![Kyurem](https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png) | Kyurem | 660 | 125 | 130 | 90 | 130 | 90 | 95
-![Lairon](https://img.pokemondb.net/sprites/sword-shield/icon/lairon.png) | Lairon | 430 | 60 | 90 | 140 | 50 | 50 | 40
-![Lampent](https://img.pokemondb.net/sprites/sword-shield/icon/lampent.png) | Lampent | 370 | 60 | 40 | 60 | 95 | 60 | 55
-![Landorus](https://img.pokemondb.net/sprites/sword-shield/icon/landorus.png) | Landorus | 600 | 89 | 125 | 90 | 115 | 80 | 101
-![Lanturn](https://img.pokemondb.net/sprites/sword-shield/icon/lanturn.png) | Lanturn | 460 | 125 | 58 | 58 | 76 | 76 | 67
-![Lapras](https://img.pokemondb.net/sprites/sword-shield/icon/lapras.png) | Lapras | 535 | 130 | 85 | 80 | 85 | 95 | 60
-![Larvesta](https://img.pokemondb.net/sprites/sword-shield/icon/larvesta.png) | Larvesta | 360 | 55 | 85 | 55 | 50 | 55 | 60
-![Larvitar](https://img.pokemondb.net/sprites/sword-shield/icon/larvitar.png) | Larvitar | 300 | 50 | 64 | 50 | 45 | 50 | 41
-![Latias](https://img.pokemondb.net/sprites/sword-shield/icon/latias.png) | Latias | 600 | 80 | 80 | 90 | 110 | 130 | 110
-![Latios](https://img.pokemondb.net/sprites/sword-shield/icon/latios.png) | Latios | 600 | 80 | 90 | 80 | 130 | 110 | 110
-![Leafeon](https://img.pokemondb.net/sprites/sword-shield/icon/leafeon.png) | Leafeon | 525 | 65 | 110 | 130 | 60 | 65 | 95
-![Leavanny](https://img.pokemondb.net/sprites/sword-shield/icon/leavanny.png) | Leavanny | 490 | 75 | 103 | 80 | 70 | 70 | 92
-![Ledian](https://img.pokemondb.net/sprites/sword-shield/icon/ledian.png) | Ledian | 390 | 55 | 35 | 50 | 55 | 110 | 85
-![Ledyba](https://img.pokemondb.net/sprites/sword-shield/icon/ledyba.png) | Ledyba | 265 | 40 | 20 | 30 | 40 | 80 | 55
-![Lickilicky](https://img.pokemondb.net/sprites/sword-shield/icon/lickilicky.png) | Lickilicky | 515 | 110 | 85 | 95 | 80 | 95 | 50
-![Lickitung](https://img.pokemondb.net/sprites/sword-shield/icon/lickitung.png) | Lickitung | 385 | 90 | 55 | 75 | 60 | 75 | 30
-![Liepard](https://img.pokemondb.net/sprites/sword-shield/icon/liepard.png) | Liepard | 446 | 64 | 88 | 50 | 88 | 50 | 106
-![Lileep](https://img.pokemondb.net/sprites/sword-shield/icon/lileep.png) | Lileep | 355 | 66 | 41 | 77 | 61 | 87 | 23
-![Lilligant](https://img.pokemondb.net/sprites/sword-shield/icon/lilligant.png) | Lilligant | 480 | 70 | 60 | 75 | 110 | 75 | 90
-![Lillipup](https://img.pokemondb.net/sprites/sword-shield/icon/lillipup.png) | Lillipup | 275 | 45 | 60 | 45 | 25 | 45 | 55
-![Linoone](https://img.pokemondb.net/sprites/sword-shield/icon/linoone.png) | Linoone | 420 | 78 | 70 | 61 | 50 | 61 | 100
-![Litleo](https://img.pokemondb.net/sprites/sword-shield/icon/litleo.png) | Litleo | 369 | 62 | 50 | 58 | 73 | 54 | 72
-![Litten](https://img.pokemondb.net/sprites/sword-shield/icon/litten.png) | Litten | 320 | 45 | 65 | 40 | 60 | 40 | 70
-![Litwick](https://img.pokemondb.net/sprites/sword-shield/icon/litwick.png) | Litwick | 275 | 50 | 30 | 55 | 65 | 55 | 20
-![Lombre](https://img.pokemondb.net/sprites/sword-shield/icon/lombre.png) | Lombre | 340 | 60 | 50 | 50 | 60 | 70 | 50
-![Lopunny](https://img.pokemondb.net/sprites/sword-shield/icon/lopunny.png) | Lopunny | 480 | 65 | 76 | 84 | 54 | 96 | 105
-![Lotad](https://img.pokemondb.net/sprites/sword-shield/icon/lotad.png) | Lotad | 220 | 40 | 30 | 30 | 40 | 50 | 30
-![Loudred](https://img.pokemondb.net/sprites/sword-shield/icon/loudred.png) | Loudred | 360 | 84 | 71 | 43 | 71 | 43 | 48
-![Lucario](https://img.pokemondb.net/sprites/sword-shield/icon/lucario.png) | Lucario | 525 | 70 | 110 | 70 | 115 | 70 | 90
-![Ludicolo](https://img.pokemondb.net/sprites/sword-shield/icon/ludicolo.png) | Ludicolo | 480 | 80 | 70 | 70 | 90 | 100 | 70
-![Lugia](https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png) | Lugia | 680 | 106 | 90 | 130 | 90 | 154 | 110
-![Lumineon](https://img.pokemondb.net/sprites/sword-shield/icon/lumineon.png) | Lumineon | 460 | 69 | 69 | 76 | 69 | 86 | 91
-![Lunala](https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png) | Lunala | 680 | 137 | 113 | 89 | 137 | 107 | 97
-![Lunatone](https://img.pokemondb.net/sprites/sword-shield/icon/lunatone.png) | Lunatone | 440 | 70 | 55 | 65 | 95 | 85 | 70
-![Lurantis](https://img.pokemondb.net/sprites/sword-shield/icon/lurantis.png) | Lurantis | 480 | 70 | 105 | 90 | 80 | 90 | 45
-![Luvdisc](https://img.pokemondb.net/sprites/sword-shield/icon/luvdisc.png) | Luvdisc | 330 | 43 | 30 | 55 | 40 | 65 | 97
-![Luxio](https://img.pokemondb.net/sprites/sword-shield/icon/luxio.png) | Luxio | 363 | 60 | 85 | 49 | 60 | 49 | 60
-![Luxray](https://img.pokemondb.net/sprites/sword-shield/icon/luxray.png) | Luxray | 523 | 80 | 120 | 79 | 95 | 79 | 70
-![Lycanroc](https://img.pokemondb.net/sprites/sword-shield/icon/lycanroc.png) | Lycanroc | 487 | 75 | 115 | 65 | 55 | 65 | 112
-![Machamp](https://img.pokemondb.net/sprites/sword-shield/icon/machamp.png) | Machamp | 505 | 90 | 130 | 80 | 65 | 85 | 55
-![Machoke](https://img.pokemondb.net/sprites/sword-shield/icon/machoke.png) | Machoke | 405 | 80 | 100 | 70 | 50 | 60 | 45
-![Machop](https://img.pokemondb.net/sprites/sword-shield/icon/machop.png) | Machop | 305 | 70 | 80 | 50 | 35 | 35 | 35
-![Magby](https://img.pokemondb.net/sprites/sword-shield/icon/magby.png) | Magby | 365 | 45 | 75 | 37 | 70 | 55 | 83
-![Magcargo](https://img.pokemondb.net/sprites/sword-shield/icon/magcargo.png) | Magcargo | 410 | 50 | 50 | 120 | 80 | 80 | 30
-![Magikarp](https://img.pokemondb.net/sprites/sword-shield/icon/magikarp.png) | Magikarp | 200 | 20 | 10 | 55 | 15 | 20 | 80
-![Magmar](https://img.pokemondb.net/sprites/sword-shield/icon/magmar.png) | Magmar | 495 | 65 | 95 | 57 | 100 | 85 | 93
-![Magmortar](https://img.pokemondb.net/sprites/sword-shield/icon/magmortar.png) | Magmortar | 540 | 75 | 95 | 67 | 125 | 95 | 83
-![Magnemite](https://img.pokemondb.net/sprites/sword-shield/icon/magnemite.png) | Magnemite | 325 | 25 | 35 | 70 | 95 | 55 | 45
-![Magneton](https://img.pokemondb.net/sprites/sword-shield/icon/magneton.png) | Magneton | 465 | 50 | 60 | 95 | 120 | 70 | 70
-![Magnezone](https://img.pokemondb.net/sprites/sword-shield/icon/magnezone.png) | Magnezone | 535 | 70 | 70 | 115 | 130 | 90 | 60
-![Makuhita](https://img.pokemondb.net/sprites/sword-shield/icon/makuhita.png) | Makuhita | 237 | 72 | 60 | 30 | 20 | 30 | 25
-![Malamar](https://img.pokemondb.net/sprites/sword-shield/icon/malamar.png) | Malamar | 482 | 86 | 92 | 88 | 68 | 75 | 73
-![Mamoswine](https://img.pokemondb.net/sprites/sword-shield/icon/mamoswine.png) | Mamoswine | 530 | 110 | 130 | 80 | 70 | 60 | 80
-![Manaphy](https://img.pokemondb.net/sprites/sword-shield/icon/manaphy.png) | Manaphy | 600 | 100 | 100 | 100 | 100 | 100 | 100
-![Mandibuzz](https://img.pokemondb.net/sprites/sword-shield/icon/mandibuzz.png) | Mandibuzz | 510 | 110 | 65 | 105 | 55 | 95 | 80
-![Manectric](https://img.pokemondb.net/sprites/sword-shield/icon/manectric.png) | Manectric | 475 | 70 | 75 | 60 | 105 | 60 | 105
-![Mankey](https://img.pokemondb.net/sprites/sword-shield/icon/mankey.png) | Mankey | 305 | 40 | 80 | 35 | 35 | 45 | 70
-![Mantine](https://img.pokemondb.net/sprites/sword-shield/icon/mantine.png) | Mantine | 465 | 65 | 40 | 70 | 80 | 140 | 70
-![Mantyke](https://img.pokemondb.net/sprites/sword-shield/icon/mantyke.png) | Mantyke | 345 | 45 | 20 | 50 | 60 | 120 | 50
-![Maractus](https://img.pokemondb.net/sprites/sword-shield/icon/maractus.png) | Maractus | 461 | 75 | 86 | 67 | 106 | 67 | 60
-![Mareanie](https://img.pokemondb.net/sprites/sword-shield/icon/mareanie.png) | Mareanie | 305 | 50 | 53 | 62 | 43 | 52 | 45
-![Mareep](https://img.pokemondb.net/sprites/sword-shield/icon/mareep.png) | Mareep | 280 | 55 | 40 | 40 | 65 | 45 | 35
-![Marill](https://img.pokemondb.net/sprites/sword-shield/icon/marill.png) | Marill | 250 | 70 | 20 | 50 | 20 | 50 | 40
-![Marowak](https://img.pokemondb.net/sprites/sword-shield/icon/marowak.png) | Marowak | 425 | 60 | 80 | 110 | 50 | 80 | 45
-![Marshadow](https://img.pokemondb.net/sprites/sword-shield/icon/marshadow.png) | Marshadow | 600 | 90 | 125 | 80 | 90 | 90 | 125
-![Marshtomp](https://img.pokemondb.net/sprites/sword-shield/icon/marshtomp.png) | Marshtomp | 405 | 70 | 85 | 70 | 60 | 70 | 50
-![Masquerain](https://img.pokemondb.net/sprites/sword-shield/icon/masquerain.png) | Masquerain | 414 | 70 | 60 | 62 | 80 | 82 | 60
-![Mawile](https://img.pokemondb.net/sprites/sword-shield/icon/mawile.png) | Mawile | 380 | 50 | 85 | 85 | 55 | 55 | 50
-![Medicham](https://img.pokemondb.net/sprites/sword-shield/icon/medicham.png) | Medicham | 410 | 60 | 60 | 75 | 60 | 75 | 80
-![Meditite](https://img.pokemondb.net/sprites/sword-shield/icon/meditite.png) | Meditite | 280 | 30 | 40 | 55 | 40 | 55 | 60
-![Meganium](https://img.pokemondb.net/sprites/sword-shield/icon/meganium.png) | Meganium | 525 | 80 | 82 | 100 | 83 | 100 | 80
-![Melmetal](https://img.pokemondb.net/sprites/sword-shield/icon/melmetal.png) | Melmetal | 600 | 135 | 143 | 143 | 80 | 65 | 34
-![Meloetta](https://img.pokemondb.net/sprites/sword-shield/icon/meloetta.png) | Meloetta | 600 | 100 | 77 | 77 | 128 | 128 | 90
-![Meltan](https://img.pokemondb.net/sprites/sword-shield/icon/meltan.png) | Meltan | 300 | 46 | 65 | 65 | 55 | 35 | 34
-![Meowstic](https://img.pokemondb.net/sprites/sword-shield/icon/meowstic.png) | Meowstic | 466 | 74 | 48 | 76 | 83 | 81 | 104
-![Meowth](https://img.pokemondb.net/sprites/sword-shield/icon/meowth.png) | Meowth | 290 | 40 | 45 | 35 | 40 | 40 | 90
-![Mesprit](https://img.pokemondb.net/sprites/sword-shield/icon/mesprit.png) | Mesprit | 580 | 80 | 105 | 105 | 105 | 105 | 80
-![Metagross](https://img.pokemondb.net/sprites/sword-shield/icon/metagross.png) | Metagross | 600 | 80 | 135 | 130 | 95 | 90 | 70
-![Metang](https://img.pokemondb.net/sprites/sword-shield/icon/metang.png) | Metang | 420 | 60 | 75 | 100 | 55 | 80 | 50
-![Metapod](https://img.pokemondb.net/sprites/sword-shield/icon/metapod.png) | Metapod | 205 | 50 | 20 | 55 | 25 | 25 | 30
-![Mew](https://img.pokemondb.net/sprites/sword-shield/icon/mew.png) | Mew | 600 | 100 | 100 | 100 | 100 | 100 | 100
-![Mewtwo](https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png) | Mewtwo | 680 | 106 | 110 | 90 | 154 | 90 | 130
-![Mienfoo](https://img.pokemondb.net/sprites/sword-shield/icon/mienfoo.png) | Mienfoo | 350 | 45 | 85 | 50 | 55 | 50 | 65
-![Mienshao](https://img.pokemondb.net/sprites/sword-shield/icon/mienshao.png) | Mienshao | 510 | 65 | 125 | 60 | 95 | 60 | 105
-![Mightyena](https://img.pokemondb.net/sprites/sword-shield/icon/mightyena.png) | Mightyena | 420 | 70 | 90 | 70 | 60 | 60 | 70
-![Milcery](https://img.pokemondb.net/sprites/sword-shield/icon/milcery.png) | Milcery | 270 | 45 | 40 | 40 | 50 | 61 | 34
-![Milotic](https://img.pokemondb.net/sprites/sword-shield/icon/milotic.png) | Milotic | 540 | 95 | 60 | 79 | 100 | 125 | 81
-![Miltank](https://img.pokemondb.net/sprites/sword-shield/icon/miltank.png) | Miltank | 490 | 95 | 80 | 105 | 40 | 70 | 100
-![Minccino](https://img.pokemondb.net/sprites/sword-shield/icon/minccino.png) | Minccino | 300 | 55 | 50 | 40 | 40 | 40 | 75
-![Minun](https://img.pokemondb.net/sprites/sword-shield/icon/minun.png) | Minun | 405 | 60 | 40 | 50 | 75 | 85 | 95
-![Misdreavus](https://img.pokemondb.net/sprites/sword-shield/icon/misdreavus.png) | Misdreavus | 435 | 60 | 60 | 60 | 85 | 85 | 85
-![Mismagius](https://img.pokemondb.net/sprites/sword-shield/icon/mismagius.png) | Mismagius | 495 | 60 | 60 | 60 | 105 | 105 | 105
-![Moltres](https://img.pokemondb.net/sprites/sword-shield/icon/moltres.png) | Moltres | 580 | 90 | 100 | 90 | 125 | 85 | 90
-![Monferno](https://img.pokemondb.net/sprites/sword-shield/icon/monferno.png) | Monferno | 405 | 64 | 78 | 52 | 78 | 52 | 81
-![Morelull](https://img.pokemondb.net/sprites/sword-shield/icon/morelull.png) | Morelull | 285 | 40 | 35 | 55 | 65 | 75 | 15
-![Morgrem](https://img.pokemondb.net/sprites/sword-shield/icon/morgrem.png) | Morgrem | 370 | 65 | 60 | 45 | 75 | 55 | 70
-![Mothim](https://img.pokemondb.net/sprites/sword-shield/icon/mothim.png) | Mothim | 424 | 70 | 94 | 50 | 94 | 50 | 66
-![Mudbray](https://img.pokemondb.net/sprites/sword-shield/icon/mudbray.png) | Mudbray | 385 | 70 | 100 | 70 | 45 | 55 | 45
-![Mudkip](https://img.pokemondb.net/sprites/sword-shield/icon/mudkip.png) | Mudkip | 310 | 50 | 70 | 50 | 50 | 50 | 40
-![Mudsdale](https://img.pokemondb.net/sprites/sword-shield/icon/mudsdale.png) | Mudsdale | 500 | 100 | 125 | 100 | 55 | 85 | 35
-![Muk](https://img.pokemondb.net/sprites/sword-shield/icon/muk.png) | Muk | 500 | 105 | 105 | 75 | 65 | 100 | 50
-![Munchlax](https://img.pokemondb.net/sprites/sword-shield/icon/munchlax.png) | Munchlax | 390 | 135 | 85 | 40 | 40 | 85 | 5
-![Munna](https://img.pokemondb.net/sprites/sword-shield/icon/munna.png) | Munna | 292 | 76 | 25 | 45 | 67 | 55 | 24
-![Murkrow](https://img.pokemondb.net/sprites/sword-shield/icon/murkrow.png) | Murkrow | 405 | 60 | 85 | 42 | 85 | 42 | 91
-![Musharna](https://img.pokemondb.net/sprites/sword-shield/icon/musharna.png) | Musharna | 487 | 116 | 55 | 85 | 107 | 95 | 29
-![Naganadel](https://img.pokemondb.net/sprites/sword-shield/icon/naganadel.png) | Naganadel | 540 | 73 | 73 | 73 | 127 | 73 | 121
-![Natu](https://img.pokemondb.net/sprites/sword-shield/icon/natu.png) | Natu | 320 | 40 | 50 | 45 | 70 | 45 | 70
-![Necrozma](https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png) | Necrozma | 600 | 97 | 107 | 101 | 127 | 89 | 79
-![Nickit](https://img.pokemondb.net/sprites/sword-shield/icon/nickit.png) | Nickit | 245 | 40 | 28 | 28 | 47 | 52 | 50
-![Nidoking](https://img.pokemondb.net/sprites/sword-shield/icon/nidoking.png) | Nidoking | 495 | 81 | 92 | 77 | 85 | 75 | 85
-![Nidoqueen](https://img.pokemondb.net/sprites/sword-shield/icon/nidoqueen.png) | Nidoqueen | 495 | 90 | 82 | 87 | 75 | 85 | 76
-![Nidorina](https://img.pokemondb.net/sprites/sword-shield/icon/nidorina.png) | Nidorina | 365 | 70 | 62 | 67 | 55 | 55 | 56
-![Nidorino](https://img.pokemondb.net/sprites/sword-shield/icon/nidorino.png) | Nidorino | 365 | 61 | 72 | 57 | 55 | 55 | 65
-![Nihilego](https://img.pokemondb.net/sprites/sword-shield/icon/nihilego.png) | Nihilego | 570 | 109 | 53 | 47 | 127 | 131 | 103
-![Nincada](https://img.pokemondb.net/sprites/sword-shield/icon/nincada.png) | Nincada | 266 | 31 | 45 | 90 | 30 | 30 | 40
-![Ninetales](https://img.pokemondb.net/sprites/sword-shield/icon/ninetales.png) | Ninetales | 505 | 73 | 76 | 75 | 81 | 100 | 100
-![Ninjask](https://img.pokemondb.net/sprites/sword-shield/icon/ninjask.png) | Ninjask | 456 | 61 | 90 | 45 | 50 | 50 | 160
-![Noctowl](https://img.pokemondb.net/sprites/sword-shield/icon/noctowl.png) | Noctowl | 442 | 100 | 50 | 50 | 76 | 96 | 70
-![Noibat](https://img.pokemondb.net/sprites/sword-shield/icon/noibat.png) | Noibat | 245 | 40 | 30 | 35 | 45 | 40 | 55
-![Noivern](https://img.pokemondb.net/sprites/sword-shield/icon/noivern.png) | Noivern | 535 | 85 | 70 | 80 | 97 | 80 | 123
-![Nosepass](https://img.pokemondb.net/sprites/sword-shield/icon/nosepass.png) | Nosepass | 375 | 30 | 45 | 135 | 45 | 90 | 30
-![Numel](https://img.pokemondb.net/sprites/sword-shield/icon/numel.png) | Numel | 305 | 60 | 60 | 40 | 65 | 45 | 35
-![Nuzleaf](https://img.pokemondb.net/sprites/sword-shield/icon/nuzleaf.png) | Nuzleaf | 340 | 70 | 70 | 40 | 60 | 40 | 60
-![Obstagoon](https://img.pokemondb.net/sprites/sword-shield/icon/obstagoon.png) | Obstagoon | 520 | 93 | 90 | 101 | 60 | 81 | 95
-![Octillery](https://img.pokemondb.net/sprites/sword-shield/icon/octillery.png) | Octillery | 480 | 75 | 105 | 75 | 105 | 75 | 45
-![Oddish](https://img.pokemondb.net/sprites/sword-shield/icon/oddish.png) | Oddish | 320 | 45 | 50 | 55 | 75 | 65 | 30
-![Omanyte](https://img.pokemondb.net/sprites/sword-shield/icon/omanyte.png) | Omanyte | 355 | 35 | 40 | 100 | 90 | 55 | 35
-![Omastar](https://img.pokemondb.net/sprites/sword-shield/icon/omastar.png) | Omastar | 495 | 70 | 60 | 125 | 115 | 70 | 55
-![Onix](https://img.pokemondb.net/sprites/sword-shield/icon/onix.png) | Onix | 385 | 35 | 45 | 160 | 30 | 45 | 70
-![Oranguru](https://img.pokemondb.net/sprites/sword-shield/icon/oranguru.png) | Oranguru | 490 | 90 | 60 | 80 | 90 | 110 | 60
-![Orbeetle](https://img.pokemondb.net/sprites/sword-shield/icon/orbeetle.png) | Orbeetle | 505 | 60 | 45 | 110 | 80 | 120 | 90
-![Oshawott](https://img.pokemondb.net/sprites/sword-shield/icon/oshawott.png) | Oshawott | 308 | 55 | 55 | 45 | 63 | 45 | 45
-![Overqwil](https://img.pokemondb.net/sprites/sword-shield/icon/overqwil.png) | Overqwil | 510 | 85 | 115 | 95 | 65 | 65 | 85
-![Pachirisu](https://img.pokemondb.net/sprites/sword-shield/icon/pachirisu.png) | Pachirisu | 405 | 60 | 45 | 70 | 45 | 90 | 95
-![Palkia](https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png) | Palkia | 680 | 90 | 120 | 100 | 150 | 120 | 100
-![Palossand](https://img.pokemondb.net/sprites/sword-shield/icon/palossand.png) | Palossand | 480 | 85 | 75 | 110 | 100 | 75 | 35
-![Palpitoad](https://img.pokemondb.net/sprites/sword-shield/icon/palpitoad.png) | Palpitoad | 384 | 75 | 65 | 55 | 65 | 55 | 69
-![Pancham](https://img.pokemondb.net/sprites/sword-shield/icon/pancham.png) | Pancham | 348 | 67 | 82 | 62 | 46 | 48 | 43
-![Pangoro](https://img.pokemondb.net/sprites/sword-shield/icon/pangoro.png) | Pangoro | 495 | 95 | 124 | 78 | 69 | 71 | 58
-![Panpour](https://img.pokemondb.net/sprites/sword-shield/icon/panpour.png) | Panpour | 316 | 50 | 53 | 48 | 53 | 48 | 64
-![Pansage](https://img.pokemondb.net/sprites/sword-shield/icon/pansage.png) | Pansage | 316 | 50 | 53 | 48 | 53 | 48 | 64
-![Pansear](https://img.pokemondb.net/sprites/sword-shield/icon/pansear.png) | Pansear | 316 | 50 | 53 | 48 | 53 | 48 | 64
-![Paras](https://img.pokemondb.net/sprites/sword-shield/icon/paras.png) | Paras | 285 | 35 | 70 | 55 | 45 | 55 | 25
-![Parasect](https://img.pokemondb.net/sprites/sword-shield/icon/parasect.png) | Parasect | 405 | 60 | 95 | 80 | 60 | 80 | 30
-![Passimian](https://img.pokemondb.net/sprites/sword-shield/icon/passimian.png) | Passimian | 490 | 100 | 120 | 90 | 40 | 60 | 80
-![Patrat](https://img.pokemondb.net/sprites/sword-shield/icon/patrat.png) | Patrat | 255 | 45 | 55 | 39 | 35 | 39 | 42
-![Pawniard](https://img.pokemondb.net/sprites/sword-shield/icon/pawniard.png) | Pawniard | 340 | 45 | 85 | 70 | 40 | 40 | 60
-![Pelipper](https://img.pokemondb.net/sprites/sword-shield/icon/pelipper.png) | Pelipper | 430 | 60 | 50 | 100 | 85 | 70 | 65
-![Perrserker](https://img.pokemondb.net/sprites/sword-shield/icon/perrserker.png) | Perrserker | 440 | 70 | 110 | 100 | 50 | 60 | 50
-![Persian](https://img.pokemondb.net/sprites/sword-shield/icon/persian.png) | Persian | 440 | 65 | 70 | 60 | 65 | 65 | 115
-![Petilil](https://img.pokemondb.net/sprites/sword-shield/icon/petilil.png) | Petilil | 280 | 45 | 35 | 50 | 70 | 50 | 30
-![Phanpy](https://img.pokemondb.net/sprites/sword-shield/icon/phanpy.png) | Phanpy | 330 | 90 | 60 | 60 | 40 | 40 | 40
-![Phantump](https://img.pokemondb.net/sprites/sword-shield/icon/phantump.png) | Phantump | 309 | 43 | 70 | 48 | 50 | 60 | 38
-![Pheromosa](https://img.pokemondb.net/sprites/sword-shield/icon/pheromosa.png) | Pheromosa | 570 | 71 | 137 | 37 | 137 | 37 | 151
-![Phione](https://img.pokemondb.net/sprites/sword-shield/icon/phione.png) | Phione | 480 | 80 | 80 | 80 | 80 | 80 | 80
-![Pidgeot](https://img.pokemondb.net/sprites/sword-shield/icon/pidgeot.png) | Pidgeot | 469 | 83 | 80 | 75 | 70 | 70 | 91
-![Pidgeotto](https://img.pokemondb.net/sprites/sword-shield/icon/pidgeotto.png) | Pidgeotto | 349 | 63 | 60 | 55 | 50 | 50 | 71
-![Pidgey](https://img.pokemondb.net/sprites/sword-shield/icon/pidgey.png) | Pidgey | 251 | 40 | 45 | 40 | 35 | 35 | 56
-![Pidove](https://img.pokemondb.net/sprites/sword-shield/icon/pidove.png) | Pidove | 264 | 50 | 55 | 50 | 36 | 30 | 43
-![Pignite](https://img.pokemondb.net/sprites/sword-shield/icon/pignite.png) | Pignite | 418 | 90 | 93 | 55 | 70 | 55 | 55
-![Pikipek](https://img.pokemondb.net/sprites/sword-shield/icon/pikipek.png) | Pikipek | 265 | 35 | 75 | 30 | 30 | 30 | 65
-![Piloswine](https://img.pokemondb.net/sprites/sword-shield/icon/piloswine.png) | Piloswine | 450 | 100 | 100 | 80 | 60 | 60 | 50
-![Pincurchin](https://img.pokemondb.net/sprites/sword-shield/icon/pincurchin.png) | Pincurchin | 435 | 48 | 101 | 95 | 91 | 85 | 15
-![Pineco](https://img.pokemondb.net/sprites/sword-shield/icon/pineco.png) | Pineco | 290 | 50 | 65 | 90 | 35 | 35 | 15
-![Pinsir](https://img.pokemondb.net/sprites/sword-shield/icon/pinsir.png) | Pinsir | 500 | 65 | 125 | 100 | 55 | 70 | 85
-![Piplup](https://img.pokemondb.net/sprites/sword-shield/icon/piplup.png) | Piplup | 314 | 53 | 51 | 53 | 61 | 56 | 40
-![Plusle](https://img.pokemondb.net/sprites/sword-shield/icon/plusle.png) | Plusle | 405 | 60 | 50 | 40 | 85 | 75 | 95
-![Poipole](https://img.pokemondb.net/sprites/sword-shield/icon/poipole.png) | Poipole | 420 | 67 | 73 | 67 | 73 | 67 | 73
-![Politoed](https://img.pokemondb.net/sprites/sword-shield/icon/politoed.png) | Politoed | 500 | 90 | 75 | 75 | 90 | 100 | 70
-![Poliwag](https://img.pokemondb.net/sprites/sword-shield/icon/poliwag.png) | Poliwag | 300 | 40 | 50 | 40 | 40 | 40 | 90
-![Poliwhirl](https://img.pokemondb.net/sprites/sword-shield/icon/poliwhirl.png) | Poliwhirl | 385 | 65 | 65 | 65 | 50 | 50 | 90
-![Poliwrath](https://img.pokemondb.net/sprites/sword-shield/icon/poliwrath.png) | Poliwrath | 500 | 90 | 85 | 95 | 70 | 90 | 70
-![Ponyta](https://img.pokemondb.net/sprites/sword-shield/icon/ponyta.png) | Ponyta | 410 | 50 | 85 | 55 | 65 | 65 | 90
-![Poochyena](https://img.pokemondb.net/sprites/sword-shield/icon/poochyena.png) | Poochyena | 220 | 35 | 55 | 35 | 30 | 30 | 35
-![Popplio](https://img.pokemondb.net/sprites/sword-shield/icon/popplio.png) | Popplio | 320 | 50 | 54 | 54 | 66 | 56 | 40
-![Porygon](https://img.pokemondb.net/sprites/sword-shield/icon/porygon.png) | Porygon | 395 | 65 | 60 | 70 | 85 | 75 | 40
-![Porygon2](https://img.pokemondb.net/sprites/sword-shield/icon/porygon2.png) | Porygon2 | 515 | 85 | 80 | 90 | 105 | 95 | 60
-![Primarina](https://img.pokemondb.net/sprites/sword-shield/icon/primarina.png) | Primarina | 530 | 80 | 74 | 74 | 126 | 116 | 60
-![Primeape](https://img.pokemondb.net/sprites/sword-shield/icon/primeape.png) | Primeape | 455 | 65 | 105 | 60 | 60 | 70 | 95
-![Prinplup](https://img.pokemondb.net/sprites/sword-shield/icon/prinplup.png) | Prinplup | 405 | 64 | 66 | 68 | 81 | 76 | 50
-![Probopass](https://img.pokemondb.net/sprites/sword-shield/icon/probopass.png) | Probopass | 525 | 60 | 55 | 145 | 75 | 150 | 40
-![Psyduck](https://img.pokemondb.net/sprites/sword-shield/icon/psyduck.png) | Psyduck | 320 | 50 | 52 | 48 | 65 | 50 | 55
-![Pumpkaboo](https://img.pokemondb.net/sprites/sword-shield/icon/pumpkaboo.png) | Pumpkaboo | 335 | 49 | 66 | 70 | 44 | 55 | 51
-![Pupitar](https://img.pokemondb.net/sprites/sword-shield/icon/pupitar.png) | Pupitar | 410 | 70 | 84 | 70 | 65 | 70 | 51
-![Purrloin](https://img.pokemondb.net/sprites/sword-shield/icon/purrloin.png) | Purrloin | 281 | 41 | 50 | 37 | 50 | 37 | 66
-![Purugly](https://img.pokemondb.net/sprites/sword-shield/icon/purugly.png) | Purugly | 452 | 71 | 82 | 64 | 64 | 59 | 112
-![Pyroar](https://img.pokemondb.net/sprites/sword-shield/icon/pyroar.png) | Pyroar | 507 | 86 | 68 | 72 | 109 | 66 | 106
-![Pyukumuku](https://img.pokemondb.net/sprites/sword-shield/icon/pyukumuku.png) | Pyukumuku | 410 | 55 | 60 | 130 | 30 | 130 | 5
-![Quagsire](https://img.pokemondb.net/sprites/sword-shield/icon/quagsire.png) | Quagsire | 430 | 95 | 85 | 85 | 65 | 65 | 35
-![Quilava](https://img.pokemondb.net/sprites/sword-shield/icon/quilava.png) | Quilava | 405 | 58 | 64 | 58 | 80 | 65 | 80
-![Quilladin](https://img.pokemondb.net/sprites/sword-shield/icon/quilladin.png) | Quilladin | 405 | 61 | 78 | 95 | 56 | 58 | 57
-![Qwilfish](https://img.pokemondb.net/sprites/sword-shield/icon/qwilfish.png) | Qwilfish | 430 | 65 | 95 | 75 | 55 | 55 | 85
-![Raboot](https://img.pokemondb.net/sprites/sword-shield/icon/raboot.png) | Raboot | 420 | 65 | 86 | 60 | 55 | 60 | 94
-![Raichu](https://img.pokemondb.net/sprites/sword-shield/icon/raichu.png) | Raichu | 475 | 60 | 90 | 55 | 90 | 80 | 100
-![Raikou](https://img.pokemondb.net/sprites/sword-shield/icon/raikou.png) | Raikou | 580 | 90 | 85 | 75 | 115 | 100 | 115
-![Ralts](https://img.pokemondb.net/sprites/sword-shield/icon/ralts.png) | Ralts | 198 | 28 | 25 | 25 | 45 | 35 | 40
-![Rampardos](https://img.pokemondb.net/sprites/sword-shield/icon/rampardos.png) | Rampardos | 495 | 97 | 165 | 60 | 65 | 50 | 58
-![Rapidash](https://img.pokemondb.net/sprites/sword-shield/icon/rapidash.png) | Rapidash | 500 | 65 | 100 | 70 | 80 | 80 | 105
-![Raticate](https://img.pokemondb.net/sprites/sword-shield/icon/raticate.png) | Raticate | 413 | 55 | 81 | 60 | 50 | 70 | 97
-![Rattata](https://img.pokemondb.net/sprites/sword-shield/icon/rattata.png) | Rattata | 253 | 30 | 56 | 35 | 25 | 35 | 72
-![Rayquaza](https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png) | Rayquaza | 680 | 105 | 150 | 90 | 150 | 90 | 95
-![Regice](https://img.pokemondb.net/sprites/sword-shield/icon/regice.png) | Regice | 580 | 80 | 50 | 100 | 100 | 200 | 50
-![Regidrago](https://img.pokemondb.net/sprites/sword-shield/icon/regidrago.png) | Regidrago | 580 | 200 | 100 | 50 | 100 | 50 | 80
-![Regieleki](https://img.pokemondb.net/sprites/sword-shield/icon/regieleki.png) | Regieleki | 580 | 80 | 100 | 50 | 100 | 50 | 200
-![Regigigas](https://img.pokemondb.net/sprites/sword-shield/icon/regigigas.png) | Regigigas | 670 | 110 | 160 | 110 | 80 | 110 | 100
-![Regirock](https://img.pokemondb.net/sprites/sword-shield/icon/regirock.png) | Regirock | 580 | 80 | 100 | 200 | 50 | 100 | 50
-![Registeel](https://img.pokemondb.net/sprites/sword-shield/icon/registeel.png) | Registeel | 580 | 80 | 75 | 150 | 75 | 150 | 50
-![Relicanth](https://img.pokemondb.net/sprites/sword-shield/icon/relicanth.png) | Relicanth | 485 | 100 | 90 | 130 | 45 | 65 | 55
-![Remoraid](https://img.pokemondb.net/sprites/sword-shield/icon/remoraid.png) | Remoraid | 300 | 35 | 65 | 35 | 65 | 35 | 65
-![Reshiram](https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png) | Reshiram | 680 | 100 | 120 | 100 | 150 | 120 | 90
-![Reuniclus](https://img.pokemondb.net/sprites/sword-shield/icon/reuniclus.png) | Reuniclus | 490 | 110 | 65 | 75 | 125 | 85 | 30
-![Rhydon](https://img.pokemondb.net/sprites/sword-shield/icon/rhydon.png) | Rhydon | 485 | 105 | 130 | 120 | 45 | 45 | 40
-![Rhyhorn](https://img.pokemondb.net/sprites/sword-shield/icon/rhyhorn.png) | Rhyhorn | 345 | 80 | 85 | 95 | 30 | 30 | 25
-![Rhyperior](https://img.pokemondb.net/sprites/sword-shield/icon/rhyperior.png) | Rhyperior | 535 | 115 | 140 | 130 | 55 | 55 | 40
-![Ribombee](https://img.pokemondb.net/sprites/sword-shield/icon/ribombee.png) | Ribombee | 464 | 60 | 55 | 60 | 95 | 70 | 124
-![Rillaboom](https://img.pokemondb.net/sprites/sword-shield/icon/rillaboom.png) | Rillaboom | 530 | 100 | 125 | 90 | 60 | 70 | 85
-![Riolu](https://img.pokemondb.net/sprites/sword-shield/icon/riolu.png) | Riolu | 285 | 40 | 70 | 40 | 35 | 40 | 60
-![Roggenrola](https://img.pokemondb.net/sprites/sword-shield/icon/roggenrola.png) | Roggenrola | 280 | 55 | 75 | 85 | 25 | 25 | 15
-![Rolycoly](https://img.pokemondb.net/sprites/sword-shield/icon/rolycoly.png) | Rolycoly | 240 | 30 | 40 | 50 | 40 | 50 | 30
-![Rookidee](https://img.pokemondb.net/sprites/sword-shield/icon/rookidee.png) | Rookidee | 245 | 38 | 47 | 35 | 33 | 35 | 57
-![Roselia](https://img.pokemondb.net/sprites/sword-shield/icon/roselia.png) | Roselia | 400 | 50 | 60 | 45 | 100 | 80 | 65
-![Roserade](https://img.pokemondb.net/sprites/sword-shield/icon/roserade.png) | Roserade | 505 | 60 | 70 | 55 | 125 | 105 | 90
-![Rotom](https://img.pokemondb.net/sprites/sword-shield/icon/rotom.png) | Rotom | 440 | 50 | 50 | 77 | 95 | 77 | 91
-![Rowlet](https://img.pokemondb.net/sprites/sword-shield/icon/rowlet.png) | Rowlet | 320 | 68 | 55 | 55 | 50 | 50 | 42
-![Rufflet](https://img.pokemondb.net/sprites/sword-shield/icon/rufflet.png) | Rufflet | 350 | 70 | 83 | 50 | 37 | 50 | 60
-![Runerigus](https://img.pokemondb.net/sprites/sword-shield/icon/runerigus.png) | Runerigus | 483 | 58 | 95 | 145 | 50 | 105 | 30
-![Sableye](https://img.pokemondb.net/sprites/sword-shield/icon/sableye.png) | Sableye | 380 | 50 | 75 | 75 | 65 | 65 | 50
-![Salamence](https://img.pokemondb.net/sprites/sword-shield/icon/salamence.png) | Salamence | 600 | 95 | 135 | 80 | 110 | 80 | 100
-![Salandit](https://img.pokemondb.net/sprites/sword-shield/icon/salandit.png) | Salandit | 320 | 48 | 44 | 40 | 71 | 40 | 77
-![Salazzle](https://img.pokemondb.net/sprites/sword-shield/icon/salazzle.png) | Salazzle | 480 | 68 | 64 | 60 | 111 | 60 | 117
-![Samurott](https://img.pokemondb.net/sprites/sword-shield/icon/samurott.png) | Samurott | 528 | 95 | 100 | 85 | 108 | 70 | 70
-![Sandaconda](https://img.pokemondb.net/sprites/sword-shield/icon/sandaconda.png) | Sandaconda | 510 | 72 | 107 | 125 | 65 | 70 | 71
-![Sandile](https://img.pokemondb.net/sprites/sword-shield/icon/sandile.png) | Sandile | 292 | 50 | 72 | 35 | 35 | 35 | 65
-![Sandshrew](https://img.pokemondb.net/sprites/sword-shield/icon/sandshrew.png) | Sandshrew | 300 | 50 | 75 | 85 | 20 | 30 | 40
-![Sandslash](https://img.pokemondb.net/sprites/sword-shield/icon/sandslash.png) | Sandslash | 450 | 75 | 100 | 110 | 45 | 55 | 65
-![Sandygast](https://img.pokemondb.net/sprites/sword-shield/icon/sandygast.png) | Sandygast | 320 | 55 | 55 | 80 | 70 | 45 | 15
-![Sawk](https://img.pokemondb.net/sprites/sword-shield/icon/sawk.png) | Sawk | 465 | 75 | 125 | 75 | 30 | 75 | 85
-![Scatterbug](https://img.pokemondb.net/sprites/sword-shield/icon/scatterbug.png) | Scatterbug | 200 | 38 | 35 | 40 | 27 | 25 | 35
-![Sceptile](https://img.pokemondb.net/sprites/sword-shield/icon/sceptile.png) | Sceptile | 530 | 70 | 85 | 65 | 105 | 85 | 120
-![Scizor](https://img.pokemondb.net/sprites/sword-shield/icon/scizor.png) | Scizor | 500 | 70 | 130 | 100 | 55 | 80 | 65
-![Scolipede](https://img.pokemondb.net/sprites/sword-shield/icon/scolipede.png) | Scolipede | 475 | 60 | 90 | 89 | 55 | 69 | 112
-![Scorbunny](https://img.pokemondb.net/sprites/sword-shield/icon/scorbunny.png) | Scorbunny | 310 | 50 | 71 | 40 | 40 | 40 | 69
-![Scrafty](https://img.pokemondb.net/sprites/sword-shield/icon/scrafty.png) | Scrafty | 488 | 65 | 90 | 115 | 45 | 115 | 58
-![Scraggy](https://img.pokemondb.net/sprites/sword-shield/icon/scraggy.png) | Scraggy | 348 | 50 | 75 | 70 | 35 | 70 | 48
-![Scyther](https://img.pokemondb.net/sprites/sword-shield/icon/scyther.png) | Scyther | 500 | 70 | 110 | 80 | 55 | 80 | 105
-![Seadra](https://img.pokemondb.net/sprites/sword-shield/icon/seadra.png) | Seadra | 440 | 55 | 65 | 95 | 95 | 45 | 85
-![Seaking](https://img.pokemondb.net/sprites/sword-shield/icon/seaking.png) | Seaking | 450 | 80 | 92 | 65 | 65 | 80 | 68
-![Sealeo](https://img.pokemondb.net/sprites/sword-shield/icon/sealeo.png) | Sealeo | 410 | 90 | 60 | 70 | 75 | 70 | 45
-![Seedot](https://img.pokemondb.net/sprites/sword-shield/icon/seedot.png) | Seedot | 220 | 40 | 40 | 50 | 30 | 30 | 30
-![Seel](https://img.pokemondb.net/sprites/sword-shield/icon/seel.png) | Seel | 325 | 65 | 45 | 55 | 45 | 70 | 45
-![Seismitoad](https://img.pokemondb.net/sprites/sword-shield/icon/seismitoad.png) | Seismitoad | 499 | 105 | 85 | 75 | 85 | 75 | 74
-![Sentret](https://img.pokemondb.net/sprites/sword-shield/icon/sentret.png) | Sentret | 215 | 35 | 46 | 34 | 35 | 45 | 20
-![Serperior](https://img.pokemondb.net/sprites/sword-shield/icon/serperior.png) | Serperior | 528 | 75 | 75 | 95 | 75 | 95 | 113
-![Servine](https://img.pokemondb.net/sprites/sword-shield/icon/servine.png) | Servine | 413 | 60 | 60 | 75 | 60 | 75 | 83
-![Seviper](https://img.pokemondb.net/sprites/sword-shield/icon/seviper.png) | Seviper | 458 | 73 | 100 | 60 | 100 | 60 | 65
-![Sewaddle](https://img.pokemondb.net/sprites/sword-shield/icon/sewaddle.png) | Sewaddle | 310 | 45 | 53 | 70 | 40 | 60 | 42
-![Sharpedo](https://img.pokemondb.net/sprites/sword-shield/icon/sharpedo.png) | Sharpedo | 460 | 70 | 120 | 40 | 95 | 40 | 95
-![Shaymin](https://img.pokemondb.net/sprites/sword-shield/icon/shaymin.png) | Shaymin | 600 | 100 | 100 | 100 | 100 | 100 | 100
-![Shedinja](https://img.pokemondb.net/sprites/sword-shield/icon/shedinja.png) | Shedinja | 236 | 1 | 90 | 45 | 30 | 30 | 40
-![Shelgon](https://img.pokemondb.net/sprites/sword-shield/icon/shelgon.png) | Shelgon | 420 | 65 | 95 | 100 | 60 | 50 | 50
-![Shellder](https://img.pokemondb.net/sprites/sword-shield/icon/shellder.png) | Shellder | 305 | 30 | 65 | 100 | 45 | 25 | 40
-![Shelmet](https://img.pokemondb.net/sprites/sword-shield/icon/shelmet.png) | Shelmet | 305 | 50 | 40 | 85 | 40 | 65 | 25
-![Shieldon](https://img.pokemondb.net/sprites/sword-shield/icon/shieldon.png) | Shieldon | 350 | 30 | 42 | 118 | 42 | 88 | 30
-![Shiftry](https://img.pokemondb.net/sprites/sword-shield/icon/shiftry.png) | Shiftry | 480 | 90 | 100 | 60 | 90 | 60 | 80
-![Shiinotic](https://img.pokemondb.net/sprites/sword-shield/icon/shiinotic.png) | Shiinotic | 405 | 60 | 45 | 80 | 90 | 100 | 30
-![Shinx](https://img.pokemondb.net/sprites/sword-shield/icon/shinx.png) | Shinx | 263 | 45 | 65 | 34 | 40 | 34 | 45
-![Shroomish](https://img.pokemondb.net/sprites/sword-shield/icon/shroomish.png) | Shroomish | 295 | 60 | 40 | 60 | 40 | 60 | 35
-![Shuckle](https://img.pokemondb.net/sprites/sword-shield/icon/shuckle.png) | Shuckle | 505 | 20 | 10 | 230 | 10 | 230 | 5
-![Shuppet](https://img.pokemondb.net/sprites/sword-shield/icon/shuppet.png) | Shuppet | 295 | 44 | 75 | 35 | 63 | 33 | 45
-![Sigilyph](https://img.pokemondb.net/sprites/sword-shield/icon/sigilyph.png) | Sigilyph | 490 | 72 | 58 | 80 | 103 | 80 | 97
-![Silcoon](https://img.pokemondb.net/sprites/sword-shield/icon/silcoon.png) | Silcoon | 205 | 50 | 35 | 55 | 25 | 25 | 15
-![Silicobra](https://img.pokemondb.net/sprites/sword-shield/icon/silicobra.png) | Silicobra | 315 | 52 | 57 | 75 | 35 | 50 | 46
-![Simipour](https://img.pokemondb.net/sprites/sword-shield/icon/simipour.png) | Simipour | 498 | 75 | 98 | 63 | 98 | 63 | 101
-![Simisage](https://img.pokemondb.net/sprites/sword-shield/icon/simisage.png) | Simisage | 498 | 75 | 98 | 63 | 98 | 63 | 101
-![Simisear](https://img.pokemondb.net/sprites/sword-shield/icon/simisear.png) | Simisear | 498 | 75 | 98 | 63 | 98 | 63 | 101
-![Sirfetchd](https://img.pokemondb.net/sprites/sword-shield/icon/sirfetchd.png) | Sirfetchd | 507 | 62 | 135 | 95 | 68 | 82 | 65
-![Sizzlipede](https://img.pokemondb.net/sprites/sword-shield/icon/sizzlipede.png) | Sizzlipede | 305 | 50 | 65 | 45 | 50 | 50 | 45
-![Skarmory](https://img.pokemondb.net/sprites/sword-shield/icon/skarmory.png) | Skarmory | 465 | 65 | 80 | 140 | 40 | 70 | 70
-![Skiddo](https://img.pokemondb.net/sprites/sword-shield/icon/skiddo.png) | Skiddo | 350 | 66 | 65 | 48 | 62 | 57 | 52
-![Skiploom](https://img.pokemondb.net/sprites/sword-shield/icon/skiploom.png) | Skiploom | 340 | 55 | 45 | 50 | 45 | 65 | 80
-![Skitty](https://img.pokemondb.net/sprites/sword-shield/icon/skitty.png) | Skitty | 260 | 50 | 45 | 45 | 35 | 35 | 50
-![Skorupi](https://img.pokemondb.net/sprites/sword-shield/icon/skorupi.png) | Skorupi | 330 | 40 | 50 | 90 | 30 | 55 | 65
-![Skrelp](https://img.pokemondb.net/sprites/sword-shield/icon/skrelp.png) | Skrelp | 320 | 50 | 60 | 60 | 60 | 60 | 30
-![Skuntank](https://img.pokemondb.net/sprites/sword-shield/icon/skuntank.png) | Skuntank | 479 | 103 | 93 | 67 | 71 | 61 | 84
-![Skwovet](https://img.pokemondb.net/sprites/sword-shield/icon/skwovet.png) | Skwovet | 275 | 70 | 55 | 55 | 35 | 35 | 25
-![Slaking](https://img.pokemondb.net/sprites/sword-shield/icon/slaking.png) | Slaking | 670 | 150 | 160 | 100 | 95 | 65 | 100
-![Slakoth](https://img.pokemondb.net/sprites/sword-shield/icon/slakoth.png) | Slakoth | 280 | 60 | 60 | 60 | 35 | 35 | 30
-![Sliggoo](https://img.pokemondb.net/sprites/sword-shield/icon/sliggoo.png) | Sliggoo | 452 | 68 | 75 | 53 | 83 | 113 | 60
-![Slowbro](https://img.pokemondb.net/sprites/sword-shield/icon/slowbro.png) | Slowbro | 490 | 95 | 75 | 110 | 100 | 80 | 30
-![Slowking](https://img.pokemondb.net/sprites/sword-shield/icon/slowking.png) | Slowking | 490 | 95 | 75 | 80 | 100 | 110 | 30
-![Slowpoke](https://img.pokemondb.net/sprites/sword-shield/icon/slowpoke.png) | Slowpoke | 315 | 90 | 65 | 65 | 40 | 40 | 15
-![Slugma](https://img.pokemondb.net/sprites/sword-shield/icon/slugma.png) | Slugma | 250 | 40 | 40 | 40 | 70 | 40 | 20
-![Slurpuff](https://img.pokemondb.net/sprites/sword-shield/icon/slurpuff.png) | Slurpuff | 480 | 82 | 80 | 86 | 85 | 75 | 72
-![Smeargle](https://img.pokemondb.net/sprites/sword-shield/icon/smeargle.png) | Smeargle | 250 | 55 | 20 | 35 | 20 | 45 | 75
-![Smoochum](https://img.pokemondb.net/sprites/sword-shield/icon/smoochum.png) | Smoochum | 305 | 45 | 30 | 15 | 85 | 65 | 65
-![Sneasel](https://img.pokemondb.net/sprites/sword-shield/icon/sneasel.png) | Sneasel | 430 | 55 | 95 | 55 | 35 | 75 | 115
-![Sneasler](https://img.pokemondb.net/sprites/sword-shield/icon/sneasler.png) | Sneasler | 510 | 80 | 130 | 60 | 40 | 80 | 120
-![Snivy](https://img.pokemondb.net/sprites/sword-shield/icon/snivy.png) | Snivy | 308 | 45 | 45 | 55 | 45 | 55 | 63
-![Snom](https://img.pokemondb.net/sprites/sword-shield/icon/snom.png) | Snom | 185 | 30 | 25 | 35 | 45 | 30 | 20
-![Snorlax](https://img.pokemondb.net/sprites/sword-shield/icon/snorlax.png) | Snorlax | 540 | 160 | 110 | 65 | 65 | 110 | 30
-![Snorunt](https://img.pokemondb.net/sprites/sword-shield/icon/snorunt.png) | Snorunt | 300 | 50 | 50 | 50 | 50 | 50 | 50
-![Snover](https://img.pokemondb.net/sprites/sword-shield/icon/snover.png) | Snover | 334 | 60 | 62 | 50 | 62 | 60 | 40
-![Snubbull](https://img.pokemondb.net/sprites/sword-shield/icon/snubbull.png) | Snubbull | 300 | 60 | 80 | 50 | 40 | 40 | 30
-![Sobble](https://img.pokemondb.net/sprites/sword-shield/icon/sobble.png) | Sobble | 310 | 50 | 40 | 40 | 70 | 40 | 70
-![Solgaleo](https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png) | Solgaleo | 680 | 137 | 137 | 107 | 113 | 89 | 97
-![Solosis](https://img.pokemondb.net/sprites/sword-shield/icon/solosis.png) | Solosis | 290 | 45 | 30 | 40 | 105 | 50 | 20
-![Solrock](https://img.pokemondb.net/sprites/sword-shield/icon/solrock.png) | Solrock | 440 | 70 | 95 | 85 | 55 | 65 | 70
-![Spearow](https://img.pokemondb.net/sprites/sword-shield/icon/spearow.png) | Spearow | 262 | 40 | 60 | 30 | 31 | 31 | 70
-![Spectrier](https://img.pokemondb.net/sprites/sword-shield/icon/spectrier.png) | Spectrier | 580 | 100 | 65 | 60 | 145 | 80 | 130
-![Spewpa](https://img.pokemondb.net/sprites/sword-shield/icon/spewpa.png) | Spewpa | 213 | 45 | 22 | 60 | 27 | 30 | 29
-![Spheal](https://img.pokemondb.net/sprites/sword-shield/icon/spheal.png) | Spheal | 290 | 70 | 40 | 50 | 55 | 50 | 25
-![Spinarak](https://img.pokemondb.net/sprites/sword-shield/icon/spinarak.png) | Spinarak | 250 | 40 | 60 | 40 | 40 | 40 | 30
-![Spinda](https://img.pokemondb.net/sprites/sword-shield/icon/spinda.png) | Spinda | 360 | 60 | 60 | 60 | 60 | 60 | 60
-![Spiritomb](https://img.pokemondb.net/sprites/sword-shield/icon/spiritomb.png) | Spiritomb | 485 | 50 | 92 | 108 | 92 | 108 | 35
-![Spoink](https://img.pokemondb.net/sprites/sword-shield/icon/spoink.png) | Spoink | 330 | 60 | 25 | 35 | 70 | 80 | 60
-![Spritzee](https://img.pokemondb.net/sprites/sword-shield/icon/spritzee.png) | Spritzee | 341 | 78 | 52 | 60 | 63 | 65 | 23
-![Squirtle](https://img.pokemondb.net/sprites/sword-shield/icon/squirtle.png) | Squirtle | 314 | 44 | 48 | 65 | 50 | 64 | 43
-![Stakataka](https://img.pokemondb.net/sprites/sword-shield/icon/stakataka.png) | Stakataka | 570 | 61 | 131 | 211 | 53 | 101 | 13
-![Stantler](https://img.pokemondb.net/sprites/sword-shield/icon/stantler.png) | Stantler | 465 | 73 | 95 | 62 | 85 | 65 | 85
-![Staraptor](https://img.pokemondb.net/sprites/sword-shield/icon/staraptor.png) | Staraptor | 475 | 85 | 120 | 70 | 50 | 50 | 100
-![Staravia](https://img.pokemondb.net/sprites/sword-shield/icon/staravia.png) | Staravia | 340 | 55 | 75 | 50 | 40 | 40 | 80
-![Starly](https://img.pokemondb.net/sprites/sword-shield/icon/starly.png) | Starly | 245 | 40 | 55 | 30 | 30 | 30 | 60
-![Starmie](https://img.pokemondb.net/sprites/sword-shield/icon/starmie.png) | Starmie | 520 | 60 | 75 | 85 | 100 | 85 | 115
-![Staryu](https://img.pokemondb.net/sprites/sword-shield/icon/staryu.png) | Staryu | 340 | 30 | 45 | 55 | 70 | 55 | 85
-![Steelix](https://img.pokemondb.net/sprites/sword-shield/icon/steelix.png) | Steelix | 510 | 75 | 85 | 200 | 55 | 65 | 30
-![Steenee](https://img.pokemondb.net/sprites/sword-shield/icon/steenee.png) | Steenee | 290 | 52 | 40 | 48 | 40 | 48 | 62
-![Stonjourner](https://img.pokemondb.net/sprites/sword-shield/icon/stonjourner.png) | Stonjourner | 470 | 100 | 125 | 135 | 20 | 20 | 70
-![Stoutland](https://img.pokemondb.net/sprites/sword-shield/icon/stoutland.png) | Stoutland | 490 | 85 | 100 | 90 | 45 | 90 | 80
-![Stufful](https://img.pokemondb.net/sprites/sword-shield/icon/stufful.png) | Stufful | 340 | 70 | 75 | 50 | 45 | 50 | 50
-![Stunfisk](https://img.pokemondb.net/sprites/sword-shield/icon/stunfisk.png) | Stunfisk | 471 | 109 | 66 | 84 | 81 | 99 | 32
-![Stunky](https://img.pokemondb.net/sprites/sword-shield/icon/stunky.png) | Stunky | 329 | 63 | 63 | 47 | 41 | 41 | 74
-![Sudowoodo](https://img.pokemondb.net/sprites/sword-shield/icon/sudowoodo.png) | Sudowoodo | 410 | 70 | 100 | 115 | 30 | 65 | 30
-![Suicune](https://img.pokemondb.net/sprites/sword-shield/icon/suicune.png) | Suicune | 580 | 100 | 75 | 115 | 90 | 115 | 85
-![Sunflora](https://img.pokemondb.net/sprites/sword-shield/icon/sunflora.png) | Sunflora | 425 | 75 | 75 | 55 | 105 | 85 | 30
-![Sunkern](https://img.pokemondb.net/sprites/sword-shield/icon/sunkern.png) | Sunkern | 180 | 30 | 30 | 30 | 30 | 30 | 30
-![Surskit](https://img.pokemondb.net/sprites/sword-shield/icon/surskit.png) | Surskit | 269 | 40 | 30 | 32 | 50 | 52 | 65
-![Swablu](https://img.pokemondb.net/sprites/sword-shield/icon/swablu.png) | Swablu | 310 | 45 | 40 | 60 | 40 | 75 | 50
-![Swadloon](https://img.pokemondb.net/sprites/sword-shield/icon/swadloon.png) | Swadloon | 380 | 55 | 63 | 90 | 50 | 80 | 42
-![Swalot](https://img.pokemondb.net/sprites/sword-shield/icon/swalot.png) | Swalot | 467 | 100 | 73 | 83 | 73 | 83 | 55
-![Swampert](https://img.pokemondb.net/sprites/sword-shield/icon/swampert.png) | Swampert | 535 | 100 | 110 | 90 | 85 | 90 | 60
-![Swanna](https://img.pokemondb.net/sprites/sword-shield/icon/swanna.png) | Swanna | 473 | 75 | 87 | 63 | 87 | 63 | 98
-![Swellow](https://img.pokemondb.net/sprites/sword-shield/icon/swellow.png) | Swellow | 430 | 60 | 85 | 60 | 50 | 50 | 125
-![Swinub](https://img.pokemondb.net/sprites/sword-shield/icon/swinub.png) | Swinub | 250 | 50 | 50 | 40 | 30 | 30 | 50
-![Swirlix](https://img.pokemondb.net/sprites/sword-shield/icon/swirlix.png) | Swirlix | 341 | 62 | 48 | 66 | 59 | 57 | 49
-![Swoobat](https://img.pokemondb.net/sprites/sword-shield/icon/swoobat.png) | Swoobat | 425 | 67 | 57 | 55 | 77 | 55 | 114
-![Sylveon](https://img.pokemondb.net/sprites/sword-shield/icon/sylveon.png) | Sylveon | 525 | 95 | 65 | 65 | 110 | 130 | 60
-![Taillow](https://img.pokemondb.net/sprites/sword-shield/icon/taillow.png) | Taillow | 270 | 40 | 55 | 30 | 30 | 30 | 85
-![Talonflame](https://img.pokemondb.net/sprites/sword-shield/icon/talonflame.png) | Talonflame | 499 | 78 | 81 | 71 | 74 | 69 | 126
-![Tangela](https://img.pokemondb.net/sprites/sword-shield/icon/tangela.png) | Tangela | 435 | 65 | 55 | 115 | 100 | 40 | 60
-![Tangrowth](https://img.pokemondb.net/sprites/sword-shield/icon/tangrowth.png) | Tangrowth | 535 | 100 | 100 | 125 | 110 | 50 | 50
-![Tauros](https://img.pokemondb.net/sprites/sword-shield/icon/tauros.png) | Tauros | 490 | 75 | 100 | 95 | 40 | 70 | 110
-![Teddiursa](https://img.pokemondb.net/sprites/sword-shield/icon/teddiursa.png) | Teddiursa | 330 | 60 | 80 | 50 | 50 | 50 | 40
-![Tentacool](https://img.pokemondb.net/sprites/sword-shield/icon/tentacool.png) | Tentacool | 335 | 40 | 40 | 35 | 50 | 100 | 70
-![Tentacruel](https://img.pokemondb.net/sprites/sword-shield/icon/tentacruel.png) | Tentacruel | 515 | 80 | 70 | 65 | 80 | 120 | 100
-![Tepig](https://img.pokemondb.net/sprites/sword-shield/icon/tepig.png) | Tepig | 308 | 65 | 63 | 45 | 45 | 45 | 45
-![Terrakion](https://img.pokemondb.net/sprites/sword-shield/icon/terrakion.png) | Terrakion | 580 | 91 | 129 | 90 | 72 | 90 | 108
-![Thievul](https://img.pokemondb.net/sprites/sword-shield/icon/thievul.png) | Thievul | 455 | 70 | 58 | 58 | 87 | 92 | 90
-![Throh](https://img.pokemondb.net/sprites/sword-shield/icon/throh.png) | Throh | 465 | 120 | 100 | 85 | 30 | 85 | 45
-![Thundurus](https://img.pokemondb.net/sprites/sword-shield/icon/thundurus.png) | Thundurus | 580 | 79 | 115 | 70 | 125 | 80 | 111
-![Thwackey](https://img.pokemondb.net/sprites/sword-shield/icon/thwackey.png) | Thwackey | 420 | 70 | 85 | 70 | 55 | 60 | 80
-![Timburr](https://img.pokemondb.net/sprites/sword-shield/icon/timburr.png) | Timburr | 305 | 75 | 80 | 55 | 25 | 35 | 35
-![Tirtouga](https://img.pokemondb.net/sprites/sword-shield/icon/tirtouga.png) | Tirtouga | 355 | 54 | 78 | 103 | 53 | 45 | 22
-![Togedemaru](https://img.pokemondb.net/sprites/sword-shield/icon/togedemaru.png) | Togedemaru | 435 | 65 | 98 | 63 | 40 | 73 | 96
-![Togekiss](https://img.pokemondb.net/sprites/sword-shield/icon/togekiss.png) | Togekiss | 545 | 85 | 50 | 95 | 120 | 115 | 80
-![Togepi](https://img.pokemondb.net/sprites/sword-shield/icon/togepi.png) | Togepi | 245 | 35 | 20 | 65 | 40 | 65 | 20
-![Togetic](https://img.pokemondb.net/sprites/sword-shield/icon/togetic.png) | Togetic | 405 | 55 | 40 | 85 | 80 | 105 | 40
-![Torchic](https://img.pokemondb.net/sprites/sword-shield/icon/torchic.png) | Torchic | 310 | 45 | 60 | 40 | 70 | 50 | 45
-![Torkoal](https://img.pokemondb.net/sprites/sword-shield/icon/torkoal.png) | Torkoal | 470 | 70 | 85 | 140 | 85 | 70 | 20
-![Tornadus](https://img.pokemondb.net/sprites/sword-shield/icon/tornadus.png) | Tornadus | 580 | 79 | 115 | 70 | 125 | 80 | 111
-![Torracat](https://img.pokemondb.net/sprites/sword-shield/icon/torracat.png) | Torracat | 420 | 65 | 85 | 50 | 80 | 50 | 90
-![Torterra](https://img.pokemondb.net/sprites/sword-shield/icon/torterra.png) | Torterra | 525 | 95 | 109 | 105 | 75 | 85 | 56
-![Totodile](https://img.pokemondb.net/sprites/sword-shield/icon/totodile.png) | Totodile | 314 | 50 | 65 | 64 | 44 | 48 | 43
-![Toucannon](https://img.pokemondb.net/sprites/sword-shield/icon/toucannon.png) | Toucannon | 485 | 80 | 120 | 75 | 75 | 75 | 60
-![Toxapex](https://img.pokemondb.net/sprites/sword-shield/icon/toxapex.png) | Toxapex | 495 | 50 | 63 | 152 | 53 | 142 | 35
-![Toxel](https://img.pokemondb.net/sprites/sword-shield/icon/toxel.png) | Toxel | 242 | 40 | 38 | 35 | 54 | 35 | 40
-![Toxicroak](https://img.pokemondb.net/sprites/sword-shield/icon/toxicroak.png) | Toxicroak | 490 | 83 | 106 | 65 | 86 | 65 | 85
-![Tranquill](https://img.pokemondb.net/sprites/sword-shield/icon/tranquill.png) | Tranquill | 358 | 62 | 77 | 62 | 50 | 42 | 65
-![Trapinch](https://img.pokemondb.net/sprites/sword-shield/icon/trapinch.png) | Trapinch | 290 | 45 | 100 | 45 | 45 | 45 | 10
-![Treecko](https://img.pokemondb.net/sprites/sword-shield/icon/treecko.png) | Treecko | 310 | 40 | 45 | 35 | 65 | 55 | 70
-![Trevenant](https://img.pokemondb.net/sprites/sword-shield/icon/trevenant.png) | Trevenant | 474 | 85 | 110 | 76 | 65 | 82 | 56
-![Tropius](https://img.pokemondb.net/sprites/sword-shield/icon/tropius.png) | Tropius | 460 | 99 | 68 | 83 | 72 | 87 | 51
-![Trubbish](https://img.pokemondb.net/sprites/sword-shield/icon/trubbish.png) | Trubbish | 329 | 50 | 50 | 62 | 40 | 62 | 65
-![Trumbeak](https://img.pokemondb.net/sprites/sword-shield/icon/trumbeak.png) | Trumbeak | 355 | 55 | 85 | 50 | 40 | 50 | 75
-![Tsareena](https://img.pokemondb.net/sprites/sword-shield/icon/tsareena.png) | Tsareena | 510 | 72 | 120 | 98 | 50 | 98 | 72
-![Turtonator](https://img.pokemondb.net/sprites/sword-shield/icon/turtonator.png) | Turtonator | 485 | 60 | 78 | 135 | 91 | 85 | 36
-![Turtwig](https://img.pokemondb.net/sprites/sword-shield/icon/turtwig.png) | Turtwig | 318 | 55 | 68 | 64 | 45 | 55 | 31
-![Tympole](https://img.pokemondb.net/sprites/sword-shield/icon/tympole.png) | Tympole | 294 | 50 | 50 | 40 | 50 | 40 | 64
-![Tynamo](https://img.pokemondb.net/sprites/sword-shield/icon/tynamo.png) | Tynamo | 275 | 35 | 55 | 40 | 45 | 40 | 60
-![Typhlosion](https://img.pokemondb.net/sprites/sword-shield/icon/typhlosion.png) | Typhlosion | 534 | 78 | 84 | 78 | 109 | 85 | 100
-![Tyranitar](https://img.pokemondb.net/sprites/sword-shield/icon/tyranitar.png) | Tyranitar | 600 | 100 | 134 | 110 | 95 | 100 | 61
-![Tyrantrum](https://img.pokemondb.net/sprites/sword-shield/icon/tyrantrum.png) | Tyrantrum | 521 | 82 | 121 | 119 | 69 | 59 | 71
-![Tyrogue](https://img.pokemondb.net/sprites/sword-shield/icon/tyrogue.png) | Tyrogue | 210 | 35 | 35 | 35 | 35 | 35 | 35
-![Tyrunt](https://img.pokemondb.net/sprites/sword-shield/icon/tyrunt.png) | Tyrunt | 362 | 58 | 89 | 77 | 45 | 45 | 48
-![Umbreon](https://img.pokemondb.net/sprites/sword-shield/icon/umbreon.png) | Umbreon | 525 | 95 | 65 | 110 | 60 | 130 | 65
-![Unfezant](https://img.pokemondb.net/sprites/sword-shield/icon/unfezant.png) | Unfezant | 478 | 80 | 105 | 80 | 65 | 55 | 93
-![Ursaluna](https://img.pokemondb.net/sprites/sword-shield/icon/ursaluna.png) | Ursaluna | 550 | 130 | 140 | 105 | 45 | 80 | 50
-![Ursaring](https://img.pokemondb.net/sprites/sword-shield/icon/ursaring.png) | Ursaring | 500 | 90 | 130 | 75 | 75 | 75 | 55
-![Urshifu](https://img.pokemondb.net/sprites/sword-shield/icon/urshifu.png) | Urshifu | 550 | 100 | 130 | 100 | 63 | 60 | 97
-![Uxie](https://img.pokemondb.net/sprites/sword-shield/icon/uxie.png) | Uxie | 580 | 75 | 75 | 130 | 75 | 130 | 95
-![Vanillish](https://img.pokemondb.net/sprites/sword-shield/icon/vanillish.png) | Vanillish | 395 | 51 | 65 | 65 | 80 | 75 | 59
-![Vanillite](https://img.pokemondb.net/sprites/sword-shield/icon/vanillite.png) | Vanillite | 305 | 36 | 50 | 50 | 65 | 60 | 44
-![Vanilluxe](https://img.pokemondb.net/sprites/sword-shield/icon/vanilluxe.png) | Vanilluxe | 535 | 71 | 95 | 85 | 110 | 95 | 79
-![Vaporeon](https://img.pokemondb.net/sprites/sword-shield/icon/vaporeon.png) | Vaporeon | 525 | 130 | 65 | 60 | 110 | 95 | 65
-![Venipede](https://img.pokemondb.net/sprites/sword-shield/icon/venipede.png) | Venipede | 260 | 30 | 45 | 59 | 30 | 39 | 57
-![Venomoth](https://img.pokemondb.net/sprites/sword-shield/icon/venomoth.png) | Venomoth | 450 | 70 | 65 | 60 | 90 | 75 | 90
-![Venonat](https://img.pokemondb.net/sprites/sword-shield/icon/venonat.png) | Venonat | 305 | 60 | 55 | 50 | 40 | 55 | 45
-![Venusaur](https://img.pokemondb.net/sprites/sword-shield/icon/venusaur.png) | Venusaur | 525 | 80 | 82 | 83 | 100 | 100 | 80
-![Vespiquen](https://img.pokemondb.net/sprites/sword-shield/icon/vespiquen.png) | Vespiquen | 474 | 70 | 80 | 102 | 80 | 102 | 40
-![Vibrava](https://img.pokemondb.net/sprites/sword-shield/icon/vibrava.png) | Vibrava | 340 | 50 | 70 | 50 | 50 | 50 | 70
-![Victini](https://img.pokemondb.net/sprites/sword-shield/icon/victini.png) | Victini | 600 | 100 | 100 | 100 | 100 | 100 | 100
-![Victreebel](https://img.pokemondb.net/sprites/sword-shield/icon/victreebel.png) | Victreebel | 480 | 80 | 105 | 65 | 100 | 60 | 70
-![Vigoroth](https://img.pokemondb.net/sprites/sword-shield/icon/vigoroth.png) | Vigoroth | 440 | 80 | 80 | 80 | 55 | 55 | 90
-![Vikavolt](https://img.pokemondb.net/sprites/sword-shield/icon/vikavolt.png) | Vikavolt | 500 | 77 | 70 | 90 | 145 | 75 | 43
-![Vileplume](https://img.pokemondb.net/sprites/sword-shield/icon/vileplume.png) | Vileplume | 480 | 75 | 80 | 85 | 100 | 90 | 50
-![Virizion](https://img.pokemondb.net/sprites/sword-shield/icon/virizion.png) | Virizion | 580 | 91 | 90 | 72 | 90 | 129 | 108
-![Volbeat](https://img.pokemondb.net/sprites/sword-shield/icon/volbeat.png) | Volbeat | 400 | 65 | 73 | 55 | 47 | 75 | 85
-![Volcanion](https://img.pokemondb.net/sprites/sword-shield/icon/volcanion.png) | Volcanion | 600 | 80 | 110 | 120 | 130 | 90 | 70
-![Volcarona](https://img.pokemondb.net/sprites/sword-shield/icon/volcarona.png) | Volcarona | 550 | 85 | 60 | 65 | 135 | 105 | 100
-![Voltorb](https://img.pokemondb.net/sprites/sword-shield/icon/voltorb.png) | Voltorb | 330 | 40 | 30 | 50 | 55 | 55 | 100
-![Vullaby](https://img.pokemondb.net/sprites/sword-shield/icon/vullaby.png) | Vullaby | 370 | 70 | 55 | 75 | 45 | 65 | 60
-![Vulpix](https://img.pokemondb.net/sprites/sword-shield/icon/vulpix.png) | Vulpix | 299 | 38 | 41 | 40 | 50 | 65 | 65
-![Wailmer](https://img.pokemondb.net/sprites/sword-shield/icon/wailmer.png) | Wailmer | 400 | 130 | 70 | 35 | 70 | 35 | 60
-![Wailord](https://img.pokemondb.net/sprites/sword-shield/icon/wailord.png) | Wailord | 500 | 170 | 90 | 45 | 90 | 45 | 60
-![Walrein](https://img.pokemondb.net/sprites/sword-shield/icon/walrein.png) | Walrein | 530 | 110 | 80 | 90 | 95 | 90 | 65
-![Wartortle](https://img.pokemondb.net/sprites/sword-shield/icon/wartortle.png) | Wartortle | 405 | 59 | 63 | 80 | 65 | 80 | 58
-![Watchog](https://img.pokemondb.net/sprites/sword-shield/icon/watchog.png) | Watchog | 420 | 60 | 85 | 69 | 60 | 69 | 77
-![Weavile](https://img.pokemondb.net/sprites/sword-shield/icon/weavile.png) | Weavile | 510 | 70 | 120 | 65 | 45 | 85 | 125
-![Weedle](https://img.pokemondb.net/sprites/sword-shield/icon/weedle.png) | Weedle | 195 | 40 | 35 | 30 | 20 | 20 | 50
-![Weepinbell](https://img.pokemondb.net/sprites/sword-shield/icon/weepinbell.png) | Weepinbell | 390 | 65 | 90 | 50 | 85 | 45 | 55
-![Weezing](https://img.pokemondb.net/sprites/sword-shield/icon/weezing.png) | Weezing | 490 | 65 | 90 | 120 | 85 | 70 | 60
-![Whimsicott](https://img.pokemondb.net/sprites/sword-shield/icon/whimsicott.png) | Whimsicott | 480 | 60 | 67 | 85 | 77 | 75 | 116
-![Whirlipede](https://img.pokemondb.net/sprites/sword-shield/icon/whirlipede.png) | Whirlipede | 360 | 40 | 55 | 99 | 40 | 79 | 47
-![Whiscash](https://img.pokemondb.net/sprites/sword-shield/icon/whiscash.png) | Whiscash | 468 | 110 | 78 | 73 | 76 | 71 | 60
-![Whismur](https://img.pokemondb.net/sprites/sword-shield/icon/whismur.png) | Whismur | 240 | 64 | 51 | 23 | 51 | 23 | 28
-![Wigglytuff](https://img.pokemondb.net/sprites/sword-shield/icon/wigglytuff.png) | Wigglytuff | 425 | 140 | 70 | 45 | 75 | 50 | 45
-![Wimpod](https://img.pokemondb.net/sprites/sword-shield/icon/wimpod.png) | Wimpod | 230 | 25 | 35 | 40 | 20 | 30 | 80
-![Wingull](https://img.pokemondb.net/sprites/sword-shield/icon/wingull.png) | Wingull | 270 | 40 | 30 | 30 | 55 | 30 | 85
-![Wishiwashi](https://img.pokemondb.net/sprites/sword-shield/icon/wishiwashi.png) | Wishiwashi | 175 | 45 | 20 | 20 | 25 | 25 | 40
-![Wobbuffet](https://img.pokemondb.net/sprites/sword-shield/icon/wobbuffet.png) | Wobbuffet | 405 | 190 | 33 | 58 | 33 | 58 | 33
-![Woobat](https://img.pokemondb.net/sprites/sword-shield/icon/woobat.png) | Woobat | 313 | 55 | 45 | 43 | 55 | 43 | 72
-![Wooloo](https://img.pokemondb.net/sprites/sword-shield/icon/wooloo.png) | Wooloo | 270 | 42 | 40 | 55 | 40 | 45 | 48
-![Wooper](https://img.pokemondb.net/sprites/sword-shield/icon/wooper.png) | Wooper | 210 | 55 | 45 | 45 | 25 | 25 | 15
-![Wormadam](https://img.pokemondb.net/sprites/sword-shield/icon/wormadam.png) | Wormadam | 424 | 60 | 59 | 85 | 79 | 105 | 36
-![Wurmple](https://img.pokemondb.net/sprites/sword-shield/icon/wurmple.png) | Wurmple | 195 | 45 | 45 | 35 | 20 | 30 | 20
-![Wynaut](https://img.pokemondb.net/sprites/sword-shield/icon/wynaut.png) | Wynaut | 260 | 95 | 23 | 48 | 23 | 48 | 23
-![Wyrdeer](https://img.pokemondb.net/sprites/sword-shield/icon/wyrdeer.png) | Wyrdeer | 525 | 103 | 105 | 72 | 105 | 75 | 65
-![Xatu](https://img.pokemondb.net/sprites/sword-shield/icon/xatu.png) | Xatu | 470 | 65 | 75 | 70 | 95 | 70 | 95
-![Xurkitree](https://img.pokemondb.net/sprites/sword-shield/icon/xurkitree.png) | Xurkitree | 570 | 83 | 89 | 71 | 173 | 71 | 83
-![Yamask](https://img.pokemondb.net/sprites/sword-shield/icon/yamask.png) | Yamask | 303 | 38 | 30 | 85 | 55 | 65 | 30
-![Yamper](https://img.pokemondb.net/sprites/sword-shield/icon/yamper.png) | Yamper | 270 | 59 | 45 | 50 | 40 | 50 | 26
-![Yanma](https://img.pokemondb.net/sprites/sword-shield/icon/yanma.png) | Yanma | 390 | 65 | 65 | 45 | 75 | 45 | 95
-![Yanmega](https://img.pokemondb.net/sprites/sword-shield/icon/yanmega.png) | Yanmega | 515 | 86 | 76 | 86 | 116 | 56 | 95
-![Yungoos](https://img.pokemondb.net/sprites/sword-shield/icon/yungoos.png) | Yungoos | 253 | 48 | 70 | 30 | 30 | 30 | 45
-![Yveltal](https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png) | Yveltal | 680 | 126 | 131 | 95 | 131 | 98 | 99
-![Zacian](https://img.pokemondb.net/sprites/sword-shield/icon/zacian.png) | Zacian | 670 | 92 | 130 | 115 | 80 | 115 | 138
-![Zamazenta](https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta.png) | Zamazenta | 670 | 92 | 130 | 115 | 80 | 115 | 138
-![Zangoose](https://img.pokemondb.net/sprites/sword-shield/icon/zangoose.png) | Zangoose | 458 | 73 | 115 | 60 | 60 | 60 | 90
-![Zapdos](https://img.pokemondb.net/sprites/sword-shield/icon/zapdos.png) | Zapdos | 580 | 90 | 90 | 85 | 125 | 90 | 100
-![Zebstrika](https://img.pokemondb.net/sprites/sword-shield/icon/zebstrika.png) | Zebstrika | 497 | 75 | 100 | 63 | 80 | 63 | 116
-![Zekrom](https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png) | Zekrom | 680 | 100 | 150 | 120 | 120 | 100 | 90
-![Zeraora](https://img.pokemondb.net/sprites/sword-shield/icon/zeraora.png) | Zeraora | 600 | 88 | 112 | 75 | 102 | 80 | 143
-![Zigzagoon](https://img.pokemondb.net/sprites/sword-shield/icon/zigzagoon.png) | Zigzagoon | 240 | 38 | 30 | 41 | 30 | 41 | 60
-![Zoroark](https://img.pokemondb.net/sprites/sword-shield/icon/zoroark.png) | Zoroark | 510 | 60 | 105 | 60 | 120 | 60 | 105
-![Zorua](https://img.pokemondb.net/sprites/sword-shield/icon/zorua.png) | Zorua | 330 | 40 | 65 | 40 | 80 | 40 | 65
-![Zubat](https://img.pokemondb.net/sprites/sword-shield/icon/zubat.png) | Zubat | 245 | 40 | 45 | 35 | 30 | 40 | 55
-![Zweilous](https://img.pokemondb.net/sprites/sword-shield/icon/zweilous.png) | Zweilous | 420 | 72 | 85 | 70 | 65 | 70 | 58
+		table {
+			border-collapse: collapse;
+			margin: 50px auto;
+			background-color: #fff;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+		}
+
+		th, td {
+			padding: 10px;
+			border: 1px solid #ddd;
+		}
+
+		th {
+			background-color: #f2f2f2;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		td:first-child {
+			text-align: center;
+		}
+
+		td:first-child img {
+			height: 50px;
+			width: 50px;
+			margin: 0 auto;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<table>
+<h1>Pokédex</h1>
+<table>
+<thead>
+<tr>
+<th>Image</th>
+<th>Name</th>
+<th>Total</th>
+<th>HP</th>
+<th>Attack</th>
+<th>Defense</th>
+<th>SpAtk</th>
+<th>SpDef</th>
+<th>Speed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Abomasnow" src="https://img.pokemondb.net/sprites/sword-shield/icon/abomasnow.png" /></td>
+<td>Abomasnow</td>
+<td>494</td>
+<td>90</td>
+<td>92</td>
+<td>75</td>
+<td>92</td>
+<td>85</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Abra" src="https://img.pokemondb.net/sprites/sword-shield/icon/abra.png" /></td>
+<td>Abra</td>
+<td>310</td>
+<td>25</td>
+<td>20</td>
+<td>15</td>
+<td>105</td>
+<td>55</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Absol" src="https://img.pokemondb.net/sprites/sword-shield/icon/absol.png" /></td>
+<td>Absol</td>
+<td>465</td>
+<td>65</td>
+<td>130</td>
+<td>60</td>
+<td>75</td>
+<td>60</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Accelgor" src="https://img.pokemondb.net/sprites/sword-shield/icon/accelgor.png" /></td>
+<td>Accelgor</td>
+<td>495</td>
+<td>80</td>
+<td>70</td>
+<td>40</td>
+<td>100</td>
+<td>60</td>
+<td>145</td>
+</tr>
+<tr>
+<td><img alt="Aegislash" src="https://img.pokemondb.net/sprites/sword-shield/icon/aegislash.png" /></td>
+<td>Aegislash</td>
+<td>520</td>
+<td>60</td>
+<td>50</td>
+<td>150</td>
+<td>50</td>
+<td>150</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Aerodactyl" src="https://img.pokemondb.net/sprites/sword-shield/icon/aerodactyl.png" /></td>
+<td>Aerodactyl</td>
+<td>515</td>
+<td>80</td>
+<td>105</td>
+<td>65</td>
+<td>60</td>
+<td>75</td>
+<td>130</td>
+</tr>
+<tr>
+<td><img alt="Aggron" src="https://img.pokemondb.net/sprites/sword-shield/icon/aggron.png" /></td>
+<td>Aggron</td>
+<td>530</td>
+<td>70</td>
+<td>110</td>
+<td>180</td>
+<td>60</td>
+<td>60</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Aipom" src="https://img.pokemondb.net/sprites/sword-shield/icon/aipom.png" /></td>
+<td>Aipom</td>
+<td>360</td>
+<td>55</td>
+<td>70</td>
+<td>55</td>
+<td>40</td>
+<td>55</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Alakazam" src="https://img.pokemondb.net/sprites/sword-shield/icon/alakazam.png" /></td>
+<td>Alakazam</td>
+<td>490</td>
+<td>55</td>
+<td>50</td>
+<td>45</td>
+<td>135</td>
+<td>85</td>
+<td>120</td>
+</tr>
+<tr>
+<td><img alt="Alomomola" src="https://img.pokemondb.net/sprites/sword-shield/icon/alomomola.png" /></td>
+<td>Alomomola</td>
+<td>470</td>
+<td>165</td>
+<td>75</td>
+<td>80</td>
+<td>40</td>
+<td>45</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Altaria" src="https://img.pokemondb.net/sprites/sword-shield/icon/altaria.png" /></td>
+<td>Altaria</td>
+<td>490</td>
+<td>75</td>
+<td>70</td>
+<td>90</td>
+<td>70</td>
+<td>105</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Amaura" src="https://img.pokemondb.net/sprites/sword-shield/icon/amaura.png" /></td>
+<td>Amaura</td>
+<td>362</td>
+<td>77</td>
+<td>59</td>
+<td>50</td>
+<td>67</td>
+<td>63</td>
+<td>46</td>
+</tr>
+<tr>
+<td><img alt="Ambipom" src="https://img.pokemondb.net/sprites/sword-shield/icon/ambipom.png" /></td>
+<td>Ambipom</td>
+<td>482</td>
+<td>75</td>
+<td>100</td>
+<td>66</td>
+<td>60</td>
+<td>66</td>
+<td>115</td>
+</tr>
+<tr>
+<td><img alt="Amoonguss" src="https://img.pokemondb.net/sprites/sword-shield/icon/amoonguss.png" /></td>
+<td>Amoonguss</td>
+<td>464</td>
+<td>114</td>
+<td>85</td>
+<td>70</td>
+<td>85</td>
+<td>80</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Ampharos" src="https://img.pokemondb.net/sprites/sword-shield/icon/ampharos.png" /></td>
+<td>Ampharos</td>
+<td>500</td>
+<td>90</td>
+<td>75</td>
+<td>75</td>
+<td>115</td>
+<td>90</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Anorith" src="https://img.pokemondb.net/sprites/sword-shield/icon/anorith.png" /></td>
+<td>Anorith</td>
+<td>355</td>
+<td>45</td>
+<td>95</td>
+<td>50</td>
+<td>40</td>
+<td>50</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Appletun" src="https://img.pokemondb.net/sprites/sword-shield/icon/appletun.png" /></td>
+<td>Appletun</td>
+<td>485</td>
+<td>110</td>
+<td>85</td>
+<td>80</td>
+<td>100</td>
+<td>80</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Applin" src="https://img.pokemondb.net/sprites/sword-shield/icon/applin.png" /></td>
+<td>Applin</td>
+<td>260</td>
+<td>40</td>
+<td>40</td>
+<td>80</td>
+<td>40</td>
+<td>40</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Araquanid" src="https://img.pokemondb.net/sprites/sword-shield/icon/araquanid.png" /></td>
+<td>Araquanid</td>
+<td>454</td>
+<td>68</td>
+<td>70</td>
+<td>92</td>
+<td>50</td>
+<td>132</td>
+<td>42</td>
+</tr>
+<tr>
+<td><img alt="Arbok" src="https://img.pokemondb.net/sprites/sword-shield/icon/arbok.png" /></td>
+<td>Arbok</td>
+<td>438</td>
+<td>60</td>
+<td>85</td>
+<td>69</td>
+<td>65</td>
+<td>79</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Arcanine" src="https://img.pokemondb.net/sprites/sword-shield/icon/arcanine.png" /></td>
+<td>Arcanine</td>
+<td>555</td>
+<td>90</td>
+<td>110</td>
+<td>80</td>
+<td>100</td>
+<td>80</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Arceus" src="https://img.pokemondb.net/sprites/sword-shield/icon/arceus.png" /></td>
+<td>Arceus</td>
+<td>720</td>
+<td>120</td>
+<td>120</td>
+<td>120</td>
+<td>120</td>
+<td>120</td>
+<td>120</td>
+</tr>
+<tr>
+<td><img alt="Archen" src="https://img.pokemondb.net/sprites/sword-shield/icon/archen.png" /></td>
+<td>Archen</td>
+<td>401</td>
+<td>55</td>
+<td>112</td>
+<td>45</td>
+<td>74</td>
+<td>45</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Archeops" src="https://img.pokemondb.net/sprites/sword-shield/icon/archeops.png" /></td>
+<td>Archeops</td>
+<td>567</td>
+<td>75</td>
+<td>140</td>
+<td>65</td>
+<td>112</td>
+<td>65</td>
+<td>110</td>
+</tr>
+<tr>
+<td><img alt="Arctovish" src="https://img.pokemondb.net/sprites/sword-shield/icon/arctovish.png" /></td>
+<td>Arctovish</td>
+<td>505</td>
+<td>90</td>
+<td>90</td>
+<td>100</td>
+<td>80</td>
+<td>90</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Arctozolt" src="https://img.pokemondb.net/sprites/sword-shield/icon/arctozolt.png" /></td>
+<td>Arctozolt</td>
+<td>505</td>
+<td>90</td>
+<td>100</td>
+<td>90</td>
+<td>90</td>
+<td>80</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Ariados" src="https://img.pokemondb.net/sprites/sword-shield/icon/ariados.png" /></td>
+<td>Ariados</td>
+<td>390</td>
+<td>70</td>
+<td>90</td>
+<td>70</td>
+<td>60</td>
+<td>60</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Armaldo" src="https://img.pokemondb.net/sprites/sword-shield/icon/armaldo.png" /></td>
+<td>Armaldo</td>
+<td>495</td>
+<td>75</td>
+<td>125</td>
+<td>100</td>
+<td>70</td>
+<td>80</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Aromatisse" src="https://img.pokemondb.net/sprites/sword-shield/icon/aromatisse.png" /></td>
+<td>Aromatisse</td>
+<td>462</td>
+<td>101</td>
+<td>72</td>
+<td>72</td>
+<td>99</td>
+<td>89</td>
+<td>29</td>
+</tr>
+<tr>
+<td><img alt="Aron" src="https://img.pokemondb.net/sprites/sword-shield/icon/aron.png" /></td>
+<td>Aron</td>
+<td>330</td>
+<td>50</td>
+<td>70</td>
+<td>100</td>
+<td>40</td>
+<td>40</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Arrokuda" src="https://img.pokemondb.net/sprites/sword-shield/icon/arrokuda.png" /></td>
+<td>Arrokuda</td>
+<td>280</td>
+<td>41</td>
+<td>63</td>
+<td>40</td>
+<td>40</td>
+<td>30</td>
+<td>66</td>
+</tr>
+<tr>
+<td><img alt="Articuno" src="https://img.pokemondb.net/sprites/sword-shield/icon/articuno.png" /></td>
+<td>Articuno</td>
+<td>580</td>
+<td>90</td>
+<td>85</td>
+<td>100</td>
+<td>95</td>
+<td>125</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Audino" src="https://img.pokemondb.net/sprites/sword-shield/icon/audino.png" /></td>
+<td>Audino</td>
+<td>445</td>
+<td>103</td>
+<td>60</td>
+<td>86</td>
+<td>60</td>
+<td>86</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Aurorus" src="https://img.pokemondb.net/sprites/sword-shield/icon/aurorus.png" /></td>
+<td>Aurorus</td>
+<td>521</td>
+<td>123</td>
+<td>77</td>
+<td>72</td>
+<td>99</td>
+<td>92</td>
+<td>58</td>
+</tr>
+<tr>
+<td><img alt="Avalugg" src="https://img.pokemondb.net/sprites/sword-shield/icon/avalugg.png" /></td>
+<td>Avalugg</td>
+<td>514</td>
+<td>95</td>
+<td>117</td>
+<td>184</td>
+<td>44</td>
+<td>46</td>
+<td>28</td>
+</tr>
+<tr>
+<td><img alt="Axew" src="https://img.pokemondb.net/sprites/sword-shield/icon/axew.png" /></td>
+<td>Axew</td>
+<td>320</td>
+<td>46</td>
+<td>87</td>
+<td>60</td>
+<td>30</td>
+<td>40</td>
+<td>57</td>
+</tr>
+<tr>
+<td><img alt="Azelf" src="https://img.pokemondb.net/sprites/sword-shield/icon/azelf.png" /></td>
+<td>Azelf</td>
+<td>580</td>
+<td>75</td>
+<td>125</td>
+<td>70</td>
+<td>125</td>
+<td>70</td>
+<td>115</td>
+</tr>
+<tr>
+<td><img alt="Azumarill" src="https://img.pokemondb.net/sprites/sword-shield/icon/azumarill.png" /></td>
+<td>Azumarill</td>
+<td>410</td>
+<td>100</td>
+<td>50</td>
+<td>80</td>
+<td>50</td>
+<td>80</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Azurill" src="https://img.pokemondb.net/sprites/sword-shield/icon/azurill.png" /></td>
+<td>Azurill</td>
+<td>190</td>
+<td>50</td>
+<td>20</td>
+<td>40</td>
+<td>20</td>
+<td>40</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Bagon" src="https://img.pokemondb.net/sprites/sword-shield/icon/bagon.png" /></td>
+<td>Bagon</td>
+<td>300</td>
+<td>45</td>
+<td>75</td>
+<td>60</td>
+<td>40</td>
+<td>30</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Baltoy" src="https://img.pokemondb.net/sprites/sword-shield/icon/baltoy.png" /></td>
+<td>Baltoy</td>
+<td>300</td>
+<td>40</td>
+<td>40</td>
+<td>55</td>
+<td>40</td>
+<td>70</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Banette" src="https://img.pokemondb.net/sprites/sword-shield/icon/banette.png" /></td>
+<td>Banette</td>
+<td>455</td>
+<td>64</td>
+<td>115</td>
+<td>65</td>
+<td>83</td>
+<td>63</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Barbaracle" src="https://img.pokemondb.net/sprites/sword-shield/icon/barbaracle.png" /></td>
+<td>Barbaracle</td>
+<td>500</td>
+<td>72</td>
+<td>105</td>
+<td>115</td>
+<td>54</td>
+<td>86</td>
+<td>68</td>
+</tr>
+<tr>
+<td><img alt="Barboach" src="https://img.pokemondb.net/sprites/sword-shield/icon/barboach.png" /></td>
+<td>Barboach</td>
+<td>288</td>
+<td>50</td>
+<td>48</td>
+<td>43</td>
+<td>46</td>
+<td>41</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Barraskewda" src="https://img.pokemondb.net/sprites/sword-shield/icon/barraskewda.png" /></td>
+<td>Barraskewda</td>
+<td>490</td>
+<td>61</td>
+<td>123</td>
+<td>60</td>
+<td>60</td>
+<td>50</td>
+<td>136</td>
+</tr>
+<tr>
+<td><img alt="Basculegion" src="https://img.pokemondb.net/sprites/sword-shield/icon/basculegion.png" /></td>
+<td>Basculegion</td>
+<td>530</td>
+<td>120</td>
+<td>112</td>
+<td>65</td>
+<td>80</td>
+<td>75</td>
+<td>78</td>
+</tr>
+<tr>
+<td><img alt="Basculin" src="https://img.pokemondb.net/sprites/sword-shield/icon/basculin.png" /></td>
+<td>Basculin</td>
+<td>460</td>
+<td>70</td>
+<td>92</td>
+<td>65</td>
+<td>80</td>
+<td>55</td>
+<td>98</td>
+</tr>
+<tr>
+<td><img alt="Bastiodon" src="https://img.pokemondb.net/sprites/sword-shield/icon/bastiodon.png" /></td>
+<td>Bastiodon</td>
+<td>495</td>
+<td>60</td>
+<td>52</td>
+<td>168</td>
+<td>47</td>
+<td>138</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Bayleef" src="https://img.pokemondb.net/sprites/sword-shield/icon/bayleef.png" /></td>
+<td>Bayleef</td>
+<td>405</td>
+<td>60</td>
+<td>62</td>
+<td>80</td>
+<td>63</td>
+<td>80</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Beartic" src="https://img.pokemondb.net/sprites/sword-shield/icon/beartic.png" /></td>
+<td>Beartic</td>
+<td>485</td>
+<td>95</td>
+<td>110</td>
+<td>80</td>
+<td>70</td>
+<td>80</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Beautifly" src="https://img.pokemondb.net/sprites/sword-shield/icon/beautifly.png" /></td>
+<td>Beautifly</td>
+<td>385</td>
+<td>60</td>
+<td>70</td>
+<td>50</td>
+<td>90</td>
+<td>50</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Beedrill" src="https://img.pokemondb.net/sprites/sword-shield/icon/beedrill.png" /></td>
+<td>Beedrill</td>
+<td>385</td>
+<td>65</td>
+<td>80</td>
+<td>40</td>
+<td>45</td>
+<td>80</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Beheeyem" src="https://img.pokemondb.net/sprites/sword-shield/icon/beheeyem.png" /></td>
+<td>Beheeyem</td>
+<td>485</td>
+<td>75</td>
+<td>75</td>
+<td>75</td>
+<td>125</td>
+<td>95</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Beldum" src="https://img.pokemondb.net/sprites/sword-shield/icon/beldum.png" /></td>
+<td>Beldum</td>
+<td>300</td>
+<td>40</td>
+<td>55</td>
+<td>80</td>
+<td>35</td>
+<td>60</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Bellossom" src="https://img.pokemondb.net/sprites/sword-shield/icon/bellossom.png" /></td>
+<td>Bellossom</td>
+<td>480</td>
+<td>75</td>
+<td>80</td>
+<td>85</td>
+<td>90</td>
+<td>100</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Bellsprout" src="https://img.pokemondb.net/sprites/sword-shield/icon/bellsprout.png" /></td>
+<td>Bellsprout</td>
+<td>300</td>
+<td>50</td>
+<td>75</td>
+<td>35</td>
+<td>70</td>
+<td>30</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Bergmite" src="https://img.pokemondb.net/sprites/sword-shield/icon/bergmite.png" /></td>
+<td>Bergmite</td>
+<td>304</td>
+<td>55</td>
+<td>69</td>
+<td>85</td>
+<td>32</td>
+<td>35</td>
+<td>28</td>
+</tr>
+<tr>
+<td><img alt="Bewear" src="https://img.pokemondb.net/sprites/sword-shield/icon/bewear.png" /></td>
+<td>Bewear</td>
+<td>500</td>
+<td>120</td>
+<td>125</td>
+<td>80</td>
+<td>55</td>
+<td>60</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Bibarel" src="https://img.pokemondb.net/sprites/sword-shield/icon/bibarel.png" /></td>
+<td>Bibarel</td>
+<td>410</td>
+<td>79</td>
+<td>85</td>
+<td>60</td>
+<td>55</td>
+<td>60</td>
+<td>71</td>
+</tr>
+<tr>
+<td><img alt="Bidoof" src="https://img.pokemondb.net/sprites/sword-shield/icon/bidoof.png" /></td>
+<td>Bidoof</td>
+<td>250</td>
+<td>59</td>
+<td>45</td>
+<td>40</td>
+<td>35</td>
+<td>40</td>
+<td>31</td>
+</tr>
+<tr>
+<td><img alt="Binacle" src="https://img.pokemondb.net/sprites/sword-shield/icon/binacle.png" /></td>
+<td>Binacle</td>
+<td>306</td>
+<td>42</td>
+<td>52</td>
+<td>67</td>
+<td>39</td>
+<td>56</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Bisharp" src="https://img.pokemondb.net/sprites/sword-shield/icon/bisharp.png" /></td>
+<td>Bisharp</td>
+<td>490</td>
+<td>65</td>
+<td>125</td>
+<td>100</td>
+<td>60</td>
+<td>70</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Blacephalon" src="https://img.pokemondb.net/sprites/sword-shield/icon/blacephalon.png" /></td>
+<td>Blacephalon</td>
+<td>570</td>
+<td>53</td>
+<td>127</td>
+<td>53</td>
+<td>151</td>
+<td>79</td>
+<td>107</td>
+</tr>
+<tr>
+<td><img alt="Blastoise" src="https://img.pokemondb.net/sprites/sword-shield/icon/blastoise.png" /></td>
+<td>Blastoise</td>
+<td>530</td>
+<td>79</td>
+<td>83</td>
+<td>100</td>
+<td>85</td>
+<td>105</td>
+<td>78</td>
+</tr>
+<tr>
+<td><img alt="Blaziken" src="https://img.pokemondb.net/sprites/sword-shield/icon/blaziken.png" /></td>
+<td>Blaziken</td>
+<td>530</td>
+<td>80</td>
+<td>120</td>
+<td>70</td>
+<td>110</td>
+<td>70</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Blipbug" src="https://img.pokemondb.net/sprites/sword-shield/icon/blipbug.png" /></td>
+<td>Blipbug</td>
+<td>180</td>
+<td>25</td>
+<td>20</td>
+<td>20</td>
+<td>25</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Blissey" src="https://img.pokemondb.net/sprites/sword-shield/icon/blissey.png" /></td>
+<td>Blissey</td>
+<td>540</td>
+<td>255</td>
+<td>10</td>
+<td>10</td>
+<td>75</td>
+<td>135</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Blitzle" src="https://img.pokemondb.net/sprites/sword-shield/icon/blitzle.png" /></td>
+<td>Blitzle</td>
+<td>295</td>
+<td>45</td>
+<td>60</td>
+<td>32</td>
+<td>50</td>
+<td>32</td>
+<td>76</td>
+</tr>
+<tr>
+<td><img alt="Boldore" src="https://img.pokemondb.net/sprites/sword-shield/icon/boldore.png" /></td>
+<td>Boldore</td>
+<td>390</td>
+<td>70</td>
+<td>105</td>
+<td>105</td>
+<td>50</td>
+<td>40</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Boltund" src="https://img.pokemondb.net/sprites/sword-shield/icon/boltund.png" /></td>
+<td>Boltund</td>
+<td>490</td>
+<td>69</td>
+<td>90</td>
+<td>60</td>
+<td>90</td>
+<td>60</td>
+<td>121</td>
+</tr>
+<tr>
+<td><img alt="Bonsly" src="https://img.pokemondb.net/sprites/sword-shield/icon/bonsly.png" /></td>
+<td>Bonsly</td>
+<td>290</td>
+<td>50</td>
+<td>80</td>
+<td>95</td>
+<td>10</td>
+<td>45</td>
+<td>10</td>
+</tr>
+<tr>
+<td><img alt="Bouffalant" src="https://img.pokemondb.net/sprites/sword-shield/icon/bouffalant.png" /></td>
+<td>Bouffalant</td>
+<td>490</td>
+<td>95</td>
+<td>110</td>
+<td>95</td>
+<td>40</td>
+<td>95</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Bounsweet" src="https://img.pokemondb.net/sprites/sword-shield/icon/bounsweet.png" /></td>
+<td>Bounsweet</td>
+<td>210</td>
+<td>42</td>
+<td>30</td>
+<td>38</td>
+<td>30</td>
+<td>38</td>
+<td>32</td>
+</tr>
+<tr>
+<td><img alt="Braixen" src="https://img.pokemondb.net/sprites/sword-shield/icon/braixen.png" /></td>
+<td>Braixen</td>
+<td>409</td>
+<td>59</td>
+<td>59</td>
+<td>58</td>
+<td>90</td>
+<td>70</td>
+<td>73</td>
+</tr>
+<tr>
+<td><img alt="Braviary" src="https://img.pokemondb.net/sprites/sword-shield/icon/braviary.png" /></td>
+<td>Braviary</td>
+<td>510</td>
+<td>100</td>
+<td>123</td>
+<td>75</td>
+<td>57</td>
+<td>75</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Breloom" src="https://img.pokemondb.net/sprites/sword-shield/icon/breloom.png" /></td>
+<td>Breloom</td>
+<td>460</td>
+<td>60</td>
+<td>130</td>
+<td>80</td>
+<td>60</td>
+<td>60</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Brionne" src="https://img.pokemondb.net/sprites/sword-shield/icon/brionne.png" /></td>
+<td>Brionne</td>
+<td>420</td>
+<td>60</td>
+<td>69</td>
+<td>69</td>
+<td>91</td>
+<td>81</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Bronzong" src="https://img.pokemondb.net/sprites/sword-shield/icon/bronzong.png" /></td>
+<td>Bronzong</td>
+<td>500</td>
+<td>67</td>
+<td>89</td>
+<td>116</td>
+<td>79</td>
+<td>116</td>
+<td>33</td>
+</tr>
+<tr>
+<td><img alt="Bronzor" src="https://img.pokemondb.net/sprites/sword-shield/icon/bronzor.png" /></td>
+<td>Bronzor</td>
+<td>300</td>
+<td>57</td>
+<td>24</td>
+<td>86</td>
+<td>24</td>
+<td>86</td>
+<td>23</td>
+</tr>
+<tr>
+<td><img alt="Bruxish" src="https://img.pokemondb.net/sprites/sword-shield/icon/bruxish.png" /></td>
+<td>Bruxish</td>
+<td>475</td>
+<td>68</td>
+<td>105</td>
+<td>70</td>
+<td>70</td>
+<td>70</td>
+<td>92</td>
+</tr>
+<tr>
+<td><img alt="Budew" src="https://img.pokemondb.net/sprites/sword-shield/icon/budew.png" /></td>
+<td>Budew</td>
+<td>280</td>
+<td>40</td>
+<td>30</td>
+<td>35</td>
+<td>50</td>
+<td>70</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Buizel" src="https://img.pokemondb.net/sprites/sword-shield/icon/buizel.png" /></td>
+<td>Buizel</td>
+<td>330</td>
+<td>55</td>
+<td>65</td>
+<td>35</td>
+<td>60</td>
+<td>30</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Bulbasaur" src="https://img.pokemondb.net/sprites/sword-shield/icon/bulbasaur.png" /></td>
+<td>Bulbasaur</td>
+<td>318</td>
+<td>45</td>
+<td>49</td>
+<td>49</td>
+<td>65</td>
+<td>65</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Buneary" src="https://img.pokemondb.net/sprites/sword-shield/icon/buneary.png" /></td>
+<td>Buneary</td>
+<td>350</td>
+<td>55</td>
+<td>66</td>
+<td>44</td>
+<td>44</td>
+<td>56</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Bunnelby" src="https://img.pokemondb.net/sprites/sword-shield/icon/bunnelby.png" /></td>
+<td>Bunnelby</td>
+<td>237</td>
+<td>38</td>
+<td>36</td>
+<td>38</td>
+<td>32</td>
+<td>36</td>
+<td>57</td>
+</tr>
+<tr>
+<td><img alt="Butterfree" src="https://img.pokemondb.net/sprites/sword-shield/icon/butterfree.png" /></td>
+<td>Butterfree</td>
+<td>385</td>
+<td>60</td>
+<td>45</td>
+<td>50</td>
+<td>80</td>
+<td>80</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Buzzwole" src="https://img.pokemondb.net/sprites/sword-shield/icon/buzzwole.png" /></td>
+<td>Buzzwole</td>
+<td>570</td>
+<td>107</td>
+<td>139</td>
+<td>139</td>
+<td>53</td>
+<td>53</td>
+<td>79</td>
+</tr>
+<tr>
+<td><img alt="Cacnea" src="https://img.pokemondb.net/sprites/sword-shield/icon/cacnea.png" /></td>
+<td>Cacnea</td>
+<td>335</td>
+<td>50</td>
+<td>85</td>
+<td>40</td>
+<td>85</td>
+<td>40</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Cacturne" src="https://img.pokemondb.net/sprites/sword-shield/icon/cacturne.png" /></td>
+<td>Cacturne</td>
+<td>475</td>
+<td>70</td>
+<td>115</td>
+<td>60</td>
+<td>115</td>
+<td>60</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Calyrex" src="https://img.pokemondb.net/sprites/sword-shield/icon/calyrex.png" /></td>
+<td>Calyrex</td>
+<td>500</td>
+<td>100</td>
+<td>80</td>
+<td>80</td>
+<td>80</td>
+<td>80</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Camerupt" src="https://img.pokemondb.net/sprites/sword-shield/icon/camerupt.png" /></td>
+<td>Camerupt</td>
+<td>460</td>
+<td>70</td>
+<td>100</td>
+<td>70</td>
+<td>105</td>
+<td>75</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Carbink" src="https://img.pokemondb.net/sprites/sword-shield/icon/carbink.png" /></td>
+<td>Carbink</td>
+<td>500</td>
+<td>50</td>
+<td>50</td>
+<td>150</td>
+<td>50</td>
+<td>150</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Carkol" src="https://img.pokemondb.net/sprites/sword-shield/icon/carkol.png" /></td>
+<td>Carkol</td>
+<td>410</td>
+<td>80</td>
+<td>60</td>
+<td>90</td>
+<td>60</td>
+<td>70</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Carnivine" src="https://img.pokemondb.net/sprites/sword-shield/icon/carnivine.png" /></td>
+<td>Carnivine</td>
+<td>454</td>
+<td>74</td>
+<td>100</td>
+<td>72</td>
+<td>90</td>
+<td>72</td>
+<td>46</td>
+</tr>
+<tr>
+<td><img alt="Carracosta" src="https://img.pokemondb.net/sprites/sword-shield/icon/carracosta.png" /></td>
+<td>Carracosta</td>
+<td>495</td>
+<td>74</td>
+<td>108</td>
+<td>133</td>
+<td>83</td>
+<td>65</td>
+<td>32</td>
+</tr>
+<tr>
+<td><img alt="Carvanha" src="https://img.pokemondb.net/sprites/sword-shield/icon/carvanha.png" /></td>
+<td>Carvanha</td>
+<td>305</td>
+<td>45</td>
+<td>90</td>
+<td>20</td>
+<td>65</td>
+<td>20</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Cascoon" src="https://img.pokemondb.net/sprites/sword-shield/icon/cascoon.png" /></td>
+<td>Cascoon</td>
+<td>205</td>
+<td>50</td>
+<td>35</td>
+<td>55</td>
+<td>25</td>
+<td>25</td>
+<td>15</td>
+</tr>
+<tr>
+<td><img alt="Caterpie" src="https://img.pokemondb.net/sprites/sword-shield/icon/caterpie.png" /></td>
+<td>Caterpie</td>
+<td>195</td>
+<td>45</td>
+<td>30</td>
+<td>35</td>
+<td>20</td>
+<td>20</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Celebi" src="https://img.pokemondb.net/sprites/sword-shield/icon/celebi.png" /></td>
+<td>Celebi</td>
+<td>600</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Celesteela" src="https://img.pokemondb.net/sprites/sword-shield/icon/celesteela.png" /></td>
+<td>Celesteela</td>
+<td>570</td>
+<td>97</td>
+<td>101</td>
+<td>103</td>
+<td>107</td>
+<td>101</td>
+<td>61</td>
+</tr>
+<tr>
+<td><img alt="Centiskorch" src="https://img.pokemondb.net/sprites/sword-shield/icon/centiskorch.png" /></td>
+<td>Centiskorch</td>
+<td>525</td>
+<td>100</td>
+<td>115</td>
+<td>65</td>
+<td>90</td>
+<td>90</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Chandelure" src="https://img.pokemondb.net/sprites/sword-shield/icon/chandelure.png" /></td>
+<td>Chandelure</td>
+<td>520</td>
+<td>60</td>
+<td>55</td>
+<td>90</td>
+<td>145</td>
+<td>90</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Chansey" src="https://img.pokemondb.net/sprites/sword-shield/icon/chansey.png" /></td>
+<td>Chansey</td>
+<td>450</td>
+<td>250</td>
+<td>5</td>
+<td>5</td>
+<td>35</td>
+<td>105</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Charizard" src="https://img.pokemondb.net/sprites/sword-shield/icon/charizard.png" /></td>
+<td>Charizard</td>
+<td>534</td>
+<td>78</td>
+<td>84</td>
+<td>78</td>
+<td>109</td>
+<td>85</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Charjabug" src="https://img.pokemondb.net/sprites/sword-shield/icon/charjabug.png" /></td>
+<td>Charjabug</td>
+<td>400</td>
+<td>57</td>
+<td>82</td>
+<td>95</td>
+<td>55</td>
+<td>75</td>
+<td>36</td>
+</tr>
+<tr>
+<td><img alt="Charmander" src="https://img.pokemondb.net/sprites/sword-shield/icon/charmander.png" /></td>
+<td>Charmander</td>
+<td>309</td>
+<td>39</td>
+<td>52</td>
+<td>43</td>
+<td>60</td>
+<td>50</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Charmeleon" src="https://img.pokemondb.net/sprites/sword-shield/icon/charmeleon.png" /></td>
+<td>Charmeleon</td>
+<td>405</td>
+<td>58</td>
+<td>64</td>
+<td>58</td>
+<td>80</td>
+<td>65</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Chatot" src="https://img.pokemondb.net/sprites/sword-shield/icon/chatot.png" /></td>
+<td>Chatot</td>
+<td>411</td>
+<td>76</td>
+<td>65</td>
+<td>45</td>
+<td>92</td>
+<td>42</td>
+<td>91</td>
+</tr>
+<tr>
+<td><img alt="Cherubi" src="https://img.pokemondb.net/sprites/sword-shield/icon/cherubi.png" /></td>
+<td>Cherubi</td>
+<td>275</td>
+<td>45</td>
+<td>35</td>
+<td>45</td>
+<td>62</td>
+<td>53</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Chesnaught" src="https://img.pokemondb.net/sprites/sword-shield/icon/chesnaught.png" /></td>
+<td>Chesnaught</td>
+<td>530</td>
+<td>88</td>
+<td>107</td>
+<td>122</td>
+<td>74</td>
+<td>75</td>
+<td>64</td>
+</tr>
+<tr>
+<td><img alt="Chespin" src="https://img.pokemondb.net/sprites/sword-shield/icon/chespin.png" /></td>
+<td>Chespin</td>
+<td>313</td>
+<td>56</td>
+<td>61</td>
+<td>65</td>
+<td>48</td>
+<td>45</td>
+<td>38</td>
+</tr>
+<tr>
+<td><img alt="Chewtle" src="https://img.pokemondb.net/sprites/sword-shield/icon/chewtle.png" /></td>
+<td>Chewtle</td>
+<td>284</td>
+<td>50</td>
+<td>64</td>
+<td>50</td>
+<td>38</td>
+<td>38</td>
+<td>44</td>
+</tr>
+<tr>
+<td><img alt="Chikorita" src="https://img.pokemondb.net/sprites/sword-shield/icon/chikorita.png" /></td>
+<td>Chikorita</td>
+<td>318</td>
+<td>45</td>
+<td>49</td>
+<td>65</td>
+<td>49</td>
+<td>65</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Chimchar" src="https://img.pokemondb.net/sprites/sword-shield/icon/chimchar.png" /></td>
+<td>Chimchar</td>
+<td>309</td>
+<td>44</td>
+<td>58</td>
+<td>44</td>
+<td>58</td>
+<td>44</td>
+<td>61</td>
+</tr>
+<tr>
+<td><img alt="Chimecho" src="https://img.pokemondb.net/sprites/sword-shield/icon/chimecho.png" /></td>
+<td>Chimecho</td>
+<td>425</td>
+<td>65</td>
+<td>50</td>
+<td>70</td>
+<td>95</td>
+<td>80</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Chinchou" src="https://img.pokemondb.net/sprites/sword-shield/icon/chinchou.png" /></td>
+<td>Chinchou</td>
+<td>330</td>
+<td>75</td>
+<td>38</td>
+<td>38</td>
+<td>56</td>
+<td>56</td>
+<td>67</td>
+</tr>
+<tr>
+<td><img alt="Chingling" src="https://img.pokemondb.net/sprites/sword-shield/icon/chingling.png" /></td>
+<td>Chingling</td>
+<td>285</td>
+<td>45</td>
+<td>30</td>
+<td>50</td>
+<td>65</td>
+<td>50</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Cinccino" src="https://img.pokemondb.net/sprites/sword-shield/icon/cinccino.png" /></td>
+<td>Cinccino</td>
+<td>470</td>
+<td>75</td>
+<td>95</td>
+<td>60</td>
+<td>65</td>
+<td>60</td>
+<td>115</td>
+</tr>
+<tr>
+<td><img alt="Cinderace" src="https://img.pokemondb.net/sprites/sword-shield/icon/cinderace.png" /></td>
+<td>Cinderace</td>
+<td>530</td>
+<td>80</td>
+<td>116</td>
+<td>75</td>
+<td>65</td>
+<td>75</td>
+<td>119</td>
+</tr>
+<tr>
+<td><img alt="Clamperl" src="https://img.pokemondb.net/sprites/sword-shield/icon/clamperl.png" /></td>
+<td>Clamperl</td>
+<td>345</td>
+<td>35</td>
+<td>64</td>
+<td>85</td>
+<td>74</td>
+<td>55</td>
+<td>32</td>
+</tr>
+<tr>
+<td><img alt="Clauncher" src="https://img.pokemondb.net/sprites/sword-shield/icon/clauncher.png" /></td>
+<td>Clauncher</td>
+<td>330</td>
+<td>50</td>
+<td>53</td>
+<td>62</td>
+<td>58</td>
+<td>63</td>
+<td>44</td>
+</tr>
+<tr>
+<td><img alt="Clawitzer" src="https://img.pokemondb.net/sprites/sword-shield/icon/clawitzer.png" /></td>
+<td>Clawitzer</td>
+<td>500</td>
+<td>71</td>
+<td>73</td>
+<td>88</td>
+<td>120</td>
+<td>89</td>
+<td>59</td>
+</tr>
+<tr>
+<td><img alt="Claydol" src="https://img.pokemondb.net/sprites/sword-shield/icon/claydol.png" /></td>
+<td>Claydol</td>
+<td>500</td>
+<td>60</td>
+<td>70</td>
+<td>105</td>
+<td>70</td>
+<td>120</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Clefable" src="https://img.pokemondb.net/sprites/sword-shield/icon/clefable.png" /></td>
+<td>Clefable</td>
+<td>473</td>
+<td>95</td>
+<td>70</td>
+<td>73</td>
+<td>85</td>
+<td>90</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Clefairy" src="https://img.pokemondb.net/sprites/sword-shield/icon/clefairy.png" /></td>
+<td>Clefairy</td>
+<td>323</td>
+<td>70</td>
+<td>45</td>
+<td>48</td>
+<td>60</td>
+<td>65</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Cleffa" src="https://img.pokemondb.net/sprites/sword-shield/icon/cleffa.png" /></td>
+<td>Cleffa</td>
+<td>218</td>
+<td>50</td>
+<td>25</td>
+<td>28</td>
+<td>45</td>
+<td>55</td>
+<td>15</td>
+</tr>
+<tr>
+<td><img alt="Clobbopus" src="https://img.pokemondb.net/sprites/sword-shield/icon/clobbopus.png" /></td>
+<td>Clobbopus</td>
+<td>310</td>
+<td>50</td>
+<td>68</td>
+<td>60</td>
+<td>50</td>
+<td>50</td>
+<td>32</td>
+</tr>
+<tr>
+<td><img alt="Cloyster" src="https://img.pokemondb.net/sprites/sword-shield/icon/cloyster.png" /></td>
+<td>Cloyster</td>
+<td>525</td>
+<td>50</td>
+<td>95</td>
+<td>180</td>
+<td>85</td>
+<td>45</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Coalossal" src="https://img.pokemondb.net/sprites/sword-shield/icon/coalossal.png" /></td>
+<td>Coalossal</td>
+<td>510</td>
+<td>110</td>
+<td>80</td>
+<td>120</td>
+<td>80</td>
+<td>90</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Cobalion" src="https://img.pokemondb.net/sprites/sword-shield/icon/cobalion.png" /></td>
+<td>Cobalion</td>
+<td>580</td>
+<td>91</td>
+<td>90</td>
+<td>129</td>
+<td>90</td>
+<td>72</td>
+<td>108</td>
+</tr>
+<tr>
+<td><img alt="Cofagrigus" src="https://img.pokemondb.net/sprites/sword-shield/icon/cofagrigus.png" /></td>
+<td>Cofagrigus</td>
+<td>483</td>
+<td>58</td>
+<td>50</td>
+<td>145</td>
+<td>95</td>
+<td>105</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Combee" src="https://img.pokemondb.net/sprites/sword-shield/icon/combee.png" /></td>
+<td>Combee</td>
+<td>244</td>
+<td>30</td>
+<td>30</td>
+<td>42</td>
+<td>30</td>
+<td>42</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Combusken" src="https://img.pokemondb.net/sprites/sword-shield/icon/combusken.png" /></td>
+<td>Combusken</td>
+<td>405</td>
+<td>60</td>
+<td>85</td>
+<td>60</td>
+<td>85</td>
+<td>60</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Comfey" src="https://img.pokemondb.net/sprites/sword-shield/icon/comfey.png" /></td>
+<td>Comfey</td>
+<td>485</td>
+<td>51</td>
+<td>52</td>
+<td>90</td>
+<td>82</td>
+<td>110</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Conkeldurr" src="https://img.pokemondb.net/sprites/sword-shield/icon/conkeldurr.png" /></td>
+<td>Conkeldurr</td>
+<td>505</td>
+<td>105</td>
+<td>140</td>
+<td>95</td>
+<td>55</td>
+<td>65</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Copperajah" src="https://img.pokemondb.net/sprites/sword-shield/icon/copperajah.png" /></td>
+<td>Copperajah</td>
+<td>500</td>
+<td>122</td>
+<td>130</td>
+<td>69</td>
+<td>80</td>
+<td>69</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Corphish" src="https://img.pokemondb.net/sprites/sword-shield/icon/corphish.png" /></td>
+<td>Corphish</td>
+<td>308</td>
+<td>43</td>
+<td>80</td>
+<td>65</td>
+<td>50</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Corsola" src="https://img.pokemondb.net/sprites/sword-shield/icon/corsola.png" /></td>
+<td>Corsola</td>
+<td>380</td>
+<td>55</td>
+<td>55</td>
+<td>85</td>
+<td>65</td>
+<td>85</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Corviknight" src="https://img.pokemondb.net/sprites/sword-shield/icon/corviknight.png" /></td>
+<td>Corviknight</td>
+<td>495</td>
+<td>98</td>
+<td>87</td>
+<td>105</td>
+<td>53</td>
+<td>85</td>
+<td>67</td>
+</tr>
+<tr>
+<td><img alt="Corvisquire" src="https://img.pokemondb.net/sprites/sword-shield/icon/corvisquire.png" /></td>
+<td>Corvisquire</td>
+<td>365</td>
+<td>68</td>
+<td>67</td>
+<td>55</td>
+<td>43</td>
+<td>55</td>
+<td>77</td>
+</tr>
+<tr>
+<td><img alt="Cosmoem" src="https://img.pokemondb.net/sprites/sword-shield/icon/cosmoem.png" /></td>
+<td>Cosmoem</td>
+<td>400</td>
+<td>43</td>
+<td>29</td>
+<td>131</td>
+<td>29</td>
+<td>131</td>
+<td>37</td>
+</tr>
+<tr>
+<td><img alt="Cosmog" src="https://img.pokemondb.net/sprites/sword-shield/icon/cosmog.png" /></td>
+<td>Cosmog</td>
+<td>200</td>
+<td>43</td>
+<td>29</td>
+<td>31</td>
+<td>29</td>
+<td>31</td>
+<td>37</td>
+</tr>
+<tr>
+<td><img alt="Cottonee" src="https://img.pokemondb.net/sprites/sword-shield/icon/cottonee.png" /></td>
+<td>Cottonee</td>
+<td>280</td>
+<td>40</td>
+<td>27</td>
+<td>60</td>
+<td>37</td>
+<td>50</td>
+<td>66</td>
+</tr>
+<tr>
+<td><img alt="Crabominable" src="https://img.pokemondb.net/sprites/sword-shield/icon/crabominable.png" /></td>
+<td>Crabominable</td>
+<td>478</td>
+<td>97</td>
+<td>132</td>
+<td>77</td>
+<td>62</td>
+<td>67</td>
+<td>43</td>
+</tr>
+<tr>
+<td><img alt="Crabrawler" src="https://img.pokemondb.net/sprites/sword-shield/icon/crabrawler.png" /></td>
+<td>Crabrawler</td>
+<td>338</td>
+<td>47</td>
+<td>82</td>
+<td>57</td>
+<td>42</td>
+<td>47</td>
+<td>63</td>
+</tr>
+<tr>
+<td><img alt="Cradily" src="https://img.pokemondb.net/sprites/sword-shield/icon/cradily.png" /></td>
+<td>Cradily</td>
+<td>495</td>
+<td>86</td>
+<td>81</td>
+<td>97</td>
+<td>81</td>
+<td>107</td>
+<td>43</td>
+</tr>
+<tr>
+<td><img alt="Cranidos" src="https://img.pokemondb.net/sprites/sword-shield/icon/cranidos.png" /></td>
+<td>Cranidos</td>
+<td>350</td>
+<td>67</td>
+<td>125</td>
+<td>40</td>
+<td>30</td>
+<td>30</td>
+<td>58</td>
+</tr>
+<tr>
+<td><img alt="Crawdaunt" src="https://img.pokemondb.net/sprites/sword-shield/icon/crawdaunt.png" /></td>
+<td>Crawdaunt</td>
+<td>468</td>
+<td>63</td>
+<td>120</td>
+<td>85</td>
+<td>90</td>
+<td>55</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Cresselia" src="https://img.pokemondb.net/sprites/sword-shield/icon/cresselia.png" /></td>
+<td>Cresselia</td>
+<td>600</td>
+<td>120</td>
+<td>70</td>
+<td>120</td>
+<td>75</td>
+<td>130</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Croagunk" src="https://img.pokemondb.net/sprites/sword-shield/icon/croagunk.png" /></td>
+<td>Croagunk</td>
+<td>300</td>
+<td>48</td>
+<td>61</td>
+<td>40</td>
+<td>61</td>
+<td>40</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Crobat" src="https://img.pokemondb.net/sprites/sword-shield/icon/crobat.png" /></td>
+<td>Crobat</td>
+<td>535</td>
+<td>85</td>
+<td>90</td>
+<td>80</td>
+<td>70</td>
+<td>80</td>
+<td>130</td>
+</tr>
+<tr>
+<td><img alt="Croconaw" src="https://img.pokemondb.net/sprites/sword-shield/icon/croconaw.png" /></td>
+<td>Croconaw</td>
+<td>405</td>
+<td>65</td>
+<td>80</td>
+<td>80</td>
+<td>59</td>
+<td>63</td>
+<td>58</td>
+</tr>
+<tr>
+<td><img alt="Crustle" src="https://img.pokemondb.net/sprites/sword-shield/icon/crustle.png" /></td>
+<td>Crustle</td>
+<td>475</td>
+<td>70</td>
+<td>95</td>
+<td>125</td>
+<td>65</td>
+<td>75</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Cryogonal" src="https://img.pokemondb.net/sprites/sword-shield/icon/cryogonal.png" /></td>
+<td>Cryogonal</td>
+<td>485</td>
+<td>70</td>
+<td>50</td>
+<td>30</td>
+<td>95</td>
+<td>135</td>
+<td>105</td>
+</tr>
+<tr>
+<td><img alt="Cubchoo" src="https://img.pokemondb.net/sprites/sword-shield/icon/cubchoo.png" /></td>
+<td>Cubchoo</td>
+<td>305</td>
+<td>55</td>
+<td>70</td>
+<td>40</td>
+<td>60</td>
+<td>40</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Cubone" src="https://img.pokemondb.net/sprites/sword-shield/icon/cubone.png" /></td>
+<td>Cubone</td>
+<td>320</td>
+<td>50</td>
+<td>50</td>
+<td>95</td>
+<td>40</td>
+<td>50</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Cufant" src="https://img.pokemondb.net/sprites/sword-shield/icon/cufant.png" /></td>
+<td>Cufant</td>
+<td>330</td>
+<td>72</td>
+<td>80</td>
+<td>49</td>
+<td>40</td>
+<td>49</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Cursola" src="https://img.pokemondb.net/sprites/sword-shield/icon/cursola.png" /></td>
+<td>Cursola</td>
+<td>510</td>
+<td>60</td>
+<td>95</td>
+<td>50</td>
+<td>145</td>
+<td>130</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Cutiefly" src="https://img.pokemondb.net/sprites/sword-shield/icon/cutiefly.png" /></td>
+<td>Cutiefly</td>
+<td>304</td>
+<td>40</td>
+<td>45</td>
+<td>40</td>
+<td>55</td>
+<td>40</td>
+<td>84</td>
+</tr>
+<tr>
+<td><img alt="Cyndaquil" src="https://img.pokemondb.net/sprites/sword-shield/icon/cyndaquil.png" /></td>
+<td>Cyndaquil</td>
+<td>309</td>
+<td>39</td>
+<td>52</td>
+<td>43</td>
+<td>60</td>
+<td>50</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Darkrai" src="https://img.pokemondb.net/sprites/sword-shield/icon/darkrai.png" /></td>
+<td>Darkrai</td>
+<td>600</td>
+<td>70</td>
+<td>90</td>
+<td>90</td>
+<td>135</td>
+<td>90</td>
+<td>125</td>
+</tr>
+<tr>
+<td><img alt="Darmanitan" src="https://img.pokemondb.net/sprites/sword-shield/icon/darmanitan.png" /></td>
+<td>Darmanitan</td>
+<td>480</td>
+<td>105</td>
+<td>140</td>
+<td>55</td>
+<td>30</td>
+<td>55</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Dartrix" src="https://img.pokemondb.net/sprites/sword-shield/icon/dartrix.png" /></td>
+<td>Dartrix</td>
+<td>420</td>
+<td>78</td>
+<td>75</td>
+<td>75</td>
+<td>70</td>
+<td>70</td>
+<td>52</td>
+</tr>
+<tr>
+<td><img alt="Darumaka" src="https://img.pokemondb.net/sprites/sword-shield/icon/darumaka.png" /></td>
+<td>Darumaka</td>
+<td>315</td>
+<td>70</td>
+<td>90</td>
+<td>45</td>
+<td>15</td>
+<td>45</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Decidueye" src="https://img.pokemondb.net/sprites/sword-shield/icon/decidueye.png" /></td>
+<td>Decidueye</td>
+<td>530</td>
+<td>78</td>
+<td>107</td>
+<td>75</td>
+<td>100</td>
+<td>100</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Dedenne" src="https://img.pokemondb.net/sprites/sword-shield/icon/dedenne.png" /></td>
+<td>Dedenne</td>
+<td>431</td>
+<td>67</td>
+<td>58</td>
+<td>57</td>
+<td>81</td>
+<td>67</td>
+<td>101</td>
+</tr>
+<tr>
+<td><img alt="Deino" src="https://img.pokemondb.net/sprites/sword-shield/icon/deino.png" /></td>
+<td>Deino</td>
+<td>300</td>
+<td>52</td>
+<td>65</td>
+<td>50</td>
+<td>45</td>
+<td>50</td>
+<td>38</td>
+</tr>
+<tr>
+<td><img alt="Delcatty" src="https://img.pokemondb.net/sprites/sword-shield/icon/delcatty.png" /></td>
+<td>Delcatty</td>
+<td>380</td>
+<td>70</td>
+<td>65</td>
+<td>65</td>
+<td>55</td>
+<td>55</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Delibird" src="https://img.pokemondb.net/sprites/sword-shield/icon/delibird.png" /></td>
+<td>Delibird</td>
+<td>330</td>
+<td>45</td>
+<td>55</td>
+<td>45</td>
+<td>65</td>
+<td>45</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Delphox" src="https://img.pokemondb.net/sprites/sword-shield/icon/delphox.png" /></td>
+<td>Delphox</td>
+<td>534</td>
+<td>75</td>
+<td>69</td>
+<td>72</td>
+<td>114</td>
+<td>100</td>
+<td>104</td>
+</tr>
+<tr>
+<td><img alt="Deoxys" src="https://img.pokemondb.net/sprites/sword-shield/icon/deoxys.png" /></td>
+<td>Deoxys</td>
+<td>600</td>
+<td>50</td>
+<td>150</td>
+<td>50</td>
+<td>150</td>
+<td>50</td>
+<td>150</td>
+</tr>
+<tr>
+<td><img alt="Dewgong" src="https://img.pokemondb.net/sprites/sword-shield/icon/dewgong.png" /></td>
+<td>Dewgong</td>
+<td>475</td>
+<td>90</td>
+<td>70</td>
+<td>80</td>
+<td>70</td>
+<td>95</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Dewott" src="https://img.pokemondb.net/sprites/sword-shield/icon/dewott.png" /></td>
+<td>Dewott</td>
+<td>413</td>
+<td>75</td>
+<td>75</td>
+<td>60</td>
+<td>83</td>
+<td>60</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Dewpider" src="https://img.pokemondb.net/sprites/sword-shield/icon/dewpider.png" /></td>
+<td>Dewpider</td>
+<td>269</td>
+<td>38</td>
+<td>40</td>
+<td>52</td>
+<td>40</td>
+<td>72</td>
+<td>27</td>
+</tr>
+<tr>
+<td><img alt="Dhelmise" src="https://img.pokemondb.net/sprites/sword-shield/icon/dhelmise.png" /></td>
+<td>Dhelmise</td>
+<td>517</td>
+<td>70</td>
+<td>131</td>
+<td>100</td>
+<td>86</td>
+<td>90</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Dialga" src="https://img.pokemondb.net/sprites/sword-shield/icon/dialga.png" /></td>
+<td>Dialga</td>
+<td>680</td>
+<td>100</td>
+<td>120</td>
+<td>120</td>
+<td>150</td>
+<td>100</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Diancie" src="https://img.pokemondb.net/sprites/sword-shield/icon/diancie.png" /></td>
+<td>Diancie</td>
+<td>600</td>
+<td>50</td>
+<td>100</td>
+<td>150</td>
+<td>100</td>
+<td>150</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Diggersby" src="https://img.pokemondb.net/sprites/sword-shield/icon/diggersby.png" /></td>
+<td>Diggersby</td>
+<td>423</td>
+<td>85</td>
+<td>56</td>
+<td>77</td>
+<td>50</td>
+<td>77</td>
+<td>78</td>
+</tr>
+<tr>
+<td><img alt="Diglett" src="https://img.pokemondb.net/sprites/sword-shield/icon/diglett.png" /></td>
+<td>Diglett</td>
+<td>265</td>
+<td>10</td>
+<td>55</td>
+<td>25</td>
+<td>35</td>
+<td>45</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Ditto" src="https://img.pokemondb.net/sprites/sword-shield/icon/ditto.png" /></td>
+<td>Ditto</td>
+<td>288</td>
+<td>48</td>
+<td>48</td>
+<td>48</td>
+<td>48</td>
+<td>48</td>
+<td>48</td>
+</tr>
+<tr>
+<td><img alt="Dodrio" src="https://img.pokemondb.net/sprites/sword-shield/icon/dodrio.png" /></td>
+<td>Dodrio</td>
+<td>460</td>
+<td>60</td>
+<td>110</td>
+<td>70</td>
+<td>60</td>
+<td>60</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Doduo" src="https://img.pokemondb.net/sprites/sword-shield/icon/doduo.png" /></td>
+<td>Doduo</td>
+<td>310</td>
+<td>35</td>
+<td>85</td>
+<td>45</td>
+<td>35</td>
+<td>35</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Donphan" src="https://img.pokemondb.net/sprites/sword-shield/icon/donphan.png" /></td>
+<td>Donphan</td>
+<td>500</td>
+<td>90</td>
+<td>120</td>
+<td>120</td>
+<td>60</td>
+<td>60</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Dottler" src="https://img.pokemondb.net/sprites/sword-shield/icon/dottler.png" /></td>
+<td>Dottler</td>
+<td>335</td>
+<td>50</td>
+<td>35</td>
+<td>80</td>
+<td>50</td>
+<td>90</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Doublade" src="https://img.pokemondb.net/sprites/sword-shield/icon/doublade.png" /></td>
+<td>Doublade</td>
+<td>448</td>
+<td>59</td>
+<td>110</td>
+<td>150</td>
+<td>45</td>
+<td>49</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Dracovish" src="https://img.pokemondb.net/sprites/sword-shield/icon/dracovish.png" /></td>
+<td>Dracovish</td>
+<td>505</td>
+<td>90</td>
+<td>90</td>
+<td>100</td>
+<td>70</td>
+<td>80</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Dracozolt" src="https://img.pokemondb.net/sprites/sword-shield/icon/dracozolt.png" /></td>
+<td>Dracozolt</td>
+<td>505</td>
+<td>90</td>
+<td>100</td>
+<td>90</td>
+<td>80</td>
+<td>70</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Dragalge" src="https://img.pokemondb.net/sprites/sword-shield/icon/dragalge.png" /></td>
+<td>Dragalge</td>
+<td>494</td>
+<td>65</td>
+<td>75</td>
+<td>90</td>
+<td>97</td>
+<td>123</td>
+<td>44</td>
+</tr>
+<tr>
+<td><img alt="Dragapult" src="https://img.pokemondb.net/sprites/sword-shield/icon/dragapult.png" /></td>
+<td>Dragapult</td>
+<td>600</td>
+<td>88</td>
+<td>120</td>
+<td>75</td>
+<td>100</td>
+<td>75</td>
+<td>142</td>
+</tr>
+<tr>
+<td><img alt="Dragonair" src="https://img.pokemondb.net/sprites/sword-shield/icon/dragonair.png" /></td>
+<td>Dragonair</td>
+<td>420</td>
+<td>61</td>
+<td>84</td>
+<td>65</td>
+<td>70</td>
+<td>70</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Dragonite" src="https://img.pokemondb.net/sprites/sword-shield/icon/dragonite.png" /></td>
+<td>Dragonite</td>
+<td>600</td>
+<td>91</td>
+<td>134</td>
+<td>95</td>
+<td>100</td>
+<td>100</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Drakloak" src="https://img.pokemondb.net/sprites/sword-shield/icon/drakloak.png" /></td>
+<td>Drakloak</td>
+<td>410</td>
+<td>68</td>
+<td>80</td>
+<td>50</td>
+<td>60</td>
+<td>50</td>
+<td>102</td>
+</tr>
+<tr>
+<td><img alt="Drampa" src="https://img.pokemondb.net/sprites/sword-shield/icon/drampa.png" /></td>
+<td>Drampa</td>
+<td>485</td>
+<td>78</td>
+<td>60</td>
+<td>85</td>
+<td>135</td>
+<td>91</td>
+<td>36</td>
+</tr>
+<tr>
+<td><img alt="Drapion" src="https://img.pokemondb.net/sprites/sword-shield/icon/drapion.png" /></td>
+<td>Drapion</td>
+<td>500</td>
+<td>70</td>
+<td>90</td>
+<td>110</td>
+<td>60</td>
+<td>75</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Dratini" src="https://img.pokemondb.net/sprites/sword-shield/icon/dratini.png" /></td>
+<td>Dratini</td>
+<td>300</td>
+<td>41</td>
+<td>64</td>
+<td>45</td>
+<td>50</td>
+<td>50</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Drednaw" src="https://img.pokemondb.net/sprites/sword-shield/icon/drednaw.png" /></td>
+<td>Drednaw</td>
+<td>485</td>
+<td>90</td>
+<td>115</td>
+<td>90</td>
+<td>48</td>
+<td>68</td>
+<td>74</td>
+</tr>
+<tr>
+<td><img alt="Dreepy" src="https://img.pokemondb.net/sprites/sword-shield/icon/dreepy.png" /></td>
+<td>Dreepy</td>
+<td>270</td>
+<td>28</td>
+<td>60</td>
+<td>30</td>
+<td>40</td>
+<td>30</td>
+<td>82</td>
+</tr>
+<tr>
+<td><img alt="Drifblim" src="https://img.pokemondb.net/sprites/sword-shield/icon/drifblim.png" /></td>
+<td>Drifblim</td>
+<td>498</td>
+<td>150</td>
+<td>80</td>
+<td>44</td>
+<td>90</td>
+<td>54</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Drifloon" src="https://img.pokemondb.net/sprites/sword-shield/icon/drifloon.png" /></td>
+<td>Drifloon</td>
+<td>348</td>
+<td>90</td>
+<td>50</td>
+<td>34</td>
+<td>60</td>
+<td>44</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Drilbur" src="https://img.pokemondb.net/sprites/sword-shield/icon/drilbur.png" /></td>
+<td>Drilbur</td>
+<td>328</td>
+<td>60</td>
+<td>85</td>
+<td>40</td>
+<td>30</td>
+<td>45</td>
+<td>68</td>
+</tr>
+<tr>
+<td><img alt="Drizzile" src="https://img.pokemondb.net/sprites/sword-shield/icon/drizzile.png" /></td>
+<td>Drizzile</td>
+<td>420</td>
+<td>65</td>
+<td>60</td>
+<td>55</td>
+<td>95</td>
+<td>55</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Drowzee" src="https://img.pokemondb.net/sprites/sword-shield/icon/drowzee.png" /></td>
+<td>Drowzee</td>
+<td>328</td>
+<td>60</td>
+<td>48</td>
+<td>45</td>
+<td>43</td>
+<td>90</td>
+<td>42</td>
+</tr>
+<tr>
+<td><img alt="Druddigon" src="https://img.pokemondb.net/sprites/sword-shield/icon/druddigon.png" /></td>
+<td>Druddigon</td>
+<td>485</td>
+<td>77</td>
+<td>120</td>
+<td>90</td>
+<td>60</td>
+<td>90</td>
+<td>48</td>
+</tr>
+<tr>
+<td><img alt="Dubwool" src="https://img.pokemondb.net/sprites/sword-shield/icon/dubwool.png" /></td>
+<td>Dubwool</td>
+<td>490</td>
+<td>72</td>
+<td>80</td>
+<td>100</td>
+<td>60</td>
+<td>90</td>
+<td>88</td>
+</tr>
+<tr>
+<td><img alt="Ducklett" src="https://img.pokemondb.net/sprites/sword-shield/icon/ducklett.png" /></td>
+<td>Ducklett</td>
+<td>305</td>
+<td>62</td>
+<td>44</td>
+<td>50</td>
+<td>44</td>
+<td>50</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Dugtrio" src="https://img.pokemondb.net/sprites/sword-shield/icon/dugtrio.png" /></td>
+<td>Dugtrio</td>
+<td>405</td>
+<td>35</td>
+<td>80</td>
+<td>50</td>
+<td>50</td>
+<td>70</td>
+<td>120</td>
+</tr>
+<tr>
+<td><img alt="Dunsparce" src="https://img.pokemondb.net/sprites/sword-shield/icon/dunsparce.png" /></td>
+<td>Dunsparce</td>
+<td>415</td>
+<td>100</td>
+<td>70</td>
+<td>70</td>
+<td>65</td>
+<td>65</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Duosion" src="https://img.pokemondb.net/sprites/sword-shield/icon/duosion.png" /></td>
+<td>Duosion</td>
+<td>370</td>
+<td>65</td>
+<td>40</td>
+<td>50</td>
+<td>125</td>
+<td>60</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Duraludon" src="https://img.pokemondb.net/sprites/sword-shield/icon/duraludon.png" /></td>
+<td>Duraludon</td>
+<td>535</td>
+<td>70</td>
+<td>95</td>
+<td>115</td>
+<td>120</td>
+<td>50</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Durant" src="https://img.pokemondb.net/sprites/sword-shield/icon/durant.png" /></td>
+<td>Durant</td>
+<td>484</td>
+<td>58</td>
+<td>109</td>
+<td>112</td>
+<td>48</td>
+<td>48</td>
+<td>109</td>
+</tr>
+<tr>
+<td><img alt="Dusclops" src="https://img.pokemondb.net/sprites/sword-shield/icon/dusclops.png" /></td>
+<td>Dusclops</td>
+<td>455</td>
+<td>40</td>
+<td>70</td>
+<td>130</td>
+<td>60</td>
+<td>130</td>
+<td>25</td>
+</tr>
+<tr>
+<td><img alt="Dusknoir" src="https://img.pokemondb.net/sprites/sword-shield/icon/dusknoir.png" /></td>
+<td>Dusknoir</td>
+<td>525</td>
+<td>45</td>
+<td>100</td>
+<td>135</td>
+<td>65</td>
+<td>135</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Duskull" src="https://img.pokemondb.net/sprites/sword-shield/icon/duskull.png" /></td>
+<td>Duskull</td>
+<td>295</td>
+<td>20</td>
+<td>40</td>
+<td>90</td>
+<td>30</td>
+<td>90</td>
+<td>25</td>
+</tr>
+<tr>
+<td><img alt="Dustox" src="https://img.pokemondb.net/sprites/sword-shield/icon/dustox.png" /></td>
+<td>Dustox</td>
+<td>385</td>
+<td>60</td>
+<td>50</td>
+<td>70</td>
+<td>50</td>
+<td>90</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Dwebble" src="https://img.pokemondb.net/sprites/sword-shield/icon/dwebble.png" /></td>
+<td>Dwebble</td>
+<td>325</td>
+<td>50</td>
+<td>65</td>
+<td>85</td>
+<td>35</td>
+<td>35</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Eelektrik" src="https://img.pokemondb.net/sprites/sword-shield/icon/eelektrik.png" /></td>
+<td>Eelektrik</td>
+<td>405</td>
+<td>65</td>
+<td>85</td>
+<td>70</td>
+<td>75</td>
+<td>70</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Eelektross" src="https://img.pokemondb.net/sprites/sword-shield/icon/eelektross.png" /></td>
+<td>Eelektross</td>
+<td>515</td>
+<td>85</td>
+<td>115</td>
+<td>80</td>
+<td>105</td>
+<td>80</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Eevee" src="https://img.pokemondb.net/sprites/sword-shield/icon/eevee.png" /></td>
+<td>Eevee</td>
+<td>325</td>
+<td>55</td>
+<td>55</td>
+<td>50</td>
+<td>45</td>
+<td>65</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Eiscue" src="https://img.pokemondb.net/sprites/sword-shield/icon/eiscue.png" /></td>
+<td>Eiscue</td>
+<td>470</td>
+<td>75</td>
+<td>80</td>
+<td>110</td>
+<td>65</td>
+<td>90</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Ekans" src="https://img.pokemondb.net/sprites/sword-shield/icon/ekans.png" /></td>
+<td>Ekans</td>
+<td>288</td>
+<td>35</td>
+<td>60</td>
+<td>44</td>
+<td>40</td>
+<td>54</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Eldegoss" src="https://img.pokemondb.net/sprites/sword-shield/icon/eldegoss.png" /></td>
+<td>Eldegoss</td>
+<td>460</td>
+<td>60</td>
+<td>50</td>
+<td>90</td>
+<td>80</td>
+<td>120</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Electabuzz" src="https://img.pokemondb.net/sprites/sword-shield/icon/electabuzz.png" /></td>
+<td>Electabuzz</td>
+<td>490</td>
+<td>65</td>
+<td>83</td>
+<td>57</td>
+<td>95</td>
+<td>85</td>
+<td>105</td>
+</tr>
+<tr>
+<td><img alt="Electivire" src="https://img.pokemondb.net/sprites/sword-shield/icon/electivire.png" /></td>
+<td>Electivire</td>
+<td>540</td>
+<td>75</td>
+<td>123</td>
+<td>67</td>
+<td>95</td>
+<td>85</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Electrike" src="https://img.pokemondb.net/sprites/sword-shield/icon/electrike.png" /></td>
+<td>Electrike</td>
+<td>295</td>
+<td>40</td>
+<td>45</td>
+<td>40</td>
+<td>65</td>
+<td>40</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Electrode" src="https://img.pokemondb.net/sprites/sword-shield/icon/electrode.png" /></td>
+<td>Electrode</td>
+<td>480</td>
+<td>60</td>
+<td>50</td>
+<td>70</td>
+<td>80</td>
+<td>80</td>
+<td>140</td>
+</tr>
+<tr>
+<td><img alt="Elekid" src="https://img.pokemondb.net/sprites/sword-shield/icon/elekid.png" /></td>
+<td>Elekid</td>
+<td>360</td>
+<td>45</td>
+<td>63</td>
+<td>37</td>
+<td>65</td>
+<td>55</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Elgyem" src="https://img.pokemondb.net/sprites/sword-shield/icon/elgyem.png" /></td>
+<td>Elgyem</td>
+<td>335</td>
+<td>55</td>
+<td>55</td>
+<td>55</td>
+<td>85</td>
+<td>55</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Emboar" src="https://img.pokemondb.net/sprites/sword-shield/icon/emboar.png" /></td>
+<td>Emboar</td>
+<td>528</td>
+<td>110</td>
+<td>123</td>
+<td>65</td>
+<td>100</td>
+<td>65</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Emolga" src="https://img.pokemondb.net/sprites/sword-shield/icon/emolga.png" /></td>
+<td>Emolga</td>
+<td>428</td>
+<td>55</td>
+<td>75</td>
+<td>60</td>
+<td>75</td>
+<td>60</td>
+<td>103</td>
+</tr>
+<tr>
+<td><img alt="Empoleon" src="https://img.pokemondb.net/sprites/sword-shield/icon/empoleon.png" /></td>
+<td>Empoleon</td>
+<td>530</td>
+<td>84</td>
+<td>86</td>
+<td>88</td>
+<td>111</td>
+<td>101</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Enamorus" src="https://img.pokemondb.net/sprites/sword-shield/icon/enamorus.png" /></td>
+<td>Enamorus</td>
+<td>580</td>
+<td>74</td>
+<td>115</td>
+<td>70</td>
+<td>135</td>
+<td>80</td>
+<td>106</td>
+</tr>
+<tr>
+<td><img alt="Entei" src="https://img.pokemondb.net/sprites/sword-shield/icon/entei.png" /></td>
+<td>Entei</td>
+<td>580</td>
+<td>115</td>
+<td>115</td>
+<td>85</td>
+<td>90</td>
+<td>75</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Escavalier" src="https://img.pokemondb.net/sprites/sword-shield/icon/escavalier.png" /></td>
+<td>Escavalier</td>
+<td>495</td>
+<td>70</td>
+<td>135</td>
+<td>105</td>
+<td>60</td>
+<td>105</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Espeon" src="https://img.pokemondb.net/sprites/sword-shield/icon/espeon.png" /></td>
+<td>Espeon</td>
+<td>525</td>
+<td>65</td>
+<td>65</td>
+<td>60</td>
+<td>130</td>
+<td>95</td>
+<td>110</td>
+</tr>
+<tr>
+<td><img alt="Espurr" src="https://img.pokemondb.net/sprites/sword-shield/icon/espurr.png" /></td>
+<td>Espurr</td>
+<td>355</td>
+<td>62</td>
+<td>48</td>
+<td>54</td>
+<td>63</td>
+<td>60</td>
+<td>68</td>
+</tr>
+<tr>
+<td><img alt="Eternatus" src="https://img.pokemondb.net/sprites/sword-shield/icon/eternatus.png" /></td>
+<td>Eternatus</td>
+<td>690</td>
+<td>140</td>
+<td>85</td>
+<td>95</td>
+<td>145</td>
+<td>95</td>
+<td>130</td>
+</tr>
+<tr>
+<td><img alt="Excadrill" src="https://img.pokemondb.net/sprites/sword-shield/icon/excadrill.png" /></td>
+<td>Excadrill</td>
+<td>508</td>
+<td>110</td>
+<td>135</td>
+<td>60</td>
+<td>50</td>
+<td>65</td>
+<td>88</td>
+</tr>
+<tr>
+<td><img alt="Exeggcute" src="https://img.pokemondb.net/sprites/sword-shield/icon/exeggcute.png" /></td>
+<td>Exeggcute</td>
+<td>325</td>
+<td>60</td>
+<td>40</td>
+<td>80</td>
+<td>60</td>
+<td>45</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Exeggutor" src="https://img.pokemondb.net/sprites/sword-shield/icon/exeggutor.png" /></td>
+<td>Exeggutor</td>
+<td>520</td>
+<td>95</td>
+<td>95</td>
+<td>85</td>
+<td>125</td>
+<td>65</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Exploud" src="https://img.pokemondb.net/sprites/sword-shield/icon/exploud.png" /></td>
+<td>Exploud</td>
+<td>480</td>
+<td>104</td>
+<td>91</td>
+<td>63</td>
+<td>91</td>
+<td>63</td>
+<td>68</td>
+</tr>
+<tr>
+<td><img alt="Falinks" src="https://img.pokemondb.net/sprites/sword-shield/icon/falinks.png" /></td>
+<td>Falinks</td>
+<td>470</td>
+<td>65</td>
+<td>100</td>
+<td>100</td>
+<td>70</td>
+<td>60</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Farfetchd" src="https://img.pokemondb.net/sprites/sword-shield/icon/farfetchd.png" /></td>
+<td>Farfetchd</td>
+<td>352</td>
+<td>52</td>
+<td>65</td>
+<td>55</td>
+<td>58</td>
+<td>62</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Fearow" src="https://img.pokemondb.net/sprites/sword-shield/icon/fearow.png" /></td>
+<td>Fearow</td>
+<td>442</td>
+<td>65</td>
+<td>90</td>
+<td>65</td>
+<td>61</td>
+<td>61</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Feebas" src="https://img.pokemondb.net/sprites/sword-shield/icon/feebas.png" /></td>
+<td>Feebas</td>
+<td>200</td>
+<td>20</td>
+<td>15</td>
+<td>20</td>
+<td>10</td>
+<td>55</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Fennekin" src="https://img.pokemondb.net/sprites/sword-shield/icon/fennekin.png" /></td>
+<td>Fennekin</td>
+<td>307</td>
+<td>40</td>
+<td>45</td>
+<td>40</td>
+<td>62</td>
+<td>60</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Feraligatr" src="https://img.pokemondb.net/sprites/sword-shield/icon/feraligatr.png" /></td>
+<td>Feraligatr</td>
+<td>530</td>
+<td>85</td>
+<td>105</td>
+<td>100</td>
+<td>79</td>
+<td>83</td>
+<td>78</td>
+</tr>
+<tr>
+<td><img alt="Ferroseed" src="https://img.pokemondb.net/sprites/sword-shield/icon/ferroseed.png" /></td>
+<td>Ferroseed</td>
+<td>305</td>
+<td>44</td>
+<td>50</td>
+<td>91</td>
+<td>24</td>
+<td>86</td>
+<td>10</td>
+</tr>
+<tr>
+<td><img alt="Ferrothorn" src="https://img.pokemondb.net/sprites/sword-shield/icon/ferrothorn.png" /></td>
+<td>Ferrothorn</td>
+<td>489</td>
+<td>74</td>
+<td>94</td>
+<td>131</td>
+<td>54</td>
+<td>116</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Finneon" src="https://img.pokemondb.net/sprites/sword-shield/icon/finneon.png" /></td>
+<td>Finneon</td>
+<td>330</td>
+<td>49</td>
+<td>49</td>
+<td>56</td>
+<td>49</td>
+<td>61</td>
+<td>66</td>
+</tr>
+<tr>
+<td><img alt="Flaaffy" src="https://img.pokemondb.net/sprites/sword-shield/icon/flaaffy.png" /></td>
+<td>Flaaffy</td>
+<td>365</td>
+<td>70</td>
+<td>55</td>
+<td>55</td>
+<td>80</td>
+<td>60</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Flapple" src="https://img.pokemondb.net/sprites/sword-shield/icon/flapple.png" /></td>
+<td>Flapple</td>
+<td>485</td>
+<td>70</td>
+<td>110</td>
+<td>80</td>
+<td>95</td>
+<td>60</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Flareon" src="https://img.pokemondb.net/sprites/sword-shield/icon/flareon.png" /></td>
+<td>Flareon</td>
+<td>525</td>
+<td>65</td>
+<td>130</td>
+<td>60</td>
+<td>95</td>
+<td>110</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Fletchinder" src="https://img.pokemondb.net/sprites/sword-shield/icon/fletchinder.png" /></td>
+<td>Fletchinder</td>
+<td>382</td>
+<td>62</td>
+<td>73</td>
+<td>55</td>
+<td>56</td>
+<td>52</td>
+<td>84</td>
+</tr>
+<tr>
+<td><img alt="Fletchling" src="https://img.pokemondb.net/sprites/sword-shield/icon/fletchling.png" /></td>
+<td>Fletchling</td>
+<td>278</td>
+<td>45</td>
+<td>50</td>
+<td>43</td>
+<td>40</td>
+<td>38</td>
+<td>62</td>
+</tr>
+<tr>
+<td><img alt="Floatzel" src="https://img.pokemondb.net/sprites/sword-shield/icon/floatzel.png" /></td>
+<td>Floatzel</td>
+<td>495</td>
+<td>85</td>
+<td>105</td>
+<td>55</td>
+<td>85</td>
+<td>50</td>
+<td>115</td>
+</tr>
+<tr>
+<td><img alt="Flygon" src="https://img.pokemondb.net/sprites/sword-shield/icon/flygon.png" /></td>
+<td>Flygon</td>
+<td>520</td>
+<td>80</td>
+<td>100</td>
+<td>80</td>
+<td>80</td>
+<td>80</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Fomantis" src="https://img.pokemondb.net/sprites/sword-shield/icon/fomantis.png" /></td>
+<td>Fomantis</td>
+<td>250</td>
+<td>40</td>
+<td>55</td>
+<td>35</td>
+<td>50</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Foongus" src="https://img.pokemondb.net/sprites/sword-shield/icon/foongus.png" /></td>
+<td>Foongus</td>
+<td>294</td>
+<td>69</td>
+<td>55</td>
+<td>45</td>
+<td>55</td>
+<td>55</td>
+<td>15</td>
+</tr>
+<tr>
+<td><img alt="Forretress" src="https://img.pokemondb.net/sprites/sword-shield/icon/forretress.png" /></td>
+<td>Forretress</td>
+<td>465</td>
+<td>75</td>
+<td>90</td>
+<td>140</td>
+<td>60</td>
+<td>60</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Fraxure" src="https://img.pokemondb.net/sprites/sword-shield/icon/fraxure.png" /></td>
+<td>Fraxure</td>
+<td>410</td>
+<td>66</td>
+<td>117</td>
+<td>70</td>
+<td>40</td>
+<td>50</td>
+<td>67</td>
+</tr>
+<tr>
+<td><img alt="Frillish" src="https://img.pokemondb.net/sprites/sword-shield/icon/frillish.png" /></td>
+<td>Frillish</td>
+<td>335</td>
+<td>55</td>
+<td>40</td>
+<td>50</td>
+<td>65</td>
+<td>85</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Froakie" src="https://img.pokemondb.net/sprites/sword-shield/icon/froakie.png" /></td>
+<td>Froakie</td>
+<td>314</td>
+<td>41</td>
+<td>56</td>
+<td>40</td>
+<td>62</td>
+<td>44</td>
+<td>71</td>
+</tr>
+<tr>
+<td><img alt="Frogadier" src="https://img.pokemondb.net/sprites/sword-shield/icon/frogadier.png" /></td>
+<td>Frogadier</td>
+<td>405</td>
+<td>54</td>
+<td>63</td>
+<td>52</td>
+<td>83</td>
+<td>56</td>
+<td>97</td>
+</tr>
+<tr>
+<td><img alt="Froslass" src="https://img.pokemondb.net/sprites/sword-shield/icon/froslass.png" /></td>
+<td>Froslass</td>
+<td>480</td>
+<td>70</td>
+<td>80</td>
+<td>70</td>
+<td>80</td>
+<td>70</td>
+<td>110</td>
+</tr>
+<tr>
+<td><img alt="Frosmoth" src="https://img.pokemondb.net/sprites/sword-shield/icon/frosmoth.png" /></td>
+<td>Frosmoth</td>
+<td>475</td>
+<td>70</td>
+<td>65</td>
+<td>60</td>
+<td>125</td>
+<td>90</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Furret" src="https://img.pokemondb.net/sprites/sword-shield/icon/furret.png" /></td>
+<td>Furret</td>
+<td>415</td>
+<td>85</td>
+<td>76</td>
+<td>64</td>
+<td>45</td>
+<td>55</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Gabite" src="https://img.pokemondb.net/sprites/sword-shield/icon/gabite.png" /></td>
+<td>Gabite</td>
+<td>410</td>
+<td>68</td>
+<td>90</td>
+<td>65</td>
+<td>50</td>
+<td>55</td>
+<td>82</td>
+</tr>
+<tr>
+<td><img alt="Gallade" src="https://img.pokemondb.net/sprites/sword-shield/icon/gallade.png" /></td>
+<td>Gallade</td>
+<td>518</td>
+<td>68</td>
+<td>125</td>
+<td>65</td>
+<td>65</td>
+<td>115</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Galvantula" src="https://img.pokemondb.net/sprites/sword-shield/icon/galvantula.png" /></td>
+<td>Galvantula</td>
+<td>472</td>
+<td>70</td>
+<td>77</td>
+<td>60</td>
+<td>97</td>
+<td>60</td>
+<td>108</td>
+</tr>
+<tr>
+<td><img alt="Garbodor" src="https://img.pokemondb.net/sprites/sword-shield/icon/garbodor.png" /></td>
+<td>Garbodor</td>
+<td>474</td>
+<td>80</td>
+<td>95</td>
+<td>82</td>
+<td>60</td>
+<td>82</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Garchomp" src="https://img.pokemondb.net/sprites/sword-shield/icon/garchomp.png" /></td>
+<td>Garchomp</td>
+<td>600</td>
+<td>108</td>
+<td>130</td>
+<td>95</td>
+<td>80</td>
+<td>85</td>
+<td>102</td>
+</tr>
+<tr>
+<td><img alt="Gardevoir" src="https://img.pokemondb.net/sprites/sword-shield/icon/gardevoir.png" /></td>
+<td>Gardevoir</td>
+<td>518</td>
+<td>68</td>
+<td>65</td>
+<td>65</td>
+<td>125</td>
+<td>115</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Gastly" src="https://img.pokemondb.net/sprites/sword-shield/icon/gastly.png" /></td>
+<td>Gastly</td>
+<td>310</td>
+<td>30</td>
+<td>35</td>
+<td>30</td>
+<td>100</td>
+<td>35</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Gengar" src="https://img.pokemondb.net/sprites/sword-shield/icon/gengar.png" /></td>
+<td>Gengar</td>
+<td>500</td>
+<td>60</td>
+<td>65</td>
+<td>60</td>
+<td>130</td>
+<td>75</td>
+<td>110</td>
+</tr>
+<tr>
+<td><img alt="Geodude" src="https://img.pokemondb.net/sprites/sword-shield/icon/geodude.png" /></td>
+<td>Geodude</td>
+<td>300</td>
+<td>40</td>
+<td>80</td>
+<td>100</td>
+<td>30</td>
+<td>30</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Gible" src="https://img.pokemondb.net/sprites/sword-shield/icon/gible.png" /></td>
+<td>Gible</td>
+<td>300</td>
+<td>58</td>
+<td>70</td>
+<td>45</td>
+<td>40</td>
+<td>45</td>
+<td>42</td>
+</tr>
+<tr>
+<td><img alt="Gigalith" src="https://img.pokemondb.net/sprites/sword-shield/icon/gigalith.png" /></td>
+<td>Gigalith</td>
+<td>505</td>
+<td>85</td>
+<td>135</td>
+<td>130</td>
+<td>60</td>
+<td>70</td>
+<td>25</td>
+</tr>
+<tr>
+<td><img alt="Girafarig" src="https://img.pokemondb.net/sprites/sword-shield/icon/girafarig.png" /></td>
+<td>Girafarig</td>
+<td>455</td>
+<td>70</td>
+<td>80</td>
+<td>65</td>
+<td>90</td>
+<td>65</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Giratina" src="https://img.pokemondb.net/sprites/sword-shield/icon/giratina.png" /></td>
+<td>Giratina</td>
+<td>680</td>
+<td>150</td>
+<td>100</td>
+<td>120</td>
+<td>100</td>
+<td>120</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Glaceon" src="https://img.pokemondb.net/sprites/sword-shield/icon/glaceon.png" /></td>
+<td>Glaceon</td>
+<td>525</td>
+<td>65</td>
+<td>60</td>
+<td>110</td>
+<td>130</td>
+<td>95</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Glalie" src="https://img.pokemondb.net/sprites/sword-shield/icon/glalie.png" /></td>
+<td>Glalie</td>
+<td>480</td>
+<td>80</td>
+<td>80</td>
+<td>80</td>
+<td>80</td>
+<td>80</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Glameow" src="https://img.pokemondb.net/sprites/sword-shield/icon/glameow.png" /></td>
+<td>Glameow</td>
+<td>310</td>
+<td>49</td>
+<td>55</td>
+<td>42</td>
+<td>42</td>
+<td>37</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Glastrier" src="https://img.pokemondb.net/sprites/sword-shield/icon/glastrier.png" /></td>
+<td>Glastrier</td>
+<td>580</td>
+<td>100</td>
+<td>145</td>
+<td>130</td>
+<td>65</td>
+<td>110</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Gligar" src="https://img.pokemondb.net/sprites/sword-shield/icon/gligar.png" /></td>
+<td>Gligar</td>
+<td>430</td>
+<td>65</td>
+<td>75</td>
+<td>105</td>
+<td>35</td>
+<td>65</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Gliscor" src="https://img.pokemondb.net/sprites/sword-shield/icon/gliscor.png" /></td>
+<td>Gliscor</td>
+<td>510</td>
+<td>75</td>
+<td>95</td>
+<td>125</td>
+<td>45</td>
+<td>75</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Gloom" src="https://img.pokemondb.net/sprites/sword-shield/icon/gloom.png" /></td>
+<td>Gloom</td>
+<td>395</td>
+<td>60</td>
+<td>65</td>
+<td>70</td>
+<td>85</td>
+<td>75</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Gogoat" src="https://img.pokemondb.net/sprites/sword-shield/icon/gogoat.png" /></td>
+<td>Gogoat</td>
+<td>531</td>
+<td>123</td>
+<td>100</td>
+<td>62</td>
+<td>97</td>
+<td>81</td>
+<td>68</td>
+</tr>
+<tr>
+<td><img alt="Golbat" src="https://img.pokemondb.net/sprites/sword-shield/icon/golbat.png" /></td>
+<td>Golbat</td>
+<td>455</td>
+<td>75</td>
+<td>80</td>
+<td>70</td>
+<td>65</td>
+<td>75</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Goldeen" src="https://img.pokemondb.net/sprites/sword-shield/icon/goldeen.png" /></td>
+<td>Goldeen</td>
+<td>320</td>
+<td>45</td>
+<td>67</td>
+<td>60</td>
+<td>35</td>
+<td>50</td>
+<td>63</td>
+</tr>
+<tr>
+<td><img alt="Golduck" src="https://img.pokemondb.net/sprites/sword-shield/icon/golduck.png" /></td>
+<td>Golduck</td>
+<td>500</td>
+<td>80</td>
+<td>82</td>
+<td>78</td>
+<td>95</td>
+<td>80</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Golem" src="https://img.pokemondb.net/sprites/sword-shield/icon/golem.png" /></td>
+<td>Golem</td>
+<td>485</td>
+<td>80</td>
+<td>110</td>
+<td>130</td>
+<td>55</td>
+<td>65</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Golett" src="https://img.pokemondb.net/sprites/sword-shield/icon/golett.png" /></td>
+<td>Golett</td>
+<td>303</td>
+<td>59</td>
+<td>74</td>
+<td>50</td>
+<td>35</td>
+<td>50</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Golisopod" src="https://img.pokemondb.net/sprites/sword-shield/icon/golisopod.png" /></td>
+<td>Golisopod</td>
+<td>530</td>
+<td>75</td>
+<td>125</td>
+<td>140</td>
+<td>60</td>
+<td>90</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Golurk" src="https://img.pokemondb.net/sprites/sword-shield/icon/golurk.png" /></td>
+<td>Golurk</td>
+<td>483</td>
+<td>89</td>
+<td>124</td>
+<td>80</td>
+<td>55</td>
+<td>80</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Goodra" src="https://img.pokemondb.net/sprites/sword-shield/icon/goodra.png" /></td>
+<td>Goodra</td>
+<td>600</td>
+<td>90</td>
+<td>100</td>
+<td>70</td>
+<td>110</td>
+<td>150</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Goomy" src="https://img.pokemondb.net/sprites/sword-shield/icon/goomy.png" /></td>
+<td>Goomy</td>
+<td>300</td>
+<td>45</td>
+<td>50</td>
+<td>35</td>
+<td>55</td>
+<td>75</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Gorebyss" src="https://img.pokemondb.net/sprites/sword-shield/icon/gorebyss.png" /></td>
+<td>Gorebyss</td>
+<td>485</td>
+<td>55</td>
+<td>84</td>
+<td>105</td>
+<td>114</td>
+<td>75</td>
+<td>52</td>
+</tr>
+<tr>
+<td><img alt="Gossifleur" src="https://img.pokemondb.net/sprites/sword-shield/icon/gossifleur.png" /></td>
+<td>Gossifleur</td>
+<td>250</td>
+<td>40</td>
+<td>40</td>
+<td>60</td>
+<td>40</td>
+<td>60</td>
+<td>10</td>
+</tr>
+<tr>
+<td><img alt="Gothita" src="https://img.pokemondb.net/sprites/sword-shield/icon/gothita.png" /></td>
+<td>Gothita</td>
+<td>290</td>
+<td>45</td>
+<td>30</td>
+<td>50</td>
+<td>55</td>
+<td>65</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Gothitelle" src="https://img.pokemondb.net/sprites/sword-shield/icon/gothitelle.png" /></td>
+<td>Gothitelle</td>
+<td>490</td>
+<td>70</td>
+<td>55</td>
+<td>95</td>
+<td>95</td>
+<td>110</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Gothorita" src="https://img.pokemondb.net/sprites/sword-shield/icon/gothorita.png" /></td>
+<td>Gothorita</td>
+<td>390</td>
+<td>60</td>
+<td>45</td>
+<td>70</td>
+<td>75</td>
+<td>85</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Gourgeist" src="https://img.pokemondb.net/sprites/sword-shield/icon/gourgeist.png" /></td>
+<td>Gourgeist</td>
+<td>494</td>
+<td>65</td>
+<td>90</td>
+<td>122</td>
+<td>58</td>
+<td>75</td>
+<td>84</td>
+</tr>
+<tr>
+<td><img alt="Granbull" src="https://img.pokemondb.net/sprites/sword-shield/icon/granbull.png" /></td>
+<td>Granbull</td>
+<td>450</td>
+<td>90</td>
+<td>120</td>
+<td>75</td>
+<td>60</td>
+<td>60</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Grapploct" src="https://img.pokemondb.net/sprites/sword-shield/icon/grapploct.png" /></td>
+<td>Grapploct</td>
+<td>480</td>
+<td>80</td>
+<td>118</td>
+<td>90</td>
+<td>70</td>
+<td>80</td>
+<td>42</td>
+</tr>
+<tr>
+<td><img alt="Graveler" src="https://img.pokemondb.net/sprites/sword-shield/icon/graveler.png" /></td>
+<td>Graveler</td>
+<td>390</td>
+<td>55</td>
+<td>95</td>
+<td>115</td>
+<td>45</td>
+<td>45</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Greedent" src="https://img.pokemondb.net/sprites/sword-shield/icon/greedent.png" /></td>
+<td>Greedent</td>
+<td>460</td>
+<td>120</td>
+<td>95</td>
+<td>95</td>
+<td>55</td>
+<td>75</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Greninja" src="https://img.pokemondb.net/sprites/sword-shield/icon/greninja.png" /></td>
+<td>Greninja</td>
+<td>530</td>
+<td>72</td>
+<td>95</td>
+<td>67</td>
+<td>103</td>
+<td>71</td>
+<td>122</td>
+</tr>
+<tr>
+<td><img alt="Grimer" src="https://img.pokemondb.net/sprites/sword-shield/icon/grimer.png" /></td>
+<td>Grimer</td>
+<td>325</td>
+<td>80</td>
+<td>80</td>
+<td>50</td>
+<td>40</td>
+<td>50</td>
+<td>25</td>
+</tr>
+<tr>
+<td><img alt="Grimmsnarl" src="https://img.pokemondb.net/sprites/sword-shield/icon/grimmsnarl.png" /></td>
+<td>Grimmsnarl</td>
+<td>510</td>
+<td>95</td>
+<td>120</td>
+<td>65</td>
+<td>95</td>
+<td>75</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Grookey" src="https://img.pokemondb.net/sprites/sword-shield/icon/grookey.png" /></td>
+<td>Grookey</td>
+<td>310</td>
+<td>50</td>
+<td>65</td>
+<td>50</td>
+<td>40</td>
+<td>40</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Grotle" src="https://img.pokemondb.net/sprites/sword-shield/icon/grotle.png" /></td>
+<td>Grotle</td>
+<td>405</td>
+<td>75</td>
+<td>89</td>
+<td>85</td>
+<td>55</td>
+<td>65</td>
+<td>36</td>
+</tr>
+<tr>
+<td><img alt="Groudon" src="https://img.pokemondb.net/sprites/sword-shield/icon/groudon.png" /></td>
+<td>Groudon</td>
+<td>670</td>
+<td>100</td>
+<td>150</td>
+<td>140</td>
+<td>100</td>
+<td>90</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Grovyle" src="https://img.pokemondb.net/sprites/sword-shield/icon/grovyle.png" /></td>
+<td>Grovyle</td>
+<td>405</td>
+<td>50</td>
+<td>65</td>
+<td>45</td>
+<td>85</td>
+<td>65</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Growlithe" src="https://img.pokemondb.net/sprites/sword-shield/icon/growlithe.png" /></td>
+<td>Growlithe</td>
+<td>350</td>
+<td>55</td>
+<td>70</td>
+<td>45</td>
+<td>70</td>
+<td>50</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Grubbin" src="https://img.pokemondb.net/sprites/sword-shield/icon/grubbin.png" /></td>
+<td>Grubbin</td>
+<td>300</td>
+<td>47</td>
+<td>62</td>
+<td>45</td>
+<td>55</td>
+<td>45</td>
+<td>46</td>
+</tr>
+<tr>
+<td><img alt="Grumpig" src="https://img.pokemondb.net/sprites/sword-shield/icon/grumpig.png" /></td>
+<td>Grumpig</td>
+<td>470</td>
+<td>80</td>
+<td>45</td>
+<td>65</td>
+<td>90</td>
+<td>110</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Gulpin" src="https://img.pokemondb.net/sprites/sword-shield/icon/gulpin.png" /></td>
+<td>Gulpin</td>
+<td>302</td>
+<td>70</td>
+<td>43</td>
+<td>53</td>
+<td>43</td>
+<td>53</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Gumshoos" src="https://img.pokemondb.net/sprites/sword-shield/icon/gumshoos.png" /></td>
+<td>Gumshoos</td>
+<td>418</td>
+<td>88</td>
+<td>110</td>
+<td>60</td>
+<td>55</td>
+<td>60</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Gurdurr" src="https://img.pokemondb.net/sprites/sword-shield/icon/gurdurr.png" /></td>
+<td>Gurdurr</td>
+<td>405</td>
+<td>85</td>
+<td>105</td>
+<td>85</td>
+<td>40</td>
+<td>50</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Guzzlord" src="https://img.pokemondb.net/sprites/sword-shield/icon/guzzlord.png" /></td>
+<td>Guzzlord</td>
+<td>570</td>
+<td>223</td>
+<td>101</td>
+<td>53</td>
+<td>97</td>
+<td>53</td>
+<td>43</td>
+</tr>
+<tr>
+<td><img alt="Gyarados" src="https://img.pokemondb.net/sprites/sword-shield/icon/gyarados.png" /></td>
+<td>Gyarados</td>
+<td>540</td>
+<td>95</td>
+<td>125</td>
+<td>79</td>
+<td>60</td>
+<td>100</td>
+<td>81</td>
+</tr>
+<tr>
+<td><img alt="Happiny" src="https://img.pokemondb.net/sprites/sword-shield/icon/happiny.png" /></td>
+<td>Happiny</td>
+<td>220</td>
+<td>100</td>
+<td>5</td>
+<td>5</td>
+<td>15</td>
+<td>65</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Hariyama" src="https://img.pokemondb.net/sprites/sword-shield/icon/hariyama.png" /></td>
+<td>Hariyama</td>
+<td>474</td>
+<td>144</td>
+<td>120</td>
+<td>60</td>
+<td>40</td>
+<td>60</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Hatenna" src="https://img.pokemondb.net/sprites/sword-shield/icon/hatenna.png" /></td>
+<td>Hatenna</td>
+<td>265</td>
+<td>42</td>
+<td>30</td>
+<td>45</td>
+<td>56</td>
+<td>53</td>
+<td>39</td>
+</tr>
+<tr>
+<td><img alt="Hatterene" src="https://img.pokemondb.net/sprites/sword-shield/icon/hatterene.png" /></td>
+<td>Hatterene</td>
+<td>510</td>
+<td>57</td>
+<td>90</td>
+<td>95</td>
+<td>136</td>
+<td>103</td>
+<td>29</td>
+</tr>
+<tr>
+<td><img alt="Hattrem" src="https://img.pokemondb.net/sprites/sword-shield/icon/hattrem.png" /></td>
+<td>Hattrem</td>
+<td>370</td>
+<td>57</td>
+<td>40</td>
+<td>65</td>
+<td>86</td>
+<td>73</td>
+<td>49</td>
+</tr>
+<tr>
+<td><img alt="Haunter" src="https://img.pokemondb.net/sprites/sword-shield/icon/haunter.png" /></td>
+<td>Haunter</td>
+<td>405</td>
+<td>45</td>
+<td>50</td>
+<td>45</td>
+<td>115</td>
+<td>55</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Hawlucha" src="https://img.pokemondb.net/sprites/sword-shield/icon/hawlucha.png" /></td>
+<td>Hawlucha</td>
+<td>500</td>
+<td>78</td>
+<td>92</td>
+<td>75</td>
+<td>74</td>
+<td>63</td>
+<td>118</td>
+</tr>
+<tr>
+<td><img alt="Haxorus" src="https://img.pokemondb.net/sprites/sword-shield/icon/haxorus.png" /></td>
+<td>Haxorus</td>
+<td>540</td>
+<td>76</td>
+<td>147</td>
+<td>90</td>
+<td>60</td>
+<td>70</td>
+<td>97</td>
+</tr>
+<tr>
+<td><img alt="Heatmor" src="https://img.pokemondb.net/sprites/sword-shield/icon/heatmor.png" /></td>
+<td>Heatmor</td>
+<td>484</td>
+<td>85</td>
+<td>97</td>
+<td>66</td>
+<td>105</td>
+<td>66</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Heatran" src="https://img.pokemondb.net/sprites/sword-shield/icon/heatran.png" /></td>
+<td>Heatran</td>
+<td>600</td>
+<td>91</td>
+<td>90</td>
+<td>106</td>
+<td>130</td>
+<td>106</td>
+<td>77</td>
+</tr>
+<tr>
+<td><img alt="Heliolisk" src="https://img.pokemondb.net/sprites/sword-shield/icon/heliolisk.png" /></td>
+<td>Heliolisk</td>
+<td>481</td>
+<td>62</td>
+<td>55</td>
+<td>52</td>
+<td>109</td>
+<td>94</td>
+<td>109</td>
+</tr>
+<tr>
+<td><img alt="Helioptile" src="https://img.pokemondb.net/sprites/sword-shield/icon/helioptile.png" /></td>
+<td>Helioptile</td>
+<td>289</td>
+<td>44</td>
+<td>38</td>
+<td>33</td>
+<td>61</td>
+<td>43</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Heracross" src="https://img.pokemondb.net/sprites/sword-shield/icon/heracross.png" /></td>
+<td>Heracross</td>
+<td>500</td>
+<td>80</td>
+<td>125</td>
+<td>75</td>
+<td>40</td>
+<td>95</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Herdier" src="https://img.pokemondb.net/sprites/sword-shield/icon/herdier.png" /></td>
+<td>Herdier</td>
+<td>370</td>
+<td>65</td>
+<td>80</td>
+<td>65</td>
+<td>35</td>
+<td>65</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Hippopotas" src="https://img.pokemondb.net/sprites/sword-shield/icon/hippopotas.png" /></td>
+<td>Hippopotas</td>
+<td>330</td>
+<td>68</td>
+<td>72</td>
+<td>78</td>
+<td>38</td>
+<td>42</td>
+<td>32</td>
+</tr>
+<tr>
+<td><img alt="Hippowdon" src="https://img.pokemondb.net/sprites/sword-shield/icon/hippowdon.png" /></td>
+<td>Hippowdon</td>
+<td>525</td>
+<td>108</td>
+<td>112</td>
+<td>118</td>
+<td>68</td>
+<td>72</td>
+<td>47</td>
+</tr>
+<tr>
+<td><img alt="Hitmonchan" src="https://img.pokemondb.net/sprites/sword-shield/icon/hitmonchan.png" /></td>
+<td>Hitmonchan</td>
+<td>455</td>
+<td>50</td>
+<td>105</td>
+<td>79</td>
+<td>35</td>
+<td>110</td>
+<td>76</td>
+</tr>
+<tr>
+<td><img alt="Hitmonlee" src="https://img.pokemondb.net/sprites/sword-shield/icon/hitmonlee.png" /></td>
+<td>Hitmonlee</td>
+<td>455</td>
+<td>50</td>
+<td>120</td>
+<td>53</td>
+<td>35</td>
+<td>110</td>
+<td>87</td>
+</tr>
+<tr>
+<td><img alt="Hitmontop" src="https://img.pokemondb.net/sprites/sword-shield/icon/hitmontop.png" /></td>
+<td>Hitmontop</td>
+<td>455</td>
+<td>50</td>
+<td>95</td>
+<td>95</td>
+<td>35</td>
+<td>110</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Honchkrow" src="https://img.pokemondb.net/sprites/sword-shield/icon/honchkrow.png" /></td>
+<td>Honchkrow</td>
+<td>505</td>
+<td>100</td>
+<td>125</td>
+<td>52</td>
+<td>105</td>
+<td>52</td>
+<td>71</td>
+</tr>
+<tr>
+<td><img alt="Honedge" src="https://img.pokemondb.net/sprites/sword-shield/icon/honedge.png" /></td>
+<td>Honedge</td>
+<td>325</td>
+<td>45</td>
+<td>80</td>
+<td>100</td>
+<td>35</td>
+<td>37</td>
+<td>28</td>
+</tr>
+<tr>
+<td><img alt="Hoopa" src="https://img.pokemondb.net/sprites/sword-shield/icon/hoopa.png" /></td>
+<td>Hoopa</td>
+<td>600</td>
+<td>80</td>
+<td>110</td>
+<td>60</td>
+<td>150</td>
+<td>130</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Hoothoot" src="https://img.pokemondb.net/sprites/sword-shield/icon/hoothoot.png" /></td>
+<td>Hoothoot</td>
+<td>262</td>
+<td>60</td>
+<td>30</td>
+<td>30</td>
+<td>36</td>
+<td>56</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Hoppip" src="https://img.pokemondb.net/sprites/sword-shield/icon/hoppip.png" /></td>
+<td>Hoppip</td>
+<td>250</td>
+<td>35</td>
+<td>35</td>
+<td>40</td>
+<td>35</td>
+<td>55</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Horsea" src="https://img.pokemondb.net/sprites/sword-shield/icon/horsea.png" /></td>
+<td>Horsea</td>
+<td>295</td>
+<td>30</td>
+<td>40</td>
+<td>70</td>
+<td>70</td>
+<td>25</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Houndoom" src="https://img.pokemondb.net/sprites/sword-shield/icon/houndoom.png" /></td>
+<td>Houndoom</td>
+<td>500</td>
+<td>75</td>
+<td>90</td>
+<td>50</td>
+<td>110</td>
+<td>80</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Houndour" src="https://img.pokemondb.net/sprites/sword-shield/icon/houndour.png" /></td>
+<td>Houndour</td>
+<td>330</td>
+<td>45</td>
+<td>60</td>
+<td>30</td>
+<td>80</td>
+<td>50</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Huntail" src="https://img.pokemondb.net/sprites/sword-shield/icon/huntail.png" /></td>
+<td>Huntail</td>
+<td>485</td>
+<td>55</td>
+<td>104</td>
+<td>105</td>
+<td>94</td>
+<td>75</td>
+<td>52</td>
+</tr>
+<tr>
+<td><img alt="Hydreigon" src="https://img.pokemondb.net/sprites/sword-shield/icon/hydreigon.png" /></td>
+<td>Hydreigon</td>
+<td>600</td>
+<td>92</td>
+<td>105</td>
+<td>90</td>
+<td>125</td>
+<td>90</td>
+<td>98</td>
+</tr>
+<tr>
+<td><img alt="Hypno" src="https://img.pokemondb.net/sprites/sword-shield/icon/hypno.png" /></td>
+<td>Hypno</td>
+<td>483</td>
+<td>85</td>
+<td>73</td>
+<td>70</td>
+<td>73</td>
+<td>115</td>
+<td>67</td>
+</tr>
+<tr>
+<td><img alt="Igglybuff" src="https://img.pokemondb.net/sprites/sword-shield/icon/igglybuff.png" /></td>
+<td>Igglybuff</td>
+<td>210</td>
+<td>90</td>
+<td>30</td>
+<td>15</td>
+<td>40</td>
+<td>20</td>
+<td>15</td>
+</tr>
+<tr>
+<td><img alt="Illumise" src="https://img.pokemondb.net/sprites/sword-shield/icon/illumise.png" /></td>
+<td>Illumise</td>
+<td>400</td>
+<td>65</td>
+<td>47</td>
+<td>55</td>
+<td>73</td>
+<td>75</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Impidimp" src="https://img.pokemondb.net/sprites/sword-shield/icon/impidimp.png" /></td>
+<td>Impidimp</td>
+<td>265</td>
+<td>45</td>
+<td>45</td>
+<td>30</td>
+<td>55</td>
+<td>40</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Incineroar" src="https://img.pokemondb.net/sprites/sword-shield/icon/incineroar.png" /></td>
+<td>Incineroar</td>
+<td>530</td>
+<td>95</td>
+<td>115</td>
+<td>90</td>
+<td>80</td>
+<td>90</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Indeedee" src="https://img.pokemondb.net/sprites/sword-shield/icon/indeedee.png" /></td>
+<td>Indeedee</td>
+<td>475</td>
+<td>60</td>
+<td>65</td>
+<td>55</td>
+<td>105</td>
+<td>95</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Infernape" src="https://img.pokemondb.net/sprites/sword-shield/icon/infernape.png" /></td>
+<td>Infernape</td>
+<td>534</td>
+<td>76</td>
+<td>104</td>
+<td>71</td>
+<td>104</td>
+<td>71</td>
+<td>108</td>
+</tr>
+<tr>
+<td><img alt="Inkay" src="https://img.pokemondb.net/sprites/sword-shield/icon/inkay.png" /></td>
+<td>Inkay</td>
+<td>288</td>
+<td>53</td>
+<td>54</td>
+<td>53</td>
+<td>37</td>
+<td>46</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Inteleon" src="https://img.pokemondb.net/sprites/sword-shield/icon/inteleon.png" /></td>
+<td>Inteleon</td>
+<td>530</td>
+<td>70</td>
+<td>85</td>
+<td>65</td>
+<td>125</td>
+<td>65</td>
+<td>120</td>
+</tr>
+<tr>
+<td><img alt="Ivysaur" src="https://img.pokemondb.net/sprites/sword-shield/icon/ivysaur.png" /></td>
+<td>Ivysaur</td>
+<td>405</td>
+<td>60</td>
+<td>62</td>
+<td>63</td>
+<td>80</td>
+<td>80</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Jellicent" src="https://img.pokemondb.net/sprites/sword-shield/icon/jellicent.png" /></td>
+<td>Jellicent</td>
+<td>480</td>
+<td>100</td>
+<td>60</td>
+<td>70</td>
+<td>85</td>
+<td>105</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Jigglypuff" src="https://img.pokemondb.net/sprites/sword-shield/icon/jigglypuff.png" /></td>
+<td>Jigglypuff</td>
+<td>270</td>
+<td>115</td>
+<td>45</td>
+<td>20</td>
+<td>45</td>
+<td>25</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Jirachi" src="https://img.pokemondb.net/sprites/sword-shield/icon/jirachi.png" /></td>
+<td>Jirachi</td>
+<td>600</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Jolteon" src="https://img.pokemondb.net/sprites/sword-shield/icon/jolteon.png" /></td>
+<td>Jolteon</td>
+<td>525</td>
+<td>65</td>
+<td>65</td>
+<td>60</td>
+<td>110</td>
+<td>95</td>
+<td>130</td>
+</tr>
+<tr>
+<td><img alt="Joltik" src="https://img.pokemondb.net/sprites/sword-shield/icon/joltik.png" /></td>
+<td>Joltik</td>
+<td>319</td>
+<td>50</td>
+<td>47</td>
+<td>50</td>
+<td>57</td>
+<td>50</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Jumpluff" src="https://img.pokemondb.net/sprites/sword-shield/icon/jumpluff.png" /></td>
+<td>Jumpluff</td>
+<td>450</td>
+<td>75</td>
+<td>55</td>
+<td>70</td>
+<td>55</td>
+<td>85</td>
+<td>110</td>
+</tr>
+<tr>
+<td><img alt="Jynx" src="https://img.pokemondb.net/sprites/sword-shield/icon/jynx.png" /></td>
+<td>Jynx</td>
+<td>455</td>
+<td>65</td>
+<td>50</td>
+<td>35</td>
+<td>115</td>
+<td>95</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Kabuto" src="https://img.pokemondb.net/sprites/sword-shield/icon/kabuto.png" /></td>
+<td>Kabuto</td>
+<td>355</td>
+<td>30</td>
+<td>80</td>
+<td>90</td>
+<td>55</td>
+<td>45</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Kabutops" src="https://img.pokemondb.net/sprites/sword-shield/icon/kabutops.png" /></td>
+<td>Kabutops</td>
+<td>495</td>
+<td>60</td>
+<td>115</td>
+<td>105</td>
+<td>65</td>
+<td>70</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Kadabra" src="https://img.pokemondb.net/sprites/sword-shield/icon/kadabra.png" /></td>
+<td>Kadabra</td>
+<td>400</td>
+<td>40</td>
+<td>35</td>
+<td>30</td>
+<td>120</td>
+<td>70</td>
+<td>105</td>
+</tr>
+<tr>
+<td><img alt="Kakuna" src="https://img.pokemondb.net/sprites/sword-shield/icon/kakuna.png" /></td>
+<td>Kakuna</td>
+<td>205</td>
+<td>45</td>
+<td>25</td>
+<td>50</td>
+<td>25</td>
+<td>25</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Kangaskhan" src="https://img.pokemondb.net/sprites/sword-shield/icon/kangaskhan.png" /></td>
+<td>Kangaskhan</td>
+<td>490</td>
+<td>105</td>
+<td>95</td>
+<td>80</td>
+<td>40</td>
+<td>80</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Karrablast" src="https://img.pokemondb.net/sprites/sword-shield/icon/karrablast.png" /></td>
+<td>Karrablast</td>
+<td>315</td>
+<td>50</td>
+<td>75</td>
+<td>45</td>
+<td>40</td>
+<td>45</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Kartana" src="https://img.pokemondb.net/sprites/sword-shield/icon/kartana.png" /></td>
+<td>Kartana</td>
+<td>570</td>
+<td>59</td>
+<td>181</td>
+<td>131</td>
+<td>59</td>
+<td>31</td>
+<td>109</td>
+</tr>
+<tr>
+<td><img alt="Kecleon" src="https://img.pokemondb.net/sprites/sword-shield/icon/kecleon.png" /></td>
+<td>Kecleon</td>
+<td>440</td>
+<td>60</td>
+<td>90</td>
+<td>70</td>
+<td>60</td>
+<td>120</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Keldeo" src="https://img.pokemondb.net/sprites/sword-shield/icon/keldeo.png" /></td>
+<td>Keldeo</td>
+<td>580</td>
+<td>91</td>
+<td>72</td>
+<td>90</td>
+<td>129</td>
+<td>90</td>
+<td>108</td>
+</tr>
+<tr>
+<td><img alt="Kingdra" src="https://img.pokemondb.net/sprites/sword-shield/icon/kingdra.png" /></td>
+<td>Kingdra</td>
+<td>540</td>
+<td>75</td>
+<td>95</td>
+<td>95</td>
+<td>95</td>
+<td>95</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Kingler" src="https://img.pokemondb.net/sprites/sword-shield/icon/kingler.png" /></td>
+<td>Kingler</td>
+<td>475</td>
+<td>55</td>
+<td>130</td>
+<td>115</td>
+<td>50</td>
+<td>50</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Kirlia" src="https://img.pokemondb.net/sprites/sword-shield/icon/kirlia.png" /></td>
+<td>Kirlia</td>
+<td>278</td>
+<td>38</td>
+<td>35</td>
+<td>35</td>
+<td>65</td>
+<td>55</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Klang" src="https://img.pokemondb.net/sprites/sword-shield/icon/klang.png" /></td>
+<td>Klang</td>
+<td>440</td>
+<td>60</td>
+<td>80</td>
+<td>95</td>
+<td>70</td>
+<td>85</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Kleavor" src="https://img.pokemondb.net/sprites/sword-shield/icon/kleavor.png" /></td>
+<td>Kleavor</td>
+<td>500</td>
+<td>70</td>
+<td>135</td>
+<td>95</td>
+<td>45</td>
+<td>70</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Klefki" src="https://img.pokemondb.net/sprites/sword-shield/icon/klefki.png" /></td>
+<td>Klefki</td>
+<td>470</td>
+<td>57</td>
+<td>80</td>
+<td>91</td>
+<td>80</td>
+<td>87</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Klink" src="https://img.pokemondb.net/sprites/sword-shield/icon/klink.png" /></td>
+<td>Klink</td>
+<td>300</td>
+<td>40</td>
+<td>55</td>
+<td>70</td>
+<td>45</td>
+<td>60</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Klinklang" src="https://img.pokemondb.net/sprites/sword-shield/icon/klinklang.png" /></td>
+<td>Klinklang</td>
+<td>520</td>
+<td>60</td>
+<td>100</td>
+<td>115</td>
+<td>70</td>
+<td>85</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Koffing" src="https://img.pokemondb.net/sprites/sword-shield/icon/koffing.png" /></td>
+<td>Koffing</td>
+<td>340</td>
+<td>40</td>
+<td>65</td>
+<td>95</td>
+<td>60</td>
+<td>45</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Komala" src="https://img.pokemondb.net/sprites/sword-shield/icon/komala.png" /></td>
+<td>Komala</td>
+<td>480</td>
+<td>65</td>
+<td>115</td>
+<td>65</td>
+<td>75</td>
+<td>95</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Krabby" src="https://img.pokemondb.net/sprites/sword-shield/icon/krabby.png" /></td>
+<td>Krabby</td>
+<td>325</td>
+<td>30</td>
+<td>105</td>
+<td>90</td>
+<td>25</td>
+<td>25</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Kricketot" src="https://img.pokemondb.net/sprites/sword-shield/icon/kricketot.png" /></td>
+<td>Kricketot</td>
+<td>194</td>
+<td>37</td>
+<td>25</td>
+<td>41</td>
+<td>25</td>
+<td>41</td>
+<td>25</td>
+</tr>
+<tr>
+<td><img alt="Kricketune" src="https://img.pokemondb.net/sprites/sword-shield/icon/kricketune.png" /></td>
+<td>Kricketune</td>
+<td>384</td>
+<td>77</td>
+<td>85</td>
+<td>51</td>
+<td>55</td>
+<td>51</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Krokorok" src="https://img.pokemondb.net/sprites/sword-shield/icon/krokorok.png" /></td>
+<td>Krokorok</td>
+<td>351</td>
+<td>60</td>
+<td>82</td>
+<td>45</td>
+<td>45</td>
+<td>45</td>
+<td>74</td>
+</tr>
+<tr>
+<td><img alt="Krookodile" src="https://img.pokemondb.net/sprites/sword-shield/icon/krookodile.png" /></td>
+<td>Krookodile</td>
+<td>509</td>
+<td>95</td>
+<td>117</td>
+<td>70</td>
+<td>65</td>
+<td>70</td>
+<td>92</td>
+</tr>
+<tr>
+<td><img alt="Kubfu" src="https://img.pokemondb.net/sprites/sword-shield/icon/kubfu.png" /></td>
+<td>Kubfu</td>
+<td>385</td>
+<td>60</td>
+<td>90</td>
+<td>60</td>
+<td>53</td>
+<td>50</td>
+<td>72</td>
+</tr>
+<tr>
+<td><img alt="Kyogre" src="https://img.pokemondb.net/sprites/sword-shield/icon/kyogre.png" /></td>
+<td>Kyogre</td>
+<td>670</td>
+<td>100</td>
+<td>100</td>
+<td>90</td>
+<td>150</td>
+<td>140</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Kyurem" src="https://img.pokemondb.net/sprites/sword-shield/icon/kyurem.png" /></td>
+<td>Kyurem</td>
+<td>660</td>
+<td>125</td>
+<td>130</td>
+<td>90</td>
+<td>130</td>
+<td>90</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Lairon" src="https://img.pokemondb.net/sprites/sword-shield/icon/lairon.png" /></td>
+<td>Lairon</td>
+<td>430</td>
+<td>60</td>
+<td>90</td>
+<td>140</td>
+<td>50</td>
+<td>50</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Lampent" src="https://img.pokemondb.net/sprites/sword-shield/icon/lampent.png" /></td>
+<td>Lampent</td>
+<td>370</td>
+<td>60</td>
+<td>40</td>
+<td>60</td>
+<td>95</td>
+<td>60</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Landorus" src="https://img.pokemondb.net/sprites/sword-shield/icon/landorus.png" /></td>
+<td>Landorus</td>
+<td>600</td>
+<td>89</td>
+<td>125</td>
+<td>90</td>
+<td>115</td>
+<td>80</td>
+<td>101</td>
+</tr>
+<tr>
+<td><img alt="Lanturn" src="https://img.pokemondb.net/sprites/sword-shield/icon/lanturn.png" /></td>
+<td>Lanturn</td>
+<td>460</td>
+<td>125</td>
+<td>58</td>
+<td>58</td>
+<td>76</td>
+<td>76</td>
+<td>67</td>
+</tr>
+<tr>
+<td><img alt="Lapras" src="https://img.pokemondb.net/sprites/sword-shield/icon/lapras.png" /></td>
+<td>Lapras</td>
+<td>535</td>
+<td>130</td>
+<td>85</td>
+<td>80</td>
+<td>85</td>
+<td>95</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Larvesta" src="https://img.pokemondb.net/sprites/sword-shield/icon/larvesta.png" /></td>
+<td>Larvesta</td>
+<td>360</td>
+<td>55</td>
+<td>85</td>
+<td>55</td>
+<td>50</td>
+<td>55</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Larvitar" src="https://img.pokemondb.net/sprites/sword-shield/icon/larvitar.png" /></td>
+<td>Larvitar</td>
+<td>300</td>
+<td>50</td>
+<td>64</td>
+<td>50</td>
+<td>45</td>
+<td>50</td>
+<td>41</td>
+</tr>
+<tr>
+<td><img alt="Latias" src="https://img.pokemondb.net/sprites/sword-shield/icon/latias.png" /></td>
+<td>Latias</td>
+<td>600</td>
+<td>80</td>
+<td>80</td>
+<td>90</td>
+<td>110</td>
+<td>130</td>
+<td>110</td>
+</tr>
+<tr>
+<td><img alt="Latios" src="https://img.pokemondb.net/sprites/sword-shield/icon/latios.png" /></td>
+<td>Latios</td>
+<td>600</td>
+<td>80</td>
+<td>90</td>
+<td>80</td>
+<td>130</td>
+<td>110</td>
+<td>110</td>
+</tr>
+<tr>
+<td><img alt="Leafeon" src="https://img.pokemondb.net/sprites/sword-shield/icon/leafeon.png" /></td>
+<td>Leafeon</td>
+<td>525</td>
+<td>65</td>
+<td>110</td>
+<td>130</td>
+<td>60</td>
+<td>65</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Leavanny" src="https://img.pokemondb.net/sprites/sword-shield/icon/leavanny.png" /></td>
+<td>Leavanny</td>
+<td>490</td>
+<td>75</td>
+<td>103</td>
+<td>80</td>
+<td>70</td>
+<td>70</td>
+<td>92</td>
+</tr>
+<tr>
+<td><img alt="Ledian" src="https://img.pokemondb.net/sprites/sword-shield/icon/ledian.png" /></td>
+<td>Ledian</td>
+<td>390</td>
+<td>55</td>
+<td>35</td>
+<td>50</td>
+<td>55</td>
+<td>110</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Ledyba" src="https://img.pokemondb.net/sprites/sword-shield/icon/ledyba.png" /></td>
+<td>Ledyba</td>
+<td>265</td>
+<td>40</td>
+<td>20</td>
+<td>30</td>
+<td>40</td>
+<td>80</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Lickilicky" src="https://img.pokemondb.net/sprites/sword-shield/icon/lickilicky.png" /></td>
+<td>Lickilicky</td>
+<td>515</td>
+<td>110</td>
+<td>85</td>
+<td>95</td>
+<td>80</td>
+<td>95</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Lickitung" src="https://img.pokemondb.net/sprites/sword-shield/icon/lickitung.png" /></td>
+<td>Lickitung</td>
+<td>385</td>
+<td>90</td>
+<td>55</td>
+<td>75</td>
+<td>60</td>
+<td>75</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Liepard" src="https://img.pokemondb.net/sprites/sword-shield/icon/liepard.png" /></td>
+<td>Liepard</td>
+<td>446</td>
+<td>64</td>
+<td>88</td>
+<td>50</td>
+<td>88</td>
+<td>50</td>
+<td>106</td>
+</tr>
+<tr>
+<td><img alt="Lileep" src="https://img.pokemondb.net/sprites/sword-shield/icon/lileep.png" /></td>
+<td>Lileep</td>
+<td>355</td>
+<td>66</td>
+<td>41</td>
+<td>77</td>
+<td>61</td>
+<td>87</td>
+<td>23</td>
+</tr>
+<tr>
+<td><img alt="Lilligant" src="https://img.pokemondb.net/sprites/sword-shield/icon/lilligant.png" /></td>
+<td>Lilligant</td>
+<td>480</td>
+<td>70</td>
+<td>60</td>
+<td>75</td>
+<td>110</td>
+<td>75</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Lillipup" src="https://img.pokemondb.net/sprites/sword-shield/icon/lillipup.png" /></td>
+<td>Lillipup</td>
+<td>275</td>
+<td>45</td>
+<td>60</td>
+<td>45</td>
+<td>25</td>
+<td>45</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Linoone" src="https://img.pokemondb.net/sprites/sword-shield/icon/linoone.png" /></td>
+<td>Linoone</td>
+<td>420</td>
+<td>78</td>
+<td>70</td>
+<td>61</td>
+<td>50</td>
+<td>61</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Litleo" src="https://img.pokemondb.net/sprites/sword-shield/icon/litleo.png" /></td>
+<td>Litleo</td>
+<td>369</td>
+<td>62</td>
+<td>50</td>
+<td>58</td>
+<td>73</td>
+<td>54</td>
+<td>72</td>
+</tr>
+<tr>
+<td><img alt="Litten" src="https://img.pokemondb.net/sprites/sword-shield/icon/litten.png" /></td>
+<td>Litten</td>
+<td>320</td>
+<td>45</td>
+<td>65</td>
+<td>40</td>
+<td>60</td>
+<td>40</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Litwick" src="https://img.pokemondb.net/sprites/sword-shield/icon/litwick.png" /></td>
+<td>Litwick</td>
+<td>275</td>
+<td>50</td>
+<td>30</td>
+<td>55</td>
+<td>65</td>
+<td>55</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Lombre" src="https://img.pokemondb.net/sprites/sword-shield/icon/lombre.png" /></td>
+<td>Lombre</td>
+<td>340</td>
+<td>60</td>
+<td>50</td>
+<td>50</td>
+<td>60</td>
+<td>70</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Lopunny" src="https://img.pokemondb.net/sprites/sword-shield/icon/lopunny.png" /></td>
+<td>Lopunny</td>
+<td>480</td>
+<td>65</td>
+<td>76</td>
+<td>84</td>
+<td>54</td>
+<td>96</td>
+<td>105</td>
+</tr>
+<tr>
+<td><img alt="Lotad" src="https://img.pokemondb.net/sprites/sword-shield/icon/lotad.png" /></td>
+<td>Lotad</td>
+<td>220</td>
+<td>40</td>
+<td>30</td>
+<td>30</td>
+<td>40</td>
+<td>50</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Loudred" src="https://img.pokemondb.net/sprites/sword-shield/icon/loudred.png" /></td>
+<td>Loudred</td>
+<td>360</td>
+<td>84</td>
+<td>71</td>
+<td>43</td>
+<td>71</td>
+<td>43</td>
+<td>48</td>
+</tr>
+<tr>
+<td><img alt="Lucario" src="https://img.pokemondb.net/sprites/sword-shield/icon/lucario.png" /></td>
+<td>Lucario</td>
+<td>525</td>
+<td>70</td>
+<td>110</td>
+<td>70</td>
+<td>115</td>
+<td>70</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Ludicolo" src="https://img.pokemondb.net/sprites/sword-shield/icon/ludicolo.png" /></td>
+<td>Ludicolo</td>
+<td>480</td>
+<td>80</td>
+<td>70</td>
+<td>70</td>
+<td>90</td>
+<td>100</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Lugia" src="https://img.pokemondb.net/sprites/sword-shield/icon/lugia.png" /></td>
+<td>Lugia</td>
+<td>680</td>
+<td>106</td>
+<td>90</td>
+<td>130</td>
+<td>90</td>
+<td>154</td>
+<td>110</td>
+</tr>
+<tr>
+<td><img alt="Lumineon" src="https://img.pokemondb.net/sprites/sword-shield/icon/lumineon.png" /></td>
+<td>Lumineon</td>
+<td>460</td>
+<td>69</td>
+<td>69</td>
+<td>76</td>
+<td>69</td>
+<td>86</td>
+<td>91</td>
+</tr>
+<tr>
+<td><img alt="Lunala" src="https://img.pokemondb.net/sprites/sword-shield/icon/lunala.png" /></td>
+<td>Lunala</td>
+<td>680</td>
+<td>137</td>
+<td>113</td>
+<td>89</td>
+<td>137</td>
+<td>107</td>
+<td>97</td>
+</tr>
+<tr>
+<td><img alt="Lunatone" src="https://img.pokemondb.net/sprites/sword-shield/icon/lunatone.png" /></td>
+<td>Lunatone</td>
+<td>440</td>
+<td>70</td>
+<td>55</td>
+<td>65</td>
+<td>95</td>
+<td>85</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Lurantis" src="https://img.pokemondb.net/sprites/sword-shield/icon/lurantis.png" /></td>
+<td>Lurantis</td>
+<td>480</td>
+<td>70</td>
+<td>105</td>
+<td>90</td>
+<td>80</td>
+<td>90</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Luvdisc" src="https://img.pokemondb.net/sprites/sword-shield/icon/luvdisc.png" /></td>
+<td>Luvdisc</td>
+<td>330</td>
+<td>43</td>
+<td>30</td>
+<td>55</td>
+<td>40</td>
+<td>65</td>
+<td>97</td>
+</tr>
+<tr>
+<td><img alt="Luxio" src="https://img.pokemondb.net/sprites/sword-shield/icon/luxio.png" /></td>
+<td>Luxio</td>
+<td>363</td>
+<td>60</td>
+<td>85</td>
+<td>49</td>
+<td>60</td>
+<td>49</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Luxray" src="https://img.pokemondb.net/sprites/sword-shield/icon/luxray.png" /></td>
+<td>Luxray</td>
+<td>523</td>
+<td>80</td>
+<td>120</td>
+<td>79</td>
+<td>95</td>
+<td>79</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Lycanroc" src="https://img.pokemondb.net/sprites/sword-shield/icon/lycanroc.png" /></td>
+<td>Lycanroc</td>
+<td>487</td>
+<td>75</td>
+<td>115</td>
+<td>65</td>
+<td>55</td>
+<td>65</td>
+<td>112</td>
+</tr>
+<tr>
+<td><img alt="Machamp" src="https://img.pokemondb.net/sprites/sword-shield/icon/machamp.png" /></td>
+<td>Machamp</td>
+<td>505</td>
+<td>90</td>
+<td>130</td>
+<td>80</td>
+<td>65</td>
+<td>85</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Machoke" src="https://img.pokemondb.net/sprites/sword-shield/icon/machoke.png" /></td>
+<td>Machoke</td>
+<td>405</td>
+<td>80</td>
+<td>100</td>
+<td>70</td>
+<td>50</td>
+<td>60</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Machop" src="https://img.pokemondb.net/sprites/sword-shield/icon/machop.png" /></td>
+<td>Machop</td>
+<td>305</td>
+<td>70</td>
+<td>80</td>
+<td>50</td>
+<td>35</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Magby" src="https://img.pokemondb.net/sprites/sword-shield/icon/magby.png" /></td>
+<td>Magby</td>
+<td>365</td>
+<td>45</td>
+<td>75</td>
+<td>37</td>
+<td>70</td>
+<td>55</td>
+<td>83</td>
+</tr>
+<tr>
+<td><img alt="Magcargo" src="https://img.pokemondb.net/sprites/sword-shield/icon/magcargo.png" /></td>
+<td>Magcargo</td>
+<td>410</td>
+<td>50</td>
+<td>50</td>
+<td>120</td>
+<td>80</td>
+<td>80</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Magikarp" src="https://img.pokemondb.net/sprites/sword-shield/icon/magikarp.png" /></td>
+<td>Magikarp</td>
+<td>200</td>
+<td>20</td>
+<td>10</td>
+<td>55</td>
+<td>15</td>
+<td>20</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Magmar" src="https://img.pokemondb.net/sprites/sword-shield/icon/magmar.png" /></td>
+<td>Magmar</td>
+<td>495</td>
+<td>65</td>
+<td>95</td>
+<td>57</td>
+<td>100</td>
+<td>85</td>
+<td>93</td>
+</tr>
+<tr>
+<td><img alt="Magmortar" src="https://img.pokemondb.net/sprites/sword-shield/icon/magmortar.png" /></td>
+<td>Magmortar</td>
+<td>540</td>
+<td>75</td>
+<td>95</td>
+<td>67</td>
+<td>125</td>
+<td>95</td>
+<td>83</td>
+</tr>
+<tr>
+<td><img alt="Magnemite" src="https://img.pokemondb.net/sprites/sword-shield/icon/magnemite.png" /></td>
+<td>Magnemite</td>
+<td>325</td>
+<td>25</td>
+<td>35</td>
+<td>70</td>
+<td>95</td>
+<td>55</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Magneton" src="https://img.pokemondb.net/sprites/sword-shield/icon/magneton.png" /></td>
+<td>Magneton</td>
+<td>465</td>
+<td>50</td>
+<td>60</td>
+<td>95</td>
+<td>120</td>
+<td>70</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Magnezone" src="https://img.pokemondb.net/sprites/sword-shield/icon/magnezone.png" /></td>
+<td>Magnezone</td>
+<td>535</td>
+<td>70</td>
+<td>70</td>
+<td>115</td>
+<td>130</td>
+<td>90</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Makuhita" src="https://img.pokemondb.net/sprites/sword-shield/icon/makuhita.png" /></td>
+<td>Makuhita</td>
+<td>237</td>
+<td>72</td>
+<td>60</td>
+<td>30</td>
+<td>20</td>
+<td>30</td>
+<td>25</td>
+</tr>
+<tr>
+<td><img alt="Malamar" src="https://img.pokemondb.net/sprites/sword-shield/icon/malamar.png" /></td>
+<td>Malamar</td>
+<td>482</td>
+<td>86</td>
+<td>92</td>
+<td>88</td>
+<td>68</td>
+<td>75</td>
+<td>73</td>
+</tr>
+<tr>
+<td><img alt="Mamoswine" src="https://img.pokemondb.net/sprites/sword-shield/icon/mamoswine.png" /></td>
+<td>Mamoswine</td>
+<td>530</td>
+<td>110</td>
+<td>130</td>
+<td>80</td>
+<td>70</td>
+<td>60</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Manaphy" src="https://img.pokemondb.net/sprites/sword-shield/icon/manaphy.png" /></td>
+<td>Manaphy</td>
+<td>600</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Mandibuzz" src="https://img.pokemondb.net/sprites/sword-shield/icon/mandibuzz.png" /></td>
+<td>Mandibuzz</td>
+<td>510</td>
+<td>110</td>
+<td>65</td>
+<td>105</td>
+<td>55</td>
+<td>95</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Manectric" src="https://img.pokemondb.net/sprites/sword-shield/icon/manectric.png" /></td>
+<td>Manectric</td>
+<td>475</td>
+<td>70</td>
+<td>75</td>
+<td>60</td>
+<td>105</td>
+<td>60</td>
+<td>105</td>
+</tr>
+<tr>
+<td><img alt="Mankey" src="https://img.pokemondb.net/sprites/sword-shield/icon/mankey.png" /></td>
+<td>Mankey</td>
+<td>305</td>
+<td>40</td>
+<td>80</td>
+<td>35</td>
+<td>35</td>
+<td>45</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Mantine" src="https://img.pokemondb.net/sprites/sword-shield/icon/mantine.png" /></td>
+<td>Mantine</td>
+<td>465</td>
+<td>65</td>
+<td>40</td>
+<td>70</td>
+<td>80</td>
+<td>140</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Mantyke" src="https://img.pokemondb.net/sprites/sword-shield/icon/mantyke.png" /></td>
+<td>Mantyke</td>
+<td>345</td>
+<td>45</td>
+<td>20</td>
+<td>50</td>
+<td>60</td>
+<td>120</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Maractus" src="https://img.pokemondb.net/sprites/sword-shield/icon/maractus.png" /></td>
+<td>Maractus</td>
+<td>461</td>
+<td>75</td>
+<td>86</td>
+<td>67</td>
+<td>106</td>
+<td>67</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Mareanie" src="https://img.pokemondb.net/sprites/sword-shield/icon/mareanie.png" /></td>
+<td>Mareanie</td>
+<td>305</td>
+<td>50</td>
+<td>53</td>
+<td>62</td>
+<td>43</td>
+<td>52</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Mareep" src="https://img.pokemondb.net/sprites/sword-shield/icon/mareep.png" /></td>
+<td>Mareep</td>
+<td>280</td>
+<td>55</td>
+<td>40</td>
+<td>40</td>
+<td>65</td>
+<td>45</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Marill" src="https://img.pokemondb.net/sprites/sword-shield/icon/marill.png" /></td>
+<td>Marill</td>
+<td>250</td>
+<td>70</td>
+<td>20</td>
+<td>50</td>
+<td>20</td>
+<td>50</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Marowak" src="https://img.pokemondb.net/sprites/sword-shield/icon/marowak.png" /></td>
+<td>Marowak</td>
+<td>425</td>
+<td>60</td>
+<td>80</td>
+<td>110</td>
+<td>50</td>
+<td>80</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Marshadow" src="https://img.pokemondb.net/sprites/sword-shield/icon/marshadow.png" /></td>
+<td>Marshadow</td>
+<td>600</td>
+<td>90</td>
+<td>125</td>
+<td>80</td>
+<td>90</td>
+<td>90</td>
+<td>125</td>
+</tr>
+<tr>
+<td><img alt="Marshtomp" src="https://img.pokemondb.net/sprites/sword-shield/icon/marshtomp.png" /></td>
+<td>Marshtomp</td>
+<td>405</td>
+<td>70</td>
+<td>85</td>
+<td>70</td>
+<td>60</td>
+<td>70</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Masquerain" src="https://img.pokemondb.net/sprites/sword-shield/icon/masquerain.png" /></td>
+<td>Masquerain</td>
+<td>414</td>
+<td>70</td>
+<td>60</td>
+<td>62</td>
+<td>80</td>
+<td>82</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Mawile" src="https://img.pokemondb.net/sprites/sword-shield/icon/mawile.png" /></td>
+<td>Mawile</td>
+<td>380</td>
+<td>50</td>
+<td>85</td>
+<td>85</td>
+<td>55</td>
+<td>55</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Medicham" src="https://img.pokemondb.net/sprites/sword-shield/icon/medicham.png" /></td>
+<td>Medicham</td>
+<td>410</td>
+<td>60</td>
+<td>60</td>
+<td>75</td>
+<td>60</td>
+<td>75</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Meditite" src="https://img.pokemondb.net/sprites/sword-shield/icon/meditite.png" /></td>
+<td>Meditite</td>
+<td>280</td>
+<td>30</td>
+<td>40</td>
+<td>55</td>
+<td>40</td>
+<td>55</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Meganium" src="https://img.pokemondb.net/sprites/sword-shield/icon/meganium.png" /></td>
+<td>Meganium</td>
+<td>525</td>
+<td>80</td>
+<td>82</td>
+<td>100</td>
+<td>83</td>
+<td>100</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Melmetal" src="https://img.pokemondb.net/sprites/sword-shield/icon/melmetal.png" /></td>
+<td>Melmetal</td>
+<td>600</td>
+<td>135</td>
+<td>143</td>
+<td>143</td>
+<td>80</td>
+<td>65</td>
+<td>34</td>
+</tr>
+<tr>
+<td><img alt="Meloetta" src="https://img.pokemondb.net/sprites/sword-shield/icon/meloetta.png" /></td>
+<td>Meloetta</td>
+<td>600</td>
+<td>100</td>
+<td>77</td>
+<td>77</td>
+<td>128</td>
+<td>128</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Meltan" src="https://img.pokemondb.net/sprites/sword-shield/icon/meltan.png" /></td>
+<td>Meltan</td>
+<td>300</td>
+<td>46</td>
+<td>65</td>
+<td>65</td>
+<td>55</td>
+<td>35</td>
+<td>34</td>
+</tr>
+<tr>
+<td><img alt="Meowstic" src="https://img.pokemondb.net/sprites/sword-shield/icon/meowstic.png" /></td>
+<td>Meowstic</td>
+<td>466</td>
+<td>74</td>
+<td>48</td>
+<td>76</td>
+<td>83</td>
+<td>81</td>
+<td>104</td>
+</tr>
+<tr>
+<td><img alt="Meowth" src="https://img.pokemondb.net/sprites/sword-shield/icon/meowth.png" /></td>
+<td>Meowth</td>
+<td>290</td>
+<td>40</td>
+<td>45</td>
+<td>35</td>
+<td>40</td>
+<td>40</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Mesprit" src="https://img.pokemondb.net/sprites/sword-shield/icon/mesprit.png" /></td>
+<td>Mesprit</td>
+<td>580</td>
+<td>80</td>
+<td>105</td>
+<td>105</td>
+<td>105</td>
+<td>105</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Metagross" src="https://img.pokemondb.net/sprites/sword-shield/icon/metagross.png" /></td>
+<td>Metagross</td>
+<td>600</td>
+<td>80</td>
+<td>135</td>
+<td>130</td>
+<td>95</td>
+<td>90</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Metang" src="https://img.pokemondb.net/sprites/sword-shield/icon/metang.png" /></td>
+<td>Metang</td>
+<td>420</td>
+<td>60</td>
+<td>75</td>
+<td>100</td>
+<td>55</td>
+<td>80</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Metapod" src="https://img.pokemondb.net/sprites/sword-shield/icon/metapod.png" /></td>
+<td>Metapod</td>
+<td>205</td>
+<td>50</td>
+<td>20</td>
+<td>55</td>
+<td>25</td>
+<td>25</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Mew" src="https://img.pokemondb.net/sprites/sword-shield/icon/mew.png" /></td>
+<td>Mew</td>
+<td>600</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Mewtwo" src="https://img.pokemondb.net/sprites/sword-shield/icon/mewtwo.png" /></td>
+<td>Mewtwo</td>
+<td>680</td>
+<td>106</td>
+<td>110</td>
+<td>90</td>
+<td>154</td>
+<td>90</td>
+<td>130</td>
+</tr>
+<tr>
+<td><img alt="Mienfoo" src="https://img.pokemondb.net/sprites/sword-shield/icon/mienfoo.png" /></td>
+<td>Mienfoo</td>
+<td>350</td>
+<td>45</td>
+<td>85</td>
+<td>50</td>
+<td>55</td>
+<td>50</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Mienshao" src="https://img.pokemondb.net/sprites/sword-shield/icon/mienshao.png" /></td>
+<td>Mienshao</td>
+<td>510</td>
+<td>65</td>
+<td>125</td>
+<td>60</td>
+<td>95</td>
+<td>60</td>
+<td>105</td>
+</tr>
+<tr>
+<td><img alt="Mightyena" src="https://img.pokemondb.net/sprites/sword-shield/icon/mightyena.png" /></td>
+<td>Mightyena</td>
+<td>420</td>
+<td>70</td>
+<td>90</td>
+<td>70</td>
+<td>60</td>
+<td>60</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Milcery" src="https://img.pokemondb.net/sprites/sword-shield/icon/milcery.png" /></td>
+<td>Milcery</td>
+<td>270</td>
+<td>45</td>
+<td>40</td>
+<td>40</td>
+<td>50</td>
+<td>61</td>
+<td>34</td>
+</tr>
+<tr>
+<td><img alt="Milotic" src="https://img.pokemondb.net/sprites/sword-shield/icon/milotic.png" /></td>
+<td>Milotic</td>
+<td>540</td>
+<td>95</td>
+<td>60</td>
+<td>79</td>
+<td>100</td>
+<td>125</td>
+<td>81</td>
+</tr>
+<tr>
+<td><img alt="Miltank" src="https://img.pokemondb.net/sprites/sword-shield/icon/miltank.png" /></td>
+<td>Miltank</td>
+<td>490</td>
+<td>95</td>
+<td>80</td>
+<td>105</td>
+<td>40</td>
+<td>70</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Minccino" src="https://img.pokemondb.net/sprites/sword-shield/icon/minccino.png" /></td>
+<td>Minccino</td>
+<td>300</td>
+<td>55</td>
+<td>50</td>
+<td>40</td>
+<td>40</td>
+<td>40</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Minun" src="https://img.pokemondb.net/sprites/sword-shield/icon/minun.png" /></td>
+<td>Minun</td>
+<td>405</td>
+<td>60</td>
+<td>40</td>
+<td>50</td>
+<td>75</td>
+<td>85</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Misdreavus" src="https://img.pokemondb.net/sprites/sword-shield/icon/misdreavus.png" /></td>
+<td>Misdreavus</td>
+<td>435</td>
+<td>60</td>
+<td>60</td>
+<td>60</td>
+<td>85</td>
+<td>85</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Mismagius" src="https://img.pokemondb.net/sprites/sword-shield/icon/mismagius.png" /></td>
+<td>Mismagius</td>
+<td>495</td>
+<td>60</td>
+<td>60</td>
+<td>60</td>
+<td>105</td>
+<td>105</td>
+<td>105</td>
+</tr>
+<tr>
+<td><img alt="Moltres" src="https://img.pokemondb.net/sprites/sword-shield/icon/moltres.png" /></td>
+<td>Moltres</td>
+<td>580</td>
+<td>90</td>
+<td>100</td>
+<td>90</td>
+<td>125</td>
+<td>85</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Monferno" src="https://img.pokemondb.net/sprites/sword-shield/icon/monferno.png" /></td>
+<td>Monferno</td>
+<td>405</td>
+<td>64</td>
+<td>78</td>
+<td>52</td>
+<td>78</td>
+<td>52</td>
+<td>81</td>
+</tr>
+<tr>
+<td><img alt="Morelull" src="https://img.pokemondb.net/sprites/sword-shield/icon/morelull.png" /></td>
+<td>Morelull</td>
+<td>285</td>
+<td>40</td>
+<td>35</td>
+<td>55</td>
+<td>65</td>
+<td>75</td>
+<td>15</td>
+</tr>
+<tr>
+<td><img alt="Morgrem" src="https://img.pokemondb.net/sprites/sword-shield/icon/morgrem.png" /></td>
+<td>Morgrem</td>
+<td>370</td>
+<td>65</td>
+<td>60</td>
+<td>45</td>
+<td>75</td>
+<td>55</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Mothim" src="https://img.pokemondb.net/sprites/sword-shield/icon/mothim.png" /></td>
+<td>Mothim</td>
+<td>424</td>
+<td>70</td>
+<td>94</td>
+<td>50</td>
+<td>94</td>
+<td>50</td>
+<td>66</td>
+</tr>
+<tr>
+<td><img alt="Mudbray" src="https://img.pokemondb.net/sprites/sword-shield/icon/mudbray.png" /></td>
+<td>Mudbray</td>
+<td>385</td>
+<td>70</td>
+<td>100</td>
+<td>70</td>
+<td>45</td>
+<td>55</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Mudkip" src="https://img.pokemondb.net/sprites/sword-shield/icon/mudkip.png" /></td>
+<td>Mudkip</td>
+<td>310</td>
+<td>50</td>
+<td>70</td>
+<td>50</td>
+<td>50</td>
+<td>50</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Mudsdale" src="https://img.pokemondb.net/sprites/sword-shield/icon/mudsdale.png" /></td>
+<td>Mudsdale</td>
+<td>500</td>
+<td>100</td>
+<td>125</td>
+<td>100</td>
+<td>55</td>
+<td>85</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Muk" src="https://img.pokemondb.net/sprites/sword-shield/icon/muk.png" /></td>
+<td>Muk</td>
+<td>500</td>
+<td>105</td>
+<td>105</td>
+<td>75</td>
+<td>65</td>
+<td>100</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Munchlax" src="https://img.pokemondb.net/sprites/sword-shield/icon/munchlax.png" /></td>
+<td>Munchlax</td>
+<td>390</td>
+<td>135</td>
+<td>85</td>
+<td>40</td>
+<td>40</td>
+<td>85</td>
+<td>5</td>
+</tr>
+<tr>
+<td><img alt="Munna" src="https://img.pokemondb.net/sprites/sword-shield/icon/munna.png" /></td>
+<td>Munna</td>
+<td>292</td>
+<td>76</td>
+<td>25</td>
+<td>45</td>
+<td>67</td>
+<td>55</td>
+<td>24</td>
+</tr>
+<tr>
+<td><img alt="Murkrow" src="https://img.pokemondb.net/sprites/sword-shield/icon/murkrow.png" /></td>
+<td>Murkrow</td>
+<td>405</td>
+<td>60</td>
+<td>85</td>
+<td>42</td>
+<td>85</td>
+<td>42</td>
+<td>91</td>
+</tr>
+<tr>
+<td><img alt="Musharna" src="https://img.pokemondb.net/sprites/sword-shield/icon/musharna.png" /></td>
+<td>Musharna</td>
+<td>487</td>
+<td>116</td>
+<td>55</td>
+<td>85</td>
+<td>107</td>
+<td>95</td>
+<td>29</td>
+</tr>
+<tr>
+<td><img alt="Naganadel" src="https://img.pokemondb.net/sprites/sword-shield/icon/naganadel.png" /></td>
+<td>Naganadel</td>
+<td>540</td>
+<td>73</td>
+<td>73</td>
+<td>73</td>
+<td>127</td>
+<td>73</td>
+<td>121</td>
+</tr>
+<tr>
+<td><img alt="Natu" src="https://img.pokemondb.net/sprites/sword-shield/icon/natu.png" /></td>
+<td>Natu</td>
+<td>320</td>
+<td>40</td>
+<td>50</td>
+<td>45</td>
+<td>70</td>
+<td>45</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Necrozma" src="https://img.pokemondb.net/sprites/sword-shield/icon/necrozma.png" /></td>
+<td>Necrozma</td>
+<td>600</td>
+<td>97</td>
+<td>107</td>
+<td>101</td>
+<td>127</td>
+<td>89</td>
+<td>79</td>
+</tr>
+<tr>
+<td><img alt="Nickit" src="https://img.pokemondb.net/sprites/sword-shield/icon/nickit.png" /></td>
+<td>Nickit</td>
+<td>245</td>
+<td>40</td>
+<td>28</td>
+<td>28</td>
+<td>47</td>
+<td>52</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Nidoking" src="https://img.pokemondb.net/sprites/sword-shield/icon/nidoking.png" /></td>
+<td>Nidoking</td>
+<td>495</td>
+<td>81</td>
+<td>92</td>
+<td>77</td>
+<td>85</td>
+<td>75</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Nidoqueen" src="https://img.pokemondb.net/sprites/sword-shield/icon/nidoqueen.png" /></td>
+<td>Nidoqueen</td>
+<td>495</td>
+<td>90</td>
+<td>82</td>
+<td>87</td>
+<td>75</td>
+<td>85</td>
+<td>76</td>
+</tr>
+<tr>
+<td><img alt="Nidorina" src="https://img.pokemondb.net/sprites/sword-shield/icon/nidorina.png" /></td>
+<td>Nidorina</td>
+<td>365</td>
+<td>70</td>
+<td>62</td>
+<td>67</td>
+<td>55</td>
+<td>55</td>
+<td>56</td>
+</tr>
+<tr>
+<td><img alt="Nidorino" src="https://img.pokemondb.net/sprites/sword-shield/icon/nidorino.png" /></td>
+<td>Nidorino</td>
+<td>365</td>
+<td>61</td>
+<td>72</td>
+<td>57</td>
+<td>55</td>
+<td>55</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Nihilego" src="https://img.pokemondb.net/sprites/sword-shield/icon/nihilego.png" /></td>
+<td>Nihilego</td>
+<td>570</td>
+<td>109</td>
+<td>53</td>
+<td>47</td>
+<td>127</td>
+<td>131</td>
+<td>103</td>
+</tr>
+<tr>
+<td><img alt="Nincada" src="https://img.pokemondb.net/sprites/sword-shield/icon/nincada.png" /></td>
+<td>Nincada</td>
+<td>266</td>
+<td>31</td>
+<td>45</td>
+<td>90</td>
+<td>30</td>
+<td>30</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Ninetales" src="https://img.pokemondb.net/sprites/sword-shield/icon/ninetales.png" /></td>
+<td>Ninetales</td>
+<td>505</td>
+<td>73</td>
+<td>76</td>
+<td>75</td>
+<td>81</td>
+<td>100</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Ninjask" src="https://img.pokemondb.net/sprites/sword-shield/icon/ninjask.png" /></td>
+<td>Ninjask</td>
+<td>456</td>
+<td>61</td>
+<td>90</td>
+<td>45</td>
+<td>50</td>
+<td>50</td>
+<td>160</td>
+</tr>
+<tr>
+<td><img alt="Noctowl" src="https://img.pokemondb.net/sprites/sword-shield/icon/noctowl.png" /></td>
+<td>Noctowl</td>
+<td>442</td>
+<td>100</td>
+<td>50</td>
+<td>50</td>
+<td>76</td>
+<td>96</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Noibat" src="https://img.pokemondb.net/sprites/sword-shield/icon/noibat.png" /></td>
+<td>Noibat</td>
+<td>245</td>
+<td>40</td>
+<td>30</td>
+<td>35</td>
+<td>45</td>
+<td>40</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Noivern" src="https://img.pokemondb.net/sprites/sword-shield/icon/noivern.png" /></td>
+<td>Noivern</td>
+<td>535</td>
+<td>85</td>
+<td>70</td>
+<td>80</td>
+<td>97</td>
+<td>80</td>
+<td>123</td>
+</tr>
+<tr>
+<td><img alt="Nosepass" src="https://img.pokemondb.net/sprites/sword-shield/icon/nosepass.png" /></td>
+<td>Nosepass</td>
+<td>375</td>
+<td>30</td>
+<td>45</td>
+<td>135</td>
+<td>45</td>
+<td>90</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Numel" src="https://img.pokemondb.net/sprites/sword-shield/icon/numel.png" /></td>
+<td>Numel</td>
+<td>305</td>
+<td>60</td>
+<td>60</td>
+<td>40</td>
+<td>65</td>
+<td>45</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Nuzleaf" src="https://img.pokemondb.net/sprites/sword-shield/icon/nuzleaf.png" /></td>
+<td>Nuzleaf</td>
+<td>340</td>
+<td>70</td>
+<td>70</td>
+<td>40</td>
+<td>60</td>
+<td>40</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Obstagoon" src="https://img.pokemondb.net/sprites/sword-shield/icon/obstagoon.png" /></td>
+<td>Obstagoon</td>
+<td>520</td>
+<td>93</td>
+<td>90</td>
+<td>101</td>
+<td>60</td>
+<td>81</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Octillery" src="https://img.pokemondb.net/sprites/sword-shield/icon/octillery.png" /></td>
+<td>Octillery</td>
+<td>480</td>
+<td>75</td>
+<td>105</td>
+<td>75</td>
+<td>105</td>
+<td>75</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Oddish" src="https://img.pokemondb.net/sprites/sword-shield/icon/oddish.png" /></td>
+<td>Oddish</td>
+<td>320</td>
+<td>45</td>
+<td>50</td>
+<td>55</td>
+<td>75</td>
+<td>65</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Omanyte" src="https://img.pokemondb.net/sprites/sword-shield/icon/omanyte.png" /></td>
+<td>Omanyte</td>
+<td>355</td>
+<td>35</td>
+<td>40</td>
+<td>100</td>
+<td>90</td>
+<td>55</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Omastar" src="https://img.pokemondb.net/sprites/sword-shield/icon/omastar.png" /></td>
+<td>Omastar</td>
+<td>495</td>
+<td>70</td>
+<td>60</td>
+<td>125</td>
+<td>115</td>
+<td>70</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Onix" src="https://img.pokemondb.net/sprites/sword-shield/icon/onix.png" /></td>
+<td>Onix</td>
+<td>385</td>
+<td>35</td>
+<td>45</td>
+<td>160</td>
+<td>30</td>
+<td>45</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Oranguru" src="https://img.pokemondb.net/sprites/sword-shield/icon/oranguru.png" /></td>
+<td>Oranguru</td>
+<td>490</td>
+<td>90</td>
+<td>60</td>
+<td>80</td>
+<td>90</td>
+<td>110</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Orbeetle" src="https://img.pokemondb.net/sprites/sword-shield/icon/orbeetle.png" /></td>
+<td>Orbeetle</td>
+<td>505</td>
+<td>60</td>
+<td>45</td>
+<td>110</td>
+<td>80</td>
+<td>120</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Oshawott" src="https://img.pokemondb.net/sprites/sword-shield/icon/oshawott.png" /></td>
+<td>Oshawott</td>
+<td>308</td>
+<td>55</td>
+<td>55</td>
+<td>45</td>
+<td>63</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Overqwil" src="https://img.pokemondb.net/sprites/sword-shield/icon/overqwil.png" /></td>
+<td>Overqwil</td>
+<td>510</td>
+<td>85</td>
+<td>115</td>
+<td>95</td>
+<td>65</td>
+<td>65</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Pachirisu" src="https://img.pokemondb.net/sprites/sword-shield/icon/pachirisu.png" /></td>
+<td>Pachirisu</td>
+<td>405</td>
+<td>60</td>
+<td>45</td>
+<td>70</td>
+<td>45</td>
+<td>90</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Palkia" src="https://img.pokemondb.net/sprites/sword-shield/icon/palkia.png" /></td>
+<td>Palkia</td>
+<td>680</td>
+<td>90</td>
+<td>120</td>
+<td>100</td>
+<td>150</td>
+<td>120</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Palossand" src="https://img.pokemondb.net/sprites/sword-shield/icon/palossand.png" /></td>
+<td>Palossand</td>
+<td>480</td>
+<td>85</td>
+<td>75</td>
+<td>110</td>
+<td>100</td>
+<td>75</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Palpitoad" src="https://img.pokemondb.net/sprites/sword-shield/icon/palpitoad.png" /></td>
+<td>Palpitoad</td>
+<td>384</td>
+<td>75</td>
+<td>65</td>
+<td>55</td>
+<td>65</td>
+<td>55</td>
+<td>69</td>
+</tr>
+<tr>
+<td><img alt="Pancham" src="https://img.pokemondb.net/sprites/sword-shield/icon/pancham.png" /></td>
+<td>Pancham</td>
+<td>348</td>
+<td>67</td>
+<td>82</td>
+<td>62</td>
+<td>46</td>
+<td>48</td>
+<td>43</td>
+</tr>
+<tr>
+<td><img alt="Pangoro" src="https://img.pokemondb.net/sprites/sword-shield/icon/pangoro.png" /></td>
+<td>Pangoro</td>
+<td>495</td>
+<td>95</td>
+<td>124</td>
+<td>78</td>
+<td>69</td>
+<td>71</td>
+<td>58</td>
+</tr>
+<tr>
+<td><img alt="Panpour" src="https://img.pokemondb.net/sprites/sword-shield/icon/panpour.png" /></td>
+<td>Panpour</td>
+<td>316</td>
+<td>50</td>
+<td>53</td>
+<td>48</td>
+<td>53</td>
+<td>48</td>
+<td>64</td>
+</tr>
+<tr>
+<td><img alt="Pansage" src="https://img.pokemondb.net/sprites/sword-shield/icon/pansage.png" /></td>
+<td>Pansage</td>
+<td>316</td>
+<td>50</td>
+<td>53</td>
+<td>48</td>
+<td>53</td>
+<td>48</td>
+<td>64</td>
+</tr>
+<tr>
+<td><img alt="Pansear" src="https://img.pokemondb.net/sprites/sword-shield/icon/pansear.png" /></td>
+<td>Pansear</td>
+<td>316</td>
+<td>50</td>
+<td>53</td>
+<td>48</td>
+<td>53</td>
+<td>48</td>
+<td>64</td>
+</tr>
+<tr>
+<td><img alt="Paras" src="https://img.pokemondb.net/sprites/sword-shield/icon/paras.png" /></td>
+<td>Paras</td>
+<td>285</td>
+<td>35</td>
+<td>70</td>
+<td>55</td>
+<td>45</td>
+<td>55</td>
+<td>25</td>
+</tr>
+<tr>
+<td><img alt="Parasect" src="https://img.pokemondb.net/sprites/sword-shield/icon/parasect.png" /></td>
+<td>Parasect</td>
+<td>405</td>
+<td>60</td>
+<td>95</td>
+<td>80</td>
+<td>60</td>
+<td>80</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Passimian" src="https://img.pokemondb.net/sprites/sword-shield/icon/passimian.png" /></td>
+<td>Passimian</td>
+<td>490</td>
+<td>100</td>
+<td>120</td>
+<td>90</td>
+<td>40</td>
+<td>60</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Patrat" src="https://img.pokemondb.net/sprites/sword-shield/icon/patrat.png" /></td>
+<td>Patrat</td>
+<td>255</td>
+<td>45</td>
+<td>55</td>
+<td>39</td>
+<td>35</td>
+<td>39</td>
+<td>42</td>
+</tr>
+<tr>
+<td><img alt="Pawniard" src="https://img.pokemondb.net/sprites/sword-shield/icon/pawniard.png" /></td>
+<td>Pawniard</td>
+<td>340</td>
+<td>45</td>
+<td>85</td>
+<td>70</td>
+<td>40</td>
+<td>40</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Pelipper" src="https://img.pokemondb.net/sprites/sword-shield/icon/pelipper.png" /></td>
+<td>Pelipper</td>
+<td>430</td>
+<td>60</td>
+<td>50</td>
+<td>100</td>
+<td>85</td>
+<td>70</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Perrserker" src="https://img.pokemondb.net/sprites/sword-shield/icon/perrserker.png" /></td>
+<td>Perrserker</td>
+<td>440</td>
+<td>70</td>
+<td>110</td>
+<td>100</td>
+<td>50</td>
+<td>60</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Persian" src="https://img.pokemondb.net/sprites/sword-shield/icon/persian.png" /></td>
+<td>Persian</td>
+<td>440</td>
+<td>65</td>
+<td>70</td>
+<td>60</td>
+<td>65</td>
+<td>65</td>
+<td>115</td>
+</tr>
+<tr>
+<td><img alt="Petilil" src="https://img.pokemondb.net/sprites/sword-shield/icon/petilil.png" /></td>
+<td>Petilil</td>
+<td>280</td>
+<td>45</td>
+<td>35</td>
+<td>50</td>
+<td>70</td>
+<td>50</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Phanpy" src="https://img.pokemondb.net/sprites/sword-shield/icon/phanpy.png" /></td>
+<td>Phanpy</td>
+<td>330</td>
+<td>90</td>
+<td>60</td>
+<td>60</td>
+<td>40</td>
+<td>40</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Phantump" src="https://img.pokemondb.net/sprites/sword-shield/icon/phantump.png" /></td>
+<td>Phantump</td>
+<td>309</td>
+<td>43</td>
+<td>70</td>
+<td>48</td>
+<td>50</td>
+<td>60</td>
+<td>38</td>
+</tr>
+<tr>
+<td><img alt="Pheromosa" src="https://img.pokemondb.net/sprites/sword-shield/icon/pheromosa.png" /></td>
+<td>Pheromosa</td>
+<td>570</td>
+<td>71</td>
+<td>137</td>
+<td>37</td>
+<td>137</td>
+<td>37</td>
+<td>151</td>
+</tr>
+<tr>
+<td><img alt="Phione" src="https://img.pokemondb.net/sprites/sword-shield/icon/phione.png" /></td>
+<td>Phione</td>
+<td>480</td>
+<td>80</td>
+<td>80</td>
+<td>80</td>
+<td>80</td>
+<td>80</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Pidgeot" src="https://img.pokemondb.net/sprites/sword-shield/icon/pidgeot.png" /></td>
+<td>Pidgeot</td>
+<td>469</td>
+<td>83</td>
+<td>80</td>
+<td>75</td>
+<td>70</td>
+<td>70</td>
+<td>91</td>
+</tr>
+<tr>
+<td><img alt="Pidgeotto" src="https://img.pokemondb.net/sprites/sword-shield/icon/pidgeotto.png" /></td>
+<td>Pidgeotto</td>
+<td>349</td>
+<td>63</td>
+<td>60</td>
+<td>55</td>
+<td>50</td>
+<td>50</td>
+<td>71</td>
+</tr>
+<tr>
+<td><img alt="Pidgey" src="https://img.pokemondb.net/sprites/sword-shield/icon/pidgey.png" /></td>
+<td>Pidgey</td>
+<td>251</td>
+<td>40</td>
+<td>45</td>
+<td>40</td>
+<td>35</td>
+<td>35</td>
+<td>56</td>
+</tr>
+<tr>
+<td><img alt="Pidove" src="https://img.pokemondb.net/sprites/sword-shield/icon/pidove.png" /></td>
+<td>Pidove</td>
+<td>264</td>
+<td>50</td>
+<td>55</td>
+<td>50</td>
+<td>36</td>
+<td>30</td>
+<td>43</td>
+</tr>
+<tr>
+<td><img alt="Pignite" src="https://img.pokemondb.net/sprites/sword-shield/icon/pignite.png" /></td>
+<td>Pignite</td>
+<td>418</td>
+<td>90</td>
+<td>93</td>
+<td>55</td>
+<td>70</td>
+<td>55</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Pikipek" src="https://img.pokemondb.net/sprites/sword-shield/icon/pikipek.png" /></td>
+<td>Pikipek</td>
+<td>265</td>
+<td>35</td>
+<td>75</td>
+<td>30</td>
+<td>30</td>
+<td>30</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Piloswine" src="https://img.pokemondb.net/sprites/sword-shield/icon/piloswine.png" /></td>
+<td>Piloswine</td>
+<td>450</td>
+<td>100</td>
+<td>100</td>
+<td>80</td>
+<td>60</td>
+<td>60</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Pincurchin" src="https://img.pokemondb.net/sprites/sword-shield/icon/pincurchin.png" /></td>
+<td>Pincurchin</td>
+<td>435</td>
+<td>48</td>
+<td>101</td>
+<td>95</td>
+<td>91</td>
+<td>85</td>
+<td>15</td>
+</tr>
+<tr>
+<td><img alt="Pineco" src="https://img.pokemondb.net/sprites/sword-shield/icon/pineco.png" /></td>
+<td>Pineco</td>
+<td>290</td>
+<td>50</td>
+<td>65</td>
+<td>90</td>
+<td>35</td>
+<td>35</td>
+<td>15</td>
+</tr>
+<tr>
+<td><img alt="Pinsir" src="https://img.pokemondb.net/sprites/sword-shield/icon/pinsir.png" /></td>
+<td>Pinsir</td>
+<td>500</td>
+<td>65</td>
+<td>125</td>
+<td>100</td>
+<td>55</td>
+<td>70</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Piplup" src="https://img.pokemondb.net/sprites/sword-shield/icon/piplup.png" /></td>
+<td>Piplup</td>
+<td>314</td>
+<td>53</td>
+<td>51</td>
+<td>53</td>
+<td>61</td>
+<td>56</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Plusle" src="https://img.pokemondb.net/sprites/sword-shield/icon/plusle.png" /></td>
+<td>Plusle</td>
+<td>405</td>
+<td>60</td>
+<td>50</td>
+<td>40</td>
+<td>85</td>
+<td>75</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Poipole" src="https://img.pokemondb.net/sprites/sword-shield/icon/poipole.png" /></td>
+<td>Poipole</td>
+<td>420</td>
+<td>67</td>
+<td>73</td>
+<td>67</td>
+<td>73</td>
+<td>67</td>
+<td>73</td>
+</tr>
+<tr>
+<td><img alt="Politoed" src="https://img.pokemondb.net/sprites/sword-shield/icon/politoed.png" /></td>
+<td>Politoed</td>
+<td>500</td>
+<td>90</td>
+<td>75</td>
+<td>75</td>
+<td>90</td>
+<td>100</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Poliwag" src="https://img.pokemondb.net/sprites/sword-shield/icon/poliwag.png" /></td>
+<td>Poliwag</td>
+<td>300</td>
+<td>40</td>
+<td>50</td>
+<td>40</td>
+<td>40</td>
+<td>40</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Poliwhirl" src="https://img.pokemondb.net/sprites/sword-shield/icon/poliwhirl.png" /></td>
+<td>Poliwhirl</td>
+<td>385</td>
+<td>65</td>
+<td>65</td>
+<td>65</td>
+<td>50</td>
+<td>50</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Poliwrath" src="https://img.pokemondb.net/sprites/sword-shield/icon/poliwrath.png" /></td>
+<td>Poliwrath</td>
+<td>500</td>
+<td>90</td>
+<td>85</td>
+<td>95</td>
+<td>70</td>
+<td>90</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Ponyta" src="https://img.pokemondb.net/sprites/sword-shield/icon/ponyta.png" /></td>
+<td>Ponyta</td>
+<td>410</td>
+<td>50</td>
+<td>85</td>
+<td>55</td>
+<td>65</td>
+<td>65</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Poochyena" src="https://img.pokemondb.net/sprites/sword-shield/icon/poochyena.png" /></td>
+<td>Poochyena</td>
+<td>220</td>
+<td>35</td>
+<td>55</td>
+<td>35</td>
+<td>30</td>
+<td>30</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Popplio" src="https://img.pokemondb.net/sprites/sword-shield/icon/popplio.png" /></td>
+<td>Popplio</td>
+<td>320</td>
+<td>50</td>
+<td>54</td>
+<td>54</td>
+<td>66</td>
+<td>56</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Porygon" src="https://img.pokemondb.net/sprites/sword-shield/icon/porygon.png" /></td>
+<td>Porygon</td>
+<td>395</td>
+<td>65</td>
+<td>60</td>
+<td>70</td>
+<td>85</td>
+<td>75</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Porygon2" src="https://img.pokemondb.net/sprites/sword-shield/icon/porygon2.png" /></td>
+<td>Porygon2</td>
+<td>515</td>
+<td>85</td>
+<td>80</td>
+<td>90</td>
+<td>105</td>
+<td>95</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Primarina" src="https://img.pokemondb.net/sprites/sword-shield/icon/primarina.png" /></td>
+<td>Primarina</td>
+<td>530</td>
+<td>80</td>
+<td>74</td>
+<td>74</td>
+<td>126</td>
+<td>116</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Primeape" src="https://img.pokemondb.net/sprites/sword-shield/icon/primeape.png" /></td>
+<td>Primeape</td>
+<td>455</td>
+<td>65</td>
+<td>105</td>
+<td>60</td>
+<td>60</td>
+<td>70</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Prinplup" src="https://img.pokemondb.net/sprites/sword-shield/icon/prinplup.png" /></td>
+<td>Prinplup</td>
+<td>405</td>
+<td>64</td>
+<td>66</td>
+<td>68</td>
+<td>81</td>
+<td>76</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Probopass" src="https://img.pokemondb.net/sprites/sword-shield/icon/probopass.png" /></td>
+<td>Probopass</td>
+<td>525</td>
+<td>60</td>
+<td>55</td>
+<td>145</td>
+<td>75</td>
+<td>150</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Psyduck" src="https://img.pokemondb.net/sprites/sword-shield/icon/psyduck.png" /></td>
+<td>Psyduck</td>
+<td>320</td>
+<td>50</td>
+<td>52</td>
+<td>48</td>
+<td>65</td>
+<td>50</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Pumpkaboo" src="https://img.pokemondb.net/sprites/sword-shield/icon/pumpkaboo.png" /></td>
+<td>Pumpkaboo</td>
+<td>335</td>
+<td>49</td>
+<td>66</td>
+<td>70</td>
+<td>44</td>
+<td>55</td>
+<td>51</td>
+</tr>
+<tr>
+<td><img alt="Pupitar" src="https://img.pokemondb.net/sprites/sword-shield/icon/pupitar.png" /></td>
+<td>Pupitar</td>
+<td>410</td>
+<td>70</td>
+<td>84</td>
+<td>70</td>
+<td>65</td>
+<td>70</td>
+<td>51</td>
+</tr>
+<tr>
+<td><img alt="Purrloin" src="https://img.pokemondb.net/sprites/sword-shield/icon/purrloin.png" /></td>
+<td>Purrloin</td>
+<td>281</td>
+<td>41</td>
+<td>50</td>
+<td>37</td>
+<td>50</td>
+<td>37</td>
+<td>66</td>
+</tr>
+<tr>
+<td><img alt="Purugly" src="https://img.pokemondb.net/sprites/sword-shield/icon/purugly.png" /></td>
+<td>Purugly</td>
+<td>452</td>
+<td>71</td>
+<td>82</td>
+<td>64</td>
+<td>64</td>
+<td>59</td>
+<td>112</td>
+</tr>
+<tr>
+<td><img alt="Pyroar" src="https://img.pokemondb.net/sprites/sword-shield/icon/pyroar.png" /></td>
+<td>Pyroar</td>
+<td>507</td>
+<td>86</td>
+<td>68</td>
+<td>72</td>
+<td>109</td>
+<td>66</td>
+<td>106</td>
+</tr>
+<tr>
+<td><img alt="Pyukumuku" src="https://img.pokemondb.net/sprites/sword-shield/icon/pyukumuku.png" /></td>
+<td>Pyukumuku</td>
+<td>410</td>
+<td>55</td>
+<td>60</td>
+<td>130</td>
+<td>30</td>
+<td>130</td>
+<td>5</td>
+</tr>
+<tr>
+<td><img alt="Quagsire" src="https://img.pokemondb.net/sprites/sword-shield/icon/quagsire.png" /></td>
+<td>Quagsire</td>
+<td>430</td>
+<td>95</td>
+<td>85</td>
+<td>85</td>
+<td>65</td>
+<td>65</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Quilava" src="https://img.pokemondb.net/sprites/sword-shield/icon/quilava.png" /></td>
+<td>Quilava</td>
+<td>405</td>
+<td>58</td>
+<td>64</td>
+<td>58</td>
+<td>80</td>
+<td>65</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Quilladin" src="https://img.pokemondb.net/sprites/sword-shield/icon/quilladin.png" /></td>
+<td>Quilladin</td>
+<td>405</td>
+<td>61</td>
+<td>78</td>
+<td>95</td>
+<td>56</td>
+<td>58</td>
+<td>57</td>
+</tr>
+<tr>
+<td><img alt="Qwilfish" src="https://img.pokemondb.net/sprites/sword-shield/icon/qwilfish.png" /></td>
+<td>Qwilfish</td>
+<td>430</td>
+<td>65</td>
+<td>95</td>
+<td>75</td>
+<td>55</td>
+<td>55</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Raboot" src="https://img.pokemondb.net/sprites/sword-shield/icon/raboot.png" /></td>
+<td>Raboot</td>
+<td>420</td>
+<td>65</td>
+<td>86</td>
+<td>60</td>
+<td>55</td>
+<td>60</td>
+<td>94</td>
+</tr>
+<tr>
+<td><img alt="Raichu" src="https://img.pokemondb.net/sprites/sword-shield/icon/raichu.png" /></td>
+<td>Raichu</td>
+<td>475</td>
+<td>60</td>
+<td>90</td>
+<td>55</td>
+<td>90</td>
+<td>80</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Raikou" src="https://img.pokemondb.net/sprites/sword-shield/icon/raikou.png" /></td>
+<td>Raikou</td>
+<td>580</td>
+<td>90</td>
+<td>85</td>
+<td>75</td>
+<td>115</td>
+<td>100</td>
+<td>115</td>
+</tr>
+<tr>
+<td><img alt="Ralts" src="https://img.pokemondb.net/sprites/sword-shield/icon/ralts.png" /></td>
+<td>Ralts</td>
+<td>198</td>
+<td>28</td>
+<td>25</td>
+<td>25</td>
+<td>45</td>
+<td>35</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Rampardos" src="https://img.pokemondb.net/sprites/sword-shield/icon/rampardos.png" /></td>
+<td>Rampardos</td>
+<td>495</td>
+<td>97</td>
+<td>165</td>
+<td>60</td>
+<td>65</td>
+<td>50</td>
+<td>58</td>
+</tr>
+<tr>
+<td><img alt="Rapidash" src="https://img.pokemondb.net/sprites/sword-shield/icon/rapidash.png" /></td>
+<td>Rapidash</td>
+<td>500</td>
+<td>65</td>
+<td>100</td>
+<td>70</td>
+<td>80</td>
+<td>80</td>
+<td>105</td>
+</tr>
+<tr>
+<td><img alt="Raticate" src="https://img.pokemondb.net/sprites/sword-shield/icon/raticate.png" /></td>
+<td>Raticate</td>
+<td>413</td>
+<td>55</td>
+<td>81</td>
+<td>60</td>
+<td>50</td>
+<td>70</td>
+<td>97</td>
+</tr>
+<tr>
+<td><img alt="Rattata" src="https://img.pokemondb.net/sprites/sword-shield/icon/rattata.png" /></td>
+<td>Rattata</td>
+<td>253</td>
+<td>30</td>
+<td>56</td>
+<td>35</td>
+<td>25</td>
+<td>35</td>
+<td>72</td>
+</tr>
+<tr>
+<td><img alt="Rayquaza" src="https://img.pokemondb.net/sprites/sword-shield/icon/rayquaza.png" /></td>
+<td>Rayquaza</td>
+<td>680</td>
+<td>105</td>
+<td>150</td>
+<td>90</td>
+<td>150</td>
+<td>90</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Regice" src="https://img.pokemondb.net/sprites/sword-shield/icon/regice.png" /></td>
+<td>Regice</td>
+<td>580</td>
+<td>80</td>
+<td>50</td>
+<td>100</td>
+<td>100</td>
+<td>200</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Regidrago" src="https://img.pokemondb.net/sprites/sword-shield/icon/regidrago.png" /></td>
+<td>Regidrago</td>
+<td>580</td>
+<td>200</td>
+<td>100</td>
+<td>50</td>
+<td>100</td>
+<td>50</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Regieleki" src="https://img.pokemondb.net/sprites/sword-shield/icon/regieleki.png" /></td>
+<td>Regieleki</td>
+<td>580</td>
+<td>80</td>
+<td>100</td>
+<td>50</td>
+<td>100</td>
+<td>50</td>
+<td>200</td>
+</tr>
+<tr>
+<td><img alt="Regigigas" src="https://img.pokemondb.net/sprites/sword-shield/icon/regigigas.png" /></td>
+<td>Regigigas</td>
+<td>670</td>
+<td>110</td>
+<td>160</td>
+<td>110</td>
+<td>80</td>
+<td>110</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Regirock" src="https://img.pokemondb.net/sprites/sword-shield/icon/regirock.png" /></td>
+<td>Regirock</td>
+<td>580</td>
+<td>80</td>
+<td>100</td>
+<td>200</td>
+<td>50</td>
+<td>100</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Registeel" src="https://img.pokemondb.net/sprites/sword-shield/icon/registeel.png" /></td>
+<td>Registeel</td>
+<td>580</td>
+<td>80</td>
+<td>75</td>
+<td>150</td>
+<td>75</td>
+<td>150</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Relicanth" src="https://img.pokemondb.net/sprites/sword-shield/icon/relicanth.png" /></td>
+<td>Relicanth</td>
+<td>485</td>
+<td>100</td>
+<td>90</td>
+<td>130</td>
+<td>45</td>
+<td>65</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Remoraid" src="https://img.pokemondb.net/sprites/sword-shield/icon/remoraid.png" /></td>
+<td>Remoraid</td>
+<td>300</td>
+<td>35</td>
+<td>65</td>
+<td>35</td>
+<td>65</td>
+<td>35</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Reshiram" src="https://img.pokemondb.net/sprites/sword-shield/icon/reshiram.png" /></td>
+<td>Reshiram</td>
+<td>680</td>
+<td>100</td>
+<td>120</td>
+<td>100</td>
+<td>150</td>
+<td>120</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Reuniclus" src="https://img.pokemondb.net/sprites/sword-shield/icon/reuniclus.png" /></td>
+<td>Reuniclus</td>
+<td>490</td>
+<td>110</td>
+<td>65</td>
+<td>75</td>
+<td>125</td>
+<td>85</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Rhydon" src="https://img.pokemondb.net/sprites/sword-shield/icon/rhydon.png" /></td>
+<td>Rhydon</td>
+<td>485</td>
+<td>105</td>
+<td>130</td>
+<td>120</td>
+<td>45</td>
+<td>45</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Rhyhorn" src="https://img.pokemondb.net/sprites/sword-shield/icon/rhyhorn.png" /></td>
+<td>Rhyhorn</td>
+<td>345</td>
+<td>80</td>
+<td>85</td>
+<td>95</td>
+<td>30</td>
+<td>30</td>
+<td>25</td>
+</tr>
+<tr>
+<td><img alt="Rhyperior" src="https://img.pokemondb.net/sprites/sword-shield/icon/rhyperior.png" /></td>
+<td>Rhyperior</td>
+<td>535</td>
+<td>115</td>
+<td>140</td>
+<td>130</td>
+<td>55</td>
+<td>55</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Ribombee" src="https://img.pokemondb.net/sprites/sword-shield/icon/ribombee.png" /></td>
+<td>Ribombee</td>
+<td>464</td>
+<td>60</td>
+<td>55</td>
+<td>60</td>
+<td>95</td>
+<td>70</td>
+<td>124</td>
+</tr>
+<tr>
+<td><img alt="Rillaboom" src="https://img.pokemondb.net/sprites/sword-shield/icon/rillaboom.png" /></td>
+<td>Rillaboom</td>
+<td>530</td>
+<td>100</td>
+<td>125</td>
+<td>90</td>
+<td>60</td>
+<td>70</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Riolu" src="https://img.pokemondb.net/sprites/sword-shield/icon/riolu.png" /></td>
+<td>Riolu</td>
+<td>285</td>
+<td>40</td>
+<td>70</td>
+<td>40</td>
+<td>35</td>
+<td>40</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Roggenrola" src="https://img.pokemondb.net/sprites/sword-shield/icon/roggenrola.png" /></td>
+<td>Roggenrola</td>
+<td>280</td>
+<td>55</td>
+<td>75</td>
+<td>85</td>
+<td>25</td>
+<td>25</td>
+<td>15</td>
+</tr>
+<tr>
+<td><img alt="Rolycoly" src="https://img.pokemondb.net/sprites/sword-shield/icon/rolycoly.png" /></td>
+<td>Rolycoly</td>
+<td>240</td>
+<td>30</td>
+<td>40</td>
+<td>50</td>
+<td>40</td>
+<td>50</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Rookidee" src="https://img.pokemondb.net/sprites/sword-shield/icon/rookidee.png" /></td>
+<td>Rookidee</td>
+<td>245</td>
+<td>38</td>
+<td>47</td>
+<td>35</td>
+<td>33</td>
+<td>35</td>
+<td>57</td>
+</tr>
+<tr>
+<td><img alt="Roselia" src="https://img.pokemondb.net/sprites/sword-shield/icon/roselia.png" /></td>
+<td>Roselia</td>
+<td>400</td>
+<td>50</td>
+<td>60</td>
+<td>45</td>
+<td>100</td>
+<td>80</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Roserade" src="https://img.pokemondb.net/sprites/sword-shield/icon/roserade.png" /></td>
+<td>Roserade</td>
+<td>505</td>
+<td>60</td>
+<td>70</td>
+<td>55</td>
+<td>125</td>
+<td>105</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Rotom" src="https://img.pokemondb.net/sprites/sword-shield/icon/rotom.png" /></td>
+<td>Rotom</td>
+<td>440</td>
+<td>50</td>
+<td>50</td>
+<td>77</td>
+<td>95</td>
+<td>77</td>
+<td>91</td>
+</tr>
+<tr>
+<td><img alt="Rowlet" src="https://img.pokemondb.net/sprites/sword-shield/icon/rowlet.png" /></td>
+<td>Rowlet</td>
+<td>320</td>
+<td>68</td>
+<td>55</td>
+<td>55</td>
+<td>50</td>
+<td>50</td>
+<td>42</td>
+</tr>
+<tr>
+<td><img alt="Rufflet" src="https://img.pokemondb.net/sprites/sword-shield/icon/rufflet.png" /></td>
+<td>Rufflet</td>
+<td>350</td>
+<td>70</td>
+<td>83</td>
+<td>50</td>
+<td>37</td>
+<td>50</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Runerigus" src="https://img.pokemondb.net/sprites/sword-shield/icon/runerigus.png" /></td>
+<td>Runerigus</td>
+<td>483</td>
+<td>58</td>
+<td>95</td>
+<td>145</td>
+<td>50</td>
+<td>105</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Sableye" src="https://img.pokemondb.net/sprites/sword-shield/icon/sableye.png" /></td>
+<td>Sableye</td>
+<td>380</td>
+<td>50</td>
+<td>75</td>
+<td>75</td>
+<td>65</td>
+<td>65</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Salamence" src="https://img.pokemondb.net/sprites/sword-shield/icon/salamence.png" /></td>
+<td>Salamence</td>
+<td>600</td>
+<td>95</td>
+<td>135</td>
+<td>80</td>
+<td>110</td>
+<td>80</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Salandit" src="https://img.pokemondb.net/sprites/sword-shield/icon/salandit.png" /></td>
+<td>Salandit</td>
+<td>320</td>
+<td>48</td>
+<td>44</td>
+<td>40</td>
+<td>71</td>
+<td>40</td>
+<td>77</td>
+</tr>
+<tr>
+<td><img alt="Salazzle" src="https://img.pokemondb.net/sprites/sword-shield/icon/salazzle.png" /></td>
+<td>Salazzle</td>
+<td>480</td>
+<td>68</td>
+<td>64</td>
+<td>60</td>
+<td>111</td>
+<td>60</td>
+<td>117</td>
+</tr>
+<tr>
+<td><img alt="Samurott" src="https://img.pokemondb.net/sprites/sword-shield/icon/samurott.png" /></td>
+<td>Samurott</td>
+<td>528</td>
+<td>95</td>
+<td>100</td>
+<td>85</td>
+<td>108</td>
+<td>70</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Sandaconda" src="https://img.pokemondb.net/sprites/sword-shield/icon/sandaconda.png" /></td>
+<td>Sandaconda</td>
+<td>510</td>
+<td>72</td>
+<td>107</td>
+<td>125</td>
+<td>65</td>
+<td>70</td>
+<td>71</td>
+</tr>
+<tr>
+<td><img alt="Sandile" src="https://img.pokemondb.net/sprites/sword-shield/icon/sandile.png" /></td>
+<td>Sandile</td>
+<td>292</td>
+<td>50</td>
+<td>72</td>
+<td>35</td>
+<td>35</td>
+<td>35</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Sandshrew" src="https://img.pokemondb.net/sprites/sword-shield/icon/sandshrew.png" /></td>
+<td>Sandshrew</td>
+<td>300</td>
+<td>50</td>
+<td>75</td>
+<td>85</td>
+<td>20</td>
+<td>30</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Sandslash" src="https://img.pokemondb.net/sprites/sword-shield/icon/sandslash.png" /></td>
+<td>Sandslash</td>
+<td>450</td>
+<td>75</td>
+<td>100</td>
+<td>110</td>
+<td>45</td>
+<td>55</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Sandygast" src="https://img.pokemondb.net/sprites/sword-shield/icon/sandygast.png" /></td>
+<td>Sandygast</td>
+<td>320</td>
+<td>55</td>
+<td>55</td>
+<td>80</td>
+<td>70</td>
+<td>45</td>
+<td>15</td>
+</tr>
+<tr>
+<td><img alt="Sawk" src="https://img.pokemondb.net/sprites/sword-shield/icon/sawk.png" /></td>
+<td>Sawk</td>
+<td>465</td>
+<td>75</td>
+<td>125</td>
+<td>75</td>
+<td>30</td>
+<td>75</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Scatterbug" src="https://img.pokemondb.net/sprites/sword-shield/icon/scatterbug.png" /></td>
+<td>Scatterbug</td>
+<td>200</td>
+<td>38</td>
+<td>35</td>
+<td>40</td>
+<td>27</td>
+<td>25</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Sceptile" src="https://img.pokemondb.net/sprites/sword-shield/icon/sceptile.png" /></td>
+<td>Sceptile</td>
+<td>530</td>
+<td>70</td>
+<td>85</td>
+<td>65</td>
+<td>105</td>
+<td>85</td>
+<td>120</td>
+</tr>
+<tr>
+<td><img alt="Scizor" src="https://img.pokemondb.net/sprites/sword-shield/icon/scizor.png" /></td>
+<td>Scizor</td>
+<td>500</td>
+<td>70</td>
+<td>130</td>
+<td>100</td>
+<td>55</td>
+<td>80</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Scolipede" src="https://img.pokemondb.net/sprites/sword-shield/icon/scolipede.png" /></td>
+<td>Scolipede</td>
+<td>475</td>
+<td>60</td>
+<td>90</td>
+<td>89</td>
+<td>55</td>
+<td>69</td>
+<td>112</td>
+</tr>
+<tr>
+<td><img alt="Scorbunny" src="https://img.pokemondb.net/sprites/sword-shield/icon/scorbunny.png" /></td>
+<td>Scorbunny</td>
+<td>310</td>
+<td>50</td>
+<td>71</td>
+<td>40</td>
+<td>40</td>
+<td>40</td>
+<td>69</td>
+</tr>
+<tr>
+<td><img alt="Scrafty" src="https://img.pokemondb.net/sprites/sword-shield/icon/scrafty.png" /></td>
+<td>Scrafty</td>
+<td>488</td>
+<td>65</td>
+<td>90</td>
+<td>115</td>
+<td>45</td>
+<td>115</td>
+<td>58</td>
+</tr>
+<tr>
+<td><img alt="Scraggy" src="https://img.pokemondb.net/sprites/sword-shield/icon/scraggy.png" /></td>
+<td>Scraggy</td>
+<td>348</td>
+<td>50</td>
+<td>75</td>
+<td>70</td>
+<td>35</td>
+<td>70</td>
+<td>48</td>
+</tr>
+<tr>
+<td><img alt="Scyther" src="https://img.pokemondb.net/sprites/sword-shield/icon/scyther.png" /></td>
+<td>Scyther</td>
+<td>500</td>
+<td>70</td>
+<td>110</td>
+<td>80</td>
+<td>55</td>
+<td>80</td>
+<td>105</td>
+</tr>
+<tr>
+<td><img alt="Seadra" src="https://img.pokemondb.net/sprites/sword-shield/icon/seadra.png" /></td>
+<td>Seadra</td>
+<td>440</td>
+<td>55</td>
+<td>65</td>
+<td>95</td>
+<td>95</td>
+<td>45</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Seaking" src="https://img.pokemondb.net/sprites/sword-shield/icon/seaking.png" /></td>
+<td>Seaking</td>
+<td>450</td>
+<td>80</td>
+<td>92</td>
+<td>65</td>
+<td>65</td>
+<td>80</td>
+<td>68</td>
+</tr>
+<tr>
+<td><img alt="Sealeo" src="https://img.pokemondb.net/sprites/sword-shield/icon/sealeo.png" /></td>
+<td>Sealeo</td>
+<td>410</td>
+<td>90</td>
+<td>60</td>
+<td>70</td>
+<td>75</td>
+<td>70</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Seedot" src="https://img.pokemondb.net/sprites/sword-shield/icon/seedot.png" /></td>
+<td>Seedot</td>
+<td>220</td>
+<td>40</td>
+<td>40</td>
+<td>50</td>
+<td>30</td>
+<td>30</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Seel" src="https://img.pokemondb.net/sprites/sword-shield/icon/seel.png" /></td>
+<td>Seel</td>
+<td>325</td>
+<td>65</td>
+<td>45</td>
+<td>55</td>
+<td>45</td>
+<td>70</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Seismitoad" src="https://img.pokemondb.net/sprites/sword-shield/icon/seismitoad.png" /></td>
+<td>Seismitoad</td>
+<td>499</td>
+<td>105</td>
+<td>85</td>
+<td>75</td>
+<td>85</td>
+<td>75</td>
+<td>74</td>
+</tr>
+<tr>
+<td><img alt="Sentret" src="https://img.pokemondb.net/sprites/sword-shield/icon/sentret.png" /></td>
+<td>Sentret</td>
+<td>215</td>
+<td>35</td>
+<td>46</td>
+<td>34</td>
+<td>35</td>
+<td>45</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Serperior" src="https://img.pokemondb.net/sprites/sword-shield/icon/serperior.png" /></td>
+<td>Serperior</td>
+<td>528</td>
+<td>75</td>
+<td>75</td>
+<td>95</td>
+<td>75</td>
+<td>95</td>
+<td>113</td>
+</tr>
+<tr>
+<td><img alt="Servine" src="https://img.pokemondb.net/sprites/sword-shield/icon/servine.png" /></td>
+<td>Servine</td>
+<td>413</td>
+<td>60</td>
+<td>60</td>
+<td>75</td>
+<td>60</td>
+<td>75</td>
+<td>83</td>
+</tr>
+<tr>
+<td><img alt="Seviper" src="https://img.pokemondb.net/sprites/sword-shield/icon/seviper.png" /></td>
+<td>Seviper</td>
+<td>458</td>
+<td>73</td>
+<td>100</td>
+<td>60</td>
+<td>100</td>
+<td>60</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Sewaddle" src="https://img.pokemondb.net/sprites/sword-shield/icon/sewaddle.png" /></td>
+<td>Sewaddle</td>
+<td>310</td>
+<td>45</td>
+<td>53</td>
+<td>70</td>
+<td>40</td>
+<td>60</td>
+<td>42</td>
+</tr>
+<tr>
+<td><img alt="Sharpedo" src="https://img.pokemondb.net/sprites/sword-shield/icon/sharpedo.png" /></td>
+<td>Sharpedo</td>
+<td>460</td>
+<td>70</td>
+<td>120</td>
+<td>40</td>
+<td>95</td>
+<td>40</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Shaymin" src="https://img.pokemondb.net/sprites/sword-shield/icon/shaymin.png" /></td>
+<td>Shaymin</td>
+<td>600</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Shedinja" src="https://img.pokemondb.net/sprites/sword-shield/icon/shedinja.png" /></td>
+<td>Shedinja</td>
+<td>236</td>
+<td>1</td>
+<td>90</td>
+<td>45</td>
+<td>30</td>
+<td>30</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Shelgon" src="https://img.pokemondb.net/sprites/sword-shield/icon/shelgon.png" /></td>
+<td>Shelgon</td>
+<td>420</td>
+<td>65</td>
+<td>95</td>
+<td>100</td>
+<td>60</td>
+<td>50</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Shellder" src="https://img.pokemondb.net/sprites/sword-shield/icon/shellder.png" /></td>
+<td>Shellder</td>
+<td>305</td>
+<td>30</td>
+<td>65</td>
+<td>100</td>
+<td>45</td>
+<td>25</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Shelmet" src="https://img.pokemondb.net/sprites/sword-shield/icon/shelmet.png" /></td>
+<td>Shelmet</td>
+<td>305</td>
+<td>50</td>
+<td>40</td>
+<td>85</td>
+<td>40</td>
+<td>65</td>
+<td>25</td>
+</tr>
+<tr>
+<td><img alt="Shieldon" src="https://img.pokemondb.net/sprites/sword-shield/icon/shieldon.png" /></td>
+<td>Shieldon</td>
+<td>350</td>
+<td>30</td>
+<td>42</td>
+<td>118</td>
+<td>42</td>
+<td>88</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Shiftry" src="https://img.pokemondb.net/sprites/sword-shield/icon/shiftry.png" /></td>
+<td>Shiftry</td>
+<td>480</td>
+<td>90</td>
+<td>100</td>
+<td>60</td>
+<td>90</td>
+<td>60</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Shiinotic" src="https://img.pokemondb.net/sprites/sword-shield/icon/shiinotic.png" /></td>
+<td>Shiinotic</td>
+<td>405</td>
+<td>60</td>
+<td>45</td>
+<td>80</td>
+<td>90</td>
+<td>100</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Shinx" src="https://img.pokemondb.net/sprites/sword-shield/icon/shinx.png" /></td>
+<td>Shinx</td>
+<td>263</td>
+<td>45</td>
+<td>65</td>
+<td>34</td>
+<td>40</td>
+<td>34</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Shroomish" src="https://img.pokemondb.net/sprites/sword-shield/icon/shroomish.png" /></td>
+<td>Shroomish</td>
+<td>295</td>
+<td>60</td>
+<td>40</td>
+<td>60</td>
+<td>40</td>
+<td>60</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Shuckle" src="https://img.pokemondb.net/sprites/sword-shield/icon/shuckle.png" /></td>
+<td>Shuckle</td>
+<td>505</td>
+<td>20</td>
+<td>10</td>
+<td>230</td>
+<td>10</td>
+<td>230</td>
+<td>5</td>
+</tr>
+<tr>
+<td><img alt="Shuppet" src="https://img.pokemondb.net/sprites/sword-shield/icon/shuppet.png" /></td>
+<td>Shuppet</td>
+<td>295</td>
+<td>44</td>
+<td>75</td>
+<td>35</td>
+<td>63</td>
+<td>33</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Sigilyph" src="https://img.pokemondb.net/sprites/sword-shield/icon/sigilyph.png" /></td>
+<td>Sigilyph</td>
+<td>490</td>
+<td>72</td>
+<td>58</td>
+<td>80</td>
+<td>103</td>
+<td>80</td>
+<td>97</td>
+</tr>
+<tr>
+<td><img alt="Silcoon" src="https://img.pokemondb.net/sprites/sword-shield/icon/silcoon.png" /></td>
+<td>Silcoon</td>
+<td>205</td>
+<td>50</td>
+<td>35</td>
+<td>55</td>
+<td>25</td>
+<td>25</td>
+<td>15</td>
+</tr>
+<tr>
+<td><img alt="Silicobra" src="https://img.pokemondb.net/sprites/sword-shield/icon/silicobra.png" /></td>
+<td>Silicobra</td>
+<td>315</td>
+<td>52</td>
+<td>57</td>
+<td>75</td>
+<td>35</td>
+<td>50</td>
+<td>46</td>
+</tr>
+<tr>
+<td><img alt="Simipour" src="https://img.pokemondb.net/sprites/sword-shield/icon/simipour.png" /></td>
+<td>Simipour</td>
+<td>498</td>
+<td>75</td>
+<td>98</td>
+<td>63</td>
+<td>98</td>
+<td>63</td>
+<td>101</td>
+</tr>
+<tr>
+<td><img alt="Simisage" src="https://img.pokemondb.net/sprites/sword-shield/icon/simisage.png" /></td>
+<td>Simisage</td>
+<td>498</td>
+<td>75</td>
+<td>98</td>
+<td>63</td>
+<td>98</td>
+<td>63</td>
+<td>101</td>
+</tr>
+<tr>
+<td><img alt="Simisear" src="https://img.pokemondb.net/sprites/sword-shield/icon/simisear.png" /></td>
+<td>Simisear</td>
+<td>498</td>
+<td>75</td>
+<td>98</td>
+<td>63</td>
+<td>98</td>
+<td>63</td>
+<td>101</td>
+</tr>
+<tr>
+<td><img alt="Sirfetchd" src="https://img.pokemondb.net/sprites/sword-shield/icon/sirfetchd.png" /></td>
+<td>Sirfetchd</td>
+<td>507</td>
+<td>62</td>
+<td>135</td>
+<td>95</td>
+<td>68</td>
+<td>82</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Sizzlipede" src="https://img.pokemondb.net/sprites/sword-shield/icon/sizzlipede.png" /></td>
+<td>Sizzlipede</td>
+<td>305</td>
+<td>50</td>
+<td>65</td>
+<td>45</td>
+<td>50</td>
+<td>50</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Skarmory" src="https://img.pokemondb.net/sprites/sword-shield/icon/skarmory.png" /></td>
+<td>Skarmory</td>
+<td>465</td>
+<td>65</td>
+<td>80</td>
+<td>140</td>
+<td>40</td>
+<td>70</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Skiddo" src="https://img.pokemondb.net/sprites/sword-shield/icon/skiddo.png" /></td>
+<td>Skiddo</td>
+<td>350</td>
+<td>66</td>
+<td>65</td>
+<td>48</td>
+<td>62</td>
+<td>57</td>
+<td>52</td>
+</tr>
+<tr>
+<td><img alt="Skiploom" src="https://img.pokemondb.net/sprites/sword-shield/icon/skiploom.png" /></td>
+<td>Skiploom</td>
+<td>340</td>
+<td>55</td>
+<td>45</td>
+<td>50</td>
+<td>45</td>
+<td>65</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Skitty" src="https://img.pokemondb.net/sprites/sword-shield/icon/skitty.png" /></td>
+<td>Skitty</td>
+<td>260</td>
+<td>50</td>
+<td>45</td>
+<td>45</td>
+<td>35</td>
+<td>35</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Skorupi" src="https://img.pokemondb.net/sprites/sword-shield/icon/skorupi.png" /></td>
+<td>Skorupi</td>
+<td>330</td>
+<td>40</td>
+<td>50</td>
+<td>90</td>
+<td>30</td>
+<td>55</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Skrelp" src="https://img.pokemondb.net/sprites/sword-shield/icon/skrelp.png" /></td>
+<td>Skrelp</td>
+<td>320</td>
+<td>50</td>
+<td>60</td>
+<td>60</td>
+<td>60</td>
+<td>60</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Skuntank" src="https://img.pokemondb.net/sprites/sword-shield/icon/skuntank.png" /></td>
+<td>Skuntank</td>
+<td>479</td>
+<td>103</td>
+<td>93</td>
+<td>67</td>
+<td>71</td>
+<td>61</td>
+<td>84</td>
+</tr>
+<tr>
+<td><img alt="Skwovet" src="https://img.pokemondb.net/sprites/sword-shield/icon/skwovet.png" /></td>
+<td>Skwovet</td>
+<td>275</td>
+<td>70</td>
+<td>55</td>
+<td>55</td>
+<td>35</td>
+<td>35</td>
+<td>25</td>
+</tr>
+<tr>
+<td><img alt="Slaking" src="https://img.pokemondb.net/sprites/sword-shield/icon/slaking.png" /></td>
+<td>Slaking</td>
+<td>670</td>
+<td>150</td>
+<td>160</td>
+<td>100</td>
+<td>95</td>
+<td>65</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Slakoth" src="https://img.pokemondb.net/sprites/sword-shield/icon/slakoth.png" /></td>
+<td>Slakoth</td>
+<td>280</td>
+<td>60</td>
+<td>60</td>
+<td>60</td>
+<td>35</td>
+<td>35</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Sliggoo" src="https://img.pokemondb.net/sprites/sword-shield/icon/sliggoo.png" /></td>
+<td>Sliggoo</td>
+<td>452</td>
+<td>68</td>
+<td>75</td>
+<td>53</td>
+<td>83</td>
+<td>113</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Slowbro" src="https://img.pokemondb.net/sprites/sword-shield/icon/slowbro.png" /></td>
+<td>Slowbro</td>
+<td>490</td>
+<td>95</td>
+<td>75</td>
+<td>110</td>
+<td>100</td>
+<td>80</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Slowking" src="https://img.pokemondb.net/sprites/sword-shield/icon/slowking.png" /></td>
+<td>Slowking</td>
+<td>490</td>
+<td>95</td>
+<td>75</td>
+<td>80</td>
+<td>100</td>
+<td>110</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Slowpoke" src="https://img.pokemondb.net/sprites/sword-shield/icon/slowpoke.png" /></td>
+<td>Slowpoke</td>
+<td>315</td>
+<td>90</td>
+<td>65</td>
+<td>65</td>
+<td>40</td>
+<td>40</td>
+<td>15</td>
+</tr>
+<tr>
+<td><img alt="Slugma" src="https://img.pokemondb.net/sprites/sword-shield/icon/slugma.png" /></td>
+<td>Slugma</td>
+<td>250</td>
+<td>40</td>
+<td>40</td>
+<td>40</td>
+<td>70</td>
+<td>40</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Slurpuff" src="https://img.pokemondb.net/sprites/sword-shield/icon/slurpuff.png" /></td>
+<td>Slurpuff</td>
+<td>480</td>
+<td>82</td>
+<td>80</td>
+<td>86</td>
+<td>85</td>
+<td>75</td>
+<td>72</td>
+</tr>
+<tr>
+<td><img alt="Smeargle" src="https://img.pokemondb.net/sprites/sword-shield/icon/smeargle.png" /></td>
+<td>Smeargle</td>
+<td>250</td>
+<td>55</td>
+<td>20</td>
+<td>35</td>
+<td>20</td>
+<td>45</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Smoochum" src="https://img.pokemondb.net/sprites/sword-shield/icon/smoochum.png" /></td>
+<td>Smoochum</td>
+<td>305</td>
+<td>45</td>
+<td>30</td>
+<td>15</td>
+<td>85</td>
+<td>65</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Sneasel" src="https://img.pokemondb.net/sprites/sword-shield/icon/sneasel.png" /></td>
+<td>Sneasel</td>
+<td>430</td>
+<td>55</td>
+<td>95</td>
+<td>55</td>
+<td>35</td>
+<td>75</td>
+<td>115</td>
+</tr>
+<tr>
+<td><img alt="Sneasler" src="https://img.pokemondb.net/sprites/sword-shield/icon/sneasler.png" /></td>
+<td>Sneasler</td>
+<td>510</td>
+<td>80</td>
+<td>130</td>
+<td>60</td>
+<td>40</td>
+<td>80</td>
+<td>120</td>
+</tr>
+<tr>
+<td><img alt="Snivy" src="https://img.pokemondb.net/sprites/sword-shield/icon/snivy.png" /></td>
+<td>Snivy</td>
+<td>308</td>
+<td>45</td>
+<td>45</td>
+<td>55</td>
+<td>45</td>
+<td>55</td>
+<td>63</td>
+</tr>
+<tr>
+<td><img alt="Snom" src="https://img.pokemondb.net/sprites/sword-shield/icon/snom.png" /></td>
+<td>Snom</td>
+<td>185</td>
+<td>30</td>
+<td>25</td>
+<td>35</td>
+<td>45</td>
+<td>30</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Snorlax" src="https://img.pokemondb.net/sprites/sword-shield/icon/snorlax.png" /></td>
+<td>Snorlax</td>
+<td>540</td>
+<td>160</td>
+<td>110</td>
+<td>65</td>
+<td>65</td>
+<td>110</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Snorunt" src="https://img.pokemondb.net/sprites/sword-shield/icon/snorunt.png" /></td>
+<td>Snorunt</td>
+<td>300</td>
+<td>50</td>
+<td>50</td>
+<td>50</td>
+<td>50</td>
+<td>50</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Snover" src="https://img.pokemondb.net/sprites/sword-shield/icon/snover.png" /></td>
+<td>Snover</td>
+<td>334</td>
+<td>60</td>
+<td>62</td>
+<td>50</td>
+<td>62</td>
+<td>60</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Snubbull" src="https://img.pokemondb.net/sprites/sword-shield/icon/snubbull.png" /></td>
+<td>Snubbull</td>
+<td>300</td>
+<td>60</td>
+<td>80</td>
+<td>50</td>
+<td>40</td>
+<td>40</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Sobble" src="https://img.pokemondb.net/sprites/sword-shield/icon/sobble.png" /></td>
+<td>Sobble</td>
+<td>310</td>
+<td>50</td>
+<td>40</td>
+<td>40</td>
+<td>70</td>
+<td>40</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Solgaleo" src="https://img.pokemondb.net/sprites/sword-shield/icon/solgaleo.png" /></td>
+<td>Solgaleo</td>
+<td>680</td>
+<td>137</td>
+<td>137</td>
+<td>107</td>
+<td>113</td>
+<td>89</td>
+<td>97</td>
+</tr>
+<tr>
+<td><img alt="Solosis" src="https://img.pokemondb.net/sprites/sword-shield/icon/solosis.png" /></td>
+<td>Solosis</td>
+<td>290</td>
+<td>45</td>
+<td>30</td>
+<td>40</td>
+<td>105</td>
+<td>50</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Solrock" src="https://img.pokemondb.net/sprites/sword-shield/icon/solrock.png" /></td>
+<td>Solrock</td>
+<td>440</td>
+<td>70</td>
+<td>95</td>
+<td>85</td>
+<td>55</td>
+<td>65</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Spearow" src="https://img.pokemondb.net/sprites/sword-shield/icon/spearow.png" /></td>
+<td>Spearow</td>
+<td>262</td>
+<td>40</td>
+<td>60</td>
+<td>30</td>
+<td>31</td>
+<td>31</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Spectrier" src="https://img.pokemondb.net/sprites/sword-shield/icon/spectrier.png" /></td>
+<td>Spectrier</td>
+<td>580</td>
+<td>100</td>
+<td>65</td>
+<td>60</td>
+<td>145</td>
+<td>80</td>
+<td>130</td>
+</tr>
+<tr>
+<td><img alt="Spewpa" src="https://img.pokemondb.net/sprites/sword-shield/icon/spewpa.png" /></td>
+<td>Spewpa</td>
+<td>213</td>
+<td>45</td>
+<td>22</td>
+<td>60</td>
+<td>27</td>
+<td>30</td>
+<td>29</td>
+</tr>
+<tr>
+<td><img alt="Spheal" src="https://img.pokemondb.net/sprites/sword-shield/icon/spheal.png" /></td>
+<td>Spheal</td>
+<td>290</td>
+<td>70</td>
+<td>40</td>
+<td>50</td>
+<td>55</td>
+<td>50</td>
+<td>25</td>
+</tr>
+<tr>
+<td><img alt="Spinarak" src="https://img.pokemondb.net/sprites/sword-shield/icon/spinarak.png" /></td>
+<td>Spinarak</td>
+<td>250</td>
+<td>40</td>
+<td>60</td>
+<td>40</td>
+<td>40</td>
+<td>40</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Spinda" src="https://img.pokemondb.net/sprites/sword-shield/icon/spinda.png" /></td>
+<td>Spinda</td>
+<td>360</td>
+<td>60</td>
+<td>60</td>
+<td>60</td>
+<td>60</td>
+<td>60</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Spiritomb" src="https://img.pokemondb.net/sprites/sword-shield/icon/spiritomb.png" /></td>
+<td>Spiritomb</td>
+<td>485</td>
+<td>50</td>
+<td>92</td>
+<td>108</td>
+<td>92</td>
+<td>108</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Spoink" src="https://img.pokemondb.net/sprites/sword-shield/icon/spoink.png" /></td>
+<td>Spoink</td>
+<td>330</td>
+<td>60</td>
+<td>25</td>
+<td>35</td>
+<td>70</td>
+<td>80</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Spritzee" src="https://img.pokemondb.net/sprites/sword-shield/icon/spritzee.png" /></td>
+<td>Spritzee</td>
+<td>341</td>
+<td>78</td>
+<td>52</td>
+<td>60</td>
+<td>63</td>
+<td>65</td>
+<td>23</td>
+</tr>
+<tr>
+<td><img alt="Squirtle" src="https://img.pokemondb.net/sprites/sword-shield/icon/squirtle.png" /></td>
+<td>Squirtle</td>
+<td>314</td>
+<td>44</td>
+<td>48</td>
+<td>65</td>
+<td>50</td>
+<td>64</td>
+<td>43</td>
+</tr>
+<tr>
+<td><img alt="Stakataka" src="https://img.pokemondb.net/sprites/sword-shield/icon/stakataka.png" /></td>
+<td>Stakataka</td>
+<td>570</td>
+<td>61</td>
+<td>131</td>
+<td>211</td>
+<td>53</td>
+<td>101</td>
+<td>13</td>
+</tr>
+<tr>
+<td><img alt="Stantler" src="https://img.pokemondb.net/sprites/sword-shield/icon/stantler.png" /></td>
+<td>Stantler</td>
+<td>465</td>
+<td>73</td>
+<td>95</td>
+<td>62</td>
+<td>85</td>
+<td>65</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Staraptor" src="https://img.pokemondb.net/sprites/sword-shield/icon/staraptor.png" /></td>
+<td>Staraptor</td>
+<td>475</td>
+<td>85</td>
+<td>120</td>
+<td>70</td>
+<td>50</td>
+<td>50</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Staravia" src="https://img.pokemondb.net/sprites/sword-shield/icon/staravia.png" /></td>
+<td>Staravia</td>
+<td>340</td>
+<td>55</td>
+<td>75</td>
+<td>50</td>
+<td>40</td>
+<td>40</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Starly" src="https://img.pokemondb.net/sprites/sword-shield/icon/starly.png" /></td>
+<td>Starly</td>
+<td>245</td>
+<td>40</td>
+<td>55</td>
+<td>30</td>
+<td>30</td>
+<td>30</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Starmie" src="https://img.pokemondb.net/sprites/sword-shield/icon/starmie.png" /></td>
+<td>Starmie</td>
+<td>520</td>
+<td>60</td>
+<td>75</td>
+<td>85</td>
+<td>100</td>
+<td>85</td>
+<td>115</td>
+</tr>
+<tr>
+<td><img alt="Staryu" src="https://img.pokemondb.net/sprites/sword-shield/icon/staryu.png" /></td>
+<td>Staryu</td>
+<td>340</td>
+<td>30</td>
+<td>45</td>
+<td>55</td>
+<td>70</td>
+<td>55</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Steelix" src="https://img.pokemondb.net/sprites/sword-shield/icon/steelix.png" /></td>
+<td>Steelix</td>
+<td>510</td>
+<td>75</td>
+<td>85</td>
+<td>200</td>
+<td>55</td>
+<td>65</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Steenee" src="https://img.pokemondb.net/sprites/sword-shield/icon/steenee.png" /></td>
+<td>Steenee</td>
+<td>290</td>
+<td>52</td>
+<td>40</td>
+<td>48</td>
+<td>40</td>
+<td>48</td>
+<td>62</td>
+</tr>
+<tr>
+<td><img alt="Stonjourner" src="https://img.pokemondb.net/sprites/sword-shield/icon/stonjourner.png" /></td>
+<td>Stonjourner</td>
+<td>470</td>
+<td>100</td>
+<td>125</td>
+<td>135</td>
+<td>20</td>
+<td>20</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Stoutland" src="https://img.pokemondb.net/sprites/sword-shield/icon/stoutland.png" /></td>
+<td>Stoutland</td>
+<td>490</td>
+<td>85</td>
+<td>100</td>
+<td>90</td>
+<td>45</td>
+<td>90</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Stufful" src="https://img.pokemondb.net/sprites/sword-shield/icon/stufful.png" /></td>
+<td>Stufful</td>
+<td>340</td>
+<td>70</td>
+<td>75</td>
+<td>50</td>
+<td>45</td>
+<td>50</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Stunfisk" src="https://img.pokemondb.net/sprites/sword-shield/icon/stunfisk.png" /></td>
+<td>Stunfisk</td>
+<td>471</td>
+<td>109</td>
+<td>66</td>
+<td>84</td>
+<td>81</td>
+<td>99</td>
+<td>32</td>
+</tr>
+<tr>
+<td><img alt="Stunky" src="https://img.pokemondb.net/sprites/sword-shield/icon/stunky.png" /></td>
+<td>Stunky</td>
+<td>329</td>
+<td>63</td>
+<td>63</td>
+<td>47</td>
+<td>41</td>
+<td>41</td>
+<td>74</td>
+</tr>
+<tr>
+<td><img alt="Sudowoodo" src="https://img.pokemondb.net/sprites/sword-shield/icon/sudowoodo.png" /></td>
+<td>Sudowoodo</td>
+<td>410</td>
+<td>70</td>
+<td>100</td>
+<td>115</td>
+<td>30</td>
+<td>65</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Suicune" src="https://img.pokemondb.net/sprites/sword-shield/icon/suicune.png" /></td>
+<td>Suicune</td>
+<td>580</td>
+<td>100</td>
+<td>75</td>
+<td>115</td>
+<td>90</td>
+<td>115</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Sunflora" src="https://img.pokemondb.net/sprites/sword-shield/icon/sunflora.png" /></td>
+<td>Sunflora</td>
+<td>425</td>
+<td>75</td>
+<td>75</td>
+<td>55</td>
+<td>105</td>
+<td>85</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Sunkern" src="https://img.pokemondb.net/sprites/sword-shield/icon/sunkern.png" /></td>
+<td>Sunkern</td>
+<td>180</td>
+<td>30</td>
+<td>30</td>
+<td>30</td>
+<td>30</td>
+<td>30</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Surskit" src="https://img.pokemondb.net/sprites/sword-shield/icon/surskit.png" /></td>
+<td>Surskit</td>
+<td>269</td>
+<td>40</td>
+<td>30</td>
+<td>32</td>
+<td>50</td>
+<td>52</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Swablu" src="https://img.pokemondb.net/sprites/sword-shield/icon/swablu.png" /></td>
+<td>Swablu</td>
+<td>310</td>
+<td>45</td>
+<td>40</td>
+<td>60</td>
+<td>40</td>
+<td>75</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Swadloon" src="https://img.pokemondb.net/sprites/sword-shield/icon/swadloon.png" /></td>
+<td>Swadloon</td>
+<td>380</td>
+<td>55</td>
+<td>63</td>
+<td>90</td>
+<td>50</td>
+<td>80</td>
+<td>42</td>
+</tr>
+<tr>
+<td><img alt="Swalot" src="https://img.pokemondb.net/sprites/sword-shield/icon/swalot.png" /></td>
+<td>Swalot</td>
+<td>467</td>
+<td>100</td>
+<td>73</td>
+<td>83</td>
+<td>73</td>
+<td>83</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Swampert" src="https://img.pokemondb.net/sprites/sword-shield/icon/swampert.png" /></td>
+<td>Swampert</td>
+<td>535</td>
+<td>100</td>
+<td>110</td>
+<td>90</td>
+<td>85</td>
+<td>90</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Swanna" src="https://img.pokemondb.net/sprites/sword-shield/icon/swanna.png" /></td>
+<td>Swanna</td>
+<td>473</td>
+<td>75</td>
+<td>87</td>
+<td>63</td>
+<td>87</td>
+<td>63</td>
+<td>98</td>
+</tr>
+<tr>
+<td><img alt="Swellow" src="https://img.pokemondb.net/sprites/sword-shield/icon/swellow.png" /></td>
+<td>Swellow</td>
+<td>430</td>
+<td>60</td>
+<td>85</td>
+<td>60</td>
+<td>50</td>
+<td>50</td>
+<td>125</td>
+</tr>
+<tr>
+<td><img alt="Swinub" src="https://img.pokemondb.net/sprites/sword-shield/icon/swinub.png" /></td>
+<td>Swinub</td>
+<td>250</td>
+<td>50</td>
+<td>50</td>
+<td>40</td>
+<td>30</td>
+<td>30</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Swirlix" src="https://img.pokemondb.net/sprites/sword-shield/icon/swirlix.png" /></td>
+<td>Swirlix</td>
+<td>341</td>
+<td>62</td>
+<td>48</td>
+<td>66</td>
+<td>59</td>
+<td>57</td>
+<td>49</td>
+</tr>
+<tr>
+<td><img alt="Swoobat" src="https://img.pokemondb.net/sprites/sword-shield/icon/swoobat.png" /></td>
+<td>Swoobat</td>
+<td>425</td>
+<td>67</td>
+<td>57</td>
+<td>55</td>
+<td>77</td>
+<td>55</td>
+<td>114</td>
+</tr>
+<tr>
+<td><img alt="Sylveon" src="https://img.pokemondb.net/sprites/sword-shield/icon/sylveon.png" /></td>
+<td>Sylveon</td>
+<td>525</td>
+<td>95</td>
+<td>65</td>
+<td>65</td>
+<td>110</td>
+<td>130</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Taillow" src="https://img.pokemondb.net/sprites/sword-shield/icon/taillow.png" /></td>
+<td>Taillow</td>
+<td>270</td>
+<td>40</td>
+<td>55</td>
+<td>30</td>
+<td>30</td>
+<td>30</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Talonflame" src="https://img.pokemondb.net/sprites/sword-shield/icon/talonflame.png" /></td>
+<td>Talonflame</td>
+<td>499</td>
+<td>78</td>
+<td>81</td>
+<td>71</td>
+<td>74</td>
+<td>69</td>
+<td>126</td>
+</tr>
+<tr>
+<td><img alt="Tangela" src="https://img.pokemondb.net/sprites/sword-shield/icon/tangela.png" /></td>
+<td>Tangela</td>
+<td>435</td>
+<td>65</td>
+<td>55</td>
+<td>115</td>
+<td>100</td>
+<td>40</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Tangrowth" src="https://img.pokemondb.net/sprites/sword-shield/icon/tangrowth.png" /></td>
+<td>Tangrowth</td>
+<td>535</td>
+<td>100</td>
+<td>100</td>
+<td>125</td>
+<td>110</td>
+<td>50</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Tauros" src="https://img.pokemondb.net/sprites/sword-shield/icon/tauros.png" /></td>
+<td>Tauros</td>
+<td>490</td>
+<td>75</td>
+<td>100</td>
+<td>95</td>
+<td>40</td>
+<td>70</td>
+<td>110</td>
+</tr>
+<tr>
+<td><img alt="Teddiursa" src="https://img.pokemondb.net/sprites/sword-shield/icon/teddiursa.png" /></td>
+<td>Teddiursa</td>
+<td>330</td>
+<td>60</td>
+<td>80</td>
+<td>50</td>
+<td>50</td>
+<td>50</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Tentacool" src="https://img.pokemondb.net/sprites/sword-shield/icon/tentacool.png" /></td>
+<td>Tentacool</td>
+<td>335</td>
+<td>40</td>
+<td>40</td>
+<td>35</td>
+<td>50</td>
+<td>100</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Tentacruel" src="https://img.pokemondb.net/sprites/sword-shield/icon/tentacruel.png" /></td>
+<td>Tentacruel</td>
+<td>515</td>
+<td>80</td>
+<td>70</td>
+<td>65</td>
+<td>80</td>
+<td>120</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Tepig" src="https://img.pokemondb.net/sprites/sword-shield/icon/tepig.png" /></td>
+<td>Tepig</td>
+<td>308</td>
+<td>65</td>
+<td>63</td>
+<td>45</td>
+<td>45</td>
+<td>45</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Terrakion" src="https://img.pokemondb.net/sprites/sword-shield/icon/terrakion.png" /></td>
+<td>Terrakion</td>
+<td>580</td>
+<td>91</td>
+<td>129</td>
+<td>90</td>
+<td>72</td>
+<td>90</td>
+<td>108</td>
+</tr>
+<tr>
+<td><img alt="Thievul" src="https://img.pokemondb.net/sprites/sword-shield/icon/thievul.png" /></td>
+<td>Thievul</td>
+<td>455</td>
+<td>70</td>
+<td>58</td>
+<td>58</td>
+<td>87</td>
+<td>92</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Throh" src="https://img.pokemondb.net/sprites/sword-shield/icon/throh.png" /></td>
+<td>Throh</td>
+<td>465</td>
+<td>120</td>
+<td>100</td>
+<td>85</td>
+<td>30</td>
+<td>85</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Thundurus" src="https://img.pokemondb.net/sprites/sword-shield/icon/thundurus.png" /></td>
+<td>Thundurus</td>
+<td>580</td>
+<td>79</td>
+<td>115</td>
+<td>70</td>
+<td>125</td>
+<td>80</td>
+<td>111</td>
+</tr>
+<tr>
+<td><img alt="Thwackey" src="https://img.pokemondb.net/sprites/sword-shield/icon/thwackey.png" /></td>
+<td>Thwackey</td>
+<td>420</td>
+<td>70</td>
+<td>85</td>
+<td>70</td>
+<td>55</td>
+<td>60</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Timburr" src="https://img.pokemondb.net/sprites/sword-shield/icon/timburr.png" /></td>
+<td>Timburr</td>
+<td>305</td>
+<td>75</td>
+<td>80</td>
+<td>55</td>
+<td>25</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Tirtouga" src="https://img.pokemondb.net/sprites/sword-shield/icon/tirtouga.png" /></td>
+<td>Tirtouga</td>
+<td>355</td>
+<td>54</td>
+<td>78</td>
+<td>103</td>
+<td>53</td>
+<td>45</td>
+<td>22</td>
+</tr>
+<tr>
+<td><img alt="Togedemaru" src="https://img.pokemondb.net/sprites/sword-shield/icon/togedemaru.png" /></td>
+<td>Togedemaru</td>
+<td>435</td>
+<td>65</td>
+<td>98</td>
+<td>63</td>
+<td>40</td>
+<td>73</td>
+<td>96</td>
+</tr>
+<tr>
+<td><img alt="Togekiss" src="https://img.pokemondb.net/sprites/sword-shield/icon/togekiss.png" /></td>
+<td>Togekiss</td>
+<td>545</td>
+<td>85</td>
+<td>50</td>
+<td>95</td>
+<td>120</td>
+<td>115</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Togepi" src="https://img.pokemondb.net/sprites/sword-shield/icon/togepi.png" /></td>
+<td>Togepi</td>
+<td>245</td>
+<td>35</td>
+<td>20</td>
+<td>65</td>
+<td>40</td>
+<td>65</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Togetic" src="https://img.pokemondb.net/sprites/sword-shield/icon/togetic.png" /></td>
+<td>Togetic</td>
+<td>405</td>
+<td>55</td>
+<td>40</td>
+<td>85</td>
+<td>80</td>
+<td>105</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Torchic" src="https://img.pokemondb.net/sprites/sword-shield/icon/torchic.png" /></td>
+<td>Torchic</td>
+<td>310</td>
+<td>45</td>
+<td>60</td>
+<td>40</td>
+<td>70</td>
+<td>50</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Torkoal" src="https://img.pokemondb.net/sprites/sword-shield/icon/torkoal.png" /></td>
+<td>Torkoal</td>
+<td>470</td>
+<td>70</td>
+<td>85</td>
+<td>140</td>
+<td>85</td>
+<td>70</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Tornadus" src="https://img.pokemondb.net/sprites/sword-shield/icon/tornadus.png" /></td>
+<td>Tornadus</td>
+<td>580</td>
+<td>79</td>
+<td>115</td>
+<td>70</td>
+<td>125</td>
+<td>80</td>
+<td>111</td>
+</tr>
+<tr>
+<td><img alt="Torracat" src="https://img.pokemondb.net/sprites/sword-shield/icon/torracat.png" /></td>
+<td>Torracat</td>
+<td>420</td>
+<td>65</td>
+<td>85</td>
+<td>50</td>
+<td>80</td>
+<td>50</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Torterra" src="https://img.pokemondb.net/sprites/sword-shield/icon/torterra.png" /></td>
+<td>Torterra</td>
+<td>525</td>
+<td>95</td>
+<td>109</td>
+<td>105</td>
+<td>75</td>
+<td>85</td>
+<td>56</td>
+</tr>
+<tr>
+<td><img alt="Totodile" src="https://img.pokemondb.net/sprites/sword-shield/icon/totodile.png" /></td>
+<td>Totodile</td>
+<td>314</td>
+<td>50</td>
+<td>65</td>
+<td>64</td>
+<td>44</td>
+<td>48</td>
+<td>43</td>
+</tr>
+<tr>
+<td><img alt="Toucannon" src="https://img.pokemondb.net/sprites/sword-shield/icon/toucannon.png" /></td>
+<td>Toucannon</td>
+<td>485</td>
+<td>80</td>
+<td>120</td>
+<td>75</td>
+<td>75</td>
+<td>75</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Toxapex" src="https://img.pokemondb.net/sprites/sword-shield/icon/toxapex.png" /></td>
+<td>Toxapex</td>
+<td>495</td>
+<td>50</td>
+<td>63</td>
+<td>152</td>
+<td>53</td>
+<td>142</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Toxel" src="https://img.pokemondb.net/sprites/sword-shield/icon/toxel.png" /></td>
+<td>Toxel</td>
+<td>242</td>
+<td>40</td>
+<td>38</td>
+<td>35</td>
+<td>54</td>
+<td>35</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Toxicroak" src="https://img.pokemondb.net/sprites/sword-shield/icon/toxicroak.png" /></td>
+<td>Toxicroak</td>
+<td>490</td>
+<td>83</td>
+<td>106</td>
+<td>65</td>
+<td>86</td>
+<td>65</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Tranquill" src="https://img.pokemondb.net/sprites/sword-shield/icon/tranquill.png" /></td>
+<td>Tranquill</td>
+<td>358</td>
+<td>62</td>
+<td>77</td>
+<td>62</td>
+<td>50</td>
+<td>42</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Trapinch" src="https://img.pokemondb.net/sprites/sword-shield/icon/trapinch.png" /></td>
+<td>Trapinch</td>
+<td>290</td>
+<td>45</td>
+<td>100</td>
+<td>45</td>
+<td>45</td>
+<td>45</td>
+<td>10</td>
+</tr>
+<tr>
+<td><img alt="Treecko" src="https://img.pokemondb.net/sprites/sword-shield/icon/treecko.png" /></td>
+<td>Treecko</td>
+<td>310</td>
+<td>40</td>
+<td>45</td>
+<td>35</td>
+<td>65</td>
+<td>55</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Trevenant" src="https://img.pokemondb.net/sprites/sword-shield/icon/trevenant.png" /></td>
+<td>Trevenant</td>
+<td>474</td>
+<td>85</td>
+<td>110</td>
+<td>76</td>
+<td>65</td>
+<td>82</td>
+<td>56</td>
+</tr>
+<tr>
+<td><img alt="Tropius" src="https://img.pokemondb.net/sprites/sword-shield/icon/tropius.png" /></td>
+<td>Tropius</td>
+<td>460</td>
+<td>99</td>
+<td>68</td>
+<td>83</td>
+<td>72</td>
+<td>87</td>
+<td>51</td>
+</tr>
+<tr>
+<td><img alt="Trubbish" src="https://img.pokemondb.net/sprites/sword-shield/icon/trubbish.png" /></td>
+<td>Trubbish</td>
+<td>329</td>
+<td>50</td>
+<td>50</td>
+<td>62</td>
+<td>40</td>
+<td>62</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Trumbeak" src="https://img.pokemondb.net/sprites/sword-shield/icon/trumbeak.png" /></td>
+<td>Trumbeak</td>
+<td>355</td>
+<td>55</td>
+<td>85</td>
+<td>50</td>
+<td>40</td>
+<td>50</td>
+<td>75</td>
+</tr>
+<tr>
+<td><img alt="Tsareena" src="https://img.pokemondb.net/sprites/sword-shield/icon/tsareena.png" /></td>
+<td>Tsareena</td>
+<td>510</td>
+<td>72</td>
+<td>120</td>
+<td>98</td>
+<td>50</td>
+<td>98</td>
+<td>72</td>
+</tr>
+<tr>
+<td><img alt="Turtonator" src="https://img.pokemondb.net/sprites/sword-shield/icon/turtonator.png" /></td>
+<td>Turtonator</td>
+<td>485</td>
+<td>60</td>
+<td>78</td>
+<td>135</td>
+<td>91</td>
+<td>85</td>
+<td>36</td>
+</tr>
+<tr>
+<td><img alt="Turtwig" src="https://img.pokemondb.net/sprites/sword-shield/icon/turtwig.png" /></td>
+<td>Turtwig</td>
+<td>318</td>
+<td>55</td>
+<td>68</td>
+<td>64</td>
+<td>45</td>
+<td>55</td>
+<td>31</td>
+</tr>
+<tr>
+<td><img alt="Tympole" src="https://img.pokemondb.net/sprites/sword-shield/icon/tympole.png" /></td>
+<td>Tympole</td>
+<td>294</td>
+<td>50</td>
+<td>50</td>
+<td>40</td>
+<td>50</td>
+<td>40</td>
+<td>64</td>
+</tr>
+<tr>
+<td><img alt="Tynamo" src="https://img.pokemondb.net/sprites/sword-shield/icon/tynamo.png" /></td>
+<td>Tynamo</td>
+<td>275</td>
+<td>35</td>
+<td>55</td>
+<td>40</td>
+<td>45</td>
+<td>40</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Typhlosion" src="https://img.pokemondb.net/sprites/sword-shield/icon/typhlosion.png" /></td>
+<td>Typhlosion</td>
+<td>534</td>
+<td>78</td>
+<td>84</td>
+<td>78</td>
+<td>109</td>
+<td>85</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Tyranitar" src="https://img.pokemondb.net/sprites/sword-shield/icon/tyranitar.png" /></td>
+<td>Tyranitar</td>
+<td>600</td>
+<td>100</td>
+<td>134</td>
+<td>110</td>
+<td>95</td>
+<td>100</td>
+<td>61</td>
+</tr>
+<tr>
+<td><img alt="Tyrantrum" src="https://img.pokemondb.net/sprites/sword-shield/icon/tyrantrum.png" /></td>
+<td>Tyrantrum</td>
+<td>521</td>
+<td>82</td>
+<td>121</td>
+<td>119</td>
+<td>69</td>
+<td>59</td>
+<td>71</td>
+</tr>
+<tr>
+<td><img alt="Tyrogue" src="https://img.pokemondb.net/sprites/sword-shield/icon/tyrogue.png" /></td>
+<td>Tyrogue</td>
+<td>210</td>
+<td>35</td>
+<td>35</td>
+<td>35</td>
+<td>35</td>
+<td>35</td>
+<td>35</td>
+</tr>
+<tr>
+<td><img alt="Tyrunt" src="https://img.pokemondb.net/sprites/sword-shield/icon/tyrunt.png" /></td>
+<td>Tyrunt</td>
+<td>362</td>
+<td>58</td>
+<td>89</td>
+<td>77</td>
+<td>45</td>
+<td>45</td>
+<td>48</td>
+</tr>
+<tr>
+<td><img alt="Umbreon" src="https://img.pokemondb.net/sprites/sword-shield/icon/umbreon.png" /></td>
+<td>Umbreon</td>
+<td>525</td>
+<td>95</td>
+<td>65</td>
+<td>110</td>
+<td>60</td>
+<td>130</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Unfezant" src="https://img.pokemondb.net/sprites/sword-shield/icon/unfezant.png" /></td>
+<td>Unfezant</td>
+<td>478</td>
+<td>80</td>
+<td>105</td>
+<td>80</td>
+<td>65</td>
+<td>55</td>
+<td>93</td>
+</tr>
+<tr>
+<td><img alt="Ursaluna" src="https://img.pokemondb.net/sprites/sword-shield/icon/ursaluna.png" /></td>
+<td>Ursaluna</td>
+<td>550</td>
+<td>130</td>
+<td>140</td>
+<td>105</td>
+<td>45</td>
+<td>80</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Ursaring" src="https://img.pokemondb.net/sprites/sword-shield/icon/ursaring.png" /></td>
+<td>Ursaring</td>
+<td>500</td>
+<td>90</td>
+<td>130</td>
+<td>75</td>
+<td>75</td>
+<td>75</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Urshifu" src="https://img.pokemondb.net/sprites/sword-shield/icon/urshifu.png" /></td>
+<td>Urshifu</td>
+<td>550</td>
+<td>100</td>
+<td>130</td>
+<td>100</td>
+<td>63</td>
+<td>60</td>
+<td>97</td>
+</tr>
+<tr>
+<td><img alt="Uxie" src="https://img.pokemondb.net/sprites/sword-shield/icon/uxie.png" /></td>
+<td>Uxie</td>
+<td>580</td>
+<td>75</td>
+<td>75</td>
+<td>130</td>
+<td>75</td>
+<td>130</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Vanillish" src="https://img.pokemondb.net/sprites/sword-shield/icon/vanillish.png" /></td>
+<td>Vanillish</td>
+<td>395</td>
+<td>51</td>
+<td>65</td>
+<td>65</td>
+<td>80</td>
+<td>75</td>
+<td>59</td>
+</tr>
+<tr>
+<td><img alt="Vanillite" src="https://img.pokemondb.net/sprites/sword-shield/icon/vanillite.png" /></td>
+<td>Vanillite</td>
+<td>305</td>
+<td>36</td>
+<td>50</td>
+<td>50</td>
+<td>65</td>
+<td>60</td>
+<td>44</td>
+</tr>
+<tr>
+<td><img alt="Vanilluxe" src="https://img.pokemondb.net/sprites/sword-shield/icon/vanilluxe.png" /></td>
+<td>Vanilluxe</td>
+<td>535</td>
+<td>71</td>
+<td>95</td>
+<td>85</td>
+<td>110</td>
+<td>95</td>
+<td>79</td>
+</tr>
+<tr>
+<td><img alt="Vaporeon" src="https://img.pokemondb.net/sprites/sword-shield/icon/vaporeon.png" /></td>
+<td>Vaporeon</td>
+<td>525</td>
+<td>130</td>
+<td>65</td>
+<td>60</td>
+<td>110</td>
+<td>95</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Venipede" src="https://img.pokemondb.net/sprites/sword-shield/icon/venipede.png" /></td>
+<td>Venipede</td>
+<td>260</td>
+<td>30</td>
+<td>45</td>
+<td>59</td>
+<td>30</td>
+<td>39</td>
+<td>57</td>
+</tr>
+<tr>
+<td><img alt="Venomoth" src="https://img.pokemondb.net/sprites/sword-shield/icon/venomoth.png" /></td>
+<td>Venomoth</td>
+<td>450</td>
+<td>70</td>
+<td>65</td>
+<td>60</td>
+<td>90</td>
+<td>75</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Venonat" src="https://img.pokemondb.net/sprites/sword-shield/icon/venonat.png" /></td>
+<td>Venonat</td>
+<td>305</td>
+<td>60</td>
+<td>55</td>
+<td>50</td>
+<td>40</td>
+<td>55</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Venusaur" src="https://img.pokemondb.net/sprites/sword-shield/icon/venusaur.png" /></td>
+<td>Venusaur</td>
+<td>525</td>
+<td>80</td>
+<td>82</td>
+<td>83</td>
+<td>100</td>
+<td>100</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Vespiquen" src="https://img.pokemondb.net/sprites/sword-shield/icon/vespiquen.png" /></td>
+<td>Vespiquen</td>
+<td>474</td>
+<td>70</td>
+<td>80</td>
+<td>102</td>
+<td>80</td>
+<td>102</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Vibrava" src="https://img.pokemondb.net/sprites/sword-shield/icon/vibrava.png" /></td>
+<td>Vibrava</td>
+<td>340</td>
+<td>50</td>
+<td>70</td>
+<td>50</td>
+<td>50</td>
+<td>50</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Victini" src="https://img.pokemondb.net/sprites/sword-shield/icon/victini.png" /></td>
+<td>Victini</td>
+<td>600</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Victreebel" src="https://img.pokemondb.net/sprites/sword-shield/icon/victreebel.png" /></td>
+<td>Victreebel</td>
+<td>480</td>
+<td>80</td>
+<td>105</td>
+<td>65</td>
+<td>100</td>
+<td>60</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Vigoroth" src="https://img.pokemondb.net/sprites/sword-shield/icon/vigoroth.png" /></td>
+<td>Vigoroth</td>
+<td>440</td>
+<td>80</td>
+<td>80</td>
+<td>80</td>
+<td>55</td>
+<td>55</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Vikavolt" src="https://img.pokemondb.net/sprites/sword-shield/icon/vikavolt.png" /></td>
+<td>Vikavolt</td>
+<td>500</td>
+<td>77</td>
+<td>70</td>
+<td>90</td>
+<td>145</td>
+<td>75</td>
+<td>43</td>
+</tr>
+<tr>
+<td><img alt="Vileplume" src="https://img.pokemondb.net/sprites/sword-shield/icon/vileplume.png" /></td>
+<td>Vileplume</td>
+<td>480</td>
+<td>75</td>
+<td>80</td>
+<td>85</td>
+<td>100</td>
+<td>90</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Virizion" src="https://img.pokemondb.net/sprites/sword-shield/icon/virizion.png" /></td>
+<td>Virizion</td>
+<td>580</td>
+<td>91</td>
+<td>90</td>
+<td>72</td>
+<td>90</td>
+<td>129</td>
+<td>108</td>
+</tr>
+<tr>
+<td><img alt="Volbeat" src="https://img.pokemondb.net/sprites/sword-shield/icon/volbeat.png" /></td>
+<td>Volbeat</td>
+<td>400</td>
+<td>65</td>
+<td>73</td>
+<td>55</td>
+<td>47</td>
+<td>75</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Volcanion" src="https://img.pokemondb.net/sprites/sword-shield/icon/volcanion.png" /></td>
+<td>Volcanion</td>
+<td>600</td>
+<td>80</td>
+<td>110</td>
+<td>120</td>
+<td>130</td>
+<td>90</td>
+<td>70</td>
+</tr>
+<tr>
+<td><img alt="Volcarona" src="https://img.pokemondb.net/sprites/sword-shield/icon/volcarona.png" /></td>
+<td>Volcarona</td>
+<td>550</td>
+<td>85</td>
+<td>60</td>
+<td>65</td>
+<td>135</td>
+<td>105</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Voltorb" src="https://img.pokemondb.net/sprites/sword-shield/icon/voltorb.png" /></td>
+<td>Voltorb</td>
+<td>330</td>
+<td>40</td>
+<td>30</td>
+<td>50</td>
+<td>55</td>
+<td>55</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Vullaby" src="https://img.pokemondb.net/sprites/sword-shield/icon/vullaby.png" /></td>
+<td>Vullaby</td>
+<td>370</td>
+<td>70</td>
+<td>55</td>
+<td>75</td>
+<td>45</td>
+<td>65</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Vulpix" src="https://img.pokemondb.net/sprites/sword-shield/icon/vulpix.png" /></td>
+<td>Vulpix</td>
+<td>299</td>
+<td>38</td>
+<td>41</td>
+<td>40</td>
+<td>50</td>
+<td>65</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Wailmer" src="https://img.pokemondb.net/sprites/sword-shield/icon/wailmer.png" /></td>
+<td>Wailmer</td>
+<td>400</td>
+<td>130</td>
+<td>70</td>
+<td>35</td>
+<td>70</td>
+<td>35</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Wailord" src="https://img.pokemondb.net/sprites/sword-shield/icon/wailord.png" /></td>
+<td>Wailord</td>
+<td>500</td>
+<td>170</td>
+<td>90</td>
+<td>45</td>
+<td>90</td>
+<td>45</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Walrein" src="https://img.pokemondb.net/sprites/sword-shield/icon/walrein.png" /></td>
+<td>Walrein</td>
+<td>530</td>
+<td>110</td>
+<td>80</td>
+<td>90</td>
+<td>95</td>
+<td>90</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Wartortle" src="https://img.pokemondb.net/sprites/sword-shield/icon/wartortle.png" /></td>
+<td>Wartortle</td>
+<td>405</td>
+<td>59</td>
+<td>63</td>
+<td>80</td>
+<td>65</td>
+<td>80</td>
+<td>58</td>
+</tr>
+<tr>
+<td><img alt="Watchog" src="https://img.pokemondb.net/sprites/sword-shield/icon/watchog.png" /></td>
+<td>Watchog</td>
+<td>420</td>
+<td>60</td>
+<td>85</td>
+<td>69</td>
+<td>60</td>
+<td>69</td>
+<td>77</td>
+</tr>
+<tr>
+<td><img alt="Weavile" src="https://img.pokemondb.net/sprites/sword-shield/icon/weavile.png" /></td>
+<td>Weavile</td>
+<td>510</td>
+<td>70</td>
+<td>120</td>
+<td>65</td>
+<td>45</td>
+<td>85</td>
+<td>125</td>
+</tr>
+<tr>
+<td><img alt="Weedle" src="https://img.pokemondb.net/sprites/sword-shield/icon/weedle.png" /></td>
+<td>Weedle</td>
+<td>195</td>
+<td>40</td>
+<td>35</td>
+<td>30</td>
+<td>20</td>
+<td>20</td>
+<td>50</td>
+</tr>
+<tr>
+<td><img alt="Weepinbell" src="https://img.pokemondb.net/sprites/sword-shield/icon/weepinbell.png" /></td>
+<td>Weepinbell</td>
+<td>390</td>
+<td>65</td>
+<td>90</td>
+<td>50</td>
+<td>85</td>
+<td>45</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Weezing" src="https://img.pokemondb.net/sprites/sword-shield/icon/weezing.png" /></td>
+<td>Weezing</td>
+<td>490</td>
+<td>65</td>
+<td>90</td>
+<td>120</td>
+<td>85</td>
+<td>70</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Whimsicott" src="https://img.pokemondb.net/sprites/sword-shield/icon/whimsicott.png" /></td>
+<td>Whimsicott</td>
+<td>480</td>
+<td>60</td>
+<td>67</td>
+<td>85</td>
+<td>77</td>
+<td>75</td>
+<td>116</td>
+</tr>
+<tr>
+<td><img alt="Whirlipede" src="https://img.pokemondb.net/sprites/sword-shield/icon/whirlipede.png" /></td>
+<td>Whirlipede</td>
+<td>360</td>
+<td>40</td>
+<td>55</td>
+<td>99</td>
+<td>40</td>
+<td>79</td>
+<td>47</td>
+</tr>
+<tr>
+<td><img alt="Whiscash" src="https://img.pokemondb.net/sprites/sword-shield/icon/whiscash.png" /></td>
+<td>Whiscash</td>
+<td>468</td>
+<td>110</td>
+<td>78</td>
+<td>73</td>
+<td>76</td>
+<td>71</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Whismur" src="https://img.pokemondb.net/sprites/sword-shield/icon/whismur.png" /></td>
+<td>Whismur</td>
+<td>240</td>
+<td>64</td>
+<td>51</td>
+<td>23</td>
+<td>51</td>
+<td>23</td>
+<td>28</td>
+</tr>
+<tr>
+<td><img alt="Wigglytuff" src="https://img.pokemondb.net/sprites/sword-shield/icon/wigglytuff.png" /></td>
+<td>Wigglytuff</td>
+<td>425</td>
+<td>140</td>
+<td>70</td>
+<td>45</td>
+<td>75</td>
+<td>50</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Wimpod" src="https://img.pokemondb.net/sprites/sword-shield/icon/wimpod.png" /></td>
+<td>Wimpod</td>
+<td>230</td>
+<td>25</td>
+<td>35</td>
+<td>40</td>
+<td>20</td>
+<td>30</td>
+<td>80</td>
+</tr>
+<tr>
+<td><img alt="Wingull" src="https://img.pokemondb.net/sprites/sword-shield/icon/wingull.png" /></td>
+<td>Wingull</td>
+<td>270</td>
+<td>40</td>
+<td>30</td>
+<td>30</td>
+<td>55</td>
+<td>30</td>
+<td>85</td>
+</tr>
+<tr>
+<td><img alt="Wishiwashi" src="https://img.pokemondb.net/sprites/sword-shield/icon/wishiwashi.png" /></td>
+<td>Wishiwashi</td>
+<td>175</td>
+<td>45</td>
+<td>20</td>
+<td>20</td>
+<td>25</td>
+<td>25</td>
+<td>40</td>
+</tr>
+<tr>
+<td><img alt="Wobbuffet" src="https://img.pokemondb.net/sprites/sword-shield/icon/wobbuffet.png" /></td>
+<td>Wobbuffet</td>
+<td>405</td>
+<td>190</td>
+<td>33</td>
+<td>58</td>
+<td>33</td>
+<td>58</td>
+<td>33</td>
+</tr>
+<tr>
+<td><img alt="Woobat" src="https://img.pokemondb.net/sprites/sword-shield/icon/woobat.png" /></td>
+<td>Woobat</td>
+<td>313</td>
+<td>55</td>
+<td>45</td>
+<td>43</td>
+<td>55</td>
+<td>43</td>
+<td>72</td>
+</tr>
+<tr>
+<td><img alt="Wooloo" src="https://img.pokemondb.net/sprites/sword-shield/icon/wooloo.png" /></td>
+<td>Wooloo</td>
+<td>270</td>
+<td>42</td>
+<td>40</td>
+<td>55</td>
+<td>40</td>
+<td>45</td>
+<td>48</td>
+</tr>
+<tr>
+<td><img alt="Wooper" src="https://img.pokemondb.net/sprites/sword-shield/icon/wooper.png" /></td>
+<td>Wooper</td>
+<td>210</td>
+<td>55</td>
+<td>45</td>
+<td>45</td>
+<td>25</td>
+<td>25</td>
+<td>15</td>
+</tr>
+<tr>
+<td><img alt="Wormadam" src="https://img.pokemondb.net/sprites/sword-shield/icon/wormadam.png" /></td>
+<td>Wormadam</td>
+<td>424</td>
+<td>60</td>
+<td>59</td>
+<td>85</td>
+<td>79</td>
+<td>105</td>
+<td>36</td>
+</tr>
+<tr>
+<td><img alt="Wurmple" src="https://img.pokemondb.net/sprites/sword-shield/icon/wurmple.png" /></td>
+<td>Wurmple</td>
+<td>195</td>
+<td>45</td>
+<td>45</td>
+<td>35</td>
+<td>20</td>
+<td>30</td>
+<td>20</td>
+</tr>
+<tr>
+<td><img alt="Wynaut" src="https://img.pokemondb.net/sprites/sword-shield/icon/wynaut.png" /></td>
+<td>Wynaut</td>
+<td>260</td>
+<td>95</td>
+<td>23</td>
+<td>48</td>
+<td>23</td>
+<td>48</td>
+<td>23</td>
+</tr>
+<tr>
+<td><img alt="Wyrdeer" src="https://img.pokemondb.net/sprites/sword-shield/icon/wyrdeer.png" /></td>
+<td>Wyrdeer</td>
+<td>525</td>
+<td>103</td>
+<td>105</td>
+<td>72</td>
+<td>105</td>
+<td>75</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Xatu" src="https://img.pokemondb.net/sprites/sword-shield/icon/xatu.png" /></td>
+<td>Xatu</td>
+<td>470</td>
+<td>65</td>
+<td>75</td>
+<td>70</td>
+<td>95</td>
+<td>70</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Xurkitree" src="https://img.pokemondb.net/sprites/sword-shield/icon/xurkitree.png" /></td>
+<td>Xurkitree</td>
+<td>570</td>
+<td>83</td>
+<td>89</td>
+<td>71</td>
+<td>173</td>
+<td>71</td>
+<td>83</td>
+</tr>
+<tr>
+<td><img alt="Yamask" src="https://img.pokemondb.net/sprites/sword-shield/icon/yamask.png" /></td>
+<td>Yamask</td>
+<td>303</td>
+<td>38</td>
+<td>30</td>
+<td>85</td>
+<td>55</td>
+<td>65</td>
+<td>30</td>
+</tr>
+<tr>
+<td><img alt="Yamper" src="https://img.pokemondb.net/sprites/sword-shield/icon/yamper.png" /></td>
+<td>Yamper</td>
+<td>270</td>
+<td>59</td>
+<td>45</td>
+<td>50</td>
+<td>40</td>
+<td>50</td>
+<td>26</td>
+</tr>
+<tr>
+<td><img alt="Yanma" src="https://img.pokemondb.net/sprites/sword-shield/icon/yanma.png" /></td>
+<td>Yanma</td>
+<td>390</td>
+<td>65</td>
+<td>65</td>
+<td>45</td>
+<td>75</td>
+<td>45</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Yanmega" src="https://img.pokemondb.net/sprites/sword-shield/icon/yanmega.png" /></td>
+<td>Yanmega</td>
+<td>515</td>
+<td>86</td>
+<td>76</td>
+<td>86</td>
+<td>116</td>
+<td>56</td>
+<td>95</td>
+</tr>
+<tr>
+<td><img alt="Yungoos" src="https://img.pokemondb.net/sprites/sword-shield/icon/yungoos.png" /></td>
+<td>Yungoos</td>
+<td>253</td>
+<td>48</td>
+<td>70</td>
+<td>30</td>
+<td>30</td>
+<td>30</td>
+<td>45</td>
+</tr>
+<tr>
+<td><img alt="Yveltal" src="https://img.pokemondb.net/sprites/sword-shield/icon/yveltal.png" /></td>
+<td>Yveltal</td>
+<td>680</td>
+<td>126</td>
+<td>131</td>
+<td>95</td>
+<td>131</td>
+<td>98</td>
+<td>99</td>
+</tr>
+<tr>
+<td><img alt="Zacian" src="https://img.pokemondb.net/sprites/sword-shield/icon/zacian.png" /></td>
+<td>Zacian</td>
+<td>670</td>
+<td>92</td>
+<td>130</td>
+<td>115</td>
+<td>80</td>
+<td>115</td>
+<td>138</td>
+</tr>
+<tr>
+<td><img alt="Zamazenta" src="https://img.pokemondb.net/sprites/sword-shield/icon/zamazenta.png" /></td>
+<td>Zamazenta</td>
+<td>670</td>
+<td>92</td>
+<td>130</td>
+<td>115</td>
+<td>80</td>
+<td>115</td>
+<td>138</td>
+</tr>
+<tr>
+<td><img alt="Zangoose" src="https://img.pokemondb.net/sprites/sword-shield/icon/zangoose.png" /></td>
+<td>Zangoose</td>
+<td>458</td>
+<td>73</td>
+<td>115</td>
+<td>60</td>
+<td>60</td>
+<td>60</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Zapdos" src="https://img.pokemondb.net/sprites/sword-shield/icon/zapdos.png" /></td>
+<td>Zapdos</td>
+<td>580</td>
+<td>90</td>
+<td>90</td>
+<td>85</td>
+<td>125</td>
+<td>90</td>
+<td>100</td>
+</tr>
+<tr>
+<td><img alt="Zebstrika" src="https://img.pokemondb.net/sprites/sword-shield/icon/zebstrika.png" /></td>
+<td>Zebstrika</td>
+<td>497</td>
+<td>75</td>
+<td>100</td>
+<td>63</td>
+<td>80</td>
+<td>63</td>
+<td>116</td>
+</tr>
+<tr>
+<td><img alt="Zekrom" src="https://img.pokemondb.net/sprites/sword-shield/icon/zekrom.png" /></td>
+<td>Zekrom</td>
+<td>680</td>
+<td>100</td>
+<td>150</td>
+<td>120</td>
+<td>120</td>
+<td>100</td>
+<td>90</td>
+</tr>
+<tr>
+<td><img alt="Zeraora" src="https://img.pokemondb.net/sprites/sword-shield/icon/zeraora.png" /></td>
+<td>Zeraora</td>
+<td>600</td>
+<td>88</td>
+<td>112</td>
+<td>75</td>
+<td>102</td>
+<td>80</td>
+<td>143</td>
+</tr>
+<tr>
+<td><img alt="Zigzagoon" src="https://img.pokemondb.net/sprites/sword-shield/icon/zigzagoon.png" /></td>
+<td>Zigzagoon</td>
+<td>240</td>
+<td>38</td>
+<td>30</td>
+<td>41</td>
+<td>30</td>
+<td>41</td>
+<td>60</td>
+</tr>
+<tr>
+<td><img alt="Zoroark" src="https://img.pokemondb.net/sprites/sword-shield/icon/zoroark.png" /></td>
+<td>Zoroark</td>
+<td>510</td>
+<td>60</td>
+<td>105</td>
+<td>60</td>
+<td>120</td>
+<td>60</td>
+<td>105</td>
+</tr>
+<tr>
+<td><img alt="Zorua" src="https://img.pokemondb.net/sprites/sword-shield/icon/zorua.png" /></td>
+<td>Zorua</td>
+<td>330</td>
+<td>40</td>
+<td>65</td>
+<td>40</td>
+<td>80</td>
+<td>40</td>
+<td>65</td>
+</tr>
+<tr>
+<td><img alt="Zubat" src="https://img.pokemondb.net/sprites/sword-shield/icon/zubat.png" /></td>
+<td>Zubat</td>
+<td>245</td>
+<td>40</td>
+<td>45</td>
+<td>35</td>
+<td>30</td>
+<td>40</td>
+<td>55</td>
+</tr>
+<tr>
+<td><img alt="Zweilous" src="https://img.pokemondb.net/sprites/sword-shield/icon/zweilous.png" /></td>
+<td>Zweilous</td>
+<td>420</td>
+<td>72</td>
+<td>85</td>
+<td>70</td>
+<td>65</td>
+<td>70</td>
+<td>58</td>
+</tr>
+</tbody>
+</table>
+	</table>
+</body>
+</html>
