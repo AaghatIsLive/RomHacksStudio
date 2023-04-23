@@ -103,6 +103,10 @@ Hidden pokemon are on the bottom of the Dexnav and will only appear once you hav
 
 ---
 
+## Credits
+
+- [@lughsamildanach#2503]()
+
 ## Support
 
 If you encounter any issues or have questions about Pokemon Emerald Crest, please contact us through our [discord server].
