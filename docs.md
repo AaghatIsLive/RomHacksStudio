@@ -97,7 +97,7 @@ Routes in Hoenn number are numbered as 101-134, breaking the former pattern set 
 - Route 129
 - Route 130
 - Route 131
-- Route 132
+- [Route 132](https://aaghatislive.github.io/RomHacksStudio/Data/Routes/route132.html)
 - Route 133
 - Route 134
 - Underwater
