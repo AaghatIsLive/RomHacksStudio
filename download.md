@@ -19,28 +19,22 @@ New Release
 Bug Fix
 {: .label .label-yellow }
 
-[Pokemon Emerald Crest v1.0.8.2 UPS Patch](https://ko-fi.com/api/file-upload/7c9e4da2-2241-4812-9a68-dda4ceb117a7/download?transactionId=7e42e4f7-9b5f-4b43-b7fc-3eade90af831){: .btn }
+[Pokemon Emerald Crest v1.0.8.3 UPS Patch](https://ko-fi.com/api/file-upload/ec54840b-a723-4647-afcb-1e35e9478b55/download?transactionId=9fd41810-c49d-42f6-aaa2-7c144cdc9e65){: .btn }
 
 ```
 What's New!
-🔸Disabled auto run while using Dexnav 
+
+🔸Added GEN 4 followers 
 🔸Fixed some broken followers
-🔸Updated party menu graphics 
-🔸Reduced wild encounter levels
-🔸Made battle color effectiveness optional
-🔸Updated Pokedex
-🔸Updated Options menu
-🔸Added auto Exp Share
-🔸Fixed some move descriptions
-🔸Fixed broken front pics of later gen mons
-🔸Updated wonder trade 
-🔸Fixed Beat Up soft locking the game (Temp Fix)
-🔸Fixed Shell Smash crashing the game 
-🔸Fixed a bug on route 119 with WH
-🔸Updated mart graphics
-🔸Fixed safari zone bug
-🔸Updated the randomizer
-🔸Fixed the bad egg issue
+🔸Fixed Soar graphics 
+🔸Fixed Puzzles
+🔸Fixed Bad Egg Issues
+🔸Updated Mystery Gift System
+🔸Updated Wonder Trade (see the wonder trade doc)
+🔸Fixed AutoRun and Type Effectiveness (Options Menu)
+🔸Updated some trainers
+🔸Fixed Nuzlocke encounter bug
+🔸Fixed MonoType encounter bug 
 🔸Fixed several other bugs 
 🔸And a lot of minor improvements
 ```
@@ -51,7 +45,7 @@ What's New!
 ### Previous Releases
 
 
-- [v1.0.8.1](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320)
+- [v1.0.8.2](https://ko-fi.com/api/file-upload/ac19cd89-3abb-4c8f-926a-5553413447f5/download?transactionId=2d6f01d1-e733-4529-aeb7-d4136ecf0320)
 {: .d-inline-block }
 
 Bug Fix
@@ -63,11 +57,6 @@ Bug Fix
 Major Update
 {: .label .label-blue }
 
-- [v1.0.7.1](https://ko-fi.com/api/file-upload/cbf173cb-3653-4d8d-a54a-32ac4119bc75/download?transactionId=0cf84642-cd5d-43e0-8330-a197d986be27)
-{: .d-inline-block }
-
-Bug Fix
-{: .label .label-yellow }
 
 [see full changelog](https://aaghatislive.github.io/RomHacksStudio/changelog.html)
 
