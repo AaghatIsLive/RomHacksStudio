@@ -8,7 +8,7 @@ permalink: /
 # Pokemon Emerald Crest
 {: .fs-9 }
 
-[Download v1.0.8.3][download]{: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Download v1.0.8.4][download]{: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View Docs](https://aaghatislive.github.io/RomHacksStudio/docs.html){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
