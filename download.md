@@ -19,11 +19,16 @@ New Release
 Bug Fix
 {: .label .label-yellow }
 
-[Pokemon Emerald Crest v1.0.8.5 UPS Patch](){: .btn }
+[Pokemon Emerald Crest v1.0.8.5 UPS Patch](https://ko-fi.com/api/file-upload/f2780145-fac7-44ed-aeda-a748bdc44478/download?transactionId=419d8a8c-02cd-4584-b27f-448283b13043){: .btn }
 ```
 What's New!
 
-🔸Fixed several other bugs
+🔸Spotlight Events
+🔸Fixed Black Screen Issue while fighting Some Gym Leaders 
+🔸Fixed game corner prices for EXP Candys
+🔸Added more Wild Bosses (DNS)
+🔸Fixed Some Follower Sprites
+🔸Fixed several other bugs 
 🔸And a lot of minor improvements
 ```
 
