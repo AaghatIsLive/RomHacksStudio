@@ -4,6 +4,58 @@ layout: page
 nav_exclude: true
 ---
 
+## [Pokemon Emerald Crest v1.0.8.5 UPS Patch](https://ko-fi.com/api/file-upload/ea9c675b-04d6-4b67-a84b-9d27db3f564f/download?transactionId=65997c01-4f04-4858-a53f-df0362f15b51)
+
+```
+What's New!
+🔸Spotlight Events
+🔸Fixed Black Screen Issue while fighting Some Gym Leaders 
+🔸Fixed game corner prices for EXP Candys
+🔸Added more Wild Bosses (DNS)
+🔸Fixed Some Follower Sprites
+🔸Fixed several other bugs 
+🔸And a lot of minor improvements
+```
+
+## [Pokemon Emerald Crest v1.0.8.4 UPS Patch](https://ko-fi.com/api/file-upload/9cd230b8-ea42-4a27-8305-d744baf9ac35/download?transactionId=d254967d-8f99-44eb-890b-8860e0fde9ac)
+
+```
+What's New!
+🔸Added some GEN 5 followers (41/155)
+🔸Fixed some broken followers
+🔸Fixed several moves
+🔸Fixed Ability PopUp freezing
+🔸Fixed terrains freezing the game
+🔸Fixed opponent personality when swapping
+🔸Fixed obedience Level
+🔸Added beast ball
+🔸Fixed Slateport Market
+🔸Fixed Scott at Route 119
+🔸Fixed Bad Egg Issues (Box 3 WT)
+🔸Fixed Hidden Mystery Gift
+🔸Fixed several other bugs
+🔸And a lot of minor improvements
+```
+
+## [Pokemon Emerald Crest v1.0.8.3 UPS Patch](https://ko-fi.com/api/file-upload/ec54840b-a723-4647-afcb-1e35e9478b55/download?transactionId=9fd41810-c49d-42f6-aaa2-7c144cdc9e65)
+
+```
+What's New!
+🔸Added GEN 4 followers 
+🔸Fixed some broken followers
+🔸Fixed Soar graphics 
+🔸Fixed Puzzles
+🔸Fixed Bad Egg Issues
+🔸Updated Mystery Gift System
+🔸Updated Wonder Trade (see the wonder trade doc)
+🔸Fixed AutoRun and Type Effectiveness (Options Menu)
+🔸Updated some trainers
+🔸Fixed Nuzlocke encounter bug
+🔸Fixed MonoType encounter bug 
+🔸Fixed several other bugs 
+🔸And a lot of minor improvements
+```
+
 ## [Pokemon Emerald Crest v1.0.8.2 UPS Patch](https://ko-fi.com/api/file-upload/7c9e4da2-2241-4812-9a68-dda4ceb117a7/download?transactionId=7e42e4f7-9b5f-4b43-b7fc-3eade90af831)
 
 ```
