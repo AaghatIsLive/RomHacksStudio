@@ -39,7 +39,7 @@ What's New!
 ## **v1.9.0**
 {: .d-inline-block }
 
-Upcoming
+27.78% complete
 {: .label .label-red }
 
 <html>
@@ -92,7 +92,6 @@ Upcoming
   </script>
 </head>
 <body>
-<br><b> <a>27.78%</a> complete</b>
   <div class="progress-bar">
     <div class="progress"></div>
   </div>
