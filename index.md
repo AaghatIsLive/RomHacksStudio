@@ -44,6 +44,7 @@ Major Update
 
 <html>
 <head>
+  <b>27.78% complete | [5/18 tasks]</b>
   <style>
     .progress-bar {
       width: 250px;
@@ -94,7 +95,7 @@ Major Update
 <body>
   <div class="progress-bar">
     <div class="progress"></div>
-  </div><b>27.78% complete | [5/18 tasks]</b>
+  </div>
 </body>
 </html>
 
