@@ -78,8 +78,8 @@ Major Update
 </head>
 <body>
   <div class="progress-bar">
-    <div class="progress"></div> 27.78% complete
-  </div>
+    <div class="progress"></div>
+  </div> **27.78% complete**
 </body>
 </html>
 
