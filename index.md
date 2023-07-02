@@ -94,7 +94,7 @@ Major Update
 <body>
   <div class="progress-bar">
     <div class="progress"></div>
-  </div>27.78% complete
+  </div><b>27.78% complete | [5/18 tasks]</b>
 </body>
 </html>
 
