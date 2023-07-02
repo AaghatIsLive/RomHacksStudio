@@ -36,8 +36,12 @@ What's New!
 {: .warning }
 > It's an `Early release` so there might be some bugs and issues, please report them in our [discord server]
 
-### Version 1.9.0 Progress
-<!DOCTYPE html>
+### v1.9.0
+{: .d-inline-block }
+
+Major Update
+{: .label .label-blue }
+
 <html>
 <head>
   <style>
@@ -74,7 +78,7 @@ What's New!
 </head>
 <body>
   <div class="progress-bar">
-    <div class="progress"></div>
+    <div class="progress"></div> 27.78% complete
   </div>
 </body>
 </html>
