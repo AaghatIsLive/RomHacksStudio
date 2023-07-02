@@ -53,6 +53,9 @@ Major Update
       position: relative;
       overflow: hidden;
       box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+      visibility: hidden; /* Initially hide the progress bar */
+      opacity: 0; /* Initially set opacity to 0 */
+      transition: opacity 0.5s ease-in-out;
     }
 
     .progress {
@@ -75,11 +78,24 @@ Major Update
       }
     }
   </style>
+  <script>
+    window.addEventListener('scroll', function() {
+      var progressBar = document.querySelector('.progress-bar');
+      var progressRect = progressBar.getBoundingClientRect();
+      var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+
+      if (progressRect.top < windowHeight && progressRect.bottom >= 0) {
+        progressBar.style.visibility = 'visible';
+        progressBar.style.opacity = '1';
+      }
+    });
+  </script>
 </head>
 <body>
   <div class="progress-bar">
     <div class="progress"></div>
-  </div> **27.78% complete**
+  </div>
+  <div style="height: 1500px;"></div>
 </body>
 </html>
 
