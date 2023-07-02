@@ -166,3 +166,13 @@ Routes in Hoenn number are numbered as 101-134, breaking the former pattern set 
 If you encounter any issues or have questions about Pokemon Emerald Crest, please contact us through our [discord server].
 
 [discord server]: https://discord.gg/aaghat-s-server-965900074532081674
+
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('aaghatislive', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#794bc4',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
