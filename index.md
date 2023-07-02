@@ -5,50 +5,68 @@ nav_order: 1
 permalink: /
 ---
 
-# Pokemon Emerald Crest
-{: .fs-9 }
+# Download Pokemon Emerald Crest
 
-[Download v1.0.8.5][download]{: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View Docs](https://aaghatislive.github.io/RomHacksStudio/docs.html){: .btn .fs-5 .mb-4 .mb-md-0 }
+Thank you for choosing Pokemon Emerald Crest! You can download the latest version of the game below.
 
----
+## Download 
+{: .d-inline-block }
 
-![](https://user-images.githubusercontent.com/109757010/230626725-8054e350-8924-400e-8e36-389df0bfb227.png)
+New Release 
+{: .label .label-green }
 
-## Story
+{: .d-inline-block }
 
-Pokemon Emerald Crest is an enhanced version of the original Pokemon Emerald game with new features and quests. The game follows the same story as Vanilla Emerald, but with added content from later generations.
+Bug Fix
+{: .label .label-yellow }
 
-## Features
+[Pokemon Emerald Crest v1.0.8.5 UPS Patch](https://ko-fi.com/api/file-upload/ea9c675b-04d6-4b67-a84b-9d27db3f564f/download?transactionId=65997c01-4f04-4858-a53f-df0362f15b51){: .btn }
+```
+What's New!
 
-- Open World: Explore the vast and open world of Pokemon Emerald Crest, filled with new areas and challenges.
-- Teleport Service: Quickly and easily teleport to different locations throughout the game.
-- Mega Evolutions: Mega Evolve your Pokemon to unlock their full potential in battles.
-- Gen 1-8: Catch and collect Pokemon from all eight generations of the Pokemon series.
-- Dexnav: Use the Dexnav system to search for Pokemon with hidden abilities and perfect IVs.
-- Pokedex Plus: Keep track of your Pokemon collection and track your progress with the Pokedex Plus.
-- Auto Run: Automatically run instead of walking to save time.
-- Primal Forms: Awaken the primal powers of certain legendary Pokemon.
-- Gen 6 Style Exp Share: Share experience points with all of your Pokemon, just like in Pokemon X and Y.
-- Reusable TM's: Use TM's multiple times, making it easier to teach your Pokemon new moves.
-- Item Description Header: Get more information about items with an expanded item description header.
-- Alolan Pokemon: Catch and collect Pokemon from the Alola region.
-- Galarian Pokemon: Catch and collect Pokemon from the Galar region.
-- Hisuian Pokemon: Catch and collect Pokemon from the Hisui region.
-- Chain Fishing: Chain fish to increase your chances of catching rare and powerful Pokemon.
-- PSS Split
-- All Moves: Learn every move in the game, including exclusive moves from past generations.
-- Running Indoors: Run indoors to save time and get to your destination faster.
-- All Types: Experience all 18 types of Pokemon and their unique strengths and weaknesses.
-- Improved Battle Engine: Enjoy a smoother and more dynamic battle system.
-- Item Expansion: More items and expanded inventory space for your convenience.
-- Quest Menu: Keep track of your quests and objectives with a dedicated quest menu.
-- Improved graphics: Enhanced graphics and visuals for a better gaming experience.
-- New soaring feature: Soar through the skies and explore new areas from a different perspective.
-- Wild bosses: Encounter powerful wild Pokemon that are stronger than usual and offer a greater challenge.
+🔸Spotlight Events
+🔸Fixed Black Screen Issue while fighting Some Gym Leaders 
+🔸Fixed game corner prices for EXP Candys
+🔸Added more Wild Bosses (DNS)
+🔸Fixed Some Follower Sprites
+🔸Fixed several other bugs 
+🔸And a lot of minor improvements
+```
 
-And much more! Enjoy a more immersive and enhanced Pokemon experience with Pokemon Emerald Crest.
+{: .warning }
+> It's an `Early release` so there might be some bugs and issues, please report them in our [discord server]
+
+### Previous Releases
+
+- [v1.0.8.4](https://ko-fi.com/api/file-upload/9cd230b8-ea42-4a27-8305-d744baf9ac35/download?transactionId=d254967d-8f99-44eb-890b-8860e0fde9ac)
+{: .d-inline-block }
+
+Bug Fix
+{: .label .label-yellow }
+
+- [v1.0.8.3](https://ko-fi.com/api/file-upload/ec54840b-a723-4647-afcb-1e35e9478b55/download?transactionId=9fd41810-c49d-42f6-aaa2-7c144cdc9e65)
+{: .d-inline-block }
+
+Bug Fix
+{: .label .label-yellow }
+
+- [v1.0.8](https://ko-fi.com/api/file-upload/3d2db367-d8da-447b-a225-409d7e801697/download?transactionId=a802d6a5-1a04-483c-a2bd-7f72ee6f2daf)
+{: .d-inline-block }
+
+Major Update
+{: .label .label-blue }
+
+
+[see full changelog](https://aaghatislive.github.io/RomHacksStudio/changelog.html)
+
+## Installation Instructions
+
+To play Pokemon Emerald Crest, you will need to have a Game Boy Advance emulator installed on your device. We recommend using [Mgba](https://mgba.io/downloads.html) for Windows, Linux, and Mac, or [My Boy!](https://play.google.com/store/apps/details?id=com.fastemulator.gba) for Android devices.
+
+Once you have downloaded the emulator, follow these steps in [How To Patch](https://aaghatislive.github.io/RomHacksStudio/HowToPatch.html) to play Pokemon Emerald Crest
+
+## Support
+
+If you encounter any issues or have questions about Pokemon Emerald Crest, please contact us through our [discord server].
 
 [discord server]: https://discord.gg/aaghat-s-server-965900074532081674 
-[download]: https://aaghatislive.github.io/RomHacksStudio/download.html
-
