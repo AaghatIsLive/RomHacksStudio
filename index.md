@@ -46,8 +46,8 @@ Major Update
 <head>
   <style>
     .progress-bar {
-      width: 300px;
-      height: 20px;
+      width: 250px;
+      height: 10px;
       background-color: #f0f0f0;
       border-radius: 10px;
       position: relative;
@@ -95,7 +95,6 @@ Major Update
   <div class="progress-bar">
     <div class="progress"></div>
   </div>
-  <div style="height: 1500px;"></div>
 </body>
 </html>
 
