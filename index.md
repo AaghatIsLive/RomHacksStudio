@@ -39,6 +39,9 @@ What's New!
 ## v1.9.0
 {: .d-inline-block }
 
+Major Update
+{: .label .label-blue }
+
 <html>
 <head>
   <style>
