@@ -5,11 +5,11 @@ nav_order: 1
 permalink: /
 ---
 
-# Pokemon Emerald Crest
+# **Pokemon Emerald Crest**
 
 Thank you for choosing Pokemon Emerald Crest! You can download the latest version of the game below.
 
-## Download 
+## **Download**
 {: .d-inline-block }
 
 New Release 
@@ -36,7 +36,7 @@ What's New!
 {: .warning }
 > It's an `Early release` so there might be some bugs and issues, please report them in our [discord server]
 
-## v1.9.0
+## **v1.9.0**
 {: .d-inline-block }
 
 Upcoming
