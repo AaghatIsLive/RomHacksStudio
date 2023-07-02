@@ -5,7 +5,7 @@ nav_order: 1
 permalink: /
 ---
 
-# Download Pokemon Emerald Crest
+# Pokemon Emerald Crest
 
 Thank you for choosing Pokemon Emerald Crest! You can download the latest version of the game below.
 
