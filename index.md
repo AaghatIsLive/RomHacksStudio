@@ -92,7 +92,7 @@ Major Update
   </script>
 </head>
 <body>
-    <b> <a>27.78%</a> complete | [5/18 tasks]</b>
+<br><b> <a>27.78%</a> complete | [5/18 tasks]</b></br>
   <div class="progress-bar">
     <div class="progress"></div>
   </div>
