@@ -36,7 +36,7 @@ What's New!
 {: .warning }
 > It's an `Early release` so there might be some bugs and issues, please report them in our [discord server]
 
-### v1.9.0
+## v1.9.0
 {: .d-inline-block }
 
 Major Update
@@ -44,7 +44,6 @@ Major Update
 
 <html>
 <head>
-  <b>27.78% complete | [5/18 tasks]</b>
   <style>
     .progress-bar {
       width: 250px;
@@ -93,6 +92,7 @@ Major Update
   </script>
 </head>
 <body>
+    <b>27.78% complete | [5/18 tasks]</b>
   <div class="progress-bar">
     <div class="progress"></div>
   </div>
