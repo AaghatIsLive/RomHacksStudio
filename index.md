@@ -94,8 +94,7 @@ Major Update
 <body>
   <div class="progress-bar">
     <div class="progress"></div>
-  </div>
-  <b>27.78% complete</b>
+  </div> <b>27.78% complete</b>
 </body>
 </html>
 
