@@ -36,6 +36,49 @@ What's New!
 {: .warning }
 > It's an `Early release` so there might be some bugs and issues, please report them in our [discord server]
 
+### Version 1.9.0 Progress
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .progress-bar {
+      width: 300px;
+      height: 20px;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .progress {
+      height: 100%;
+      background-color: #4caf50;
+      width: 0%;
+      border-radius: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      animation: progressAnimation 2s ease-in-out forwards;
+    }
+
+    @keyframes progressAnimation {
+      0% {
+        width: 0%;
+      }
+      100% {
+        width: 27.78%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="progress-bar">
+    <div class="progress"></div>
+  </div>
+</body>
+</html>
+
 ### Previous Releases
 
 - [v1.0.8.4](https://ko-fi.com/api/file-upload/9cd230b8-ea42-4a27-8305-d744baf9ac35/download?transactionId=d254967d-8f99-44eb-890b-8860e0fde9ac)
